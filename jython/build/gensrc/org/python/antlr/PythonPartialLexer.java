@@ -1,4 +1,4 @@
-// $ANTLR 3.1.3 Mar 17, 2009 19:23:44 /v/filer4b/v38q001/nginth/dm/Carnot-OWL/jython/grammar/PythonPartial.g 2016-04-27 21:20:54
+// $ANTLR 3.1.3 Mar 17, 2009 19:23:44 /v/filer4b/v38q001/nginth/dm/Carnot-OWL/jython/grammar/PythonPartial.g 2016-04-27 23:31:24
 
 package org.python.antlr;
 

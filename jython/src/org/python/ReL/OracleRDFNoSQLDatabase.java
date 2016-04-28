@@ -6,8 +6,7 @@ import com.hp.hpl.jena.query.Query;
 import com.hp.hpl.jena.sparql.core.DatasetImpl;
 import com.hp.hpl.jena.rdf.model.*;
 import com.hp.hpl.jena.graph.*; 
-import com.hp.hpl.jena.ontology.OntModel;
-import com.hp.hpl.jena.ontology.OntModelSpec; 
+import com.hp.hpl.jena.ontology.*; 
 import com.hp.hpl.jena.rdf.model.ModelFactory;
 import oracle.rdf.kv.client.jena.*;
 import org.python.core.*;
@@ -105,60 +104,37 @@ public class OracleRDFNoSQLDatabase extends DatabaseInterface {
         Node graphNode = Node.createURI(graph);
         OracleGraphNoSql graphInf = new OracleNamedGraphNoSql(graphNode, connection);
         Model model = OracleModelNoSql.createOracleModelNoSql(graphNode, connection);
-        model.removeAll();
-        Node sub = Node.createURI("http://sub/a");
-        Node pred = Node.createURI("http://pred/a");
-        Node obj = Node.createURI("http://obj/a");
-
-        // Add few axioms
-
-        Triple triple = Triple.create(sub, pred, obj);
-        graphInf.add(triple);
-
-        graphInf.add(Triple.create(pred, 
-            Node.createURI("http://www.w3.org/2000/01/rdf-schema#domain"),
-            Node.createURI("http://C")));
-
-        graphInf.add(Triple.create(pred, 
-           Node.createURI("http://www.w3.org/1999/02/22-rdf-syntax-ns#type"),
-           Node.createURI("http://www.w3.org/2002/07/owl#ObjectProperty")));
-
-        {
-              // read it out
-              Iterator it = GraphUtil.findAll(graphInf);
-              
-              while (it.hasNext()) {
-                psOut.println("triple " + it.next().toString());
-              }
-            }
-
+        
+        OntModel base = ModelFactory.createOntologyModel(OntModelSpec.OWL_MEM, model);
+        Node sub = Node.createURI(subject);
+        Node pred = Node.createURI(predicate);
+        
+        OntClass c = base.createClass(object);
+        // Node obj = Node.createURI(object);
+        Individual indv = base.createIndividual(subject, c);
         // Create an OntModel instance
         OntModel om = 
               ModelFactory.createOntologyModel(OntModelSpec.OWL_MEM_RULE_INF,
-                                               model);
-
-        Model modelInMem = ModelFactory.createDefaultModel();
-        modelInMem.add(om);
-
-            {
-              Iterator it = GraphUtil.findAll(modelInMem.getGraph());
-              while (it.hasNext()) {
-                        psOut.println("triple from OntModel " + 
-                        it.next().toString());
-              }
-            }
-
-        model.close();          
-        
-        if (object_as_uri)
-            datasetGraph.add(Node.createURI(graph), Node.createURI(subject), Node.createURI(predicate), Node.createURI(object));
-        else {
-            if (object.contains("http://"))
-                datasetGraph.add(Node.createURI(graph), Node.createURI(subject), Node.createURI(predicate), Node.createURI(object));
-            else
-                datasetGraph.add(Node.createURI(graph), Node.createURI(subject), Node.createURI(predicate), Node.createLiteral(object
-                        .replaceAll(nameSpace, "")));
+                                               base);
+        for (Iterator<Resource> i = indv.listRDFTypes(true); i.hasNext(); ) {
+            System.out.println( indv.getURI() + " is asserted in class " + i.next() );
         }
+
+        indv = om.getIndividual(subject);
+        for (Iterator<Resource> i = indv.listRDFTypes(false); i.hasNext(); ) {
+         System.out.println( indv.getURI() + " is inferred to be in class " + i.next() );
+        }
+        model.close();         
+        
+        // if (object_as_uri)
+        //     datasetGraph.add(Node.createURI(graph), Node.createURI(subject), Node.createURI(predicate), Node.createURI(object));
+        // else {
+        //     if (object.contains("http://"))
+        //         datasetGraph.add(Node.createURI(graph), Node.createURI(subject), Node.createURI(predicate), Node.createURI(object));
+        //     else
+        //         datasetGraph.add(Node.createURI(graph), Node.createURI(subject), Node.createURI(predicate), Node.createLiteral(object
+        //                 .replaceAll(nameSpace, "")));
+        // }
     }
 
     @Override
