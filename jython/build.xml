@@ -563,6 +563,7 @@ The readme text for the next release will be like:
             <src path="${gensrc.dir}"/>
             <exclude name="**/handler/InformixDataHandler.java" unless="informix.present" />
             <exclude name="**/handler/OracleDataHandler.java" unless="oracle.present" />
+            <exclude name="com/ziclix/python/sql/util/*" />
             <classpath refid="main.classpath" />
         </javac>
 

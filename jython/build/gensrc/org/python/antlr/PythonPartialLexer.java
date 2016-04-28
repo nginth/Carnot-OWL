@@ -1,4 +1,4 @@
-// $ANTLR 3.1.3 Mar 17, 2009 19:23:44 /Users/nginther/dm/inf/CarnotKE/jython/grammar/PythonPartial.g 2016-04-27 19:26:16
+// $ANTLR 3.1.3 Mar 17, 2009 19:23:44 /v/filer4b/v38q001/nginth/dm/Carnot-OWL/jython/grammar/PythonPartial.g 2016-04-27 21:20:54
 
 package org.python.antlr;
 
@@ -198,15 +198,15 @@ public class PythonPartialLexer extends Lexer {
         super(input,state);
 
     }
-    public String getGrammarFileName() { return "/Users/nginther/dm/inf/CarnotKE/jython/grammar/PythonPartial.g"; }
+    public String getGrammarFileName() { return "/v/filer4b/v38q001/nginth/dm/Carnot-OWL/jython/grammar/PythonPartial.g"; }
 
     // $ANTLR start "AS"
     public final void mAS() throws RecognitionException {
         try {
             int _type = AS;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // /Users/nginther/dm/inf/CarnotKE/jython/grammar/PythonPartial.g:900:11: ( 'as' )
-            // /Users/nginther/dm/inf/CarnotKE/jython/grammar/PythonPartial.g:900:13: 'as'
+            // /v/filer4b/v38q001/nginth/dm/Carnot-OWL/jython/grammar/PythonPartial.g:900:11: ( 'as' )
+            // /v/filer4b/v38q001/nginth/dm/Carnot-OWL/jython/grammar/PythonPartial.g:900:13: 'as'
             {
             match("as"); 
 
@@ -226,8 +226,8 @@ public class PythonPartialLexer extends Lexer {
         try {
             int _type = ASSERT;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // /Users/nginther/dm/inf/CarnotKE/jython/grammar/PythonPartial.g:901:11: ( 'assert' )
-            // /Users/nginther/dm/inf/CarnotKE/jython/grammar/PythonPartial.g:901:13: 'assert'
+            // /v/filer4b/v38q001/nginth/dm/Carnot-OWL/jython/grammar/PythonPartial.g:901:11: ( 'assert' )
+            // /v/filer4b/v38q001/nginth/dm/Carnot-OWL/jython/grammar/PythonPartial.g:901:13: 'assert'
             {
             match("assert"); 
 
@@ -247,8 +247,8 @@ public class PythonPartialLexer extends Lexer {
         try {
             int _type = BREAK;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // /Users/nginther/dm/inf/CarnotKE/jython/grammar/PythonPartial.g:902:11: ( 'break' )
-            // /Users/nginther/dm/inf/CarnotKE/jython/grammar/PythonPartial.g:902:13: 'break'
+            // /v/filer4b/v38q001/nginth/dm/Carnot-OWL/jython/grammar/PythonPartial.g:902:11: ( 'break' )
+            // /v/filer4b/v38q001/nginth/dm/Carnot-OWL/jython/grammar/PythonPartial.g:902:13: 'break'
             {
             match("break"); 
 
@@ -268,8 +268,8 @@ public class PythonPartialLexer extends Lexer {
         try {
             int _type = CLASS;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // /Users/nginther/dm/inf/CarnotKE/jython/grammar/PythonPartial.g:903:11: ( 'class' )
-            // /Users/nginther/dm/inf/CarnotKE/jython/grammar/PythonPartial.g:903:13: 'class'
+            // /v/filer4b/v38q001/nginth/dm/Carnot-OWL/jython/grammar/PythonPartial.g:903:11: ( 'class' )
+            // /v/filer4b/v38q001/nginth/dm/Carnot-OWL/jython/grammar/PythonPartial.g:903:13: 'class'
             {
             match("class"); 
 
@@ -289,8 +289,8 @@ public class PythonPartialLexer extends Lexer {
         try {
             int _type = CONTINUE;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // /Users/nginther/dm/inf/CarnotKE/jython/grammar/PythonPartial.g:904:11: ( 'continue' )
-            // /Users/nginther/dm/inf/CarnotKE/jython/grammar/PythonPartial.g:904:13: 'continue'
+            // /v/filer4b/v38q001/nginth/dm/Carnot-OWL/jython/grammar/PythonPartial.g:904:11: ( 'continue' )
+            // /v/filer4b/v38q001/nginth/dm/Carnot-OWL/jython/grammar/PythonPartial.g:904:13: 'continue'
             {
             match("continue"); 
 
@@ -310,8 +310,8 @@ public class PythonPartialLexer extends Lexer {
         try {
             int _type = DEF;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // /Users/nginther/dm/inf/CarnotKE/jython/grammar/PythonPartial.g:905:11: ( 'def' )
-            // /Users/nginther/dm/inf/CarnotKE/jython/grammar/PythonPartial.g:905:13: 'def'
+            // /v/filer4b/v38q001/nginth/dm/Carnot-OWL/jython/grammar/PythonPartial.g:905:11: ( 'def' )
+            // /v/filer4b/v38q001/nginth/dm/Carnot-OWL/jython/grammar/PythonPartial.g:905:13: 'def'
             {
             match("def"); 
 
@@ -331,8 +331,8 @@ public class PythonPartialLexer extends Lexer {
         try {
             int _type = DELETE;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // /Users/nginther/dm/inf/CarnotKE/jython/grammar/PythonPartial.g:906:11: ( 'del' )
-            // /Users/nginther/dm/inf/CarnotKE/jython/grammar/PythonPartial.g:906:13: 'del'
+            // /v/filer4b/v38q001/nginth/dm/Carnot-OWL/jython/grammar/PythonPartial.g:906:11: ( 'del' )
+            // /v/filer4b/v38q001/nginth/dm/Carnot-OWL/jython/grammar/PythonPartial.g:906:13: 'del'
             {
             match("del"); 
 
@@ -352,8 +352,8 @@ public class PythonPartialLexer extends Lexer {
         try {
             int _type = ELIF;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // /Users/nginther/dm/inf/CarnotKE/jython/grammar/PythonPartial.g:907:11: ( 'elif' )
-            // /Users/nginther/dm/inf/CarnotKE/jython/grammar/PythonPartial.g:907:13: 'elif'
+            // /v/filer4b/v38q001/nginth/dm/Carnot-OWL/jython/grammar/PythonPartial.g:907:11: ( 'elif' )
+            // /v/filer4b/v38q001/nginth/dm/Carnot-OWL/jython/grammar/PythonPartial.g:907:13: 'elif'
             {
             match("elif"); 
 
@@ -373,8 +373,8 @@ public class PythonPartialLexer extends Lexer {
         try {
             int _type = EXCEPT;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // /Users/nginther/dm/inf/CarnotKE/jython/grammar/PythonPartial.g:908:11: ( 'except' )
-            // /Users/nginther/dm/inf/CarnotKE/jython/grammar/PythonPartial.g:908:13: 'except'
+            // /v/filer4b/v38q001/nginth/dm/Carnot-OWL/jython/grammar/PythonPartial.g:908:11: ( 'except' )
+            // /v/filer4b/v38q001/nginth/dm/Carnot-OWL/jython/grammar/PythonPartial.g:908:13: 'except'
             {
             match("except"); 
 
@@ -394,8 +394,8 @@ public class PythonPartialLexer extends Lexer {
         try {
             int _type = EXEC;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // /Users/nginther/dm/inf/CarnotKE/jython/grammar/PythonPartial.g:909:11: ( 'exec' )
-            // /Users/nginther/dm/inf/CarnotKE/jython/grammar/PythonPartial.g:909:13: 'exec'
+            // /v/filer4b/v38q001/nginth/dm/Carnot-OWL/jython/grammar/PythonPartial.g:909:11: ( 'exec' )
+            // /v/filer4b/v38q001/nginth/dm/Carnot-OWL/jython/grammar/PythonPartial.g:909:13: 'exec'
             {
             match("exec"); 
 
@@ -415,8 +415,8 @@ public class PythonPartialLexer extends Lexer {
         try {
             int _type = FINALLY;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // /Users/nginther/dm/inf/CarnotKE/jython/grammar/PythonPartial.g:910:11: ( 'finally' )
-            // /Users/nginther/dm/inf/CarnotKE/jython/grammar/PythonPartial.g:910:13: 'finally'
+            // /v/filer4b/v38q001/nginth/dm/Carnot-OWL/jython/grammar/PythonPartial.g:910:11: ( 'finally' )
+            // /v/filer4b/v38q001/nginth/dm/Carnot-OWL/jython/grammar/PythonPartial.g:910:13: 'finally'
             {
             match("finally"); 
 
@@ -436,8 +436,8 @@ public class PythonPartialLexer extends Lexer {
         try {
             int _type = FROM;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // /Users/nginther/dm/inf/CarnotKE/jython/grammar/PythonPartial.g:911:11: ( 'from' )
-            // /Users/nginther/dm/inf/CarnotKE/jython/grammar/PythonPartial.g:911:13: 'from'
+            // /v/filer4b/v38q001/nginth/dm/Carnot-OWL/jython/grammar/PythonPartial.g:911:11: ( 'from' )
+            // /v/filer4b/v38q001/nginth/dm/Carnot-OWL/jython/grammar/PythonPartial.g:911:13: 'from'
             {
             match("from"); 
 
@@ -457,8 +457,8 @@ public class PythonPartialLexer extends Lexer {
         try {
             int _type = FOR;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // /Users/nginther/dm/inf/CarnotKE/jython/grammar/PythonPartial.g:912:11: ( 'for' )
-            // /Users/nginther/dm/inf/CarnotKE/jython/grammar/PythonPartial.g:912:13: 'for'
+            // /v/filer4b/v38q001/nginth/dm/Carnot-OWL/jython/grammar/PythonPartial.g:912:11: ( 'for' )
+            // /v/filer4b/v38q001/nginth/dm/Carnot-OWL/jython/grammar/PythonPartial.g:912:13: 'for'
             {
             match("for"); 
 
@@ -478,8 +478,8 @@ public class PythonPartialLexer extends Lexer {
         try {
             int _type = GLOBAL;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // /Users/nginther/dm/inf/CarnotKE/jython/grammar/PythonPartial.g:913:11: ( 'global' )
-            // /Users/nginther/dm/inf/CarnotKE/jython/grammar/PythonPartial.g:913:13: 'global'
+            // /v/filer4b/v38q001/nginth/dm/Carnot-OWL/jython/grammar/PythonPartial.g:913:11: ( 'global' )
+            // /v/filer4b/v38q001/nginth/dm/Carnot-OWL/jython/grammar/PythonPartial.g:913:13: 'global'
             {
             match("global"); 
 
@@ -499,8 +499,8 @@ public class PythonPartialLexer extends Lexer {
         try {
             int _type = IF;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // /Users/nginther/dm/inf/CarnotKE/jython/grammar/PythonPartial.g:914:11: ( 'if' )
-            // /Users/nginther/dm/inf/CarnotKE/jython/grammar/PythonPartial.g:914:13: 'if'
+            // /v/filer4b/v38q001/nginth/dm/Carnot-OWL/jython/grammar/PythonPartial.g:914:11: ( 'if' )
+            // /v/filer4b/v38q001/nginth/dm/Carnot-OWL/jython/grammar/PythonPartial.g:914:13: 'if'
             {
             match("if"); 
 
@@ -520,8 +520,8 @@ public class PythonPartialLexer extends Lexer {
         try {
             int _type = IMPORT;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // /Users/nginther/dm/inf/CarnotKE/jython/grammar/PythonPartial.g:915:11: ( 'import' )
-            // /Users/nginther/dm/inf/CarnotKE/jython/grammar/PythonPartial.g:915:13: 'import'
+            // /v/filer4b/v38q001/nginth/dm/Carnot-OWL/jython/grammar/PythonPartial.g:915:11: ( 'import' )
+            // /v/filer4b/v38q001/nginth/dm/Carnot-OWL/jython/grammar/PythonPartial.g:915:13: 'import'
             {
             match("import"); 
 
@@ -541,8 +541,8 @@ public class PythonPartialLexer extends Lexer {
         try {
             int _type = IN;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // /Users/nginther/dm/inf/CarnotKE/jython/grammar/PythonPartial.g:916:11: ( 'in' )
-            // /Users/nginther/dm/inf/CarnotKE/jython/grammar/PythonPartial.g:916:13: 'in'
+            // /v/filer4b/v38q001/nginth/dm/Carnot-OWL/jython/grammar/PythonPartial.g:916:11: ( 'in' )
+            // /v/filer4b/v38q001/nginth/dm/Carnot-OWL/jython/grammar/PythonPartial.g:916:13: 'in'
             {
             match("in"); 
 
@@ -562,8 +562,8 @@ public class PythonPartialLexer extends Lexer {
         try {
             int _type = IS;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // /Users/nginther/dm/inf/CarnotKE/jython/grammar/PythonPartial.g:917:11: ( 'is' )
-            // /Users/nginther/dm/inf/CarnotKE/jython/grammar/PythonPartial.g:917:13: 'is'
+            // /v/filer4b/v38q001/nginth/dm/Carnot-OWL/jython/grammar/PythonPartial.g:917:11: ( 'is' )
+            // /v/filer4b/v38q001/nginth/dm/Carnot-OWL/jython/grammar/PythonPartial.g:917:13: 'is'
             {
             match("is"); 
 
@@ -583,8 +583,8 @@ public class PythonPartialLexer extends Lexer {
         try {
             int _type = LAMBDA;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // /Users/nginther/dm/inf/CarnotKE/jython/grammar/PythonPartial.g:918:11: ( 'lambda' )
-            // /Users/nginther/dm/inf/CarnotKE/jython/grammar/PythonPartial.g:918:13: 'lambda'
+            // /v/filer4b/v38q001/nginth/dm/Carnot-OWL/jython/grammar/PythonPartial.g:918:11: ( 'lambda' )
+            // /v/filer4b/v38q001/nginth/dm/Carnot-OWL/jython/grammar/PythonPartial.g:918:13: 'lambda'
             {
             match("lambda"); 
 
@@ -604,8 +604,8 @@ public class PythonPartialLexer extends Lexer {
         try {
             int _type = ORELSE;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // /Users/nginther/dm/inf/CarnotKE/jython/grammar/PythonPartial.g:919:11: ( 'else' )
-            // /Users/nginther/dm/inf/CarnotKE/jython/grammar/PythonPartial.g:919:13: 'else'
+            // /v/filer4b/v38q001/nginth/dm/Carnot-OWL/jython/grammar/PythonPartial.g:919:11: ( 'else' )
+            // /v/filer4b/v38q001/nginth/dm/Carnot-OWL/jython/grammar/PythonPartial.g:919:13: 'else'
             {
             match("else"); 
 
@@ -625,8 +625,8 @@ public class PythonPartialLexer extends Lexer {
         try {
             int _type = PASS;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // /Users/nginther/dm/inf/CarnotKE/jython/grammar/PythonPartial.g:920:11: ( 'pass' )
-            // /Users/nginther/dm/inf/CarnotKE/jython/grammar/PythonPartial.g:920:13: 'pass'
+            // /v/filer4b/v38q001/nginth/dm/Carnot-OWL/jython/grammar/PythonPartial.g:920:11: ( 'pass' )
+            // /v/filer4b/v38q001/nginth/dm/Carnot-OWL/jython/grammar/PythonPartial.g:920:13: 'pass'
             {
             match("pass"); 
 
@@ -646,8 +646,8 @@ public class PythonPartialLexer extends Lexer {
         try {
             int _type = PRINT;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // /Users/nginther/dm/inf/CarnotKE/jython/grammar/PythonPartial.g:921:11: ( 'print' )
-            // /Users/nginther/dm/inf/CarnotKE/jython/grammar/PythonPartial.g:921:13: 'print'
+            // /v/filer4b/v38q001/nginth/dm/Carnot-OWL/jython/grammar/PythonPartial.g:921:11: ( 'print' )
+            // /v/filer4b/v38q001/nginth/dm/Carnot-OWL/jython/grammar/PythonPartial.g:921:13: 'print'
             {
             match("print"); 
 
@@ -667,8 +667,8 @@ public class PythonPartialLexer extends Lexer {
         try {
             int _type = RAISE;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // /Users/nginther/dm/inf/CarnotKE/jython/grammar/PythonPartial.g:922:11: ( 'raise' )
-            // /Users/nginther/dm/inf/CarnotKE/jython/grammar/PythonPartial.g:922:13: 'raise'
+            // /v/filer4b/v38q001/nginth/dm/Carnot-OWL/jython/grammar/PythonPartial.g:922:11: ( 'raise' )
+            // /v/filer4b/v38q001/nginth/dm/Carnot-OWL/jython/grammar/PythonPartial.g:922:13: 'raise'
             {
             match("raise"); 
 
@@ -688,8 +688,8 @@ public class PythonPartialLexer extends Lexer {
         try {
             int _type = RETURN;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // /Users/nginther/dm/inf/CarnotKE/jython/grammar/PythonPartial.g:923:11: ( 'return' )
-            // /Users/nginther/dm/inf/CarnotKE/jython/grammar/PythonPartial.g:923:13: 'return'
+            // /v/filer4b/v38q001/nginth/dm/Carnot-OWL/jython/grammar/PythonPartial.g:923:11: ( 'return' )
+            // /v/filer4b/v38q001/nginth/dm/Carnot-OWL/jython/grammar/PythonPartial.g:923:13: 'return'
             {
             match("return"); 
 
@@ -709,8 +709,8 @@ public class PythonPartialLexer extends Lexer {
         try {
             int _type = TRY;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // /Users/nginther/dm/inf/CarnotKE/jython/grammar/PythonPartial.g:924:11: ( 'try' )
-            // /Users/nginther/dm/inf/CarnotKE/jython/grammar/PythonPartial.g:924:13: 'try'
+            // /v/filer4b/v38q001/nginth/dm/Carnot-OWL/jython/grammar/PythonPartial.g:924:11: ( 'try' )
+            // /v/filer4b/v38q001/nginth/dm/Carnot-OWL/jython/grammar/PythonPartial.g:924:13: 'try'
             {
             match("try"); 
 
@@ -730,8 +730,8 @@ public class PythonPartialLexer extends Lexer {
         try {
             int _type = WHILE;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // /Users/nginther/dm/inf/CarnotKE/jython/grammar/PythonPartial.g:925:11: ( 'while' )
-            // /Users/nginther/dm/inf/CarnotKE/jython/grammar/PythonPartial.g:925:13: 'while'
+            // /v/filer4b/v38q001/nginth/dm/Carnot-OWL/jython/grammar/PythonPartial.g:925:11: ( 'while' )
+            // /v/filer4b/v38q001/nginth/dm/Carnot-OWL/jython/grammar/PythonPartial.g:925:13: 'while'
             {
             match("while"); 
 
@@ -751,8 +751,8 @@ public class PythonPartialLexer extends Lexer {
         try {
             int _type = WITH;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // /Users/nginther/dm/inf/CarnotKE/jython/grammar/PythonPartial.g:926:11: ( 'with' )
-            // /Users/nginther/dm/inf/CarnotKE/jython/grammar/PythonPartial.g:926:13: 'with'
+            // /v/filer4b/v38q001/nginth/dm/Carnot-OWL/jython/grammar/PythonPartial.g:926:11: ( 'with' )
+            // /v/filer4b/v38q001/nginth/dm/Carnot-OWL/jython/grammar/PythonPartial.g:926:13: 'with'
             {
             match("with"); 
 
@@ -772,8 +772,8 @@ public class PythonPartialLexer extends Lexer {
         try {
             int _type = YIELD;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // /Users/nginther/dm/inf/CarnotKE/jython/grammar/PythonPartial.g:927:11: ( 'yield' )
-            // /Users/nginther/dm/inf/CarnotKE/jython/grammar/PythonPartial.g:927:13: 'yield'
+            // /v/filer4b/v38q001/nginth/dm/Carnot-OWL/jython/grammar/PythonPartial.g:927:11: ( 'yield' )
+            // /v/filer4b/v38q001/nginth/dm/Carnot-OWL/jython/grammar/PythonPartial.g:927:13: 'yield'
             {
             match("yield"); 
 
@@ -793,8 +793,8 @@ public class PythonPartialLexer extends Lexer {
         try {
             int _type = LPAREN;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // /Users/nginther/dm/inf/CarnotKE/jython/grammar/PythonPartial.g:929:11: ( '(' )
-            // /Users/nginther/dm/inf/CarnotKE/jython/grammar/PythonPartial.g:929:13: '('
+            // /v/filer4b/v38q001/nginth/dm/Carnot-OWL/jython/grammar/PythonPartial.g:929:11: ( '(' )
+            // /v/filer4b/v38q001/nginth/dm/Carnot-OWL/jython/grammar/PythonPartial.g:929:13: '('
             {
             match('('); 
             implicitLineJoiningLevel++;
@@ -814,8 +814,8 @@ public class PythonPartialLexer extends Lexer {
         try {
             int _type = RPAREN;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // /Users/nginther/dm/inf/CarnotKE/jython/grammar/PythonPartial.g:931:11: ( ')' )
-            // /Users/nginther/dm/inf/CarnotKE/jython/grammar/PythonPartial.g:931:13: ')'
+            // /v/filer4b/v38q001/nginth/dm/Carnot-OWL/jython/grammar/PythonPartial.g:931:11: ( ')' )
+            // /v/filer4b/v38q001/nginth/dm/Carnot-OWL/jython/grammar/PythonPartial.g:931:13: ')'
             {
             match(')'); 
             implicitLineJoiningLevel--;
@@ -835,8 +835,8 @@ public class PythonPartialLexer extends Lexer {
         try {
             int _type = LBRACK;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // /Users/nginther/dm/inf/CarnotKE/jython/grammar/PythonPartial.g:933:11: ( '[' )
-            // /Users/nginther/dm/inf/CarnotKE/jython/grammar/PythonPartial.g:933:13: '['
+            // /v/filer4b/v38q001/nginth/dm/Carnot-OWL/jython/grammar/PythonPartial.g:933:11: ( '[' )
+            // /v/filer4b/v38q001/nginth/dm/Carnot-OWL/jython/grammar/PythonPartial.g:933:13: '['
             {
             match('['); 
             implicitLineJoiningLevel++;
@@ -856,8 +856,8 @@ public class PythonPartialLexer extends Lexer {
         try {
             int _type = RBRACK;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // /Users/nginther/dm/inf/CarnotKE/jython/grammar/PythonPartial.g:935:11: ( ']' )
-            // /Users/nginther/dm/inf/CarnotKE/jython/grammar/PythonPartial.g:935:13: ']'
+            // /v/filer4b/v38q001/nginth/dm/Carnot-OWL/jython/grammar/PythonPartial.g:935:11: ( ']' )
+            // /v/filer4b/v38q001/nginth/dm/Carnot-OWL/jython/grammar/PythonPartial.g:935:13: ']'
             {
             match(']'); 
             implicitLineJoiningLevel--;
@@ -877,8 +877,8 @@ public class PythonPartialLexer extends Lexer {
         try {
             int _type = COLON;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // /Users/nginther/dm/inf/CarnotKE/jython/grammar/PythonPartial.g:937:11: ( ':' )
-            // /Users/nginther/dm/inf/CarnotKE/jython/grammar/PythonPartial.g:937:13: ':'
+            // /v/filer4b/v38q001/nginth/dm/Carnot-OWL/jython/grammar/PythonPartial.g:937:11: ( ':' )
+            // /v/filer4b/v38q001/nginth/dm/Carnot-OWL/jython/grammar/PythonPartial.g:937:13: ':'
             {
             match(':'); 
 
@@ -897,8 +897,8 @@ public class PythonPartialLexer extends Lexer {
         try {
             int _type = COMMA;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // /Users/nginther/dm/inf/CarnotKE/jython/grammar/PythonPartial.g:939:10: ( ',' )
-            // /Users/nginther/dm/inf/CarnotKE/jython/grammar/PythonPartial.g:939:12: ','
+            // /v/filer4b/v38q001/nginth/dm/Carnot-OWL/jython/grammar/PythonPartial.g:939:10: ( ',' )
+            // /v/filer4b/v38q001/nginth/dm/Carnot-OWL/jython/grammar/PythonPartial.g:939:12: ','
             {
             match(','); 
 
@@ -917,8 +917,8 @@ public class PythonPartialLexer extends Lexer {
         try {
             int _type = SEMI;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // /Users/nginther/dm/inf/CarnotKE/jython/grammar/PythonPartial.g:941:9: ( ';' )
-            // /Users/nginther/dm/inf/CarnotKE/jython/grammar/PythonPartial.g:941:11: ';'
+            // /v/filer4b/v38q001/nginth/dm/Carnot-OWL/jython/grammar/PythonPartial.g:941:9: ( ';' )
+            // /v/filer4b/v38q001/nginth/dm/Carnot-OWL/jython/grammar/PythonPartial.g:941:11: ';'
             {
             match(';'); 
 
@@ -937,8 +937,8 @@ public class PythonPartialLexer extends Lexer {
         try {
             int _type = PLUS;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // /Users/nginther/dm/inf/CarnotKE/jython/grammar/PythonPartial.g:943:9: ( '+' )
-            // /Users/nginther/dm/inf/CarnotKE/jython/grammar/PythonPartial.g:943:11: '+'
+            // /v/filer4b/v38q001/nginth/dm/Carnot-OWL/jython/grammar/PythonPartial.g:943:9: ( '+' )
+            // /v/filer4b/v38q001/nginth/dm/Carnot-OWL/jython/grammar/PythonPartial.g:943:11: '+'
             {
             match('+'); 
 
@@ -957,8 +957,8 @@ public class PythonPartialLexer extends Lexer {
         try {
             int _type = MINUS;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // /Users/nginther/dm/inf/CarnotKE/jython/grammar/PythonPartial.g:945:10: ( '-' )
-            // /Users/nginther/dm/inf/CarnotKE/jython/grammar/PythonPartial.g:945:12: '-'
+            // /v/filer4b/v38q001/nginth/dm/Carnot-OWL/jython/grammar/PythonPartial.g:945:10: ( '-' )
+            // /v/filer4b/v38q001/nginth/dm/Carnot-OWL/jython/grammar/PythonPartial.g:945:12: '-'
             {
             match('-'); 
 
@@ -977,8 +977,8 @@ public class PythonPartialLexer extends Lexer {
         try {
             int _type = STAR;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // /Users/nginther/dm/inf/CarnotKE/jython/grammar/PythonPartial.g:947:9: ( '*' )
-            // /Users/nginther/dm/inf/CarnotKE/jython/grammar/PythonPartial.g:947:11: '*'
+            // /v/filer4b/v38q001/nginth/dm/Carnot-OWL/jython/grammar/PythonPartial.g:947:9: ( '*' )
+            // /v/filer4b/v38q001/nginth/dm/Carnot-OWL/jython/grammar/PythonPartial.g:947:11: '*'
             {
             match('*'); 
 
@@ -997,8 +997,8 @@ public class PythonPartialLexer extends Lexer {
         try {
             int _type = SLASH;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // /Users/nginther/dm/inf/CarnotKE/jython/grammar/PythonPartial.g:949:10: ( '/' )
-            // /Users/nginther/dm/inf/CarnotKE/jython/grammar/PythonPartial.g:949:12: '/'
+            // /v/filer4b/v38q001/nginth/dm/Carnot-OWL/jython/grammar/PythonPartial.g:949:10: ( '/' )
+            // /v/filer4b/v38q001/nginth/dm/Carnot-OWL/jython/grammar/PythonPartial.g:949:12: '/'
             {
             match('/'); 
 
@@ -1017,8 +1017,8 @@ public class PythonPartialLexer extends Lexer {
         try {
             int _type = VBAR;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // /Users/nginther/dm/inf/CarnotKE/jython/grammar/PythonPartial.g:951:9: ( '|' )
-            // /Users/nginther/dm/inf/CarnotKE/jython/grammar/PythonPartial.g:951:11: '|'
+            // /v/filer4b/v38q001/nginth/dm/Carnot-OWL/jython/grammar/PythonPartial.g:951:9: ( '|' )
+            // /v/filer4b/v38q001/nginth/dm/Carnot-OWL/jython/grammar/PythonPartial.g:951:11: '|'
             {
             match('|'); 
 
@@ -1037,8 +1037,8 @@ public class PythonPartialLexer extends Lexer {
         try {
             int _type = AMPER;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // /Users/nginther/dm/inf/CarnotKE/jython/grammar/PythonPartial.g:953:10: ( '&' )
-            // /Users/nginther/dm/inf/CarnotKE/jython/grammar/PythonPartial.g:953:12: '&'
+            // /v/filer4b/v38q001/nginth/dm/Carnot-OWL/jython/grammar/PythonPartial.g:953:10: ( '&' )
+            // /v/filer4b/v38q001/nginth/dm/Carnot-OWL/jython/grammar/PythonPartial.g:953:12: '&'
             {
             match('&'); 
 
@@ -1057,8 +1057,8 @@ public class PythonPartialLexer extends Lexer {
         try {
             int _type = LESS;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // /Users/nginther/dm/inf/CarnotKE/jython/grammar/PythonPartial.g:955:9: ( '<' )
-            // /Users/nginther/dm/inf/CarnotKE/jython/grammar/PythonPartial.g:955:11: '<'
+            // /v/filer4b/v38q001/nginth/dm/Carnot-OWL/jython/grammar/PythonPartial.g:955:9: ( '<' )
+            // /v/filer4b/v38q001/nginth/dm/Carnot-OWL/jython/grammar/PythonPartial.g:955:11: '<'
             {
             match('<'); 
 
@@ -1077,8 +1077,8 @@ public class PythonPartialLexer extends Lexer {
         try {
             int _type = GREATER;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // /Users/nginther/dm/inf/CarnotKE/jython/grammar/PythonPartial.g:957:12: ( '>' )
-            // /Users/nginther/dm/inf/CarnotKE/jython/grammar/PythonPartial.g:957:14: '>'
+            // /v/filer4b/v38q001/nginth/dm/Carnot-OWL/jython/grammar/PythonPartial.g:957:12: ( '>' )
+            // /v/filer4b/v38q001/nginth/dm/Carnot-OWL/jython/grammar/PythonPartial.g:957:14: '>'
             {
             match('>'); 
 
@@ -1097,8 +1097,8 @@ public class PythonPartialLexer extends Lexer {
         try {
             int _type = ASSIGN;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // /Users/nginther/dm/inf/CarnotKE/jython/grammar/PythonPartial.g:959:11: ( '=' )
-            // /Users/nginther/dm/inf/CarnotKE/jython/grammar/PythonPartial.g:959:13: '='
+            // /v/filer4b/v38q001/nginth/dm/Carnot-OWL/jython/grammar/PythonPartial.g:959:11: ( '=' )
+            // /v/filer4b/v38q001/nginth/dm/Carnot-OWL/jython/grammar/PythonPartial.g:959:13: '='
             {
             match('='); 
 
@@ -1117,8 +1117,8 @@ public class PythonPartialLexer extends Lexer {
         try {
             int _type = PERCENT;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // /Users/nginther/dm/inf/CarnotKE/jython/grammar/PythonPartial.g:961:12: ( '%' )
-            // /Users/nginther/dm/inf/CarnotKE/jython/grammar/PythonPartial.g:961:14: '%'
+            // /v/filer4b/v38q001/nginth/dm/Carnot-OWL/jython/grammar/PythonPartial.g:961:12: ( '%' )
+            // /v/filer4b/v38q001/nginth/dm/Carnot-OWL/jython/grammar/PythonPartial.g:961:14: '%'
             {
             match('%'); 
 
@@ -1137,8 +1137,8 @@ public class PythonPartialLexer extends Lexer {
         try {
             int _type = BACKQUOTE;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // /Users/nginther/dm/inf/CarnotKE/jython/grammar/PythonPartial.g:963:14: ( '`' )
-            // /Users/nginther/dm/inf/CarnotKE/jython/grammar/PythonPartial.g:963:16: '`'
+            // /v/filer4b/v38q001/nginth/dm/Carnot-OWL/jython/grammar/PythonPartial.g:963:14: ( '`' )
+            // /v/filer4b/v38q001/nginth/dm/Carnot-OWL/jython/grammar/PythonPartial.g:963:16: '`'
             {
             match('`'); 
 
@@ -1157,8 +1157,8 @@ public class PythonPartialLexer extends Lexer {
         try {
             int _type = LCURLY;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // /Users/nginther/dm/inf/CarnotKE/jython/grammar/PythonPartial.g:965:11: ( '{' )
-            // /Users/nginther/dm/inf/CarnotKE/jython/grammar/PythonPartial.g:965:13: '{'
+            // /v/filer4b/v38q001/nginth/dm/Carnot-OWL/jython/grammar/PythonPartial.g:965:11: ( '{' )
+            // /v/filer4b/v38q001/nginth/dm/Carnot-OWL/jython/grammar/PythonPartial.g:965:13: '{'
             {
             match('{'); 
             implicitLineJoiningLevel++;
@@ -1178,8 +1178,8 @@ public class PythonPartialLexer extends Lexer {
         try {
             int _type = RCURLY;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // /Users/nginther/dm/inf/CarnotKE/jython/grammar/PythonPartial.g:967:11: ( '}' )
-            // /Users/nginther/dm/inf/CarnotKE/jython/grammar/PythonPartial.g:967:13: '}'
+            // /v/filer4b/v38q001/nginth/dm/Carnot-OWL/jython/grammar/PythonPartial.g:967:11: ( '}' )
+            // /v/filer4b/v38q001/nginth/dm/Carnot-OWL/jython/grammar/PythonPartial.g:967:13: '}'
             {
             match('}'); 
             implicitLineJoiningLevel--;
@@ -1199,8 +1199,8 @@ public class PythonPartialLexer extends Lexer {
         try {
             int _type = CIRCUMFLEX;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // /Users/nginther/dm/inf/CarnotKE/jython/grammar/PythonPartial.g:969:15: ( '^' )
-            // /Users/nginther/dm/inf/CarnotKE/jython/grammar/PythonPartial.g:969:17: '^'
+            // /v/filer4b/v38q001/nginth/dm/Carnot-OWL/jython/grammar/PythonPartial.g:969:15: ( '^' )
+            // /v/filer4b/v38q001/nginth/dm/Carnot-OWL/jython/grammar/PythonPartial.g:969:17: '^'
             {
             match('^'); 
 
@@ -1219,8 +1219,8 @@ public class PythonPartialLexer extends Lexer {
         try {
             int _type = TILDE;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // /Users/nginther/dm/inf/CarnotKE/jython/grammar/PythonPartial.g:971:10: ( '~' )
-            // /Users/nginther/dm/inf/CarnotKE/jython/grammar/PythonPartial.g:971:12: '~'
+            // /v/filer4b/v38q001/nginth/dm/Carnot-OWL/jython/grammar/PythonPartial.g:971:10: ( '~' )
+            // /v/filer4b/v38q001/nginth/dm/Carnot-OWL/jython/grammar/PythonPartial.g:971:12: '~'
             {
             match('~'); 
 
@@ -1239,8 +1239,8 @@ public class PythonPartialLexer extends Lexer {
         try {
             int _type = EQUAL;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // /Users/nginther/dm/inf/CarnotKE/jython/grammar/PythonPartial.g:973:10: ( '==' )
-            // /Users/nginther/dm/inf/CarnotKE/jython/grammar/PythonPartial.g:973:12: '=='
+            // /v/filer4b/v38q001/nginth/dm/Carnot-OWL/jython/grammar/PythonPartial.g:973:10: ( '==' )
+            // /v/filer4b/v38q001/nginth/dm/Carnot-OWL/jython/grammar/PythonPartial.g:973:12: '=='
             {
             match("=="); 
 
@@ -1260,8 +1260,8 @@ public class PythonPartialLexer extends Lexer {
         try {
             int _type = NOTEQUAL;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // /Users/nginther/dm/inf/CarnotKE/jython/grammar/PythonPartial.g:975:13: ( '!=' )
-            // /Users/nginther/dm/inf/CarnotKE/jython/grammar/PythonPartial.g:975:15: '!='
+            // /v/filer4b/v38q001/nginth/dm/Carnot-OWL/jython/grammar/PythonPartial.g:975:13: ( '!=' )
+            // /v/filer4b/v38q001/nginth/dm/Carnot-OWL/jython/grammar/PythonPartial.g:975:15: '!='
             {
             match("!="); 
 
@@ -1281,8 +1281,8 @@ public class PythonPartialLexer extends Lexer {
         try {
             int _type = ALT_NOTEQUAL;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // /Users/nginther/dm/inf/CarnotKE/jython/grammar/PythonPartial.g:977:13: ( '<>' )
-            // /Users/nginther/dm/inf/CarnotKE/jython/grammar/PythonPartial.g:977:15: '<>'
+            // /v/filer4b/v38q001/nginth/dm/Carnot-OWL/jython/grammar/PythonPartial.g:977:13: ( '<>' )
+            // /v/filer4b/v38q001/nginth/dm/Carnot-OWL/jython/grammar/PythonPartial.g:977:15: '<>'
             {
             match("<>"); 
 
@@ -1302,8 +1302,8 @@ public class PythonPartialLexer extends Lexer {
         try {
             int _type = LESSEQUAL;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // /Users/nginther/dm/inf/CarnotKE/jython/grammar/PythonPartial.g:979:14: ( '<=' )
-            // /Users/nginther/dm/inf/CarnotKE/jython/grammar/PythonPartial.g:979:16: '<='
+            // /v/filer4b/v38q001/nginth/dm/Carnot-OWL/jython/grammar/PythonPartial.g:979:14: ( '<=' )
+            // /v/filer4b/v38q001/nginth/dm/Carnot-OWL/jython/grammar/PythonPartial.g:979:16: '<='
             {
             match("<="); 
 
@@ -1323,8 +1323,8 @@ public class PythonPartialLexer extends Lexer {
         try {
             int _type = LEFTSHIFT;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // /Users/nginther/dm/inf/CarnotKE/jython/grammar/PythonPartial.g:981:14: ( '<<' )
-            // /Users/nginther/dm/inf/CarnotKE/jython/grammar/PythonPartial.g:981:16: '<<'
+            // /v/filer4b/v38q001/nginth/dm/Carnot-OWL/jython/grammar/PythonPartial.g:981:14: ( '<<' )
+            // /v/filer4b/v38q001/nginth/dm/Carnot-OWL/jython/grammar/PythonPartial.g:981:16: '<<'
             {
             match("<<"); 
 
@@ -1344,8 +1344,8 @@ public class PythonPartialLexer extends Lexer {
         try {
             int _type = GREATEREQUAL;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // /Users/nginther/dm/inf/CarnotKE/jython/grammar/PythonPartial.g:983:17: ( '>=' )
-            // /Users/nginther/dm/inf/CarnotKE/jython/grammar/PythonPartial.g:983:19: '>='
+            // /v/filer4b/v38q001/nginth/dm/Carnot-OWL/jython/grammar/PythonPartial.g:983:17: ( '>=' )
+            // /v/filer4b/v38q001/nginth/dm/Carnot-OWL/jython/grammar/PythonPartial.g:983:19: '>='
             {
             match(">="); 
 
@@ -1365,8 +1365,8 @@ public class PythonPartialLexer extends Lexer {
         try {
             int _type = RIGHTSHIFT;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // /Users/nginther/dm/inf/CarnotKE/jython/grammar/PythonPartial.g:985:15: ( '>>' )
-            // /Users/nginther/dm/inf/CarnotKE/jython/grammar/PythonPartial.g:985:17: '>>'
+            // /v/filer4b/v38q001/nginth/dm/Carnot-OWL/jython/grammar/PythonPartial.g:985:15: ( '>>' )
+            // /v/filer4b/v38q001/nginth/dm/Carnot-OWL/jython/grammar/PythonPartial.g:985:17: '>>'
             {
             match(">>"); 
 
@@ -1386,8 +1386,8 @@ public class PythonPartialLexer extends Lexer {
         try {
             int _type = PLUSEQUAL;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // /Users/nginther/dm/inf/CarnotKE/jython/grammar/PythonPartial.g:987:14: ( '+=' )
-            // /Users/nginther/dm/inf/CarnotKE/jython/grammar/PythonPartial.g:987:16: '+='
+            // /v/filer4b/v38q001/nginth/dm/Carnot-OWL/jython/grammar/PythonPartial.g:987:14: ( '+=' )
+            // /v/filer4b/v38q001/nginth/dm/Carnot-OWL/jython/grammar/PythonPartial.g:987:16: '+='
             {
             match("+="); 
 
@@ -1407,8 +1407,8 @@ public class PythonPartialLexer extends Lexer {
         try {
             int _type = MINUSEQUAL;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // /Users/nginther/dm/inf/CarnotKE/jython/grammar/PythonPartial.g:989:15: ( '-=' )
-            // /Users/nginther/dm/inf/CarnotKE/jython/grammar/PythonPartial.g:989:17: '-='
+            // /v/filer4b/v38q001/nginth/dm/Carnot-OWL/jython/grammar/PythonPartial.g:989:15: ( '-=' )
+            // /v/filer4b/v38q001/nginth/dm/Carnot-OWL/jython/grammar/PythonPartial.g:989:17: '-='
             {
             match("-="); 
 
@@ -1428,8 +1428,8 @@ public class PythonPartialLexer extends Lexer {
         try {
             int _type = DOUBLESTAR;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // /Users/nginther/dm/inf/CarnotKE/jython/grammar/PythonPartial.g:991:15: ( '**' )
-            // /Users/nginther/dm/inf/CarnotKE/jython/grammar/PythonPartial.g:991:17: '**'
+            // /v/filer4b/v38q001/nginth/dm/Carnot-OWL/jython/grammar/PythonPartial.g:991:15: ( '**' )
+            // /v/filer4b/v38q001/nginth/dm/Carnot-OWL/jython/grammar/PythonPartial.g:991:17: '**'
             {
             match("**"); 
 
@@ -1449,8 +1449,8 @@ public class PythonPartialLexer extends Lexer {
         try {
             int _type = STAREQUAL;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // /Users/nginther/dm/inf/CarnotKE/jython/grammar/PythonPartial.g:993:14: ( '*=' )
-            // /Users/nginther/dm/inf/CarnotKE/jython/grammar/PythonPartial.g:993:16: '*='
+            // /v/filer4b/v38q001/nginth/dm/Carnot-OWL/jython/grammar/PythonPartial.g:993:14: ( '*=' )
+            // /v/filer4b/v38q001/nginth/dm/Carnot-OWL/jython/grammar/PythonPartial.g:993:16: '*='
             {
             match("*="); 
 
@@ -1470,8 +1470,8 @@ public class PythonPartialLexer extends Lexer {
         try {
             int _type = DOUBLESLASH;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // /Users/nginther/dm/inf/CarnotKE/jython/grammar/PythonPartial.g:995:16: ( '//' )
-            // /Users/nginther/dm/inf/CarnotKE/jython/grammar/PythonPartial.g:995:18: '//'
+            // /v/filer4b/v38q001/nginth/dm/Carnot-OWL/jython/grammar/PythonPartial.g:995:16: ( '//' )
+            // /v/filer4b/v38q001/nginth/dm/Carnot-OWL/jython/grammar/PythonPartial.g:995:18: '//'
             {
             match("//"); 
 
@@ -1491,8 +1491,8 @@ public class PythonPartialLexer extends Lexer {
         try {
             int _type = SLASHEQUAL;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // /Users/nginther/dm/inf/CarnotKE/jython/grammar/PythonPartial.g:997:15: ( '/=' )
-            // /Users/nginther/dm/inf/CarnotKE/jython/grammar/PythonPartial.g:997:17: '/='
+            // /v/filer4b/v38q001/nginth/dm/Carnot-OWL/jython/grammar/PythonPartial.g:997:15: ( '/=' )
+            // /v/filer4b/v38q001/nginth/dm/Carnot-OWL/jython/grammar/PythonPartial.g:997:17: '/='
             {
             match("/="); 
 
@@ -1512,8 +1512,8 @@ public class PythonPartialLexer extends Lexer {
         try {
             int _type = VBAREQUAL;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // /Users/nginther/dm/inf/CarnotKE/jython/grammar/PythonPartial.g:999:14: ( '|=' )
-            // /Users/nginther/dm/inf/CarnotKE/jython/grammar/PythonPartial.g:999:16: '|='
+            // /v/filer4b/v38q001/nginth/dm/Carnot-OWL/jython/grammar/PythonPartial.g:999:14: ( '|=' )
+            // /v/filer4b/v38q001/nginth/dm/Carnot-OWL/jython/grammar/PythonPartial.g:999:16: '|='
             {
             match("|="); 
 
@@ -1533,8 +1533,8 @@ public class PythonPartialLexer extends Lexer {
         try {
             int _type = PERCENTEQUAL;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // /Users/nginther/dm/inf/CarnotKE/jython/grammar/PythonPartial.g:1001:17: ( '%=' )
-            // /Users/nginther/dm/inf/CarnotKE/jython/grammar/PythonPartial.g:1001:19: '%='
+            // /v/filer4b/v38q001/nginth/dm/Carnot-OWL/jython/grammar/PythonPartial.g:1001:17: ( '%=' )
+            // /v/filer4b/v38q001/nginth/dm/Carnot-OWL/jython/grammar/PythonPartial.g:1001:19: '%='
             {
             match("%="); 
 
@@ -1554,8 +1554,8 @@ public class PythonPartialLexer extends Lexer {
         try {
             int _type = AMPEREQUAL;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // /Users/nginther/dm/inf/CarnotKE/jython/grammar/PythonPartial.g:1003:15: ( '&=' )
-            // /Users/nginther/dm/inf/CarnotKE/jython/grammar/PythonPartial.g:1003:17: '&='
+            // /v/filer4b/v38q001/nginth/dm/Carnot-OWL/jython/grammar/PythonPartial.g:1003:15: ( '&=' )
+            // /v/filer4b/v38q001/nginth/dm/Carnot-OWL/jython/grammar/PythonPartial.g:1003:17: '&='
             {
             match("&="); 
 
@@ -1575,8 +1575,8 @@ public class PythonPartialLexer extends Lexer {
         try {
             int _type = CIRCUMFLEXEQUAL;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // /Users/nginther/dm/inf/CarnotKE/jython/grammar/PythonPartial.g:1005:20: ( '^=' )
-            // /Users/nginther/dm/inf/CarnotKE/jython/grammar/PythonPartial.g:1005:22: '^='
+            // /v/filer4b/v38q001/nginth/dm/Carnot-OWL/jython/grammar/PythonPartial.g:1005:20: ( '^=' )
+            // /v/filer4b/v38q001/nginth/dm/Carnot-OWL/jython/grammar/PythonPartial.g:1005:22: '^='
             {
             match("^="); 
 
@@ -1596,8 +1596,8 @@ public class PythonPartialLexer extends Lexer {
         try {
             int _type = LEFTSHIFTEQUAL;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // /Users/nginther/dm/inf/CarnotKE/jython/grammar/PythonPartial.g:1007:19: ( '<<=' )
-            // /Users/nginther/dm/inf/CarnotKE/jython/grammar/PythonPartial.g:1007:21: '<<='
+            // /v/filer4b/v38q001/nginth/dm/Carnot-OWL/jython/grammar/PythonPartial.g:1007:19: ( '<<=' )
+            // /v/filer4b/v38q001/nginth/dm/Carnot-OWL/jython/grammar/PythonPartial.g:1007:21: '<<='
             {
             match("<<="); 
 
@@ -1617,8 +1617,8 @@ public class PythonPartialLexer extends Lexer {
         try {
             int _type = RIGHTSHIFTEQUAL;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // /Users/nginther/dm/inf/CarnotKE/jython/grammar/PythonPartial.g:1009:20: ( '>>=' )
-            // /Users/nginther/dm/inf/CarnotKE/jython/grammar/PythonPartial.g:1009:22: '>>='
+            // /v/filer4b/v38q001/nginth/dm/Carnot-OWL/jython/grammar/PythonPartial.g:1009:20: ( '>>=' )
+            // /v/filer4b/v38q001/nginth/dm/Carnot-OWL/jython/grammar/PythonPartial.g:1009:22: '>>='
             {
             match(">>="); 
 
@@ -1638,8 +1638,8 @@ public class PythonPartialLexer extends Lexer {
         try {
             int _type = DOUBLESTAREQUAL;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // /Users/nginther/dm/inf/CarnotKE/jython/grammar/PythonPartial.g:1011:20: ( '**=' )
-            // /Users/nginther/dm/inf/CarnotKE/jython/grammar/PythonPartial.g:1011:22: '**='
+            // /v/filer4b/v38q001/nginth/dm/Carnot-OWL/jython/grammar/PythonPartial.g:1011:20: ( '**=' )
+            // /v/filer4b/v38q001/nginth/dm/Carnot-OWL/jython/grammar/PythonPartial.g:1011:22: '**='
             {
             match("**="); 
 
@@ -1659,8 +1659,8 @@ public class PythonPartialLexer extends Lexer {
         try {
             int _type = DOUBLESLASHEQUAL;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // /Users/nginther/dm/inf/CarnotKE/jython/grammar/PythonPartial.g:1013:21: ( '//=' )
-            // /Users/nginther/dm/inf/CarnotKE/jython/grammar/PythonPartial.g:1013:23: '//='
+            // /v/filer4b/v38q001/nginth/dm/Carnot-OWL/jython/grammar/PythonPartial.g:1013:21: ( '//=' )
+            // /v/filer4b/v38q001/nginth/dm/Carnot-OWL/jython/grammar/PythonPartial.g:1013:23: '//='
             {
             match("//="); 
 
@@ -1680,8 +1680,8 @@ public class PythonPartialLexer extends Lexer {
         try {
             int _type = DOT;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // /Users/nginther/dm/inf/CarnotKE/jython/grammar/PythonPartial.g:1015:5: ( '.' )
-            // /Users/nginther/dm/inf/CarnotKE/jython/grammar/PythonPartial.g:1015:7: '.'
+            // /v/filer4b/v38q001/nginth/dm/Carnot-OWL/jython/grammar/PythonPartial.g:1015:5: ( '.' )
+            // /v/filer4b/v38q001/nginth/dm/Carnot-OWL/jython/grammar/PythonPartial.g:1015:7: '.'
             {
             match('.'); 
 
@@ -1700,8 +1700,8 @@ public class PythonPartialLexer extends Lexer {
         try {
             int _type = AT;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // /Users/nginther/dm/inf/CarnotKE/jython/grammar/PythonPartial.g:1017:4: ( '@' )
-            // /Users/nginther/dm/inf/CarnotKE/jython/grammar/PythonPartial.g:1017:6: '@'
+            // /v/filer4b/v38q001/nginth/dm/Carnot-OWL/jython/grammar/PythonPartial.g:1017:4: ( '@' )
+            // /v/filer4b/v38q001/nginth/dm/Carnot-OWL/jython/grammar/PythonPartial.g:1017:6: '@'
             {
             match('@'); 
 
@@ -1720,8 +1720,8 @@ public class PythonPartialLexer extends Lexer {
         try {
             int _type = AND;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // /Users/nginther/dm/inf/CarnotKE/jython/grammar/PythonPartial.g:1019:5: ( 'and' )
-            // /Users/nginther/dm/inf/CarnotKE/jython/grammar/PythonPartial.g:1019:7: 'and'
+            // /v/filer4b/v38q001/nginth/dm/Carnot-OWL/jython/grammar/PythonPartial.g:1019:5: ( 'and' )
+            // /v/filer4b/v38q001/nginth/dm/Carnot-OWL/jython/grammar/PythonPartial.g:1019:7: 'and'
             {
             match("and"); 
 
@@ -1741,8 +1741,8 @@ public class PythonPartialLexer extends Lexer {
         try {
             int _type = OR;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // /Users/nginther/dm/inf/CarnotKE/jython/grammar/PythonPartial.g:1021:4: ( 'or' )
-            // /Users/nginther/dm/inf/CarnotKE/jython/grammar/PythonPartial.g:1021:6: 'or'
+            // /v/filer4b/v38q001/nginth/dm/Carnot-OWL/jython/grammar/PythonPartial.g:1021:4: ( 'or' )
+            // /v/filer4b/v38q001/nginth/dm/Carnot-OWL/jython/grammar/PythonPartial.g:1021:6: 'or'
             {
             match("or"); 
 
@@ -1762,8 +1762,8 @@ public class PythonPartialLexer extends Lexer {
         try {
             int _type = NOT;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // /Users/nginther/dm/inf/CarnotKE/jython/grammar/PythonPartial.g:1023:5: ( 'not' )
-            // /Users/nginther/dm/inf/CarnotKE/jython/grammar/PythonPartial.g:1023:7: 'not'
+            // /v/filer4b/v38q001/nginth/dm/Carnot-OWL/jython/grammar/PythonPartial.g:1023:5: ( 'not' )
+            // /v/filer4b/v38q001/nginth/dm/Carnot-OWL/jython/grammar/PythonPartial.g:1023:7: 'not'
             {
             match("not"); 
 
@@ -1783,16 +1783,16 @@ public class PythonPartialLexer extends Lexer {
         try {
             int _type = FLOAT;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // /Users/nginther/dm/inf/CarnotKE/jython/grammar/PythonPartial.g:1026:5: ( '.' DIGITS ( Exponent )? | DIGITS '.' Exponent | DIGITS ( '.' ( DIGITS ( Exponent )? )? | Exponent ) )
+            // /v/filer4b/v38q001/nginth/dm/Carnot-OWL/jython/grammar/PythonPartial.g:1026:5: ( '.' DIGITS ( Exponent )? | DIGITS '.' Exponent | DIGITS ( '.' ( DIGITS ( Exponent )? )? | Exponent ) )
             int alt5=3;
             alt5 = dfa5.predict(input);
             switch (alt5) {
                 case 1 :
-                    // /Users/nginther/dm/inf/CarnotKE/jython/grammar/PythonPartial.g:1026:9: '.' DIGITS ( Exponent )?
+                    // /v/filer4b/v38q001/nginth/dm/Carnot-OWL/jython/grammar/PythonPartial.g:1026:9: '.' DIGITS ( Exponent )?
                     {
                     match('.'); 
                     mDIGITS(); 
-                    // /Users/nginther/dm/inf/CarnotKE/jython/grammar/PythonPartial.g:1026:20: ( Exponent )?
+                    // /v/filer4b/v38q001/nginth/dm/Carnot-OWL/jython/grammar/PythonPartial.g:1026:20: ( Exponent )?
                     int alt1=2;
                     int LA1_0 = input.LA(1);
 
@@ -1801,7 +1801,7 @@ public class PythonPartialLexer extends Lexer {
                     }
                     switch (alt1) {
                         case 1 :
-                            // /Users/nginther/dm/inf/CarnotKE/jython/grammar/PythonPartial.g:1026:21: Exponent
+                            // /v/filer4b/v38q001/nginth/dm/Carnot-OWL/jython/grammar/PythonPartial.g:1026:21: Exponent
                             {
                             mExponent(); 
 
@@ -1814,7 +1814,7 @@ public class PythonPartialLexer extends Lexer {
                     }
                     break;
                 case 2 :
-                    // /Users/nginther/dm/inf/CarnotKE/jython/grammar/PythonPartial.g:1027:9: DIGITS '.' Exponent
+                    // /v/filer4b/v38q001/nginth/dm/Carnot-OWL/jython/grammar/PythonPartial.g:1027:9: DIGITS '.' Exponent
                     {
                     mDIGITS(); 
                     match('.'); 
@@ -1823,10 +1823,10 @@ public class PythonPartialLexer extends Lexer {
                     }
                     break;
                 case 3 :
-                    // /Users/nginther/dm/inf/CarnotKE/jython/grammar/PythonPartial.g:1028:9: DIGITS ( '.' ( DIGITS ( Exponent )? )? | Exponent )
+                    // /v/filer4b/v38q001/nginth/dm/Carnot-OWL/jython/grammar/PythonPartial.g:1028:9: DIGITS ( '.' ( DIGITS ( Exponent )? )? | Exponent )
                     {
                     mDIGITS(); 
-                    // /Users/nginther/dm/inf/CarnotKE/jython/grammar/PythonPartial.g:1028:16: ( '.' ( DIGITS ( Exponent )? )? | Exponent )
+                    // /v/filer4b/v38q001/nginth/dm/Carnot-OWL/jython/grammar/PythonPartial.g:1028:16: ( '.' ( DIGITS ( Exponent )? )? | Exponent )
                     int alt4=2;
                     int LA4_0 = input.LA(1);
 
@@ -1844,10 +1844,10 @@ public class PythonPartialLexer extends Lexer {
                     }
                     switch (alt4) {
                         case 1 :
-                            // /Users/nginther/dm/inf/CarnotKE/jython/grammar/PythonPartial.g:1028:17: '.' ( DIGITS ( Exponent )? )?
+                            // /v/filer4b/v38q001/nginth/dm/Carnot-OWL/jython/grammar/PythonPartial.g:1028:17: '.' ( DIGITS ( Exponent )? )?
                             {
                             match('.'); 
-                            // /Users/nginther/dm/inf/CarnotKE/jython/grammar/PythonPartial.g:1028:21: ( DIGITS ( Exponent )? )?
+                            // /v/filer4b/v38q001/nginth/dm/Carnot-OWL/jython/grammar/PythonPartial.g:1028:21: ( DIGITS ( Exponent )? )?
                             int alt3=2;
                             int LA3_0 = input.LA(1);
 
@@ -1856,10 +1856,10 @@ public class PythonPartialLexer extends Lexer {
                             }
                             switch (alt3) {
                                 case 1 :
-                                    // /Users/nginther/dm/inf/CarnotKE/jython/grammar/PythonPartial.g:1028:22: DIGITS ( Exponent )?
+                                    // /v/filer4b/v38q001/nginth/dm/Carnot-OWL/jython/grammar/PythonPartial.g:1028:22: DIGITS ( Exponent )?
                                     {
                                     mDIGITS(); 
-                                    // /Users/nginther/dm/inf/CarnotKE/jython/grammar/PythonPartial.g:1028:29: ( Exponent )?
+                                    // /v/filer4b/v38q001/nginth/dm/Carnot-OWL/jython/grammar/PythonPartial.g:1028:29: ( Exponent )?
                                     int alt2=2;
                                     int LA2_0 = input.LA(1);
 
@@ -1868,7 +1868,7 @@ public class PythonPartialLexer extends Lexer {
                                     }
                                     switch (alt2) {
                                         case 1 :
-                                            // /Users/nginther/dm/inf/CarnotKE/jython/grammar/PythonPartial.g:1028:30: Exponent
+                                            // /v/filer4b/v38q001/nginth/dm/Carnot-OWL/jython/grammar/PythonPartial.g:1028:30: Exponent
                                             {
                                             mExponent(); 
 
@@ -1887,7 +1887,7 @@ public class PythonPartialLexer extends Lexer {
                             }
                             break;
                         case 2 :
-                            // /Users/nginther/dm/inf/CarnotKE/jython/grammar/PythonPartial.g:1028:45: Exponent
+                            // /v/filer4b/v38q001/nginth/dm/Carnot-OWL/jython/grammar/PythonPartial.g:1028:45: Exponent
                             {
                             mExponent(); 
 
@@ -1914,8 +1914,8 @@ public class PythonPartialLexer extends Lexer {
         try {
             int _type = LONGINT;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // /Users/nginther/dm/inf/CarnotKE/jython/grammar/PythonPartial.g:1032:5: ( INT ( 'l' | 'L' ) )
-            // /Users/nginther/dm/inf/CarnotKE/jython/grammar/PythonPartial.g:1032:9: INT ( 'l' | 'L' )
+            // /v/filer4b/v38q001/nginth/dm/Carnot-OWL/jython/grammar/PythonPartial.g:1032:5: ( INT ( 'l' | 'L' ) )
+            // /v/filer4b/v38q001/nginth/dm/Carnot-OWL/jython/grammar/PythonPartial.g:1032:9: INT ( 'l' | 'L' )
             {
             mINT(); 
             if ( input.LA(1)=='L'||input.LA(1)=='l' ) {
@@ -1941,8 +1941,8 @@ public class PythonPartialLexer extends Lexer {
     // $ANTLR start "Exponent"
     public final void mExponent() throws RecognitionException {
         try {
-            // /Users/nginther/dm/inf/CarnotKE/jython/grammar/PythonPartial.g:1037:5: ( ( 'e' | 'E' ) ( '+' | '-' )? DIGITS )
-            // /Users/nginther/dm/inf/CarnotKE/jython/grammar/PythonPartial.g:1037:10: ( 'e' | 'E' ) ( '+' | '-' )? DIGITS
+            // /v/filer4b/v38q001/nginth/dm/Carnot-OWL/jython/grammar/PythonPartial.g:1037:5: ( ( 'e' | 'E' ) ( '+' | '-' )? DIGITS )
+            // /v/filer4b/v38q001/nginth/dm/Carnot-OWL/jython/grammar/PythonPartial.g:1037:10: ( 'e' | 'E' ) ( '+' | '-' )? DIGITS
             {
             if ( input.LA(1)=='E'||input.LA(1)=='e' ) {
                 input.consume();
@@ -1953,7 +1953,7 @@ public class PythonPartialLexer extends Lexer {
                 recover(mse);
                 throw mse;}
 
-            // /Users/nginther/dm/inf/CarnotKE/jython/grammar/PythonPartial.g:1037:22: ( '+' | '-' )?
+            // /v/filer4b/v38q001/nginth/dm/Carnot-OWL/jython/grammar/PythonPartial.g:1037:22: ( '+' | '-' )?
             int alt6=2;
             int LA6_0 = input.LA(1);
 
@@ -1962,7 +1962,7 @@ public class PythonPartialLexer extends Lexer {
             }
             switch (alt6) {
                 case 1 :
-                    // /Users/nginther/dm/inf/CarnotKE/jython/grammar/PythonPartial.g:
+                    // /v/filer4b/v38q001/nginth/dm/Carnot-OWL/jython/grammar/PythonPartial.g:
                     {
                     if ( input.LA(1)=='+'||input.LA(1)=='-' ) {
                         input.consume();
@@ -1994,7 +1994,7 @@ public class PythonPartialLexer extends Lexer {
         try {
             int _type = INT;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // /Users/nginther/dm/inf/CarnotKE/jython/grammar/PythonPartial.g:1040:5: ( '0' ( 'x' | 'X' ) ( '0' .. '9' | 'a' .. 'f' | 'A' .. 'F' )+ | '0' ( '0' .. '7' )* | '1' .. '9' ( DIGITS )* )
+            // /v/filer4b/v38q001/nginth/dm/Carnot-OWL/jython/grammar/PythonPartial.g:1040:5: ( '0' ( 'x' | 'X' ) ( '0' .. '9' | 'a' .. 'f' | 'A' .. 'F' )+ | '0' ( '0' .. '7' )* | '1' .. '9' ( DIGITS )* )
             int alt10=3;
             int LA10_0 = input.LA(1);
 
@@ -2018,7 +2018,7 @@ public class PythonPartialLexer extends Lexer {
             }
             switch (alt10) {
                 case 1 :
-                    // /Users/nginther/dm/inf/CarnotKE/jython/grammar/PythonPartial.g:1041:9: '0' ( 'x' | 'X' ) ( '0' .. '9' | 'a' .. 'f' | 'A' .. 'F' )+
+                    // /v/filer4b/v38q001/nginth/dm/Carnot-OWL/jython/grammar/PythonPartial.g:1041:9: '0' ( 'x' | 'X' ) ( '0' .. '9' | 'a' .. 'f' | 'A' .. 'F' )+
                     {
                     match('0'); 
                     if ( input.LA(1)=='X'||input.LA(1)=='x' ) {
@@ -2030,7 +2030,7 @@ public class PythonPartialLexer extends Lexer {
                         recover(mse);
                         throw mse;}
 
-                    // /Users/nginther/dm/inf/CarnotKE/jython/grammar/PythonPartial.g:1041:25: ( '0' .. '9' | 'a' .. 'f' | 'A' .. 'F' )+
+                    // /v/filer4b/v38q001/nginth/dm/Carnot-OWL/jython/grammar/PythonPartial.g:1041:25: ( '0' .. '9' | 'a' .. 'f' | 'A' .. 'F' )+
                     int cnt7=0;
                     loop7:
                     do {
@@ -2044,7 +2044,7 @@ public class PythonPartialLexer extends Lexer {
 
                         switch (alt7) {
                     	case 1 :
-                    	    // /Users/nginther/dm/inf/CarnotKE/jython/grammar/PythonPartial.g:
+                    	    // /v/filer4b/v38q001/nginth/dm/Carnot-OWL/jython/grammar/PythonPartial.g:
                     	    {
                     	    if ( (input.LA(1)>='0' && input.LA(1)<='9')||(input.LA(1)>='A' && input.LA(1)<='F')||(input.LA(1)>='a' && input.LA(1)<='f') ) {
                     	        input.consume();
@@ -2072,10 +2072,10 @@ public class PythonPartialLexer extends Lexer {
                     }
                     break;
                 case 2 :
-                    // /Users/nginther/dm/inf/CarnotKE/jython/grammar/PythonPartial.g:1043:9: '0' ( '0' .. '7' )*
+                    // /v/filer4b/v38q001/nginth/dm/Carnot-OWL/jython/grammar/PythonPartial.g:1043:9: '0' ( '0' .. '7' )*
                     {
                     match('0'); 
-                    // /Users/nginther/dm/inf/CarnotKE/jython/grammar/PythonPartial.g:1043:14: ( '0' .. '7' )*
+                    // /v/filer4b/v38q001/nginth/dm/Carnot-OWL/jython/grammar/PythonPartial.g:1043:14: ( '0' .. '7' )*
                     loop8:
                     do {
                         int alt8=2;
@@ -2088,7 +2088,7 @@ public class PythonPartialLexer extends Lexer {
 
                         switch (alt8) {
                     	case 1 :
-                    	    // /Users/nginther/dm/inf/CarnotKE/jython/grammar/PythonPartial.g:1043:16: '0' .. '7'
+                    	    // /v/filer4b/v38q001/nginth/dm/Carnot-OWL/jython/grammar/PythonPartial.g:1043:16: '0' .. '7'
                     	    {
                     	    matchRange('0','7'); 
 
@@ -2104,10 +2104,10 @@ public class PythonPartialLexer extends Lexer {
                     }
                     break;
                 case 3 :
-                    // /Users/nginther/dm/inf/CarnotKE/jython/grammar/PythonPartial.g:1044:9: '1' .. '9' ( DIGITS )*
+                    // /v/filer4b/v38q001/nginth/dm/Carnot-OWL/jython/grammar/PythonPartial.g:1044:9: '1' .. '9' ( DIGITS )*
                     {
                     matchRange('1','9'); 
-                    // /Users/nginther/dm/inf/CarnotKE/jython/grammar/PythonPartial.g:1044:18: ( DIGITS )*
+                    // /v/filer4b/v38q001/nginth/dm/Carnot-OWL/jython/grammar/PythonPartial.g:1044:18: ( DIGITS )*
                     loop9:
                     do {
                         int alt9=2;
@@ -2120,7 +2120,7 @@ public class PythonPartialLexer extends Lexer {
 
                         switch (alt9) {
                     	case 1 :
-                    	    // /Users/nginther/dm/inf/CarnotKE/jython/grammar/PythonPartial.g:1044:18: DIGITS
+                    	    // /v/filer4b/v38q001/nginth/dm/Carnot-OWL/jython/grammar/PythonPartial.g:1044:18: DIGITS
                     	    {
                     	    mDIGITS(); 
 
@@ -2150,14 +2150,14 @@ public class PythonPartialLexer extends Lexer {
         try {
             int _type = COMPLEX;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // /Users/nginther/dm/inf/CarnotKE/jython/grammar/PythonPartial.g:1048:5: ( ( DIGITS )+ ( 'j' | 'J' ) | FLOAT ( 'j' | 'J' ) )
+            // /v/filer4b/v38q001/nginth/dm/Carnot-OWL/jython/grammar/PythonPartial.g:1048:5: ( ( DIGITS )+ ( 'j' | 'J' ) | FLOAT ( 'j' | 'J' ) )
             int alt12=2;
             alt12 = dfa12.predict(input);
             switch (alt12) {
                 case 1 :
-                    // /Users/nginther/dm/inf/CarnotKE/jython/grammar/PythonPartial.g:1048:9: ( DIGITS )+ ( 'j' | 'J' )
+                    // /v/filer4b/v38q001/nginth/dm/Carnot-OWL/jython/grammar/PythonPartial.g:1048:9: ( DIGITS )+ ( 'j' | 'J' )
                     {
-                    // /Users/nginther/dm/inf/CarnotKE/jython/grammar/PythonPartial.g:1048:9: ( DIGITS )+
+                    // /v/filer4b/v38q001/nginth/dm/Carnot-OWL/jython/grammar/PythonPartial.g:1048:9: ( DIGITS )+
                     int cnt11=0;
                     loop11:
                     do {
@@ -2171,7 +2171,7 @@ public class PythonPartialLexer extends Lexer {
 
                         switch (alt11) {
                     	case 1 :
-                    	    // /Users/nginther/dm/inf/CarnotKE/jython/grammar/PythonPartial.g:1048:9: DIGITS
+                    	    // /v/filer4b/v38q001/nginth/dm/Carnot-OWL/jython/grammar/PythonPartial.g:1048:9: DIGITS
                     	    {
                     	    mDIGITS(); 
 
@@ -2200,7 +2200,7 @@ public class PythonPartialLexer extends Lexer {
                     }
                     break;
                 case 2 :
-                    // /Users/nginther/dm/inf/CarnotKE/jython/grammar/PythonPartial.g:1049:9: FLOAT ( 'j' | 'J' )
+                    // /v/filer4b/v38q001/nginth/dm/Carnot-OWL/jython/grammar/PythonPartial.g:1049:9: FLOAT ( 'j' | 'J' )
                     {
                     mFLOAT(); 
                     if ( input.LA(1)=='J'||input.LA(1)=='j' ) {
@@ -2228,10 +2228,10 @@ public class PythonPartialLexer extends Lexer {
     // $ANTLR start "DIGITS"
     public final void mDIGITS() throws RecognitionException {
         try {
-            // /Users/nginther/dm/inf/CarnotKE/jython/grammar/PythonPartial.g:1053:8: ( ( '0' .. '9' )+ )
-            // /Users/nginther/dm/inf/CarnotKE/jython/grammar/PythonPartial.g:1053:10: ( '0' .. '9' )+
+            // /v/filer4b/v38q001/nginth/dm/Carnot-OWL/jython/grammar/PythonPartial.g:1053:8: ( ( '0' .. '9' )+ )
+            // /v/filer4b/v38q001/nginth/dm/Carnot-OWL/jython/grammar/PythonPartial.g:1053:10: ( '0' .. '9' )+
             {
-            // /Users/nginther/dm/inf/CarnotKE/jython/grammar/PythonPartial.g:1053:10: ( '0' .. '9' )+
+            // /v/filer4b/v38q001/nginth/dm/Carnot-OWL/jython/grammar/PythonPartial.g:1053:10: ( '0' .. '9' )+
             int cnt13=0;
             loop13:
             do {
@@ -2245,7 +2245,7 @@ public class PythonPartialLexer extends Lexer {
 
                 switch (alt13) {
             	case 1 :
-            	    // /Users/nginther/dm/inf/CarnotKE/jython/grammar/PythonPartial.g:1053:12: '0' .. '9'
+            	    // /v/filer4b/v38q001/nginth/dm/Carnot-OWL/jython/grammar/PythonPartial.g:1053:12: '0' .. '9'
             	    {
             	    matchRange('0','9'); 
 
@@ -2275,8 +2275,8 @@ public class PythonPartialLexer extends Lexer {
         try {
             int _type = NAME;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // /Users/nginther/dm/inf/CarnotKE/jython/grammar/PythonPartial.g:1055:5: ( ( 'a' .. 'z' | 'A' .. 'Z' | '_' ) ( 'a' .. 'z' | 'A' .. 'Z' | '_' | '0' .. '9' )* )
-            // /Users/nginther/dm/inf/CarnotKE/jython/grammar/PythonPartial.g:1055:10: ( 'a' .. 'z' | 'A' .. 'Z' | '_' ) ( 'a' .. 'z' | 'A' .. 'Z' | '_' | '0' .. '9' )*
+            // /v/filer4b/v38q001/nginth/dm/Carnot-OWL/jython/grammar/PythonPartial.g:1055:5: ( ( 'a' .. 'z' | 'A' .. 'Z' | '_' ) ( 'a' .. 'z' | 'A' .. 'Z' | '_' | '0' .. '9' )* )
+            // /v/filer4b/v38q001/nginth/dm/Carnot-OWL/jython/grammar/PythonPartial.g:1055:10: ( 'a' .. 'z' | 'A' .. 'Z' | '_' ) ( 'a' .. 'z' | 'A' .. 'Z' | '_' | '0' .. '9' )*
             {
             if ( (input.LA(1)>='A' && input.LA(1)<='Z')||input.LA(1)=='_'||(input.LA(1)>='a' && input.LA(1)<='z') ) {
                 input.consume();
@@ -2287,7 +2287,7 @@ public class PythonPartialLexer extends Lexer {
                 recover(mse);
                 throw mse;}
 
-            // /Users/nginther/dm/inf/CarnotKE/jython/grammar/PythonPartial.g:1056:9: ( 'a' .. 'z' | 'A' .. 'Z' | '_' | '0' .. '9' )*
+            // /v/filer4b/v38q001/nginth/dm/Carnot-OWL/jython/grammar/PythonPartial.g:1056:9: ( 'a' .. 'z' | 'A' .. 'Z' | '_' | '0' .. '9' )*
             loop14:
             do {
                 int alt14=2;
@@ -2300,7 +2300,7 @@ public class PythonPartialLexer extends Lexer {
 
                 switch (alt14) {
             	case 1 :
-            	    // /Users/nginther/dm/inf/CarnotKE/jython/grammar/PythonPartial.g:
+            	    // /v/filer4b/v38q001/nginth/dm/Carnot-OWL/jython/grammar/PythonPartial.g:
             	    {
             	    if ( (input.LA(1)>='0' && input.LA(1)<='9')||(input.LA(1)>='A' && input.LA(1)<='Z')||input.LA(1)=='_'||(input.LA(1)>='a' && input.LA(1)<='z') ) {
             	        input.consume();
@@ -2336,29 +2336,29 @@ public class PythonPartialLexer extends Lexer {
         try {
             int _type = STRING;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // /Users/nginther/dm/inf/CarnotKE/jython/grammar/PythonPartial.g:1063:5: ( ( 'r' | 'u' | 'ur' | 'R' | 'U' | 'UR' | 'uR' | 'Ur' )? ( '\\'\\'\\'' ( options {greedy=false; } : TRIAPOS )* '\\'\\'\\'' | '\"\"\"' ( options {greedy=false; } : TRIQUOTE )* '\"\"\"' | '\"' ( ESC | ~ ( '\\\\' | '\\n' | '\"' ) )* '\"' | '\\'' ( ESC | ~ ( '\\\\' | '\\n' | '\\'' ) )* '\\'' ) )
-            // /Users/nginther/dm/inf/CarnotKE/jython/grammar/PythonPartial.g:1063:9: ( 'r' | 'u' | 'ur' | 'R' | 'U' | 'UR' | 'uR' | 'Ur' )? ( '\\'\\'\\'' ( options {greedy=false; } : TRIAPOS )* '\\'\\'\\'' | '\"\"\"' ( options {greedy=false; } : TRIQUOTE )* '\"\"\"' | '\"' ( ESC | ~ ( '\\\\' | '\\n' | '\"' ) )* '\"' | '\\'' ( ESC | ~ ( '\\\\' | '\\n' | '\\'' ) )* '\\'' )
+            // /v/filer4b/v38q001/nginth/dm/Carnot-OWL/jython/grammar/PythonPartial.g:1063:5: ( ( 'r' | 'u' | 'ur' | 'R' | 'U' | 'UR' | 'uR' | 'Ur' )? ( '\\'\\'\\'' ( options {greedy=false; } : TRIAPOS )* '\\'\\'\\'' | '\"\"\"' ( options {greedy=false; } : TRIQUOTE )* '\"\"\"' | '\"' ( ESC | ~ ( '\\\\' | '\\n' | '\"' ) )* '\"' | '\\'' ( ESC | ~ ( '\\\\' | '\\n' | '\\'' ) )* '\\'' ) )
+            // /v/filer4b/v38q001/nginth/dm/Carnot-OWL/jython/grammar/PythonPartial.g:1063:9: ( 'r' | 'u' | 'ur' | 'R' | 'U' | 'UR' | 'uR' | 'Ur' )? ( '\\'\\'\\'' ( options {greedy=false; } : TRIAPOS )* '\\'\\'\\'' | '\"\"\"' ( options {greedy=false; } : TRIQUOTE )* '\"\"\"' | '\"' ( ESC | ~ ( '\\\\' | '\\n' | '\"' ) )* '\"' | '\\'' ( ESC | ~ ( '\\\\' | '\\n' | '\\'' ) )* '\\'' )
             {
-            // /Users/nginther/dm/inf/CarnotKE/jython/grammar/PythonPartial.g:1063:9: ( 'r' | 'u' | 'ur' | 'R' | 'U' | 'UR' | 'uR' | 'Ur' )?
+            // /v/filer4b/v38q001/nginth/dm/Carnot-OWL/jython/grammar/PythonPartial.g:1063:9: ( 'r' | 'u' | 'ur' | 'R' | 'U' | 'UR' | 'uR' | 'Ur' )?
             int alt15=9;
             alt15 = dfa15.predict(input);
             switch (alt15) {
                 case 1 :
-                    // /Users/nginther/dm/inf/CarnotKE/jython/grammar/PythonPartial.g:1063:10: 'r'
+                    // /v/filer4b/v38q001/nginth/dm/Carnot-OWL/jython/grammar/PythonPartial.g:1063:10: 'r'
                     {
                     match('r'); 
 
                     }
                     break;
                 case 2 :
-                    // /Users/nginther/dm/inf/CarnotKE/jython/grammar/PythonPartial.g:1063:14: 'u'
+                    // /v/filer4b/v38q001/nginth/dm/Carnot-OWL/jython/grammar/PythonPartial.g:1063:14: 'u'
                     {
                     match('u'); 
 
                     }
                     break;
                 case 3 :
-                    // /Users/nginther/dm/inf/CarnotKE/jython/grammar/PythonPartial.g:1063:18: 'ur'
+                    // /v/filer4b/v38q001/nginth/dm/Carnot-OWL/jython/grammar/PythonPartial.g:1063:18: 'ur'
                     {
                     match("ur"); 
 
@@ -2366,21 +2366,21 @@ public class PythonPartialLexer extends Lexer {
                     }
                     break;
                 case 4 :
-                    // /Users/nginther/dm/inf/CarnotKE/jython/grammar/PythonPartial.g:1063:23: 'R'
+                    // /v/filer4b/v38q001/nginth/dm/Carnot-OWL/jython/grammar/PythonPartial.g:1063:23: 'R'
                     {
                     match('R'); 
 
                     }
                     break;
                 case 5 :
-                    // /Users/nginther/dm/inf/CarnotKE/jython/grammar/PythonPartial.g:1063:27: 'U'
+                    // /v/filer4b/v38q001/nginth/dm/Carnot-OWL/jython/grammar/PythonPartial.g:1063:27: 'U'
                     {
                     match('U'); 
 
                     }
                     break;
                 case 6 :
-                    // /Users/nginther/dm/inf/CarnotKE/jython/grammar/PythonPartial.g:1063:31: 'UR'
+                    // /v/filer4b/v38q001/nginth/dm/Carnot-OWL/jython/grammar/PythonPartial.g:1063:31: 'UR'
                     {
                     match("UR"); 
 
@@ -2388,7 +2388,7 @@ public class PythonPartialLexer extends Lexer {
                     }
                     break;
                 case 7 :
-                    // /Users/nginther/dm/inf/CarnotKE/jython/grammar/PythonPartial.g:1063:36: 'uR'
+                    // /v/filer4b/v38q001/nginth/dm/Carnot-OWL/jython/grammar/PythonPartial.g:1063:36: 'uR'
                     {
                     match("uR"); 
 
@@ -2396,7 +2396,7 @@ public class PythonPartialLexer extends Lexer {
                     }
                     break;
                 case 8 :
-                    // /Users/nginther/dm/inf/CarnotKE/jython/grammar/PythonPartial.g:1063:41: 'Ur'
+                    // /v/filer4b/v38q001/nginth/dm/Carnot-OWL/jython/grammar/PythonPartial.g:1063:41: 'Ur'
                     {
                     match("Ur"); 
 
@@ -2406,7 +2406,7 @@ public class PythonPartialLexer extends Lexer {
 
             }
 
-            // /Users/nginther/dm/inf/CarnotKE/jython/grammar/PythonPartial.g:1064:9: ( '\\'\\'\\'' ( options {greedy=false; } : TRIAPOS )* '\\'\\'\\'' | '\"\"\"' ( options {greedy=false; } : TRIQUOTE )* '\"\"\"' | '\"' ( ESC | ~ ( '\\\\' | '\\n' | '\"' ) )* '\"' | '\\'' ( ESC | ~ ( '\\\\' | '\\n' | '\\'' ) )* '\\'' )
+            // /v/filer4b/v38q001/nginth/dm/Carnot-OWL/jython/grammar/PythonPartial.g:1064:9: ( '\\'\\'\\'' ( options {greedy=false; } : TRIAPOS )* '\\'\\'\\'' | '\"\"\"' ( options {greedy=false; } : TRIQUOTE )* '\"\"\"' | '\"' ( ESC | ~ ( '\\\\' | '\\n' | '\"' ) )* '\"' | '\\'' ( ESC | ~ ( '\\\\' | '\\n' | '\\'' ) )* '\\'' )
             int alt20=4;
             int LA20_0 = input.LA(1);
 
@@ -2462,11 +2462,11 @@ public class PythonPartialLexer extends Lexer {
             }
             switch (alt20) {
                 case 1 :
-                    // /Users/nginther/dm/inf/CarnotKE/jython/grammar/PythonPartial.g:1064:13: '\\'\\'\\'' ( options {greedy=false; } : TRIAPOS )* '\\'\\'\\''
+                    // /v/filer4b/v38q001/nginth/dm/Carnot-OWL/jython/grammar/PythonPartial.g:1064:13: '\\'\\'\\'' ( options {greedy=false; } : TRIAPOS )* '\\'\\'\\''
                     {
                     match("'''"); 
 
-                    // /Users/nginther/dm/inf/CarnotKE/jython/grammar/PythonPartial.g:1064:22: ( options {greedy=false; } : TRIAPOS )*
+                    // /v/filer4b/v38q001/nginth/dm/Carnot-OWL/jython/grammar/PythonPartial.g:1064:22: ( options {greedy=false; } : TRIAPOS )*
                     loop16:
                     do {
                         int alt16=2;
@@ -2500,7 +2500,7 @@ public class PythonPartialLexer extends Lexer {
 
                         switch (alt16) {
                     	case 1 :
-                    	    // /Users/nginther/dm/inf/CarnotKE/jython/grammar/PythonPartial.g:1064:47: TRIAPOS
+                    	    // /v/filer4b/v38q001/nginth/dm/Carnot-OWL/jython/grammar/PythonPartial.g:1064:47: TRIAPOS
                     	    {
                     	    mTRIAPOS(); 
 
@@ -2518,11 +2518,11 @@ public class PythonPartialLexer extends Lexer {
                     }
                     break;
                 case 2 :
-                    // /Users/nginther/dm/inf/CarnotKE/jython/grammar/PythonPartial.g:1065:13: '\"\"\"' ( options {greedy=false; } : TRIQUOTE )* '\"\"\"'
+                    // /v/filer4b/v38q001/nginth/dm/Carnot-OWL/jython/grammar/PythonPartial.g:1065:13: '\"\"\"' ( options {greedy=false; } : TRIQUOTE )* '\"\"\"'
                     {
                     match("\"\"\""); 
 
-                    // /Users/nginther/dm/inf/CarnotKE/jython/grammar/PythonPartial.g:1065:19: ( options {greedy=false; } : TRIQUOTE )*
+                    // /v/filer4b/v38q001/nginth/dm/Carnot-OWL/jython/grammar/PythonPartial.g:1065:19: ( options {greedy=false; } : TRIQUOTE )*
                     loop17:
                     do {
                         int alt17=2;
@@ -2556,7 +2556,7 @@ public class PythonPartialLexer extends Lexer {
 
                         switch (alt17) {
                     	case 1 :
-                    	    // /Users/nginther/dm/inf/CarnotKE/jython/grammar/PythonPartial.g:1065:44: TRIQUOTE
+                    	    // /v/filer4b/v38q001/nginth/dm/Carnot-OWL/jython/grammar/PythonPartial.g:1065:44: TRIQUOTE
                     	    {
                     	    mTRIQUOTE(); 
 
@@ -2574,10 +2574,10 @@ public class PythonPartialLexer extends Lexer {
                     }
                     break;
                 case 3 :
-                    // /Users/nginther/dm/inf/CarnotKE/jython/grammar/PythonPartial.g:1066:13: '\"' ( ESC | ~ ( '\\\\' | '\\n' | '\"' ) )* '\"'
+                    // /v/filer4b/v38q001/nginth/dm/Carnot-OWL/jython/grammar/PythonPartial.g:1066:13: '\"' ( ESC | ~ ( '\\\\' | '\\n' | '\"' ) )* '\"'
                     {
                     match('\"'); 
-                    // /Users/nginther/dm/inf/CarnotKE/jython/grammar/PythonPartial.g:1066:17: ( ESC | ~ ( '\\\\' | '\\n' | '\"' ) )*
+                    // /v/filer4b/v38q001/nginth/dm/Carnot-OWL/jython/grammar/PythonPartial.g:1066:17: ( ESC | ~ ( '\\\\' | '\\n' | '\"' ) )*
                     loop18:
                     do {
                         int alt18=3;
@@ -2593,14 +2593,14 @@ public class PythonPartialLexer extends Lexer {
 
                         switch (alt18) {
                     	case 1 :
-                    	    // /Users/nginther/dm/inf/CarnotKE/jython/grammar/PythonPartial.g:1066:18: ESC
+                    	    // /v/filer4b/v38q001/nginth/dm/Carnot-OWL/jython/grammar/PythonPartial.g:1066:18: ESC
                     	    {
                     	    mESC(); 
 
                     	    }
                     	    break;
                     	case 2 :
-                    	    // /Users/nginther/dm/inf/CarnotKE/jython/grammar/PythonPartial.g:1066:22: ~ ( '\\\\' | '\\n' | '\"' )
+                    	    // /v/filer4b/v38q001/nginth/dm/Carnot-OWL/jython/grammar/PythonPartial.g:1066:22: ~ ( '\\\\' | '\\n' | '\"' )
                     	    {
                     	    if ( (input.LA(1)>='\u0000' && input.LA(1)<='\t')||(input.LA(1)>='\u000B' && input.LA(1)<='!')||(input.LA(1)>='#' && input.LA(1)<='[')||(input.LA(1)>=']' && input.LA(1)<='\uFFFF') ) {
                     	        input.consume();
@@ -2625,10 +2625,10 @@ public class PythonPartialLexer extends Lexer {
                     }
                     break;
                 case 4 :
-                    // /Users/nginther/dm/inf/CarnotKE/jython/grammar/PythonPartial.g:1067:13: '\\'' ( ESC | ~ ( '\\\\' | '\\n' | '\\'' ) )* '\\''
+                    // /v/filer4b/v38q001/nginth/dm/Carnot-OWL/jython/grammar/PythonPartial.g:1067:13: '\\'' ( ESC | ~ ( '\\\\' | '\\n' | '\\'' ) )* '\\''
                     {
                     match('\''); 
-                    // /Users/nginther/dm/inf/CarnotKE/jython/grammar/PythonPartial.g:1067:18: ( ESC | ~ ( '\\\\' | '\\n' | '\\'' ) )*
+                    // /v/filer4b/v38q001/nginth/dm/Carnot-OWL/jython/grammar/PythonPartial.g:1067:18: ( ESC | ~ ( '\\\\' | '\\n' | '\\'' ) )*
                     loop19:
                     do {
                         int alt19=3;
@@ -2644,14 +2644,14 @@ public class PythonPartialLexer extends Lexer {
 
                         switch (alt19) {
                     	case 1 :
-                    	    // /Users/nginther/dm/inf/CarnotKE/jython/grammar/PythonPartial.g:1067:19: ESC
+                    	    // /v/filer4b/v38q001/nginth/dm/Carnot-OWL/jython/grammar/PythonPartial.g:1067:19: ESC
                     	    {
                     	    mESC(); 
 
                     	    }
                     	    break;
                     	case 2 :
-                    	    // /Users/nginther/dm/inf/CarnotKE/jython/grammar/PythonPartial.g:1067:23: ~ ( '\\\\' | '\\n' | '\\'' )
+                    	    // /v/filer4b/v38q001/nginth/dm/Carnot-OWL/jython/grammar/PythonPartial.g:1067:23: ~ ( '\\\\' | '\\n' | '\\'' )
                     	    {
                     	    if ( (input.LA(1)>='\u0000' && input.LA(1)<='\t')||(input.LA(1)>='\u000B' && input.LA(1)<='&')||(input.LA(1)>='(' && input.LA(1)<='[')||(input.LA(1)>=']' && input.LA(1)<='\uFFFF') ) {
                     	        input.consume();
@@ -2700,29 +2700,29 @@ public class PythonPartialLexer extends Lexer {
         try {
             int _type = TRISTRINGPART;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // /Users/nginther/dm/inf/CarnotKE/jython/grammar/PythonPartial.g:1077:5: ( ( 'r' | 'u' | 'ur' | 'R' | 'U' | 'UR' | 'uR' | 'Ur' )? ( '\\'\\'\\'' (~ ( '\\'\\'\\'' ) )* | '\"\"\"' (~ ( '\"\"\"' ) )* ) )
-            // /Users/nginther/dm/inf/CarnotKE/jython/grammar/PythonPartial.g:1077:7: ( 'r' | 'u' | 'ur' | 'R' | 'U' | 'UR' | 'uR' | 'Ur' )? ( '\\'\\'\\'' (~ ( '\\'\\'\\'' ) )* | '\"\"\"' (~ ( '\"\"\"' ) )* )
+            // /v/filer4b/v38q001/nginth/dm/Carnot-OWL/jython/grammar/PythonPartial.g:1077:5: ( ( 'r' | 'u' | 'ur' | 'R' | 'U' | 'UR' | 'uR' | 'Ur' )? ( '\\'\\'\\'' (~ ( '\\'\\'\\'' ) )* | '\"\"\"' (~ ( '\"\"\"' ) )* ) )
+            // /v/filer4b/v38q001/nginth/dm/Carnot-OWL/jython/grammar/PythonPartial.g:1077:7: ( 'r' | 'u' | 'ur' | 'R' | 'U' | 'UR' | 'uR' | 'Ur' )? ( '\\'\\'\\'' (~ ( '\\'\\'\\'' ) )* | '\"\"\"' (~ ( '\"\"\"' ) )* )
             {
-            // /Users/nginther/dm/inf/CarnotKE/jython/grammar/PythonPartial.g:1077:7: ( 'r' | 'u' | 'ur' | 'R' | 'U' | 'UR' | 'uR' | 'Ur' )?
+            // /v/filer4b/v38q001/nginth/dm/Carnot-OWL/jython/grammar/PythonPartial.g:1077:7: ( 'r' | 'u' | 'ur' | 'R' | 'U' | 'UR' | 'uR' | 'Ur' )?
             int alt21=9;
             alt21 = dfa21.predict(input);
             switch (alt21) {
                 case 1 :
-                    // /Users/nginther/dm/inf/CarnotKE/jython/grammar/PythonPartial.g:1077:8: 'r'
+                    // /v/filer4b/v38q001/nginth/dm/Carnot-OWL/jython/grammar/PythonPartial.g:1077:8: 'r'
                     {
                     match('r'); 
 
                     }
                     break;
                 case 2 :
-                    // /Users/nginther/dm/inf/CarnotKE/jython/grammar/PythonPartial.g:1077:12: 'u'
+                    // /v/filer4b/v38q001/nginth/dm/Carnot-OWL/jython/grammar/PythonPartial.g:1077:12: 'u'
                     {
                     match('u'); 
 
                     }
                     break;
                 case 3 :
-                    // /Users/nginther/dm/inf/CarnotKE/jython/grammar/PythonPartial.g:1077:16: 'ur'
+                    // /v/filer4b/v38q001/nginth/dm/Carnot-OWL/jython/grammar/PythonPartial.g:1077:16: 'ur'
                     {
                     match("ur"); 
 
@@ -2730,21 +2730,21 @@ public class PythonPartialLexer extends Lexer {
                     }
                     break;
                 case 4 :
-                    // /Users/nginther/dm/inf/CarnotKE/jython/grammar/PythonPartial.g:1077:21: 'R'
+                    // /v/filer4b/v38q001/nginth/dm/Carnot-OWL/jython/grammar/PythonPartial.g:1077:21: 'R'
                     {
                     match('R'); 
 
                     }
                     break;
                 case 5 :
-                    // /Users/nginther/dm/inf/CarnotKE/jython/grammar/PythonPartial.g:1077:25: 'U'
+                    // /v/filer4b/v38q001/nginth/dm/Carnot-OWL/jython/grammar/PythonPartial.g:1077:25: 'U'
                     {
                     match('U'); 
 
                     }
                     break;
                 case 6 :
-                    // /Users/nginther/dm/inf/CarnotKE/jython/grammar/PythonPartial.g:1077:29: 'UR'
+                    // /v/filer4b/v38q001/nginth/dm/Carnot-OWL/jython/grammar/PythonPartial.g:1077:29: 'UR'
                     {
                     match("UR"); 
 
@@ -2752,7 +2752,7 @@ public class PythonPartialLexer extends Lexer {
                     }
                     break;
                 case 7 :
-                    // /Users/nginther/dm/inf/CarnotKE/jython/grammar/PythonPartial.g:1077:34: 'uR'
+                    // /v/filer4b/v38q001/nginth/dm/Carnot-OWL/jython/grammar/PythonPartial.g:1077:34: 'uR'
                     {
                     match("uR"); 
 
@@ -2760,7 +2760,7 @@ public class PythonPartialLexer extends Lexer {
                     }
                     break;
                 case 8 :
-                    // /Users/nginther/dm/inf/CarnotKE/jython/grammar/PythonPartial.g:1077:39: 'Ur'
+                    // /v/filer4b/v38q001/nginth/dm/Carnot-OWL/jython/grammar/PythonPartial.g:1077:39: 'Ur'
                     {
                     match("Ur"); 
 
@@ -2770,7 +2770,7 @@ public class PythonPartialLexer extends Lexer {
 
             }
 
-            // /Users/nginther/dm/inf/CarnotKE/jython/grammar/PythonPartial.g:1078:9: ( '\\'\\'\\'' (~ ( '\\'\\'\\'' ) )* | '\"\"\"' (~ ( '\"\"\"' ) )* )
+            // /v/filer4b/v38q001/nginth/dm/Carnot-OWL/jython/grammar/PythonPartial.g:1078:9: ( '\\'\\'\\'' (~ ( '\\'\\'\\'' ) )* | '\"\"\"' (~ ( '\"\"\"' ) )* )
             int alt24=2;
             int LA24_0 = input.LA(1);
 
@@ -2788,11 +2788,11 @@ public class PythonPartialLexer extends Lexer {
             }
             switch (alt24) {
                 case 1 :
-                    // /Users/nginther/dm/inf/CarnotKE/jython/grammar/PythonPartial.g:1078:13: '\\'\\'\\'' (~ ( '\\'\\'\\'' ) )*
+                    // /v/filer4b/v38q001/nginth/dm/Carnot-OWL/jython/grammar/PythonPartial.g:1078:13: '\\'\\'\\'' (~ ( '\\'\\'\\'' ) )*
                     {
                     match("'''"); 
 
-                    // /Users/nginther/dm/inf/CarnotKE/jython/grammar/PythonPartial.g:1078:22: (~ ( '\\'\\'\\'' ) )*
+                    // /v/filer4b/v38q001/nginth/dm/Carnot-OWL/jython/grammar/PythonPartial.g:1078:22: (~ ( '\\'\\'\\'' ) )*
                     loop22:
                     do {
                         int alt22=2;
@@ -2805,7 +2805,7 @@ public class PythonPartialLexer extends Lexer {
 
                         switch (alt22) {
                     	case 1 :
-                    	    // /Users/nginther/dm/inf/CarnotKE/jython/grammar/PythonPartial.g:1078:22: ~ ( '\\'\\'\\'' )
+                    	    // /v/filer4b/v38q001/nginth/dm/Carnot-OWL/jython/grammar/PythonPartial.g:1078:22: ~ ( '\\'\\'\\'' )
                     	    {
                     	    if ( (input.LA(1)>='\u0000' && input.LA(1)<='\uFFFF') ) {
                     	        input.consume();
@@ -2829,11 +2829,11 @@ public class PythonPartialLexer extends Lexer {
                     }
                     break;
                 case 2 :
-                    // /Users/nginther/dm/inf/CarnotKE/jython/grammar/PythonPartial.g:1079:13: '\"\"\"' (~ ( '\"\"\"' ) )*
+                    // /v/filer4b/v38q001/nginth/dm/Carnot-OWL/jython/grammar/PythonPartial.g:1079:13: '\"\"\"' (~ ( '\"\"\"' ) )*
                     {
                     match("\"\"\""); 
 
-                    // /Users/nginther/dm/inf/CarnotKE/jython/grammar/PythonPartial.g:1079:19: (~ ( '\"\"\"' ) )*
+                    // /v/filer4b/v38q001/nginth/dm/Carnot-OWL/jython/grammar/PythonPartial.g:1079:19: (~ ( '\"\"\"' ) )*
                     loop23:
                     do {
                         int alt23=2;
@@ -2846,7 +2846,7 @@ public class PythonPartialLexer extends Lexer {
 
                         switch (alt23) {
                     	case 1 :
-                    	    // /Users/nginther/dm/inf/CarnotKE/jython/grammar/PythonPartial.g:1079:19: ~ ( '\"\"\"' )
+                    	    // /v/filer4b/v38q001/nginth/dm/Carnot-OWL/jython/grammar/PythonPartial.g:1079:19: ~ ( '\"\"\"' )
                     	    {
                     	    if ( (input.LA(1)>='\u0000' && input.LA(1)<='\uFFFF') ) {
                     	        input.consume();
@@ -2888,29 +2888,29 @@ public class PythonPartialLexer extends Lexer {
         try {
             int _type = STRINGPART;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // /Users/nginther/dm/inf/CarnotKE/jython/grammar/PythonPartial.g:1084:5: ( ( 'r' | 'u' | 'ur' | 'R' | 'U' | 'UR' | 'uR' | 'Ur' )? ( '\"' ( ESC | ~ ( '\\\\' | '\\n' | '\"' ) )* CONTINUED_LINE | '\\'' ( ESC | ~ ( '\\\\' | '\\n' | '\\'' ) )* CONTINUED_LINE ) )
-            // /Users/nginther/dm/inf/CarnotKE/jython/grammar/PythonPartial.g:1084:7: ( 'r' | 'u' | 'ur' | 'R' | 'U' | 'UR' | 'uR' | 'Ur' )? ( '\"' ( ESC | ~ ( '\\\\' | '\\n' | '\"' ) )* CONTINUED_LINE | '\\'' ( ESC | ~ ( '\\\\' | '\\n' | '\\'' ) )* CONTINUED_LINE )
+            // /v/filer4b/v38q001/nginth/dm/Carnot-OWL/jython/grammar/PythonPartial.g:1084:5: ( ( 'r' | 'u' | 'ur' | 'R' | 'U' | 'UR' | 'uR' | 'Ur' )? ( '\"' ( ESC | ~ ( '\\\\' | '\\n' | '\"' ) )* CONTINUED_LINE | '\\'' ( ESC | ~ ( '\\\\' | '\\n' | '\\'' ) )* CONTINUED_LINE ) )
+            // /v/filer4b/v38q001/nginth/dm/Carnot-OWL/jython/grammar/PythonPartial.g:1084:7: ( 'r' | 'u' | 'ur' | 'R' | 'U' | 'UR' | 'uR' | 'Ur' )? ( '\"' ( ESC | ~ ( '\\\\' | '\\n' | '\"' ) )* CONTINUED_LINE | '\\'' ( ESC | ~ ( '\\\\' | '\\n' | '\\'' ) )* CONTINUED_LINE )
             {
-            // /Users/nginther/dm/inf/CarnotKE/jython/grammar/PythonPartial.g:1084:7: ( 'r' | 'u' | 'ur' | 'R' | 'U' | 'UR' | 'uR' | 'Ur' )?
+            // /v/filer4b/v38q001/nginth/dm/Carnot-OWL/jython/grammar/PythonPartial.g:1084:7: ( 'r' | 'u' | 'ur' | 'R' | 'U' | 'UR' | 'uR' | 'Ur' )?
             int alt25=9;
             alt25 = dfa25.predict(input);
             switch (alt25) {
                 case 1 :
-                    // /Users/nginther/dm/inf/CarnotKE/jython/grammar/PythonPartial.g:1084:8: 'r'
+                    // /v/filer4b/v38q001/nginth/dm/Carnot-OWL/jython/grammar/PythonPartial.g:1084:8: 'r'
                     {
                     match('r'); 
 
                     }
                     break;
                 case 2 :
-                    // /Users/nginther/dm/inf/CarnotKE/jython/grammar/PythonPartial.g:1084:12: 'u'
+                    // /v/filer4b/v38q001/nginth/dm/Carnot-OWL/jython/grammar/PythonPartial.g:1084:12: 'u'
                     {
                     match('u'); 
 
                     }
                     break;
                 case 3 :
-                    // /Users/nginther/dm/inf/CarnotKE/jython/grammar/PythonPartial.g:1084:16: 'ur'
+                    // /v/filer4b/v38q001/nginth/dm/Carnot-OWL/jython/grammar/PythonPartial.g:1084:16: 'ur'
                     {
                     match("ur"); 
 
@@ -2918,21 +2918,21 @@ public class PythonPartialLexer extends Lexer {
                     }
                     break;
                 case 4 :
-                    // /Users/nginther/dm/inf/CarnotKE/jython/grammar/PythonPartial.g:1084:21: 'R'
+                    // /v/filer4b/v38q001/nginth/dm/Carnot-OWL/jython/grammar/PythonPartial.g:1084:21: 'R'
                     {
                     match('R'); 
 
                     }
                     break;
                 case 5 :
-                    // /Users/nginther/dm/inf/CarnotKE/jython/grammar/PythonPartial.g:1084:25: 'U'
+                    // /v/filer4b/v38q001/nginth/dm/Carnot-OWL/jython/grammar/PythonPartial.g:1084:25: 'U'
                     {
                     match('U'); 
 
                     }
                     break;
                 case 6 :
-                    // /Users/nginther/dm/inf/CarnotKE/jython/grammar/PythonPartial.g:1084:29: 'UR'
+                    // /v/filer4b/v38q001/nginth/dm/Carnot-OWL/jython/grammar/PythonPartial.g:1084:29: 'UR'
                     {
                     match("UR"); 
 
@@ -2940,7 +2940,7 @@ public class PythonPartialLexer extends Lexer {
                     }
                     break;
                 case 7 :
-                    // /Users/nginther/dm/inf/CarnotKE/jython/grammar/PythonPartial.g:1084:34: 'uR'
+                    // /v/filer4b/v38q001/nginth/dm/Carnot-OWL/jython/grammar/PythonPartial.g:1084:34: 'uR'
                     {
                     match("uR"); 
 
@@ -2948,7 +2948,7 @@ public class PythonPartialLexer extends Lexer {
                     }
                     break;
                 case 8 :
-                    // /Users/nginther/dm/inf/CarnotKE/jython/grammar/PythonPartial.g:1084:39: 'Ur'
+                    // /v/filer4b/v38q001/nginth/dm/Carnot-OWL/jython/grammar/PythonPartial.g:1084:39: 'Ur'
                     {
                     match("Ur"); 
 
@@ -2958,7 +2958,7 @@ public class PythonPartialLexer extends Lexer {
 
             }
 
-            // /Users/nginther/dm/inf/CarnotKE/jython/grammar/PythonPartial.g:1085:9: ( '\"' ( ESC | ~ ( '\\\\' | '\\n' | '\"' ) )* CONTINUED_LINE | '\\'' ( ESC | ~ ( '\\\\' | '\\n' | '\\'' ) )* CONTINUED_LINE )
+            // /v/filer4b/v38q001/nginth/dm/Carnot-OWL/jython/grammar/PythonPartial.g:1085:9: ( '\"' ( ESC | ~ ( '\\\\' | '\\n' | '\"' ) )* CONTINUED_LINE | '\\'' ( ESC | ~ ( '\\\\' | '\\n' | '\\'' ) )* CONTINUED_LINE )
             int alt28=2;
             int LA28_0 = input.LA(1);
 
@@ -2976,24 +2976,24 @@ public class PythonPartialLexer extends Lexer {
             }
             switch (alt28) {
                 case 1 :
-                    // /Users/nginther/dm/inf/CarnotKE/jython/grammar/PythonPartial.g:1085:13: '\"' ( ESC | ~ ( '\\\\' | '\\n' | '\"' ) )* CONTINUED_LINE
+                    // /v/filer4b/v38q001/nginth/dm/Carnot-OWL/jython/grammar/PythonPartial.g:1085:13: '\"' ( ESC | ~ ( '\\\\' | '\\n' | '\"' ) )* CONTINUED_LINE
                     {
                     match('\"'); 
-                    // /Users/nginther/dm/inf/CarnotKE/jython/grammar/PythonPartial.g:1085:17: ( ESC | ~ ( '\\\\' | '\\n' | '\"' ) )*
+                    // /v/filer4b/v38q001/nginth/dm/Carnot-OWL/jython/grammar/PythonPartial.g:1085:17: ( ESC | ~ ( '\\\\' | '\\n' | '\"' ) )*
                     loop26:
                     do {
                         int alt26=3;
                         alt26 = dfa26.predict(input);
                         switch (alt26) {
                     	case 1 :
-                    	    // /Users/nginther/dm/inf/CarnotKE/jython/grammar/PythonPartial.g:1085:18: ESC
+                    	    // /v/filer4b/v38q001/nginth/dm/Carnot-OWL/jython/grammar/PythonPartial.g:1085:18: ESC
                     	    {
                     	    mESC(); 
 
                     	    }
                     	    break;
                     	case 2 :
-                    	    // /Users/nginther/dm/inf/CarnotKE/jython/grammar/PythonPartial.g:1085:22: ~ ( '\\\\' | '\\n' | '\"' )
+                    	    // /v/filer4b/v38q001/nginth/dm/Carnot-OWL/jython/grammar/PythonPartial.g:1085:22: ~ ( '\\\\' | '\\n' | '\"' )
                     	    {
                     	    if ( (input.LA(1)>='\u0000' && input.LA(1)<='\t')||(input.LA(1)>='\u000B' && input.LA(1)<='!')||(input.LA(1)>='#' && input.LA(1)<='[')||(input.LA(1)>=']' && input.LA(1)<='\uFFFF') ) {
                     	        input.consume();
@@ -3018,24 +3018,24 @@ public class PythonPartialLexer extends Lexer {
                     }
                     break;
                 case 2 :
-                    // /Users/nginther/dm/inf/CarnotKE/jython/grammar/PythonPartial.g:1086:13: '\\'' ( ESC | ~ ( '\\\\' | '\\n' | '\\'' ) )* CONTINUED_LINE
+                    // /v/filer4b/v38q001/nginth/dm/Carnot-OWL/jython/grammar/PythonPartial.g:1086:13: '\\'' ( ESC | ~ ( '\\\\' | '\\n' | '\\'' ) )* CONTINUED_LINE
                     {
                     match('\''); 
-                    // /Users/nginther/dm/inf/CarnotKE/jython/grammar/PythonPartial.g:1086:18: ( ESC | ~ ( '\\\\' | '\\n' | '\\'' ) )*
+                    // /v/filer4b/v38q001/nginth/dm/Carnot-OWL/jython/grammar/PythonPartial.g:1086:18: ( ESC | ~ ( '\\\\' | '\\n' | '\\'' ) )*
                     loop27:
                     do {
                         int alt27=3;
                         alt27 = dfa27.predict(input);
                         switch (alt27) {
                     	case 1 :
-                    	    // /Users/nginther/dm/inf/CarnotKE/jython/grammar/PythonPartial.g:1086:19: ESC
+                    	    // /v/filer4b/v38q001/nginth/dm/Carnot-OWL/jython/grammar/PythonPartial.g:1086:19: ESC
                     	    {
                     	    mESC(); 
 
                     	    }
                     	    break;
                     	case 2 :
-                    	    // /Users/nginther/dm/inf/CarnotKE/jython/grammar/PythonPartial.g:1086:23: ~ ( '\\\\' | '\\n' | '\\'' )
+                    	    // /v/filer4b/v38q001/nginth/dm/Carnot-OWL/jython/grammar/PythonPartial.g:1086:23: ~ ( '\\\\' | '\\n' | '\\'' )
                     	    {
                     	    if ( (input.LA(1)>='\u0000' && input.LA(1)<='\t')||(input.LA(1)>='\u000B' && input.LA(1)<='&')||(input.LA(1)>='(' && input.LA(1)<='[')||(input.LA(1)>=']' && input.LA(1)<='\uFFFF') ) {
                     	        input.consume();
@@ -3076,10 +3076,10 @@ public class PythonPartialLexer extends Lexer {
     // $ANTLR start "TRIQUOTE"
     public final void mTRIQUOTE() throws RecognitionException {
         try {
-            // /Users/nginther/dm/inf/CarnotKE/jython/grammar/PythonPartial.g:1094:5: ( ( '\"' )? ( '\"' )? ( ESC | ~ ( '\\\\' | '\"' ) )+ )
-            // /Users/nginther/dm/inf/CarnotKE/jython/grammar/PythonPartial.g:1094:7: ( '\"' )? ( '\"' )? ( ESC | ~ ( '\\\\' | '\"' ) )+
+            // /v/filer4b/v38q001/nginth/dm/Carnot-OWL/jython/grammar/PythonPartial.g:1094:5: ( ( '\"' )? ( '\"' )? ( ESC | ~ ( '\\\\' | '\"' ) )+ )
+            // /v/filer4b/v38q001/nginth/dm/Carnot-OWL/jython/grammar/PythonPartial.g:1094:7: ( '\"' )? ( '\"' )? ( ESC | ~ ( '\\\\' | '\"' ) )+
             {
-            // /Users/nginther/dm/inf/CarnotKE/jython/grammar/PythonPartial.g:1094:7: ( '\"' )?
+            // /v/filer4b/v38q001/nginth/dm/Carnot-OWL/jython/grammar/PythonPartial.g:1094:7: ( '\"' )?
             int alt29=2;
             int LA29_0 = input.LA(1);
 
@@ -3088,7 +3088,7 @@ public class PythonPartialLexer extends Lexer {
             }
             switch (alt29) {
                 case 1 :
-                    // /Users/nginther/dm/inf/CarnotKE/jython/grammar/PythonPartial.g:1094:7: '\"'
+                    // /v/filer4b/v38q001/nginth/dm/Carnot-OWL/jython/grammar/PythonPartial.g:1094:7: '\"'
                     {
                     match('\"'); 
 
@@ -3097,7 +3097,7 @@ public class PythonPartialLexer extends Lexer {
 
             }
 
-            // /Users/nginther/dm/inf/CarnotKE/jython/grammar/PythonPartial.g:1094:12: ( '\"' )?
+            // /v/filer4b/v38q001/nginth/dm/Carnot-OWL/jython/grammar/PythonPartial.g:1094:12: ( '\"' )?
             int alt30=2;
             int LA30_0 = input.LA(1);
 
@@ -3106,7 +3106,7 @@ public class PythonPartialLexer extends Lexer {
             }
             switch (alt30) {
                 case 1 :
-                    // /Users/nginther/dm/inf/CarnotKE/jython/grammar/PythonPartial.g:1094:12: '\"'
+                    // /v/filer4b/v38q001/nginth/dm/Carnot-OWL/jython/grammar/PythonPartial.g:1094:12: '\"'
                     {
                     match('\"'); 
 
@@ -3115,7 +3115,7 @@ public class PythonPartialLexer extends Lexer {
 
             }
 
-            // /Users/nginther/dm/inf/CarnotKE/jython/grammar/PythonPartial.g:1094:17: ( ESC | ~ ( '\\\\' | '\"' ) )+
+            // /v/filer4b/v38q001/nginth/dm/Carnot-OWL/jython/grammar/PythonPartial.g:1094:17: ( ESC | ~ ( '\\\\' | '\"' ) )+
             int cnt31=0;
             loop31:
             do {
@@ -3132,14 +3132,14 @@ public class PythonPartialLexer extends Lexer {
 
                 switch (alt31) {
             	case 1 :
-            	    // /Users/nginther/dm/inf/CarnotKE/jython/grammar/PythonPartial.g:1094:18: ESC
+            	    // /v/filer4b/v38q001/nginth/dm/Carnot-OWL/jython/grammar/PythonPartial.g:1094:18: ESC
             	    {
             	    mESC(); 
 
             	    }
             	    break;
             	case 2 :
-            	    // /Users/nginther/dm/inf/CarnotKE/jython/grammar/PythonPartial.g:1094:22: ~ ( '\\\\' | '\"' )
+            	    // /v/filer4b/v38q001/nginth/dm/Carnot-OWL/jython/grammar/PythonPartial.g:1094:22: ~ ( '\\\\' | '\"' )
             	    {
             	    if ( (input.LA(1)>='\u0000' && input.LA(1)<='!')||(input.LA(1)>='#' && input.LA(1)<='[')||(input.LA(1)>=']' && input.LA(1)<='\uFFFF') ) {
             	        input.consume();
@@ -3175,10 +3175,10 @@ public class PythonPartialLexer extends Lexer {
     // $ANTLR start "TRIAPOS"
     public final void mTRIAPOS() throws RecognitionException {
         try {
-            // /Users/nginther/dm/inf/CarnotKE/jython/grammar/PythonPartial.g:1100:5: ( ( '\\'' )? ( '\\'' )? ( ESC | ~ ( '\\\\' | '\\'' ) )+ )
-            // /Users/nginther/dm/inf/CarnotKE/jython/grammar/PythonPartial.g:1100:7: ( '\\'' )? ( '\\'' )? ( ESC | ~ ( '\\\\' | '\\'' ) )+
+            // /v/filer4b/v38q001/nginth/dm/Carnot-OWL/jython/grammar/PythonPartial.g:1100:5: ( ( '\\'' )? ( '\\'' )? ( ESC | ~ ( '\\\\' | '\\'' ) )+ )
+            // /v/filer4b/v38q001/nginth/dm/Carnot-OWL/jython/grammar/PythonPartial.g:1100:7: ( '\\'' )? ( '\\'' )? ( ESC | ~ ( '\\\\' | '\\'' ) )+
             {
-            // /Users/nginther/dm/inf/CarnotKE/jython/grammar/PythonPartial.g:1100:7: ( '\\'' )?
+            // /v/filer4b/v38q001/nginth/dm/Carnot-OWL/jython/grammar/PythonPartial.g:1100:7: ( '\\'' )?
             int alt32=2;
             int LA32_0 = input.LA(1);
 
@@ -3187,7 +3187,7 @@ public class PythonPartialLexer extends Lexer {
             }
             switch (alt32) {
                 case 1 :
-                    // /Users/nginther/dm/inf/CarnotKE/jython/grammar/PythonPartial.g:1100:7: '\\''
+                    // /v/filer4b/v38q001/nginth/dm/Carnot-OWL/jython/grammar/PythonPartial.g:1100:7: '\\''
                     {
                     match('\''); 
 
@@ -3196,7 +3196,7 @@ public class PythonPartialLexer extends Lexer {
 
             }
 
-            // /Users/nginther/dm/inf/CarnotKE/jython/grammar/PythonPartial.g:1100:13: ( '\\'' )?
+            // /v/filer4b/v38q001/nginth/dm/Carnot-OWL/jython/grammar/PythonPartial.g:1100:13: ( '\\'' )?
             int alt33=2;
             int LA33_0 = input.LA(1);
 
@@ -3205,7 +3205,7 @@ public class PythonPartialLexer extends Lexer {
             }
             switch (alt33) {
                 case 1 :
-                    // /Users/nginther/dm/inf/CarnotKE/jython/grammar/PythonPartial.g:1100:13: '\\''
+                    // /v/filer4b/v38q001/nginth/dm/Carnot-OWL/jython/grammar/PythonPartial.g:1100:13: '\\''
                     {
                     match('\''); 
 
@@ -3214,7 +3214,7 @@ public class PythonPartialLexer extends Lexer {
 
             }
 
-            // /Users/nginther/dm/inf/CarnotKE/jython/grammar/PythonPartial.g:1100:19: ( ESC | ~ ( '\\\\' | '\\'' ) )+
+            // /v/filer4b/v38q001/nginth/dm/Carnot-OWL/jython/grammar/PythonPartial.g:1100:19: ( ESC | ~ ( '\\\\' | '\\'' ) )+
             int cnt34=0;
             loop34:
             do {
@@ -3231,14 +3231,14 @@ public class PythonPartialLexer extends Lexer {
 
                 switch (alt34) {
             	case 1 :
-            	    // /Users/nginther/dm/inf/CarnotKE/jython/grammar/PythonPartial.g:1100:20: ESC
+            	    // /v/filer4b/v38q001/nginth/dm/Carnot-OWL/jython/grammar/PythonPartial.g:1100:20: ESC
             	    {
             	    mESC(); 
 
             	    }
             	    break;
             	case 2 :
-            	    // /Users/nginther/dm/inf/CarnotKE/jython/grammar/PythonPartial.g:1100:24: ~ ( '\\\\' | '\\'' )
+            	    // /v/filer4b/v38q001/nginth/dm/Carnot-OWL/jython/grammar/PythonPartial.g:1100:24: ~ ( '\\\\' | '\\'' )
             	    {
             	    if ( (input.LA(1)>='\u0000' && input.LA(1)<='&')||(input.LA(1)>='(' && input.LA(1)<='[')||(input.LA(1)>=']' && input.LA(1)<='\uFFFF') ) {
             	        input.consume();
@@ -3274,8 +3274,8 @@ public class PythonPartialLexer extends Lexer {
     // $ANTLR start "ESC"
     public final void mESC() throws RecognitionException {
         try {
-            // /Users/nginther/dm/inf/CarnotKE/jython/grammar/PythonPartial.g:1105:5: ( '\\\\' . )
-            // /Users/nginther/dm/inf/CarnotKE/jython/grammar/PythonPartial.g:1105:10: '\\\\' .
+            // /v/filer4b/v38q001/nginth/dm/Carnot-OWL/jython/grammar/PythonPartial.g:1105:5: ( '\\\\' . )
+            // /v/filer4b/v38q001/nginth/dm/Carnot-OWL/jython/grammar/PythonPartial.g:1105:10: '\\\\' .
             {
             match('\\'); 
             matchAny(); 
@@ -3298,11 +3298,11 @@ public class PythonPartialLexer extends Lexer {
 
                 boolean extraNewlines = false;
 
-            // /Users/nginther/dm/inf/CarnotKE/jython/grammar/PythonPartial.g:1116:5: ( '\\\\' ( '\\r' )? '\\n' ( ' ' | '\\t' )* ( COMMENT | nl= NEWLINE | ) )
-            // /Users/nginther/dm/inf/CarnotKE/jython/grammar/PythonPartial.g:1116:10: '\\\\' ( '\\r' )? '\\n' ( ' ' | '\\t' )* ( COMMENT | nl= NEWLINE | )
+            // /v/filer4b/v38q001/nginth/dm/Carnot-OWL/jython/grammar/PythonPartial.g:1116:5: ( '\\\\' ( '\\r' )? '\\n' ( ' ' | '\\t' )* ( COMMENT | nl= NEWLINE | ) )
+            // /v/filer4b/v38q001/nginth/dm/Carnot-OWL/jython/grammar/PythonPartial.g:1116:10: '\\\\' ( '\\r' )? '\\n' ( ' ' | '\\t' )* ( COMMENT | nl= NEWLINE | )
             {
             match('\\'); 
-            // /Users/nginther/dm/inf/CarnotKE/jython/grammar/PythonPartial.g:1116:15: ( '\\r' )?
+            // /v/filer4b/v38q001/nginth/dm/Carnot-OWL/jython/grammar/PythonPartial.g:1116:15: ( '\\r' )?
             int alt35=2;
             int LA35_0 = input.LA(1);
 
@@ -3311,7 +3311,7 @@ public class PythonPartialLexer extends Lexer {
             }
             switch (alt35) {
                 case 1 :
-                    // /Users/nginther/dm/inf/CarnotKE/jython/grammar/PythonPartial.g:1116:16: '\\r'
+                    // /v/filer4b/v38q001/nginth/dm/Carnot-OWL/jython/grammar/PythonPartial.g:1116:16: '\\r'
                     {
                     match('\r'); 
 
@@ -3321,7 +3321,7 @@ public class PythonPartialLexer extends Lexer {
             }
 
             match('\n'); 
-            // /Users/nginther/dm/inf/CarnotKE/jython/grammar/PythonPartial.g:1116:28: ( ' ' | '\\t' )*
+            // /v/filer4b/v38q001/nginth/dm/Carnot-OWL/jython/grammar/PythonPartial.g:1116:28: ( ' ' | '\\t' )*
             loop36:
             do {
                 int alt36=2;
@@ -3334,7 +3334,7 @@ public class PythonPartialLexer extends Lexer {
 
                 switch (alt36) {
             	case 1 :
-            	    // /Users/nginther/dm/inf/CarnotKE/jython/grammar/PythonPartial.g:
+            	    // /v/filer4b/v38q001/nginth/dm/Carnot-OWL/jython/grammar/PythonPartial.g:
             	    {
             	    if ( input.LA(1)=='\t'||input.LA(1)==' ' ) {
             	        input.consume();
@@ -3355,7 +3355,7 @@ public class PythonPartialLexer extends Lexer {
             } while (true);
 
              _channel=HIDDEN; 
-            // /Users/nginther/dm/inf/CarnotKE/jython/grammar/PythonPartial.g:1117:10: ( COMMENT | nl= NEWLINE | )
+            // /v/filer4b/v38q001/nginth/dm/Carnot-OWL/jython/grammar/PythonPartial.g:1117:10: ( COMMENT | nl= NEWLINE | )
             int alt37=3;
             int LA37_0 = input.LA(1);
 
@@ -3372,14 +3372,14 @@ public class PythonPartialLexer extends Lexer {
                 alt37=3;}
             switch (alt37) {
                 case 1 :
-                    // /Users/nginther/dm/inf/CarnotKE/jython/grammar/PythonPartial.g:1117:12: COMMENT
+                    // /v/filer4b/v38q001/nginth/dm/Carnot-OWL/jython/grammar/PythonPartial.g:1117:12: COMMENT
                     {
                     mCOMMENT(); 
 
                     }
                     break;
                 case 2 :
-                    // /Users/nginther/dm/inf/CarnotKE/jython/grammar/PythonPartial.g:1118:12: nl= NEWLINE
+                    // /v/filer4b/v38q001/nginth/dm/Carnot-OWL/jython/grammar/PythonPartial.g:1118:12: nl= NEWLINE
                     {
                     int nlStart1929 = getCharIndex();
                     mNEWLINE(); 
@@ -3391,7 +3391,7 @@ public class PythonPartialLexer extends Lexer {
                     }
                     break;
                 case 3 :
-                    // /Users/nginther/dm/inf/CarnotKE/jython/grammar/PythonPartial.g:1123:10: 
+                    // /v/filer4b/v38q001/nginth/dm/Carnot-OWL/jython/grammar/PythonPartial.g:1123:10: 
                     {
                     }
                     break;
@@ -3422,10 +3422,10 @@ public class PythonPartialLexer extends Lexer {
         try {
             int _type = NEWLINE;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // /Users/nginther/dm/inf/CarnotKE/jython/grammar/PythonPartial.g:1140:5: ( ( ( '\\u000C' )? ( '\\r' )? '\\n' )+ )
-            // /Users/nginther/dm/inf/CarnotKE/jython/grammar/PythonPartial.g:1140:9: ( ( '\\u000C' )? ( '\\r' )? '\\n' )+
+            // /v/filer4b/v38q001/nginth/dm/Carnot-OWL/jython/grammar/PythonPartial.g:1140:5: ( ( ( '\\u000C' )? ( '\\r' )? '\\n' )+ )
+            // /v/filer4b/v38q001/nginth/dm/Carnot-OWL/jython/grammar/PythonPartial.g:1140:9: ( ( '\\u000C' )? ( '\\r' )? '\\n' )+
             {
-            // /Users/nginther/dm/inf/CarnotKE/jython/grammar/PythonPartial.g:1140:9: ( ( '\\u000C' )? ( '\\r' )? '\\n' )+
+            // /v/filer4b/v38q001/nginth/dm/Carnot-OWL/jython/grammar/PythonPartial.g:1140:9: ( ( '\\u000C' )? ( '\\r' )? '\\n' )+
             int cnt40=0;
             loop40:
             do {
@@ -3439,9 +3439,9 @@ public class PythonPartialLexer extends Lexer {
 
                 switch (alt40) {
             	case 1 :
-            	    // /Users/nginther/dm/inf/CarnotKE/jython/grammar/PythonPartial.g:1140:10: ( '\\u000C' )? ( '\\r' )? '\\n'
+            	    // /v/filer4b/v38q001/nginth/dm/Carnot-OWL/jython/grammar/PythonPartial.g:1140:10: ( '\\u000C' )? ( '\\r' )? '\\n'
             	    {
-            	    // /Users/nginther/dm/inf/CarnotKE/jython/grammar/PythonPartial.g:1140:10: ( '\\u000C' )?
+            	    // /v/filer4b/v38q001/nginth/dm/Carnot-OWL/jython/grammar/PythonPartial.g:1140:10: ( '\\u000C' )?
             	    int alt38=2;
             	    int LA38_0 = input.LA(1);
 
@@ -3450,7 +3450,7 @@ public class PythonPartialLexer extends Lexer {
             	    }
             	    switch (alt38) {
             	        case 1 :
-            	            // /Users/nginther/dm/inf/CarnotKE/jython/grammar/PythonPartial.g:1140:11: '\\u000C'
+            	            // /v/filer4b/v38q001/nginth/dm/Carnot-OWL/jython/grammar/PythonPartial.g:1140:11: '\\u000C'
             	            {
             	            match('\f'); 
 
@@ -3459,7 +3459,7 @@ public class PythonPartialLexer extends Lexer {
 
             	    }
 
-            	    // /Users/nginther/dm/inf/CarnotKE/jython/grammar/PythonPartial.g:1140:21: ( '\\r' )?
+            	    // /v/filer4b/v38q001/nginth/dm/Carnot-OWL/jython/grammar/PythonPartial.g:1140:21: ( '\\r' )?
             	    int alt39=2;
             	    int LA39_0 = input.LA(1);
 
@@ -3468,7 +3468,7 @@ public class PythonPartialLexer extends Lexer {
             	    }
             	    switch (alt39) {
             	        case 1 :
-            	            // /Users/nginther/dm/inf/CarnotKE/jython/grammar/PythonPartial.g:1140:22: '\\r'
+            	            // /v/filer4b/v38q001/nginth/dm/Carnot-OWL/jython/grammar/PythonPartial.g:1140:22: '\\r'
             	            {
             	            match('\r'); 
 
@@ -3511,13 +3511,13 @@ public class PythonPartialLexer extends Lexer {
         try {
             int _type = WS;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // /Users/nginther/dm/inf/CarnotKE/jython/grammar/PythonPartial.g:1146:5: ({...}? => ( ' ' | '\\t' | '\\u000C' )+ )
-            // /Users/nginther/dm/inf/CarnotKE/jython/grammar/PythonPartial.g:1146:10: {...}? => ( ' ' | '\\t' | '\\u000C' )+
+            // /v/filer4b/v38q001/nginth/dm/Carnot-OWL/jython/grammar/PythonPartial.g:1146:5: ({...}? => ( ' ' | '\\t' | '\\u000C' )+ )
+            // /v/filer4b/v38q001/nginth/dm/Carnot-OWL/jython/grammar/PythonPartial.g:1146:10: {...}? => ( ' ' | '\\t' | '\\u000C' )+
             {
             if ( !((startPos>0)) ) {
                 throw new FailedPredicateException(input, "WS", "startPos>0");
             }
-            // /Users/nginther/dm/inf/CarnotKE/jython/grammar/PythonPartial.g:1146:26: ( ' ' | '\\t' | '\\u000C' )+
+            // /v/filer4b/v38q001/nginth/dm/Carnot-OWL/jython/grammar/PythonPartial.g:1146:26: ( ' ' | '\\t' | '\\u000C' )+
             int cnt41=0;
             loop41:
             do {
@@ -3531,7 +3531,7 @@ public class PythonPartialLexer extends Lexer {
 
                 switch (alt41) {
             	case 1 :
-            	    // /Users/nginther/dm/inf/CarnotKE/jython/grammar/PythonPartial.g:
+            	    // /v/filer4b/v38q001/nginth/dm/Carnot-OWL/jython/grammar/PythonPartial.g:
             	    {
             	    if ( input.LA(1)=='\t'||input.LA(1)=='\f'||input.LA(1)==' ' ) {
             	        input.consume();
@@ -3576,13 +3576,13 @@ public class PythonPartialLexer extends Lexer {
                 int spaces = 0;
                 int newlines = 0;
 
-            // /Users/nginther/dm/inf/CarnotKE/jython/grammar/PythonPartial.g:1160:5: ({...}? => ({...}? ( ' ' | '\\t' )+ | ( ' ' | '\\t' )+ ( ( '\\r' )? '\\n' )* ) )
-            // /Users/nginther/dm/inf/CarnotKE/jython/grammar/PythonPartial.g:1160:9: {...}? => ({...}? ( ' ' | '\\t' )+ | ( ' ' | '\\t' )+ ( ( '\\r' )? '\\n' )* )
+            // /v/filer4b/v38q001/nginth/dm/Carnot-OWL/jython/grammar/PythonPartial.g:1160:5: ({...}? => ({...}? ( ' ' | '\\t' )+ | ( ' ' | '\\t' )+ ( ( '\\r' )? '\\n' )* ) )
+            // /v/filer4b/v38q001/nginth/dm/Carnot-OWL/jython/grammar/PythonPartial.g:1160:9: {...}? => ({...}? ( ' ' | '\\t' )+ | ( ' ' | '\\t' )+ ( ( '\\r' )? '\\n' )* )
             {
             if ( !((startPos==0)) ) {
                 throw new FailedPredicateException(input, "LEADING_WS", "startPos==0");
             }
-            // /Users/nginther/dm/inf/CarnotKE/jython/grammar/PythonPartial.g:1161:9: ({...}? ( ' ' | '\\t' )+ | ( ' ' | '\\t' )+ ( ( '\\r' )? '\\n' )* )
+            // /v/filer4b/v38q001/nginth/dm/Carnot-OWL/jython/grammar/PythonPartial.g:1161:9: ({...}? ( ' ' | '\\t' )+ | ( ' ' | '\\t' )+ ( ( '\\r' )? '\\n' )* )
             int alt46=2;
             int LA46_0 = input.LA(1);
 
@@ -3626,12 +3626,12 @@ public class PythonPartialLexer extends Lexer {
             }
             switch (alt46) {
                 case 1 :
-                    // /Users/nginther/dm/inf/CarnotKE/jython/grammar/PythonPartial.g:1161:13: {...}? ( ' ' | '\\t' )+
+                    // /v/filer4b/v38q001/nginth/dm/Carnot-OWL/jython/grammar/PythonPartial.g:1161:13: {...}? ( ' ' | '\\t' )+
                     {
                     if ( !((implicitLineJoiningLevel>0)) ) {
                         throw new FailedPredicateException(input, "LEADING_WS", "implicitLineJoiningLevel>0");
                     }
-                    // /Users/nginther/dm/inf/CarnotKE/jython/grammar/PythonPartial.g:1161:43: ( ' ' | '\\t' )+
+                    // /v/filer4b/v38q001/nginth/dm/Carnot-OWL/jython/grammar/PythonPartial.g:1161:43: ( ' ' | '\\t' )+
                     int cnt42=0;
                     loop42:
                     do {
@@ -3645,7 +3645,7 @@ public class PythonPartialLexer extends Lexer {
 
                         switch (alt42) {
                     	case 1 :
-                    	    // /Users/nginther/dm/inf/CarnotKE/jython/grammar/PythonPartial.g:
+                    	    // /v/filer4b/v38q001/nginth/dm/Carnot-OWL/jython/grammar/PythonPartial.g:
                     	    {
                     	    if ( input.LA(1)=='\t'||input.LA(1)==' ' ) {
                     	        input.consume();
@@ -3674,9 +3674,9 @@ public class PythonPartialLexer extends Lexer {
                     }
                     break;
                 case 2 :
-                    // /Users/nginther/dm/inf/CarnotKE/jython/grammar/PythonPartial.g:1162:14: ( ' ' | '\\t' )+ ( ( '\\r' )? '\\n' )*
+                    // /v/filer4b/v38q001/nginth/dm/Carnot-OWL/jython/grammar/PythonPartial.g:1162:14: ( ' ' | '\\t' )+ ( ( '\\r' )? '\\n' )*
                     {
-                    // /Users/nginther/dm/inf/CarnotKE/jython/grammar/PythonPartial.g:1162:14: ( ' ' | '\\t' )+
+                    // /v/filer4b/v38q001/nginth/dm/Carnot-OWL/jython/grammar/PythonPartial.g:1162:14: ( ' ' | '\\t' )+
                     int cnt43=0;
                     loop43:
                     do {
@@ -3693,7 +3693,7 @@ public class PythonPartialLexer extends Lexer {
 
                         switch (alt43) {
                     	case 1 :
-                    	    // /Users/nginther/dm/inf/CarnotKE/jython/grammar/PythonPartial.g:1162:20: ' '
+                    	    // /v/filer4b/v38q001/nginth/dm/Carnot-OWL/jython/grammar/PythonPartial.g:1162:20: ' '
                     	    {
                     	    match(' '); 
                     	     spaces++; 
@@ -3701,7 +3701,7 @@ public class PythonPartialLexer extends Lexer {
                     	    }
                     	    break;
                     	case 2 :
-                    	    // /Users/nginther/dm/inf/CarnotKE/jython/grammar/PythonPartial.g:1163:19: '\\t'
+                    	    // /v/filer4b/v38q001/nginth/dm/Carnot-OWL/jython/grammar/PythonPartial.g:1163:19: '\\t'
                     	    {
                     	    match('\t'); 
                     	     spaces += 8; spaces -= (spaces % 8); 
@@ -3718,7 +3718,7 @@ public class PythonPartialLexer extends Lexer {
                         cnt43++;
                     } while (true);
 
-                    // /Users/nginther/dm/inf/CarnotKE/jython/grammar/PythonPartial.g:1165:14: ( ( '\\r' )? '\\n' )*
+                    // /v/filer4b/v38q001/nginth/dm/Carnot-OWL/jython/grammar/PythonPartial.g:1165:14: ( ( '\\r' )? '\\n' )*
                     loop45:
                     do {
                         int alt45=2;
@@ -3731,9 +3731,9 @@ public class PythonPartialLexer extends Lexer {
 
                         switch (alt45) {
                     	case 1 :
-                    	    // /Users/nginther/dm/inf/CarnotKE/jython/grammar/PythonPartial.g:1165:16: ( '\\r' )? '\\n'
+                    	    // /v/filer4b/v38q001/nginth/dm/Carnot-OWL/jython/grammar/PythonPartial.g:1165:16: ( '\\r' )? '\\n'
                     	    {
-                    	    // /Users/nginther/dm/inf/CarnotKE/jython/grammar/PythonPartial.g:1165:16: ( '\\r' )?
+                    	    // /v/filer4b/v38q001/nginth/dm/Carnot-OWL/jython/grammar/PythonPartial.g:1165:16: ( '\\r' )?
                     	    int alt44=2;
                     	    int LA44_0 = input.LA(1);
 
@@ -3742,7 +3742,7 @@ public class PythonPartialLexer extends Lexer {
                     	    }
                     	    switch (alt44) {
                     	        case 1 :
-                    	            // /Users/nginther/dm/inf/CarnotKE/jython/grammar/PythonPartial.g:1165:17: '\\r'
+                    	            // /v/filer4b/v38q001/nginth/dm/Carnot-OWL/jython/grammar/PythonPartial.g:1165:17: '\\r'
                     	            {
                     	            match('\r'); 
 
@@ -3822,17 +3822,17 @@ public class PythonPartialLexer extends Lexer {
 
                 _channel=HIDDEN;
 
-            // /Users/nginther/dm/inf/CarnotKE/jython/grammar/PythonPartial.g:1225:5: ({...}? => ( ' ' | '\\t' )* '#' (~ '\\n' )* ( '\\n' )+ | '#' (~ '\\n' )* )
+            // /v/filer4b/v38q001/nginth/dm/Carnot-OWL/jython/grammar/PythonPartial.g:1225:5: ({...}? => ( ' ' | '\\t' )* '#' (~ '\\n' )* ( '\\n' )+ | '#' (~ '\\n' )* )
             int alt51=2;
             alt51 = dfa51.predict(input);
             switch (alt51) {
                 case 1 :
-                    // /Users/nginther/dm/inf/CarnotKE/jython/grammar/PythonPartial.g:1225:10: {...}? => ( ' ' | '\\t' )* '#' (~ '\\n' )* ( '\\n' )+
+                    // /v/filer4b/v38q001/nginth/dm/Carnot-OWL/jython/grammar/PythonPartial.g:1225:10: {...}? => ( ' ' | '\\t' )* '#' (~ '\\n' )* ( '\\n' )+
                     {
                     if ( !((startPos==0)) ) {
                         throw new FailedPredicateException(input, "COMMENT", "startPos==0");
                     }
-                    // /Users/nginther/dm/inf/CarnotKE/jython/grammar/PythonPartial.g:1225:27: ( ' ' | '\\t' )*
+                    // /v/filer4b/v38q001/nginth/dm/Carnot-OWL/jython/grammar/PythonPartial.g:1225:27: ( ' ' | '\\t' )*
                     loop47:
                     do {
                         int alt47=2;
@@ -3845,7 +3845,7 @@ public class PythonPartialLexer extends Lexer {
 
                         switch (alt47) {
                     	case 1 :
-                    	    // /Users/nginther/dm/inf/CarnotKE/jython/grammar/PythonPartial.g:
+                    	    // /v/filer4b/v38q001/nginth/dm/Carnot-OWL/jython/grammar/PythonPartial.g:
                     	    {
                     	    if ( input.LA(1)=='\t'||input.LA(1)==' ' ) {
                     	        input.consume();
@@ -3866,7 +3866,7 @@ public class PythonPartialLexer extends Lexer {
                     } while (true);
 
                     match('#'); 
-                    // /Users/nginther/dm/inf/CarnotKE/jython/grammar/PythonPartial.g:1225:43: (~ '\\n' )*
+                    // /v/filer4b/v38q001/nginth/dm/Carnot-OWL/jython/grammar/PythonPartial.g:1225:43: (~ '\\n' )*
                     loop48:
                     do {
                         int alt48=2;
@@ -3879,7 +3879,7 @@ public class PythonPartialLexer extends Lexer {
 
                         switch (alt48) {
                     	case 1 :
-                    	    // /Users/nginther/dm/inf/CarnotKE/jython/grammar/PythonPartial.g:1225:44: ~ '\\n'
+                    	    // /v/filer4b/v38q001/nginth/dm/Carnot-OWL/jython/grammar/PythonPartial.g:1225:44: ~ '\\n'
                     	    {
                     	    if ( (input.LA(1)>='\u0000' && input.LA(1)<='\t')||(input.LA(1)>='\u000B' && input.LA(1)<='\uFFFF') ) {
                     	        input.consume();
@@ -3899,7 +3899,7 @@ public class PythonPartialLexer extends Lexer {
                         }
                     } while (true);
 
-                    // /Users/nginther/dm/inf/CarnotKE/jython/grammar/PythonPartial.g:1225:52: ( '\\n' )+
+                    // /v/filer4b/v38q001/nginth/dm/Carnot-OWL/jython/grammar/PythonPartial.g:1225:52: ( '\\n' )+
                     int cnt49=0;
                     loop49:
                     do {
@@ -3913,7 +3913,7 @@ public class PythonPartialLexer extends Lexer {
 
                         switch (alt49) {
                     	case 1 :
-                    	    // /Users/nginther/dm/inf/CarnotKE/jython/grammar/PythonPartial.g:1225:52: '\\n'
+                    	    // /v/filer4b/v38q001/nginth/dm/Carnot-OWL/jython/grammar/PythonPartial.g:1225:52: '\\n'
                     	    {
                     	    match('\n'); 
 
@@ -3933,10 +3933,10 @@ public class PythonPartialLexer extends Lexer {
                     }
                     break;
                 case 2 :
-                    // /Users/nginther/dm/inf/CarnotKE/jython/grammar/PythonPartial.g:1226:10: '#' (~ '\\n' )*
+                    // /v/filer4b/v38q001/nginth/dm/Carnot-OWL/jython/grammar/PythonPartial.g:1226:10: '#' (~ '\\n' )*
                     {
                     match('#'); 
-                    // /Users/nginther/dm/inf/CarnotKE/jython/grammar/PythonPartial.g:1226:14: (~ '\\n' )*
+                    // /v/filer4b/v38q001/nginth/dm/Carnot-OWL/jython/grammar/PythonPartial.g:1226:14: (~ '\\n' )*
                     loop50:
                     do {
                         int alt50=2;
@@ -3949,7 +3949,7 @@ public class PythonPartialLexer extends Lexer {
 
                         switch (alt50) {
                     	case 1 :
-                    	    // /Users/nginther/dm/inf/CarnotKE/jython/grammar/PythonPartial.g:1226:15: ~ '\\n'
+                    	    // /v/filer4b/v38q001/nginth/dm/Carnot-OWL/jython/grammar/PythonPartial.g:1226:15: ~ '\\n'
                     	    {
                     	    if ( (input.LA(1)>='\u0000' && input.LA(1)<='\t')||(input.LA(1)>='\u000B' && input.LA(1)<='\uFFFF') ) {
                     	        input.consume();
@@ -3983,628 +3983,628 @@ public class PythonPartialLexer extends Lexer {
     // $ANTLR end "COMMENT"
 
     public void mTokens() throws RecognitionException {
-        // /Users/nginther/dm/inf/CarnotKE/jython/grammar/PythonPartial.g:1:8: ( AS | ASSERT | BREAK | CLASS | CONTINUE | DEF | DELETE | ELIF | EXCEPT | EXEC | FINALLY | FROM | FOR | GLOBAL | IF | IMPORT | IN | IS | LAMBDA | ORELSE | PASS | PRINT | RAISE | RETURN | TRY | WHILE | WITH | YIELD | LPAREN | RPAREN | LBRACK | RBRACK | COLON | COMMA | SEMI | PLUS | MINUS | STAR | SLASH | VBAR | AMPER | LESS | GREATER | ASSIGN | PERCENT | BACKQUOTE | LCURLY | RCURLY | CIRCUMFLEX | TILDE | EQUAL | NOTEQUAL | ALT_NOTEQUAL | LESSEQUAL | LEFTSHIFT | GREATEREQUAL | RIGHTSHIFT | PLUSEQUAL | MINUSEQUAL | DOUBLESTAR | STAREQUAL | DOUBLESLASH | SLASHEQUAL | VBAREQUAL | PERCENTEQUAL | AMPEREQUAL | CIRCUMFLEXEQUAL | LEFTSHIFTEQUAL | RIGHTSHIFTEQUAL | DOUBLESTAREQUAL | DOUBLESLASHEQUAL | DOT | AT | AND | OR | NOT | FLOAT | LONGINT | INT | COMPLEX | NAME | STRING | TRISTRINGPART | STRINGPART | CONTINUED_LINE | NEWLINE | WS | LEADING_WS | COMMENT )
+        // /v/filer4b/v38q001/nginth/dm/Carnot-OWL/jython/grammar/PythonPartial.g:1:8: ( AS | ASSERT | BREAK | CLASS | CONTINUE | DEF | DELETE | ELIF | EXCEPT | EXEC | FINALLY | FROM | FOR | GLOBAL | IF | IMPORT | IN | IS | LAMBDA | ORELSE | PASS | PRINT | RAISE | RETURN | TRY | WHILE | WITH | YIELD | LPAREN | RPAREN | LBRACK | RBRACK | COLON | COMMA | SEMI | PLUS | MINUS | STAR | SLASH | VBAR | AMPER | LESS | GREATER | ASSIGN | PERCENT | BACKQUOTE | LCURLY | RCURLY | CIRCUMFLEX | TILDE | EQUAL | NOTEQUAL | ALT_NOTEQUAL | LESSEQUAL | LEFTSHIFT | GREATEREQUAL | RIGHTSHIFT | PLUSEQUAL | MINUSEQUAL | DOUBLESTAR | STAREQUAL | DOUBLESLASH | SLASHEQUAL | VBAREQUAL | PERCENTEQUAL | AMPEREQUAL | CIRCUMFLEXEQUAL | LEFTSHIFTEQUAL | RIGHTSHIFTEQUAL | DOUBLESTAREQUAL | DOUBLESLASHEQUAL | DOT | AT | AND | OR | NOT | FLOAT | LONGINT | INT | COMPLEX | NAME | STRING | TRISTRINGPART | STRINGPART | CONTINUED_LINE | NEWLINE | WS | LEADING_WS | COMMENT )
         int alt52=89;
         alt52 = dfa52.predict(input);
         switch (alt52) {
             case 1 :
-                // /Users/nginther/dm/inf/CarnotKE/jython/grammar/PythonPartial.g:1:10: AS
+                // /v/filer4b/v38q001/nginth/dm/Carnot-OWL/jython/grammar/PythonPartial.g:1:10: AS
                 {
                 mAS(); 
 
                 }
                 break;
             case 2 :
-                // /Users/nginther/dm/inf/CarnotKE/jython/grammar/PythonPartial.g:1:13: ASSERT
+                // /v/filer4b/v38q001/nginth/dm/Carnot-OWL/jython/grammar/PythonPartial.g:1:13: ASSERT
                 {
                 mASSERT(); 
 
                 }
                 break;
             case 3 :
-                // /Users/nginther/dm/inf/CarnotKE/jython/grammar/PythonPartial.g:1:20: BREAK
+                // /v/filer4b/v38q001/nginth/dm/Carnot-OWL/jython/grammar/PythonPartial.g:1:20: BREAK
                 {
                 mBREAK(); 
 
                 }
                 break;
             case 4 :
-                // /Users/nginther/dm/inf/CarnotKE/jython/grammar/PythonPartial.g:1:26: CLASS
+                // /v/filer4b/v38q001/nginth/dm/Carnot-OWL/jython/grammar/PythonPartial.g:1:26: CLASS
                 {
                 mCLASS(); 
 
                 }
                 break;
             case 5 :
-                // /Users/nginther/dm/inf/CarnotKE/jython/grammar/PythonPartial.g:1:32: CONTINUE
+                // /v/filer4b/v38q001/nginth/dm/Carnot-OWL/jython/grammar/PythonPartial.g:1:32: CONTINUE
                 {
                 mCONTINUE(); 
 
                 }
                 break;
             case 6 :
-                // /Users/nginther/dm/inf/CarnotKE/jython/grammar/PythonPartial.g:1:41: DEF
+                // /v/filer4b/v38q001/nginth/dm/Carnot-OWL/jython/grammar/PythonPartial.g:1:41: DEF
                 {
                 mDEF(); 
 
                 }
                 break;
             case 7 :
-                // /Users/nginther/dm/inf/CarnotKE/jython/grammar/PythonPartial.g:1:45: DELETE
+                // /v/filer4b/v38q001/nginth/dm/Carnot-OWL/jython/grammar/PythonPartial.g:1:45: DELETE
                 {
                 mDELETE(); 
 
                 }
                 break;
             case 8 :
-                // /Users/nginther/dm/inf/CarnotKE/jython/grammar/PythonPartial.g:1:52: ELIF
+                // /v/filer4b/v38q001/nginth/dm/Carnot-OWL/jython/grammar/PythonPartial.g:1:52: ELIF
                 {
                 mELIF(); 
 
                 }
                 break;
             case 9 :
-                // /Users/nginther/dm/inf/CarnotKE/jython/grammar/PythonPartial.g:1:57: EXCEPT
+                // /v/filer4b/v38q001/nginth/dm/Carnot-OWL/jython/grammar/PythonPartial.g:1:57: EXCEPT
                 {
                 mEXCEPT(); 
 
                 }
                 break;
             case 10 :
-                // /Users/nginther/dm/inf/CarnotKE/jython/grammar/PythonPartial.g:1:64: EXEC
+                // /v/filer4b/v38q001/nginth/dm/Carnot-OWL/jython/grammar/PythonPartial.g:1:64: EXEC
                 {
                 mEXEC(); 
 
                 }
                 break;
             case 11 :
-                // /Users/nginther/dm/inf/CarnotKE/jython/grammar/PythonPartial.g:1:69: FINALLY
+                // /v/filer4b/v38q001/nginth/dm/Carnot-OWL/jython/grammar/PythonPartial.g:1:69: FINALLY
                 {
                 mFINALLY(); 
 
                 }
                 break;
             case 12 :
-                // /Users/nginther/dm/inf/CarnotKE/jython/grammar/PythonPartial.g:1:77: FROM
+                // /v/filer4b/v38q001/nginth/dm/Carnot-OWL/jython/grammar/PythonPartial.g:1:77: FROM
                 {
                 mFROM(); 
 
                 }
                 break;
             case 13 :
-                // /Users/nginther/dm/inf/CarnotKE/jython/grammar/PythonPartial.g:1:82: FOR
+                // /v/filer4b/v38q001/nginth/dm/Carnot-OWL/jython/grammar/PythonPartial.g:1:82: FOR
                 {
                 mFOR(); 
 
                 }
                 break;
             case 14 :
-                // /Users/nginther/dm/inf/CarnotKE/jython/grammar/PythonPartial.g:1:86: GLOBAL
+                // /v/filer4b/v38q001/nginth/dm/Carnot-OWL/jython/grammar/PythonPartial.g:1:86: GLOBAL
                 {
                 mGLOBAL(); 
 
                 }
                 break;
             case 15 :
-                // /Users/nginther/dm/inf/CarnotKE/jython/grammar/PythonPartial.g:1:93: IF
+                // /v/filer4b/v38q001/nginth/dm/Carnot-OWL/jython/grammar/PythonPartial.g:1:93: IF
                 {
                 mIF(); 
 
                 }
                 break;
             case 16 :
-                // /Users/nginther/dm/inf/CarnotKE/jython/grammar/PythonPartial.g:1:96: IMPORT
+                // /v/filer4b/v38q001/nginth/dm/Carnot-OWL/jython/grammar/PythonPartial.g:1:96: IMPORT
                 {
                 mIMPORT(); 
 
                 }
                 break;
             case 17 :
-                // /Users/nginther/dm/inf/CarnotKE/jython/grammar/PythonPartial.g:1:103: IN
+                // /v/filer4b/v38q001/nginth/dm/Carnot-OWL/jython/grammar/PythonPartial.g:1:103: IN
                 {
                 mIN(); 
 
                 }
                 break;
             case 18 :
-                // /Users/nginther/dm/inf/CarnotKE/jython/grammar/PythonPartial.g:1:106: IS
+                // /v/filer4b/v38q001/nginth/dm/Carnot-OWL/jython/grammar/PythonPartial.g:1:106: IS
                 {
                 mIS(); 
 
                 }
                 break;
             case 19 :
-                // /Users/nginther/dm/inf/CarnotKE/jython/grammar/PythonPartial.g:1:109: LAMBDA
+                // /v/filer4b/v38q001/nginth/dm/Carnot-OWL/jython/grammar/PythonPartial.g:1:109: LAMBDA
                 {
                 mLAMBDA(); 
 
                 }
                 break;
             case 20 :
-                // /Users/nginther/dm/inf/CarnotKE/jython/grammar/PythonPartial.g:1:116: ORELSE
+                // /v/filer4b/v38q001/nginth/dm/Carnot-OWL/jython/grammar/PythonPartial.g:1:116: ORELSE
                 {
                 mORELSE(); 
 
                 }
                 break;
             case 21 :
-                // /Users/nginther/dm/inf/CarnotKE/jython/grammar/PythonPartial.g:1:123: PASS
+                // /v/filer4b/v38q001/nginth/dm/Carnot-OWL/jython/grammar/PythonPartial.g:1:123: PASS
                 {
                 mPASS(); 
 
                 }
                 break;
             case 22 :
-                // /Users/nginther/dm/inf/CarnotKE/jython/grammar/PythonPartial.g:1:128: PRINT
+                // /v/filer4b/v38q001/nginth/dm/Carnot-OWL/jython/grammar/PythonPartial.g:1:128: PRINT
                 {
                 mPRINT(); 
 
                 }
                 break;
             case 23 :
-                // /Users/nginther/dm/inf/CarnotKE/jython/grammar/PythonPartial.g:1:134: RAISE
+                // /v/filer4b/v38q001/nginth/dm/Carnot-OWL/jython/grammar/PythonPartial.g:1:134: RAISE
                 {
                 mRAISE(); 
 
                 }
                 break;
             case 24 :
-                // /Users/nginther/dm/inf/CarnotKE/jython/grammar/PythonPartial.g:1:140: RETURN
+                // /v/filer4b/v38q001/nginth/dm/Carnot-OWL/jython/grammar/PythonPartial.g:1:140: RETURN
                 {
                 mRETURN(); 
 
                 }
                 break;
             case 25 :
-                // /Users/nginther/dm/inf/CarnotKE/jython/grammar/PythonPartial.g:1:147: TRY
+                // /v/filer4b/v38q001/nginth/dm/Carnot-OWL/jython/grammar/PythonPartial.g:1:147: TRY
                 {
                 mTRY(); 
 
                 }
                 break;
             case 26 :
-                // /Users/nginther/dm/inf/CarnotKE/jython/grammar/PythonPartial.g:1:151: WHILE
+                // /v/filer4b/v38q001/nginth/dm/Carnot-OWL/jython/grammar/PythonPartial.g:1:151: WHILE
                 {
                 mWHILE(); 
 
                 }
                 break;
             case 27 :
-                // /Users/nginther/dm/inf/CarnotKE/jython/grammar/PythonPartial.g:1:157: WITH
+                // /v/filer4b/v38q001/nginth/dm/Carnot-OWL/jython/grammar/PythonPartial.g:1:157: WITH
                 {
                 mWITH(); 
 
                 }
                 break;
             case 28 :
-                // /Users/nginther/dm/inf/CarnotKE/jython/grammar/PythonPartial.g:1:162: YIELD
+                // /v/filer4b/v38q001/nginth/dm/Carnot-OWL/jython/grammar/PythonPartial.g:1:162: YIELD
                 {
                 mYIELD(); 
 
                 }
                 break;
             case 29 :
-                // /Users/nginther/dm/inf/CarnotKE/jython/grammar/PythonPartial.g:1:168: LPAREN
+                // /v/filer4b/v38q001/nginth/dm/Carnot-OWL/jython/grammar/PythonPartial.g:1:168: LPAREN
                 {
                 mLPAREN(); 
 
                 }
                 break;
             case 30 :
-                // /Users/nginther/dm/inf/CarnotKE/jython/grammar/PythonPartial.g:1:175: RPAREN
+                // /v/filer4b/v38q001/nginth/dm/Carnot-OWL/jython/grammar/PythonPartial.g:1:175: RPAREN
                 {
                 mRPAREN(); 
 
                 }
                 break;
             case 31 :
-                // /Users/nginther/dm/inf/CarnotKE/jython/grammar/PythonPartial.g:1:182: LBRACK
+                // /v/filer4b/v38q001/nginth/dm/Carnot-OWL/jython/grammar/PythonPartial.g:1:182: LBRACK
                 {
                 mLBRACK(); 
 
                 }
                 break;
             case 32 :
-                // /Users/nginther/dm/inf/CarnotKE/jython/grammar/PythonPartial.g:1:189: RBRACK
+                // /v/filer4b/v38q001/nginth/dm/Carnot-OWL/jython/grammar/PythonPartial.g:1:189: RBRACK
                 {
                 mRBRACK(); 
 
                 }
                 break;
             case 33 :
-                // /Users/nginther/dm/inf/CarnotKE/jython/grammar/PythonPartial.g:1:196: COLON
+                // /v/filer4b/v38q001/nginth/dm/Carnot-OWL/jython/grammar/PythonPartial.g:1:196: COLON
                 {
                 mCOLON(); 
 
                 }
                 break;
             case 34 :
-                // /Users/nginther/dm/inf/CarnotKE/jython/grammar/PythonPartial.g:1:202: COMMA
+                // /v/filer4b/v38q001/nginth/dm/Carnot-OWL/jython/grammar/PythonPartial.g:1:202: COMMA
                 {
                 mCOMMA(); 
 
                 }
                 break;
             case 35 :
-                // /Users/nginther/dm/inf/CarnotKE/jython/grammar/PythonPartial.g:1:208: SEMI
+                // /v/filer4b/v38q001/nginth/dm/Carnot-OWL/jython/grammar/PythonPartial.g:1:208: SEMI
                 {
                 mSEMI(); 
 
                 }
                 break;
             case 36 :
-                // /Users/nginther/dm/inf/CarnotKE/jython/grammar/PythonPartial.g:1:213: PLUS
+                // /v/filer4b/v38q001/nginth/dm/Carnot-OWL/jython/grammar/PythonPartial.g:1:213: PLUS
                 {
                 mPLUS(); 
 
                 }
                 break;
             case 37 :
-                // /Users/nginther/dm/inf/CarnotKE/jython/grammar/PythonPartial.g:1:218: MINUS
+                // /v/filer4b/v38q001/nginth/dm/Carnot-OWL/jython/grammar/PythonPartial.g:1:218: MINUS
                 {
                 mMINUS(); 
 
                 }
                 break;
             case 38 :
-                // /Users/nginther/dm/inf/CarnotKE/jython/grammar/PythonPartial.g:1:224: STAR
+                // /v/filer4b/v38q001/nginth/dm/Carnot-OWL/jython/grammar/PythonPartial.g:1:224: STAR
                 {
                 mSTAR(); 
 
                 }
                 break;
             case 39 :
-                // /Users/nginther/dm/inf/CarnotKE/jython/grammar/PythonPartial.g:1:229: SLASH
+                // /v/filer4b/v38q001/nginth/dm/Carnot-OWL/jython/grammar/PythonPartial.g:1:229: SLASH
                 {
                 mSLASH(); 
 
                 }
                 break;
             case 40 :
-                // /Users/nginther/dm/inf/CarnotKE/jython/grammar/PythonPartial.g:1:235: VBAR
+                // /v/filer4b/v38q001/nginth/dm/Carnot-OWL/jython/grammar/PythonPartial.g:1:235: VBAR
                 {
                 mVBAR(); 
 
                 }
                 break;
             case 41 :
-                // /Users/nginther/dm/inf/CarnotKE/jython/grammar/PythonPartial.g:1:240: AMPER
+                // /v/filer4b/v38q001/nginth/dm/Carnot-OWL/jython/grammar/PythonPartial.g:1:240: AMPER
                 {
                 mAMPER(); 
 
                 }
                 break;
             case 42 :
-                // /Users/nginther/dm/inf/CarnotKE/jython/grammar/PythonPartial.g:1:246: LESS
+                // /v/filer4b/v38q001/nginth/dm/Carnot-OWL/jython/grammar/PythonPartial.g:1:246: LESS
                 {
                 mLESS(); 
 
                 }
                 break;
             case 43 :
-                // /Users/nginther/dm/inf/CarnotKE/jython/grammar/PythonPartial.g:1:251: GREATER
+                // /v/filer4b/v38q001/nginth/dm/Carnot-OWL/jython/grammar/PythonPartial.g:1:251: GREATER
                 {
                 mGREATER(); 
 
                 }
                 break;
             case 44 :
-                // /Users/nginther/dm/inf/CarnotKE/jython/grammar/PythonPartial.g:1:259: ASSIGN
+                // /v/filer4b/v38q001/nginth/dm/Carnot-OWL/jython/grammar/PythonPartial.g:1:259: ASSIGN
                 {
                 mASSIGN(); 
 
                 }
                 break;
             case 45 :
-                // /Users/nginther/dm/inf/CarnotKE/jython/grammar/PythonPartial.g:1:266: PERCENT
+                // /v/filer4b/v38q001/nginth/dm/Carnot-OWL/jython/grammar/PythonPartial.g:1:266: PERCENT
                 {
                 mPERCENT(); 
 
                 }
                 break;
             case 46 :
-                // /Users/nginther/dm/inf/CarnotKE/jython/grammar/PythonPartial.g:1:274: BACKQUOTE
+                // /v/filer4b/v38q001/nginth/dm/Carnot-OWL/jython/grammar/PythonPartial.g:1:274: BACKQUOTE
                 {
                 mBACKQUOTE(); 
 
                 }
                 break;
             case 47 :
-                // /Users/nginther/dm/inf/CarnotKE/jython/grammar/PythonPartial.g:1:284: LCURLY
+                // /v/filer4b/v38q001/nginth/dm/Carnot-OWL/jython/grammar/PythonPartial.g:1:284: LCURLY
                 {
                 mLCURLY(); 
 
                 }
                 break;
             case 48 :
-                // /Users/nginther/dm/inf/CarnotKE/jython/grammar/PythonPartial.g:1:291: RCURLY
+                // /v/filer4b/v38q001/nginth/dm/Carnot-OWL/jython/grammar/PythonPartial.g:1:291: RCURLY
                 {
                 mRCURLY(); 
 
                 }
                 break;
             case 49 :
-                // /Users/nginther/dm/inf/CarnotKE/jython/grammar/PythonPartial.g:1:298: CIRCUMFLEX
+                // /v/filer4b/v38q001/nginth/dm/Carnot-OWL/jython/grammar/PythonPartial.g:1:298: CIRCUMFLEX
                 {
                 mCIRCUMFLEX(); 
 
                 }
                 break;
             case 50 :
-                // /Users/nginther/dm/inf/CarnotKE/jython/grammar/PythonPartial.g:1:309: TILDE
+                // /v/filer4b/v38q001/nginth/dm/Carnot-OWL/jython/grammar/PythonPartial.g:1:309: TILDE
                 {
                 mTILDE(); 
 
                 }
                 break;
             case 51 :
-                // /Users/nginther/dm/inf/CarnotKE/jython/grammar/PythonPartial.g:1:315: EQUAL
+                // /v/filer4b/v38q001/nginth/dm/Carnot-OWL/jython/grammar/PythonPartial.g:1:315: EQUAL
                 {
                 mEQUAL(); 
 
                 }
                 break;
             case 52 :
-                // /Users/nginther/dm/inf/CarnotKE/jython/grammar/PythonPartial.g:1:321: NOTEQUAL
+                // /v/filer4b/v38q001/nginth/dm/Carnot-OWL/jython/grammar/PythonPartial.g:1:321: NOTEQUAL
                 {
                 mNOTEQUAL(); 
 
                 }
                 break;
             case 53 :
-                // /Users/nginther/dm/inf/CarnotKE/jython/grammar/PythonPartial.g:1:330: ALT_NOTEQUAL
+                // /v/filer4b/v38q001/nginth/dm/Carnot-OWL/jython/grammar/PythonPartial.g:1:330: ALT_NOTEQUAL
                 {
                 mALT_NOTEQUAL(); 
 
                 }
                 break;
             case 54 :
-                // /Users/nginther/dm/inf/CarnotKE/jython/grammar/PythonPartial.g:1:343: LESSEQUAL
+                // /v/filer4b/v38q001/nginth/dm/Carnot-OWL/jython/grammar/PythonPartial.g:1:343: LESSEQUAL
                 {
                 mLESSEQUAL(); 
 
                 }
                 break;
             case 55 :
-                // /Users/nginther/dm/inf/CarnotKE/jython/grammar/PythonPartial.g:1:353: LEFTSHIFT
+                // /v/filer4b/v38q001/nginth/dm/Carnot-OWL/jython/grammar/PythonPartial.g:1:353: LEFTSHIFT
                 {
                 mLEFTSHIFT(); 
 
                 }
                 break;
             case 56 :
-                // /Users/nginther/dm/inf/CarnotKE/jython/grammar/PythonPartial.g:1:363: GREATEREQUAL
+                // /v/filer4b/v38q001/nginth/dm/Carnot-OWL/jython/grammar/PythonPartial.g:1:363: GREATEREQUAL
                 {
                 mGREATEREQUAL(); 
 
                 }
                 break;
             case 57 :
-                // /Users/nginther/dm/inf/CarnotKE/jython/grammar/PythonPartial.g:1:376: RIGHTSHIFT
+                // /v/filer4b/v38q001/nginth/dm/Carnot-OWL/jython/grammar/PythonPartial.g:1:376: RIGHTSHIFT
                 {
                 mRIGHTSHIFT(); 
 
                 }
                 break;
             case 58 :
-                // /Users/nginther/dm/inf/CarnotKE/jython/grammar/PythonPartial.g:1:387: PLUSEQUAL
+                // /v/filer4b/v38q001/nginth/dm/Carnot-OWL/jython/grammar/PythonPartial.g:1:387: PLUSEQUAL
                 {
                 mPLUSEQUAL(); 
 
                 }
                 break;
             case 59 :
-                // /Users/nginther/dm/inf/CarnotKE/jython/grammar/PythonPartial.g:1:397: MINUSEQUAL
+                // /v/filer4b/v38q001/nginth/dm/Carnot-OWL/jython/grammar/PythonPartial.g:1:397: MINUSEQUAL
                 {
                 mMINUSEQUAL(); 
 
                 }
                 break;
             case 60 :
-                // /Users/nginther/dm/inf/CarnotKE/jython/grammar/PythonPartial.g:1:408: DOUBLESTAR
+                // /v/filer4b/v38q001/nginth/dm/Carnot-OWL/jython/grammar/PythonPartial.g:1:408: DOUBLESTAR
                 {
                 mDOUBLESTAR(); 
 
                 }
                 break;
             case 61 :
-                // /Users/nginther/dm/inf/CarnotKE/jython/grammar/PythonPartial.g:1:419: STAREQUAL
+                // /v/filer4b/v38q001/nginth/dm/Carnot-OWL/jython/grammar/PythonPartial.g:1:419: STAREQUAL
                 {
                 mSTAREQUAL(); 
 
                 }
                 break;
             case 62 :
-                // /Users/nginther/dm/inf/CarnotKE/jython/grammar/PythonPartial.g:1:429: DOUBLESLASH
+                // /v/filer4b/v38q001/nginth/dm/Carnot-OWL/jython/grammar/PythonPartial.g:1:429: DOUBLESLASH
                 {
                 mDOUBLESLASH(); 
 
                 }
                 break;
             case 63 :
-                // /Users/nginther/dm/inf/CarnotKE/jython/grammar/PythonPartial.g:1:441: SLASHEQUAL
+                // /v/filer4b/v38q001/nginth/dm/Carnot-OWL/jython/grammar/PythonPartial.g:1:441: SLASHEQUAL
                 {
                 mSLASHEQUAL(); 
 
                 }
                 break;
             case 64 :
-                // /Users/nginther/dm/inf/CarnotKE/jython/grammar/PythonPartial.g:1:452: VBAREQUAL
+                // /v/filer4b/v38q001/nginth/dm/Carnot-OWL/jython/grammar/PythonPartial.g:1:452: VBAREQUAL
                 {
                 mVBAREQUAL(); 
 
                 }
                 break;
             case 65 :
-                // /Users/nginther/dm/inf/CarnotKE/jython/grammar/PythonPartial.g:1:462: PERCENTEQUAL
+                // /v/filer4b/v38q001/nginth/dm/Carnot-OWL/jython/grammar/PythonPartial.g:1:462: PERCENTEQUAL
                 {
                 mPERCENTEQUAL(); 
 
                 }
                 break;
             case 66 :
-                // /Users/nginther/dm/inf/CarnotKE/jython/grammar/PythonPartial.g:1:475: AMPEREQUAL
+                // /v/filer4b/v38q001/nginth/dm/Carnot-OWL/jython/grammar/PythonPartial.g:1:475: AMPEREQUAL
                 {
                 mAMPEREQUAL(); 
 
                 }
                 break;
             case 67 :
-                // /Users/nginther/dm/inf/CarnotKE/jython/grammar/PythonPartial.g:1:486: CIRCUMFLEXEQUAL
+                // /v/filer4b/v38q001/nginth/dm/Carnot-OWL/jython/grammar/PythonPartial.g:1:486: CIRCUMFLEXEQUAL
                 {
                 mCIRCUMFLEXEQUAL(); 
 
                 }
                 break;
             case 68 :
-                // /Users/nginther/dm/inf/CarnotKE/jython/grammar/PythonPartial.g:1:502: LEFTSHIFTEQUAL
+                // /v/filer4b/v38q001/nginth/dm/Carnot-OWL/jython/grammar/PythonPartial.g:1:502: LEFTSHIFTEQUAL
                 {
                 mLEFTSHIFTEQUAL(); 
 
                 }
                 break;
             case 69 :
-                // /Users/nginther/dm/inf/CarnotKE/jython/grammar/PythonPartial.g:1:517: RIGHTSHIFTEQUAL
+                // /v/filer4b/v38q001/nginth/dm/Carnot-OWL/jython/grammar/PythonPartial.g:1:517: RIGHTSHIFTEQUAL
                 {
                 mRIGHTSHIFTEQUAL(); 
 
                 }
                 break;
             case 70 :
-                // /Users/nginther/dm/inf/CarnotKE/jython/grammar/PythonPartial.g:1:533: DOUBLESTAREQUAL
+                // /v/filer4b/v38q001/nginth/dm/Carnot-OWL/jython/grammar/PythonPartial.g:1:533: DOUBLESTAREQUAL
                 {
                 mDOUBLESTAREQUAL(); 
 
                 }
                 break;
             case 71 :
-                // /Users/nginther/dm/inf/CarnotKE/jython/grammar/PythonPartial.g:1:549: DOUBLESLASHEQUAL
+                // /v/filer4b/v38q001/nginth/dm/Carnot-OWL/jython/grammar/PythonPartial.g:1:549: DOUBLESLASHEQUAL
                 {
                 mDOUBLESLASHEQUAL(); 
 
                 }
                 break;
             case 72 :
-                // /Users/nginther/dm/inf/CarnotKE/jython/grammar/PythonPartial.g:1:566: DOT
+                // /v/filer4b/v38q001/nginth/dm/Carnot-OWL/jython/grammar/PythonPartial.g:1:566: DOT
                 {
                 mDOT(); 
 
                 }
                 break;
             case 73 :
-                // /Users/nginther/dm/inf/CarnotKE/jython/grammar/PythonPartial.g:1:570: AT
+                // /v/filer4b/v38q001/nginth/dm/Carnot-OWL/jython/grammar/PythonPartial.g:1:570: AT
                 {
                 mAT(); 
 
                 }
                 break;
             case 74 :
-                // /Users/nginther/dm/inf/CarnotKE/jython/grammar/PythonPartial.g:1:573: AND
+                // /v/filer4b/v38q001/nginth/dm/Carnot-OWL/jython/grammar/PythonPartial.g:1:573: AND
                 {
                 mAND(); 
 
                 }
                 break;
             case 75 :
-                // /Users/nginther/dm/inf/CarnotKE/jython/grammar/PythonPartial.g:1:577: OR
+                // /v/filer4b/v38q001/nginth/dm/Carnot-OWL/jython/grammar/PythonPartial.g:1:577: OR
                 {
                 mOR(); 
 
                 }
                 break;
             case 76 :
-                // /Users/nginther/dm/inf/CarnotKE/jython/grammar/PythonPartial.g:1:580: NOT
+                // /v/filer4b/v38q001/nginth/dm/Carnot-OWL/jython/grammar/PythonPartial.g:1:580: NOT
                 {
                 mNOT(); 
 
                 }
                 break;
             case 77 :
-                // /Users/nginther/dm/inf/CarnotKE/jython/grammar/PythonPartial.g:1:584: FLOAT
+                // /v/filer4b/v38q001/nginth/dm/Carnot-OWL/jython/grammar/PythonPartial.g:1:584: FLOAT
                 {
                 mFLOAT(); 
 
                 }
                 break;
             case 78 :
-                // /Users/nginther/dm/inf/CarnotKE/jython/grammar/PythonPartial.g:1:590: LONGINT
+                // /v/filer4b/v38q001/nginth/dm/Carnot-OWL/jython/grammar/PythonPartial.g:1:590: LONGINT
                 {
                 mLONGINT(); 
 
                 }
                 break;
             case 79 :
-                // /Users/nginther/dm/inf/CarnotKE/jython/grammar/PythonPartial.g:1:598: INT
+                // /v/filer4b/v38q001/nginth/dm/Carnot-OWL/jython/grammar/PythonPartial.g:1:598: INT
                 {
                 mINT(); 
 
                 }
                 break;
             case 80 :
-                // /Users/nginther/dm/inf/CarnotKE/jython/grammar/PythonPartial.g:1:602: COMPLEX
+                // /v/filer4b/v38q001/nginth/dm/Carnot-OWL/jython/grammar/PythonPartial.g:1:602: COMPLEX
                 {
                 mCOMPLEX(); 
 
                 }
                 break;
             case 81 :
-                // /Users/nginther/dm/inf/CarnotKE/jython/grammar/PythonPartial.g:1:610: NAME
+                // /v/filer4b/v38q001/nginth/dm/Carnot-OWL/jython/grammar/PythonPartial.g:1:610: NAME
                 {
                 mNAME(); 
 
                 }
                 break;
             case 82 :
-                // /Users/nginther/dm/inf/CarnotKE/jython/grammar/PythonPartial.g:1:615: STRING
+                // /v/filer4b/v38q001/nginth/dm/Carnot-OWL/jython/grammar/PythonPartial.g:1:615: STRING
                 {
                 mSTRING(); 
 
                 }
                 break;
             case 83 :
-                // /Users/nginther/dm/inf/CarnotKE/jython/grammar/PythonPartial.g:1:622: TRISTRINGPART
+                // /v/filer4b/v38q001/nginth/dm/Carnot-OWL/jython/grammar/PythonPartial.g:1:622: TRISTRINGPART
                 {
                 mTRISTRINGPART(); 
 
                 }
                 break;
             case 84 :
-                // /Users/nginther/dm/inf/CarnotKE/jython/grammar/PythonPartial.g:1:636: STRINGPART
+                // /v/filer4b/v38q001/nginth/dm/Carnot-OWL/jython/grammar/PythonPartial.g:1:636: STRINGPART
                 {
                 mSTRINGPART(); 
 
                 }
                 break;
             case 85 :
-                // /Users/nginther/dm/inf/CarnotKE/jython/grammar/PythonPartial.g:1:647: CONTINUED_LINE
+                // /v/filer4b/v38q001/nginth/dm/Carnot-OWL/jython/grammar/PythonPartial.g:1:647: CONTINUED_LINE
                 {
                 mCONTINUED_LINE(); 
 
                 }
                 break;
             case 86 :
-                // /Users/nginther/dm/inf/CarnotKE/jython/grammar/PythonPartial.g:1:662: NEWLINE
+                // /v/filer4b/v38q001/nginth/dm/Carnot-OWL/jython/grammar/PythonPartial.g:1:662: NEWLINE
                 {
                 mNEWLINE(); 
 
                 }
                 break;
             case 87 :
-                // /Users/nginther/dm/inf/CarnotKE/jython/grammar/PythonPartial.g:1:670: WS
+                // /v/filer4b/v38q001/nginth/dm/Carnot-OWL/jython/grammar/PythonPartial.g:1:670: WS
                 {
                 mWS(); 
 
                 }
                 break;
             case 88 :
-                // /Users/nginther/dm/inf/CarnotKE/jython/grammar/PythonPartial.g:1:673: LEADING_WS
+                // /v/filer4b/v38q001/nginth/dm/Carnot-OWL/jython/grammar/PythonPartial.g:1:673: LEADING_WS
                 {
                 mLEADING_WS(); 
 
                 }
                 break;
             case 89 :
-                // /Users/nginther/dm/inf/CarnotKE/jython/grammar/PythonPartial.g:1:684: COMMENT
+                // /v/filer4b/v38q001/nginth/dm/Carnot-OWL/jython/grammar/PythonPartial.g:1:684: COMMENT
                 {
                 mCOMMENT(); 
 
@@ -6737,7 +6737,7 @@ public class PythonPartialLexer extends Lexer {
                         s = -1;
                         if ( ((startPos>0)) ) {s = 131;}
 
-                        else if ( ((((startPos==0)&&(implicitLineJoiningLevel>0))||(startPos==0))) ) {s = 134;}
+                        else if ( (((startPos==0)||((startPos==0)&&(implicitLineJoiningLevel>0)))) ) {s = 134;}
 
                          
                         input.seek(index52_133);
@@ -6752,7 +6752,7 @@ public class PythonPartialLexer extends Lexer {
                         s = -1;
                         if ( ((startPos>0)) ) {s = 131;}
 
-                        else if ( ((((startPos==0)&&(implicitLineJoiningLevel>0))||(startPos==0))) ) {s = 134;}
+                        else if ( (((startPos==0)||((startPos==0)&&(implicitLineJoiningLevel>0)))) ) {s = 134;}
 
                          
                         input.seek(index52_135);

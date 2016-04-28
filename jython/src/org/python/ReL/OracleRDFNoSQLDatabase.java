@@ -4,9 +4,12 @@ import com.hp.hpl.jena.graph.Node;
 import com.hp.hpl.jena.query.*;
 import com.hp.hpl.jena.query.Query;
 import com.hp.hpl.jena.sparql.core.DatasetImpl;
-import oracle.rdf.kv.client.jena.DatasetGraphNoSql;
-import oracle.rdf.kv.client.jena.OracleGraphNoSql;
-import oracle.rdf.kv.client.jena.OracleNoSqlConnection;
+import com.hp.hpl.jena.rdf.model.*;
+import com.hp.hpl.jena.graph.*; 
+import com.hp.hpl.jena.ontology.OntModel;
+import com.hp.hpl.jena.ontology.OntModelSpec; 
+import com.hp.hpl.jena.rdf.model.ModelFactory;
+import oracle.rdf.kv.client.jena.*;
 import org.python.core.*;
 import wdb.metadata.*;
 
@@ -14,6 +17,8 @@ import java.util.ArrayList;
 import java.util.UUID;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
+import java.util.Iterator;
+import java.io.PrintStream;
 
 /**
  * A class that is used to interface with the oracle database.
@@ -84,6 +89,7 @@ public class OracleRDFNoSQLDatabase extends DatabaseInterface {
         }
     }
 
+    @Override
     public void OracleNoSQLAddQuadInf(String graph, String subject, String predicate, String object, Boolean object_as_uri)
     {
         if (!graph.contains("http://")) graph = nameSpace + graph;
@@ -92,6 +98,58 @@ public class OracleRDFNoSQLDatabase extends DatabaseInterface {
         if (!object.contains("http://")) object = nameSpace + object;
         if (debug.equals("debug"))
             System.out.println("In addQuad, stmt is: " + graph + ", " + subject + ", " + predicate + ", " + object);
+        
+        //here we go
+        PrintStream psOut = System.out;
+        psOut.println("~~begin inferencing~~");
+        Node graphNode = Node.createURI(graph);
+        OracleGraphNoSql graphInf = new OracleNamedGraphNoSql(graphNode, connection);
+        Model model = OracleModelNoSql.createOracleModelNoSql(graphNode, connection);
+        model.removeAll();
+        Node sub = Node.createURI("http://sub/a");
+        Node pred = Node.createURI("http://pred/a");
+        Node obj = Node.createURI("http://obj/a");
+
+        // Add few axioms
+
+        Triple triple = Triple.create(sub, pred, obj);
+        graphInf.add(triple);
+
+        graphInf.add(Triple.create(pred, 
+            Node.createURI("http://www.w3.org/2000/01/rdf-schema#domain"),
+            Node.createURI("http://C")));
+
+        graphInf.add(Triple.create(pred, 
+           Node.createURI("http://www.w3.org/1999/02/22-rdf-syntax-ns#type"),
+           Node.createURI("http://www.w3.org/2002/07/owl#ObjectProperty")));
+
+        {
+              // read it out
+              Iterator it = GraphUtil.findAll(graphInf);
+              
+              while (it.hasNext()) {
+                psOut.println("triple " + it.next().toString());
+              }
+            }
+
+        // Create an OntModel instance
+        OntModel om = 
+              ModelFactory.createOntologyModel(OntModelSpec.OWL_MEM_RULE_INF,
+                                               model);
+
+        Model modelInMem = ModelFactory.createDefaultModel();
+        modelInMem.add(om);
+
+            {
+              Iterator it = GraphUtil.findAll(modelInMem.getGraph());
+              while (it.hasNext()) {
+                        psOut.println("triple from OntModel " + 
+                        it.next().toString());
+              }
+            }
+
+        model.close();          
+        
         if (object_as_uri)
             datasetGraph.add(Node.createURI(graph), Node.createURI(subject), Node.createURI(predicate), Node.createURI(object));
         else {

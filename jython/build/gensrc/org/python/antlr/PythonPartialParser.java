@@ -1,4 +1,4 @@
-// $ANTLR 3.1.3 Mar 17, 2009 19:23:44 /Users/nginther/dm/inf/CarnotKE/jython/grammar/PythonPartial.g 2016-04-27 19:26:16
+// $ANTLR 3.1.3 Mar 17, 2009 19:23:44 /v/filer4b/v38q001/nginth/dm/Carnot-OWL/jython/grammar/PythonPartial.g 2016-04-27 21:20:53
 
 package org.python.antlr;
 
@@ -170,7 +170,7 @@ public class PythonPartialParser extends Parser {
         
 
     public String[] getTokenNames() { return PythonPartialParser.tokenNames; }
-    public String getGrammarFileName() { return "/Users/nginther/dm/inf/CarnotKE/jython/grammar/PythonPartial.g"; }
+    public String getGrammarFileName() { return "/v/filer4b/v38q001/nginth/dm/Carnot-OWL/jython/grammar/PythonPartial.g"; }
 
 
         private ErrorHandler errorHandler = new FailFastHandler();
@@ -189,10 +189,10 @@ public class PythonPartialParser extends Parser {
 
 
     // $ANTLR start "single_input"
-    // /Users/nginther/dm/inf/CarnotKE/jython/grammar/PythonPartial.g:166:1: single_input : ( NEWLINE | simple_stmt | compound_stmt ( NEWLINE )? EOF );
+    // /v/filer4b/v38q001/nginth/dm/Carnot-OWL/jython/grammar/PythonPartial.g:166:1: single_input : ( NEWLINE | simple_stmt | compound_stmt ( NEWLINE )? EOF );
     public final void single_input() throws RecognitionException {
         try {
-            // /Users/nginther/dm/inf/CarnotKE/jython/grammar/PythonPartial.g:168:5: ( NEWLINE | simple_stmt | compound_stmt ( NEWLINE )? EOF )
+            // /v/filer4b/v38q001/nginth/dm/Carnot-OWL/jython/grammar/PythonPartial.g:168:5: ( NEWLINE | simple_stmt | compound_stmt ( NEWLINE )? EOF )
             int alt2=3;
             switch ( input.LA(1) ) {
             case NEWLINE:
@@ -257,14 +257,14 @@ public class PythonPartialParser extends Parser {
 
             switch (alt2) {
                 case 1 :
-                    // /Users/nginther/dm/inf/CarnotKE/jython/grammar/PythonPartial.g:168:7: NEWLINE
+                    // /v/filer4b/v38q001/nginth/dm/Carnot-OWL/jython/grammar/PythonPartial.g:168:7: NEWLINE
                     {
                     match(input,NEWLINE,FOLLOW_NEWLINE_in_single_input72); if (state.failed) return ;
 
                     }
                     break;
                 case 2 :
-                    // /Users/nginther/dm/inf/CarnotKE/jython/grammar/PythonPartial.g:169:7: simple_stmt
+                    // /v/filer4b/v38q001/nginth/dm/Carnot-OWL/jython/grammar/PythonPartial.g:169:7: simple_stmt
                     {
                     pushFollow(FOLLOW_simple_stmt_in_single_input80);
                     simple_stmt();
@@ -275,14 +275,14 @@ public class PythonPartialParser extends Parser {
                     }
                     break;
                 case 3 :
-                    // /Users/nginther/dm/inf/CarnotKE/jython/grammar/PythonPartial.g:170:7: compound_stmt ( NEWLINE )? EOF
+                    // /v/filer4b/v38q001/nginth/dm/Carnot-OWL/jython/grammar/PythonPartial.g:170:7: compound_stmt ( NEWLINE )? EOF
                     {
                     pushFollow(FOLLOW_compound_stmt_in_single_input88);
                     compound_stmt();
 
                     state._fsp--;
                     if (state.failed) return ;
-                    // /Users/nginther/dm/inf/CarnotKE/jython/grammar/PythonPartial.g:170:21: ( NEWLINE )?
+                    // /v/filer4b/v38q001/nginth/dm/Carnot-OWL/jython/grammar/PythonPartial.g:170:21: ( NEWLINE )?
                     int alt1=2;
                     int LA1_0 = input.LA(1);
 
@@ -291,7 +291,7 @@ public class PythonPartialParser extends Parser {
                     }
                     switch (alt1) {
                         case 1 :
-                            // /Users/nginther/dm/inf/CarnotKE/jython/grammar/PythonPartial.g:170:21: NEWLINE
+                            // /v/filer4b/v38q001/nginth/dm/Carnot-OWL/jython/grammar/PythonPartial.g:170:21: NEWLINE
                             {
                             match(input,NEWLINE,FOLLOW_NEWLINE_in_single_input90); if (state.failed) return ;
 
@@ -319,13 +319,13 @@ public class PythonPartialParser extends Parser {
 
 
     // $ANTLR start "eval_input"
-    // /Users/nginther/dm/inf/CarnotKE/jython/grammar/PythonPartial.g:174:1: eval_input : ( LEADING_WS )? ( NEWLINE )* ( testlist )? ( NEWLINE )* EOF ;
+    // /v/filer4b/v38q001/nginth/dm/Carnot-OWL/jython/grammar/PythonPartial.g:174:1: eval_input : ( LEADING_WS )? ( NEWLINE )* ( testlist )? ( NEWLINE )* EOF ;
     public final void eval_input() throws RecognitionException {
         try {
-            // /Users/nginther/dm/inf/CarnotKE/jython/grammar/PythonPartial.g:175:5: ( ( LEADING_WS )? ( NEWLINE )* ( testlist )? ( NEWLINE )* EOF )
-            // /Users/nginther/dm/inf/CarnotKE/jython/grammar/PythonPartial.g:175:7: ( LEADING_WS )? ( NEWLINE )* ( testlist )? ( NEWLINE )* EOF
+            // /v/filer4b/v38q001/nginth/dm/Carnot-OWL/jython/grammar/PythonPartial.g:175:5: ( ( LEADING_WS )? ( NEWLINE )* ( testlist )? ( NEWLINE )* EOF )
+            // /v/filer4b/v38q001/nginth/dm/Carnot-OWL/jython/grammar/PythonPartial.g:175:7: ( LEADING_WS )? ( NEWLINE )* ( testlist )? ( NEWLINE )* EOF
             {
-            // /Users/nginther/dm/inf/CarnotKE/jython/grammar/PythonPartial.g:175:7: ( LEADING_WS )?
+            // /v/filer4b/v38q001/nginth/dm/Carnot-OWL/jython/grammar/PythonPartial.g:175:7: ( LEADING_WS )?
             int alt3=2;
             int LA3_0 = input.LA(1);
 
@@ -334,7 +334,7 @@ public class PythonPartialParser extends Parser {
             }
             switch (alt3) {
                 case 1 :
-                    // /Users/nginther/dm/inf/CarnotKE/jython/grammar/PythonPartial.g:175:7: LEADING_WS
+                    // /v/filer4b/v38q001/nginth/dm/Carnot-OWL/jython/grammar/PythonPartial.g:175:7: LEADING_WS
                     {
                     match(input,LEADING_WS,FOLLOW_LEADING_WS_in_eval_input111); if (state.failed) return ;
 
@@ -343,7 +343,7 @@ public class PythonPartialParser extends Parser {
 
             }
 
-            // /Users/nginther/dm/inf/CarnotKE/jython/grammar/PythonPartial.g:175:19: ( NEWLINE )*
+            // /v/filer4b/v38q001/nginth/dm/Carnot-OWL/jython/grammar/PythonPartial.g:175:19: ( NEWLINE )*
             loop4:
             do {
                 int alt4=2;
@@ -356,7 +356,7 @@ public class PythonPartialParser extends Parser {
 
                 switch (alt4) {
             	case 1 :
-            	    // /Users/nginther/dm/inf/CarnotKE/jython/grammar/PythonPartial.g:175:20: NEWLINE
+            	    // /v/filer4b/v38q001/nginth/dm/Carnot-OWL/jython/grammar/PythonPartial.g:175:20: NEWLINE
             	    {
             	    match(input,NEWLINE,FOLLOW_NEWLINE_in_eval_input115); if (state.failed) return ;
 
@@ -368,7 +368,7 @@ public class PythonPartialParser extends Parser {
                 }
             } while (true);
 
-            // /Users/nginther/dm/inf/CarnotKE/jython/grammar/PythonPartial.g:175:30: ( testlist )?
+            // /v/filer4b/v38q001/nginth/dm/Carnot-OWL/jython/grammar/PythonPartial.g:175:30: ( testlist )?
             int alt5=2;
             int LA5_0 = input.LA(1);
 
@@ -377,7 +377,7 @@ public class PythonPartialParser extends Parser {
             }
             switch (alt5) {
                 case 1 :
-                    // /Users/nginther/dm/inf/CarnotKE/jython/grammar/PythonPartial.g:175:30: testlist
+                    // /v/filer4b/v38q001/nginth/dm/Carnot-OWL/jython/grammar/PythonPartial.g:175:30: testlist
                     {
                     pushFollow(FOLLOW_testlist_in_eval_input119);
                     testlist();
@@ -390,7 +390,7 @@ public class PythonPartialParser extends Parser {
 
             }
 
-            // /Users/nginther/dm/inf/CarnotKE/jython/grammar/PythonPartial.g:175:40: ( NEWLINE )*
+            // /v/filer4b/v38q001/nginth/dm/Carnot-OWL/jython/grammar/PythonPartial.g:175:40: ( NEWLINE )*
             loop6:
             do {
                 int alt6=2;
@@ -403,7 +403,7 @@ public class PythonPartialParser extends Parser {
 
                 switch (alt6) {
             	case 1 :
-            	    // /Users/nginther/dm/inf/CarnotKE/jython/grammar/PythonPartial.g:175:41: NEWLINE
+            	    // /v/filer4b/v38q001/nginth/dm/Carnot-OWL/jython/grammar/PythonPartial.g:175:41: NEWLINE
             	    {
             	    match(input,NEWLINE,FOLLOW_NEWLINE_in_eval_input123); if (state.failed) return ;
 
@@ -432,14 +432,14 @@ public class PythonPartialParser extends Parser {
 
 
     // $ANTLR start "dotted_attr"
-    // /Users/nginther/dm/inf/CarnotKE/jython/grammar/PythonPartial.g:179:1: dotted_attr : NAME ( ( DOT NAME )+ | ) ;
+    // /v/filer4b/v38q001/nginth/dm/Carnot-OWL/jython/grammar/PythonPartial.g:179:1: dotted_attr : NAME ( ( DOT NAME )+ | ) ;
     public final void dotted_attr() throws RecognitionException {
         try {
-            // /Users/nginther/dm/inf/CarnotKE/jython/grammar/PythonPartial.g:180:5: ( NAME ( ( DOT NAME )+ | ) )
-            // /Users/nginther/dm/inf/CarnotKE/jython/grammar/PythonPartial.g:180:7: NAME ( ( DOT NAME )+ | )
+            // /v/filer4b/v38q001/nginth/dm/Carnot-OWL/jython/grammar/PythonPartial.g:180:5: ( NAME ( ( DOT NAME )+ | ) )
+            // /v/filer4b/v38q001/nginth/dm/Carnot-OWL/jython/grammar/PythonPartial.g:180:7: NAME ( ( DOT NAME )+ | )
             {
             match(input,NAME,FOLLOW_NAME_in_dotted_attr145); if (state.failed) return ;
-            // /Users/nginther/dm/inf/CarnotKE/jython/grammar/PythonPartial.g:181:7: ( ( DOT NAME )+ | )
+            // /v/filer4b/v38q001/nginth/dm/Carnot-OWL/jython/grammar/PythonPartial.g:181:7: ( ( DOT NAME )+ | )
             int alt8=2;
             int LA8_0 = input.LA(1);
 
@@ -458,9 +458,9 @@ public class PythonPartialParser extends Parser {
             }
             switch (alt8) {
                 case 1 :
-                    // /Users/nginther/dm/inf/CarnotKE/jython/grammar/PythonPartial.g:181:9: ( DOT NAME )+
+                    // /v/filer4b/v38q001/nginth/dm/Carnot-OWL/jython/grammar/PythonPartial.g:181:9: ( DOT NAME )+
                     {
-                    // /Users/nginther/dm/inf/CarnotKE/jython/grammar/PythonPartial.g:181:9: ( DOT NAME )+
+                    // /v/filer4b/v38q001/nginth/dm/Carnot-OWL/jython/grammar/PythonPartial.g:181:9: ( DOT NAME )+
                     int cnt7=0;
                     loop7:
                     do {
@@ -474,7 +474,7 @@ public class PythonPartialParser extends Parser {
 
                         switch (alt7) {
                     	case 1 :
-                    	    // /Users/nginther/dm/inf/CarnotKE/jython/grammar/PythonPartial.g:181:10: DOT NAME
+                    	    // /v/filer4b/v38q001/nginth/dm/Carnot-OWL/jython/grammar/PythonPartial.g:181:10: DOT NAME
                     	    {
                     	    match(input,DOT,FOLLOW_DOT_in_dotted_attr156); if (state.failed) return ;
                     	    match(input,NAME,FOLLOW_NAME_in_dotted_attr158); if (state.failed) return ;
@@ -496,7 +496,7 @@ public class PythonPartialParser extends Parser {
                     }
                     break;
                 case 2 :
-                    // /Users/nginther/dm/inf/CarnotKE/jython/grammar/PythonPartial.g:183:7: 
+                    // /v/filer4b/v38q001/nginth/dm/Carnot-OWL/jython/grammar/PythonPartial.g:183:7: 
                     {
                     }
                     break;
@@ -519,11 +519,11 @@ public class PythonPartialParser extends Parser {
 
 
     // $ANTLR start "attr"
-    // /Users/nginther/dm/inf/CarnotKE/jython/grammar/PythonPartial.g:201:1: attr : ( NAME | AND | AS | ASSERT | BREAK | CLASS | CONTINUE | DEF | DELETE | ELIF | EXCEPT | EXEC | FINALLY | FROM | FOR | GLOBAL | IF | IMPORT | IN | IS | LAMBDA | NOT | OR | ORELSE | PASS | PRINT | RAISE | RETURN | TRY | WHILE | WITH | YIELD );
+    // /v/filer4b/v38q001/nginth/dm/Carnot-OWL/jython/grammar/PythonPartial.g:201:1: attr : ( NAME | AND | AS | ASSERT | BREAK | CLASS | CONTINUE | DEF | DELETE | ELIF | EXCEPT | EXEC | FINALLY | FROM | FOR | GLOBAL | IF | IMPORT | IN | IS | LAMBDA | NOT | OR | ORELSE | PASS | PRINT | RAISE | RETURN | TRY | WHILE | WITH | YIELD );
     public final void attr() throws RecognitionException {
         try {
-            // /Users/nginther/dm/inf/CarnotKE/jython/grammar/PythonPartial.g:202:5: ( NAME | AND | AS | ASSERT | BREAK | CLASS | CONTINUE | DEF | DELETE | ELIF | EXCEPT | EXEC | FINALLY | FROM | FOR | GLOBAL | IF | IMPORT | IN | IS | LAMBDA | NOT | OR | ORELSE | PASS | PRINT | RAISE | RETURN | TRY | WHILE | WITH | YIELD )
-            // /Users/nginther/dm/inf/CarnotKE/jython/grammar/PythonPartial.g:
+            // /v/filer4b/v38q001/nginth/dm/Carnot-OWL/jython/grammar/PythonPartial.g:202:5: ( NAME | AND | AS | ASSERT | BREAK | CLASS | CONTINUE | DEF | DELETE | ELIF | EXCEPT | EXEC | FINALLY | FROM | FOR | GLOBAL | IF | IMPORT | IN | IS | LAMBDA | NOT | OR | ORELSE | PASS | PRINT | RAISE | RETURN | TRY | WHILE | WITH | YIELD )
+            // /v/filer4b/v38q001/nginth/dm/Carnot-OWL/jython/grammar/PythonPartial.g:
             {
             if ( input.LA(1)==NAME||(input.LA(1)>=PRINT && input.LA(1)<=YIELD) ) {
                 input.consume();
@@ -551,11 +551,11 @@ public class PythonPartialParser extends Parser {
 
 
     // $ANTLR start "decorator"
-    // /Users/nginther/dm/inf/CarnotKE/jython/grammar/PythonPartial.g:237:1: decorator : AT dotted_attr ( LPAREN ( arglist | ) RPAREN | ) NEWLINE ;
+    // /v/filer4b/v38q001/nginth/dm/Carnot-OWL/jython/grammar/PythonPartial.g:237:1: decorator : AT dotted_attr ( LPAREN ( arglist | ) RPAREN | ) NEWLINE ;
     public final void decorator() throws RecognitionException {
         try {
-            // /Users/nginther/dm/inf/CarnotKE/jython/grammar/PythonPartial.g:238:5: ( AT dotted_attr ( LPAREN ( arglist | ) RPAREN | ) NEWLINE )
-            // /Users/nginther/dm/inf/CarnotKE/jython/grammar/PythonPartial.g:238:7: AT dotted_attr ( LPAREN ( arglist | ) RPAREN | ) NEWLINE
+            // /v/filer4b/v38q001/nginth/dm/Carnot-OWL/jython/grammar/PythonPartial.g:238:5: ( AT dotted_attr ( LPAREN ( arglist | ) RPAREN | ) NEWLINE )
+            // /v/filer4b/v38q001/nginth/dm/Carnot-OWL/jython/grammar/PythonPartial.g:238:7: AT dotted_attr ( LPAREN ( arglist | ) RPAREN | ) NEWLINE
             {
             match(input,AT,FOLLOW_AT_in_decorator464); if (state.failed) return ;
             pushFollow(FOLLOW_dotted_attr_in_decorator466);
@@ -563,7 +563,7 @@ public class PythonPartialParser extends Parser {
 
             state._fsp--;
             if (state.failed) return ;
-            // /Users/nginther/dm/inf/CarnotKE/jython/grammar/PythonPartial.g:239:5: ( LPAREN ( arglist | ) RPAREN | )
+            // /v/filer4b/v38q001/nginth/dm/Carnot-OWL/jython/grammar/PythonPartial.g:239:5: ( LPAREN ( arglist | ) RPAREN | )
             int alt10=2;
             int LA10_0 = input.LA(1);
 
@@ -582,10 +582,10 @@ public class PythonPartialParser extends Parser {
             }
             switch (alt10) {
                 case 1 :
-                    // /Users/nginther/dm/inf/CarnotKE/jython/grammar/PythonPartial.g:239:7: LPAREN ( arglist | ) RPAREN
+                    // /v/filer4b/v38q001/nginth/dm/Carnot-OWL/jython/grammar/PythonPartial.g:239:7: LPAREN ( arglist | ) RPAREN
                     {
                     match(input,LPAREN,FOLLOW_LPAREN_in_decorator474); if (state.failed) return ;
-                    // /Users/nginther/dm/inf/CarnotKE/jython/grammar/PythonPartial.g:240:7: ( arglist | )
+                    // /v/filer4b/v38q001/nginth/dm/Carnot-OWL/jython/grammar/PythonPartial.g:240:7: ( arglist | )
                     int alt9=2;
                     int LA9_0 = input.LA(1);
 
@@ -604,7 +604,7 @@ public class PythonPartialParser extends Parser {
                     }
                     switch (alt9) {
                         case 1 :
-                            // /Users/nginther/dm/inf/CarnotKE/jython/grammar/PythonPartial.g:240:9: arglist
+                            // /v/filer4b/v38q001/nginth/dm/Carnot-OWL/jython/grammar/PythonPartial.g:240:9: arglist
                             {
                             pushFollow(FOLLOW_arglist_in_decorator484);
                             arglist();
@@ -615,7 +615,7 @@ public class PythonPartialParser extends Parser {
                             }
                             break;
                         case 2 :
-                            // /Users/nginther/dm/inf/CarnotKE/jython/grammar/PythonPartial.g:242:7: 
+                            // /v/filer4b/v38q001/nginth/dm/Carnot-OWL/jython/grammar/PythonPartial.g:242:7: 
                             {
                             }
                             break;
@@ -627,7 +627,7 @@ public class PythonPartialParser extends Parser {
                     }
                     break;
                 case 2 :
-                    // /Users/nginther/dm/inf/CarnotKE/jython/grammar/PythonPartial.g:245:5: 
+                    // /v/filer4b/v38q001/nginth/dm/Carnot-OWL/jython/grammar/PythonPartial.g:245:5: 
                     {
                     }
                     break;
@@ -651,13 +651,13 @@ public class PythonPartialParser extends Parser {
 
 
     // $ANTLR start "decorators"
-    // /Users/nginther/dm/inf/CarnotKE/jython/grammar/PythonPartial.g:249:1: decorators : ( decorator )+ ;
+    // /v/filer4b/v38q001/nginth/dm/Carnot-OWL/jython/grammar/PythonPartial.g:249:1: decorators : ( decorator )+ ;
     public final void decorators() throws RecognitionException {
         try {
-            // /Users/nginther/dm/inf/CarnotKE/jython/grammar/PythonPartial.g:250:5: ( ( decorator )+ )
-            // /Users/nginther/dm/inf/CarnotKE/jython/grammar/PythonPartial.g:250:7: ( decorator )+
+            // /v/filer4b/v38q001/nginth/dm/Carnot-OWL/jython/grammar/PythonPartial.g:250:5: ( ( decorator )+ )
+            // /v/filer4b/v38q001/nginth/dm/Carnot-OWL/jython/grammar/PythonPartial.g:250:7: ( decorator )+
             {
-            // /Users/nginther/dm/inf/CarnotKE/jython/grammar/PythonPartial.g:250:7: ( decorator )+
+            // /v/filer4b/v38q001/nginth/dm/Carnot-OWL/jython/grammar/PythonPartial.g:250:7: ( decorator )+
             int cnt11=0;
             loop11:
             do {
@@ -671,7 +671,7 @@ public class PythonPartialParser extends Parser {
 
                 switch (alt11) {
             	case 1 :
-            	    // /Users/nginther/dm/inf/CarnotKE/jython/grammar/PythonPartial.g:250:7: decorator
+            	    // /v/filer4b/v38q001/nginth/dm/Carnot-OWL/jython/grammar/PythonPartial.g:250:7: decorator
             	    {
             	    pushFollow(FOLLOW_decorator_in_decorators540);
             	    decorator();
@@ -708,13 +708,13 @@ public class PythonPartialParser extends Parser {
 
 
     // $ANTLR start "funcdef"
-    // /Users/nginther/dm/inf/CarnotKE/jython/grammar/PythonPartial.g:254:1: funcdef : ( decorators )? DEF NAME parameters COLON suite ;
+    // /v/filer4b/v38q001/nginth/dm/Carnot-OWL/jython/grammar/PythonPartial.g:254:1: funcdef : ( decorators )? DEF NAME parameters COLON suite ;
     public final void funcdef() throws RecognitionException {
         try {
-            // /Users/nginther/dm/inf/CarnotKE/jython/grammar/PythonPartial.g:255:5: ( ( decorators )? DEF NAME parameters COLON suite )
-            // /Users/nginther/dm/inf/CarnotKE/jython/grammar/PythonPartial.g:255:7: ( decorators )? DEF NAME parameters COLON suite
+            // /v/filer4b/v38q001/nginth/dm/Carnot-OWL/jython/grammar/PythonPartial.g:255:5: ( ( decorators )? DEF NAME parameters COLON suite )
+            // /v/filer4b/v38q001/nginth/dm/Carnot-OWL/jython/grammar/PythonPartial.g:255:7: ( decorators )? DEF NAME parameters COLON suite
             {
-            // /Users/nginther/dm/inf/CarnotKE/jython/grammar/PythonPartial.g:255:7: ( decorators )?
+            // /v/filer4b/v38q001/nginth/dm/Carnot-OWL/jython/grammar/PythonPartial.g:255:7: ( decorators )?
             int alt12=2;
             int LA12_0 = input.LA(1);
 
@@ -723,7 +723,7 @@ public class PythonPartialParser extends Parser {
             }
             switch (alt12) {
                 case 1 :
-                    // /Users/nginther/dm/inf/CarnotKE/jython/grammar/PythonPartial.g:255:7: decorators
+                    // /v/filer4b/v38q001/nginth/dm/Carnot-OWL/jython/grammar/PythonPartial.g:255:7: decorators
                     {
                     pushFollow(FOLLOW_decorators_in_funcdef559);
                     decorators();
@@ -765,14 +765,14 @@ public class PythonPartialParser extends Parser {
 
 
     // $ANTLR start "parameters"
-    // /Users/nginther/dm/inf/CarnotKE/jython/grammar/PythonPartial.g:259:1: parameters : LPAREN ( varargslist | ) RPAREN ;
+    // /v/filer4b/v38q001/nginth/dm/Carnot-OWL/jython/grammar/PythonPartial.g:259:1: parameters : LPAREN ( varargslist | ) RPAREN ;
     public final void parameters() throws RecognitionException {
         try {
-            // /Users/nginther/dm/inf/CarnotKE/jython/grammar/PythonPartial.g:260:5: ( LPAREN ( varargslist | ) RPAREN )
-            // /Users/nginther/dm/inf/CarnotKE/jython/grammar/PythonPartial.g:260:7: LPAREN ( varargslist | ) RPAREN
+            // /v/filer4b/v38q001/nginth/dm/Carnot-OWL/jython/grammar/PythonPartial.g:260:5: ( LPAREN ( varargslist | ) RPAREN )
+            // /v/filer4b/v38q001/nginth/dm/Carnot-OWL/jython/grammar/PythonPartial.g:260:7: LPAREN ( varargslist | ) RPAREN
             {
             match(input,LPAREN,FOLLOW_LPAREN_in_parameters588); if (state.failed) return ;
-            // /Users/nginther/dm/inf/CarnotKE/jython/grammar/PythonPartial.g:261:7: ( varargslist | )
+            // /v/filer4b/v38q001/nginth/dm/Carnot-OWL/jython/grammar/PythonPartial.g:261:7: ( varargslist | )
             int alt13=2;
             int LA13_0 = input.LA(1);
 
@@ -791,7 +791,7 @@ public class PythonPartialParser extends Parser {
             }
             switch (alt13) {
                 case 1 :
-                    // /Users/nginther/dm/inf/CarnotKE/jython/grammar/PythonPartial.g:261:8: varargslist
+                    // /v/filer4b/v38q001/nginth/dm/Carnot-OWL/jython/grammar/PythonPartial.g:261:8: varargslist
                     {
                     pushFollow(FOLLOW_varargslist_in_parameters597);
                     varargslist();
@@ -802,7 +802,7 @@ public class PythonPartialParser extends Parser {
                     }
                     break;
                 case 2 :
-                    // /Users/nginther/dm/inf/CarnotKE/jython/grammar/PythonPartial.g:263:7: 
+                    // /v/filer4b/v38q001/nginth/dm/Carnot-OWL/jython/grammar/PythonPartial.g:263:7: 
                     {
                     }
                     break;
@@ -826,18 +826,18 @@ public class PythonPartialParser extends Parser {
 
 
     // $ANTLR start "defparameter"
-    // /Users/nginther/dm/inf/CarnotKE/jython/grammar/PythonPartial.g:268:1: defparameter : fpdef ( ASSIGN test )? ;
+    // /v/filer4b/v38q001/nginth/dm/Carnot-OWL/jython/grammar/PythonPartial.g:268:1: defparameter : fpdef ( ASSIGN test )? ;
     public final void defparameter() throws RecognitionException {
         try {
-            // /Users/nginther/dm/inf/CarnotKE/jython/grammar/PythonPartial.g:269:5: ( fpdef ( ASSIGN test )? )
-            // /Users/nginther/dm/inf/CarnotKE/jython/grammar/PythonPartial.g:269:7: fpdef ( ASSIGN test )?
+            // /v/filer4b/v38q001/nginth/dm/Carnot-OWL/jython/grammar/PythonPartial.g:269:5: ( fpdef ( ASSIGN test )? )
+            // /v/filer4b/v38q001/nginth/dm/Carnot-OWL/jython/grammar/PythonPartial.g:269:7: fpdef ( ASSIGN test )?
             {
             pushFollow(FOLLOW_fpdef_in_defparameter639);
             fpdef();
 
             state._fsp--;
             if (state.failed) return ;
-            // /Users/nginther/dm/inf/CarnotKE/jython/grammar/PythonPartial.g:269:13: ( ASSIGN test )?
+            // /v/filer4b/v38q001/nginth/dm/Carnot-OWL/jython/grammar/PythonPartial.g:269:13: ( ASSIGN test )?
             int alt14=2;
             int LA14_0 = input.LA(1);
 
@@ -846,7 +846,7 @@ public class PythonPartialParser extends Parser {
             }
             switch (alt14) {
                 case 1 :
-                    // /Users/nginther/dm/inf/CarnotKE/jython/grammar/PythonPartial.g:269:14: ASSIGN test
+                    // /v/filer4b/v38q001/nginth/dm/Carnot-OWL/jython/grammar/PythonPartial.g:269:14: ASSIGN test
                     {
                     match(input,ASSIGN,FOLLOW_ASSIGN_in_defparameter642); if (state.failed) return ;
                     pushFollow(FOLLOW_test_in_defparameter644);
@@ -876,10 +876,10 @@ public class PythonPartialParser extends Parser {
 
 
     // $ANTLR start "varargslist"
-    // /Users/nginther/dm/inf/CarnotKE/jython/grammar/PythonPartial.g:275:1: varargslist : ( defparameter ( options {greedy=true; } : COMMA defparameter )* ( COMMA ( STAR NAME ( COMMA DOUBLESTAR NAME )? | DOUBLESTAR NAME )? )? | STAR NAME ( COMMA DOUBLESTAR NAME )? | DOUBLESTAR NAME );
+    // /v/filer4b/v38q001/nginth/dm/Carnot-OWL/jython/grammar/PythonPartial.g:275:1: varargslist : ( defparameter ( options {greedy=true; } : COMMA defparameter )* ( COMMA ( STAR NAME ( COMMA DOUBLESTAR NAME )? | DOUBLESTAR NAME )? )? | STAR NAME ( COMMA DOUBLESTAR NAME )? | DOUBLESTAR NAME );
     public final void varargslist() throws RecognitionException {
         try {
-            // /Users/nginther/dm/inf/CarnotKE/jython/grammar/PythonPartial.g:276:5: ( defparameter ( options {greedy=true; } : COMMA defparameter )* ( COMMA ( STAR NAME ( COMMA DOUBLESTAR NAME )? | DOUBLESTAR NAME )? )? | STAR NAME ( COMMA DOUBLESTAR NAME )? | DOUBLESTAR NAME )
+            // /v/filer4b/v38q001/nginth/dm/Carnot-OWL/jython/grammar/PythonPartial.g:276:5: ( defparameter ( options {greedy=true; } : COMMA defparameter )* ( COMMA ( STAR NAME ( COMMA DOUBLESTAR NAME )? | DOUBLESTAR NAME )? )? | STAR NAME ( COMMA DOUBLESTAR NAME )? | DOUBLESTAR NAME )
             int alt20=3;
             switch ( input.LA(1) ) {
             case NAME:
@@ -908,14 +908,14 @@ public class PythonPartialParser extends Parser {
 
             switch (alt20) {
                 case 1 :
-                    // /Users/nginther/dm/inf/CarnotKE/jython/grammar/PythonPartial.g:276:7: defparameter ( options {greedy=true; } : COMMA defparameter )* ( COMMA ( STAR NAME ( COMMA DOUBLESTAR NAME )? | DOUBLESTAR NAME )? )?
+                    // /v/filer4b/v38q001/nginth/dm/Carnot-OWL/jython/grammar/PythonPartial.g:276:7: defparameter ( options {greedy=true; } : COMMA defparameter )* ( COMMA ( STAR NAME ( COMMA DOUBLESTAR NAME )? | DOUBLESTAR NAME )? )?
                     {
                     pushFollow(FOLLOW_defparameter_in_varargslist666);
                     defparameter();
 
                     state._fsp--;
                     if (state.failed) return ;
-                    // /Users/nginther/dm/inf/CarnotKE/jython/grammar/PythonPartial.g:276:20: ( options {greedy=true; } : COMMA defparameter )*
+                    // /v/filer4b/v38q001/nginth/dm/Carnot-OWL/jython/grammar/PythonPartial.g:276:20: ( options {greedy=true; } : COMMA defparameter )*
                     loop15:
                     do {
                         int alt15=2;
@@ -934,7 +934,7 @@ public class PythonPartialParser extends Parser {
 
                         switch (alt15) {
                     	case 1 :
-                    	    // /Users/nginther/dm/inf/CarnotKE/jython/grammar/PythonPartial.g:276:44: COMMA defparameter
+                    	    // /v/filer4b/v38q001/nginth/dm/Carnot-OWL/jython/grammar/PythonPartial.g:276:44: COMMA defparameter
                     	    {
                     	    match(input,COMMA,FOLLOW_COMMA_in_varargslist676); if (state.failed) return ;
                     	    pushFollow(FOLLOW_defparameter_in_varargslist678);
@@ -951,7 +951,7 @@ public class PythonPartialParser extends Parser {
                         }
                     } while (true);
 
-                    // /Users/nginther/dm/inf/CarnotKE/jython/grammar/PythonPartial.g:277:7: ( COMMA ( STAR NAME ( COMMA DOUBLESTAR NAME )? | DOUBLESTAR NAME )? )?
+                    // /v/filer4b/v38q001/nginth/dm/Carnot-OWL/jython/grammar/PythonPartial.g:277:7: ( COMMA ( STAR NAME ( COMMA DOUBLESTAR NAME )? | DOUBLESTAR NAME )? )?
                     int alt18=2;
                     int LA18_0 = input.LA(1);
 
@@ -960,10 +960,10 @@ public class PythonPartialParser extends Parser {
                     }
                     switch (alt18) {
                         case 1 :
-                            // /Users/nginther/dm/inf/CarnotKE/jython/grammar/PythonPartial.g:277:8: COMMA ( STAR NAME ( COMMA DOUBLESTAR NAME )? | DOUBLESTAR NAME )?
+                            // /v/filer4b/v38q001/nginth/dm/Carnot-OWL/jython/grammar/PythonPartial.g:277:8: COMMA ( STAR NAME ( COMMA DOUBLESTAR NAME )? | DOUBLESTAR NAME )?
                             {
                             match(input,COMMA,FOLLOW_COMMA_in_varargslist689); if (state.failed) return ;
-                            // /Users/nginther/dm/inf/CarnotKE/jython/grammar/PythonPartial.g:278:11: ( STAR NAME ( COMMA DOUBLESTAR NAME )? | DOUBLESTAR NAME )?
+                            // /v/filer4b/v38q001/nginth/dm/Carnot-OWL/jython/grammar/PythonPartial.g:278:11: ( STAR NAME ( COMMA DOUBLESTAR NAME )? | DOUBLESTAR NAME )?
                             int alt17=3;
                             int LA17_0 = input.LA(1);
 
@@ -975,11 +975,11 @@ public class PythonPartialParser extends Parser {
                             }
                             switch (alt17) {
                                 case 1 :
-                                    // /Users/nginther/dm/inf/CarnotKE/jython/grammar/PythonPartial.g:278:12: STAR NAME ( COMMA DOUBLESTAR NAME )?
+                                    // /v/filer4b/v38q001/nginth/dm/Carnot-OWL/jython/grammar/PythonPartial.g:278:12: STAR NAME ( COMMA DOUBLESTAR NAME )?
                                     {
                                     match(input,STAR,FOLLOW_STAR_in_varargslist702); if (state.failed) return ;
                                     match(input,NAME,FOLLOW_NAME_in_varargslist704); if (state.failed) return ;
-                                    // /Users/nginther/dm/inf/CarnotKE/jython/grammar/PythonPartial.g:278:22: ( COMMA DOUBLESTAR NAME )?
+                                    // /v/filer4b/v38q001/nginth/dm/Carnot-OWL/jython/grammar/PythonPartial.g:278:22: ( COMMA DOUBLESTAR NAME )?
                                     int alt16=2;
                                     int LA16_0 = input.LA(1);
 
@@ -988,7 +988,7 @@ public class PythonPartialParser extends Parser {
                                     }
                                     switch (alt16) {
                                         case 1 :
-                                            // /Users/nginther/dm/inf/CarnotKE/jython/grammar/PythonPartial.g:278:23: COMMA DOUBLESTAR NAME
+                                            // /v/filer4b/v38q001/nginth/dm/Carnot-OWL/jython/grammar/PythonPartial.g:278:23: COMMA DOUBLESTAR NAME
                                             {
                                             match(input,COMMA,FOLLOW_COMMA_in_varargslist707); if (state.failed) return ;
                                             match(input,DOUBLESTAR,FOLLOW_DOUBLESTAR_in_varargslist709); if (state.failed) return ;
@@ -1003,7 +1003,7 @@ public class PythonPartialParser extends Parser {
                                     }
                                     break;
                                 case 2 :
-                                    // /Users/nginther/dm/inf/CarnotKE/jython/grammar/PythonPartial.g:279:13: DOUBLESTAR NAME
+                                    // /v/filer4b/v38q001/nginth/dm/Carnot-OWL/jython/grammar/PythonPartial.g:279:13: DOUBLESTAR NAME
                                     {
                                     match(input,DOUBLESTAR,FOLLOW_DOUBLESTAR_in_varargslist727); if (state.failed) return ;
                                     match(input,NAME,FOLLOW_NAME_in_varargslist729); if (state.failed) return ;
@@ -1023,11 +1023,11 @@ public class PythonPartialParser extends Parser {
                     }
                     break;
                 case 2 :
-                    // /Users/nginther/dm/inf/CarnotKE/jython/grammar/PythonPartial.g:282:7: STAR NAME ( COMMA DOUBLESTAR NAME )?
+                    // /v/filer4b/v38q001/nginth/dm/Carnot-OWL/jython/grammar/PythonPartial.g:282:7: STAR NAME ( COMMA DOUBLESTAR NAME )?
                     {
                     match(input,STAR,FOLLOW_STAR_in_varargslist759); if (state.failed) return ;
                     match(input,NAME,FOLLOW_NAME_in_varargslist761); if (state.failed) return ;
-                    // /Users/nginther/dm/inf/CarnotKE/jython/grammar/PythonPartial.g:282:17: ( COMMA DOUBLESTAR NAME )?
+                    // /v/filer4b/v38q001/nginth/dm/Carnot-OWL/jython/grammar/PythonPartial.g:282:17: ( COMMA DOUBLESTAR NAME )?
                     int alt19=2;
                     int LA19_0 = input.LA(1);
 
@@ -1036,7 +1036,7 @@ public class PythonPartialParser extends Parser {
                     }
                     switch (alt19) {
                         case 1 :
-                            // /Users/nginther/dm/inf/CarnotKE/jython/grammar/PythonPartial.g:282:18: COMMA DOUBLESTAR NAME
+                            // /v/filer4b/v38q001/nginth/dm/Carnot-OWL/jython/grammar/PythonPartial.g:282:18: COMMA DOUBLESTAR NAME
                             {
                             match(input,COMMA,FOLLOW_COMMA_in_varargslist764); if (state.failed) return ;
                             match(input,DOUBLESTAR,FOLLOW_DOUBLESTAR_in_varargslist766); if (state.failed) return ;
@@ -1051,7 +1051,7 @@ public class PythonPartialParser extends Parser {
                     }
                     break;
                 case 3 :
-                    // /Users/nginther/dm/inf/CarnotKE/jython/grammar/PythonPartial.g:283:7: DOUBLESTAR NAME
+                    // /v/filer4b/v38q001/nginth/dm/Carnot-OWL/jython/grammar/PythonPartial.g:283:7: DOUBLESTAR NAME
                     {
                     match(input,DOUBLESTAR,FOLLOW_DOUBLESTAR_in_varargslist778); if (state.failed) return ;
                     match(input,NAME,FOLLOW_NAME_in_varargslist780); if (state.failed) return ;
@@ -1073,10 +1073,10 @@ public class PythonPartialParser extends Parser {
 
 
     // $ANTLR start "fpdef"
-    // /Users/nginther/dm/inf/CarnotKE/jython/grammar/PythonPartial.g:287:1: fpdef : ( NAME | ( LPAREN fpdef COMMA )=> LPAREN fplist RPAREN | LPAREN fplist RPAREN );
+    // /v/filer4b/v38q001/nginth/dm/Carnot-OWL/jython/grammar/PythonPartial.g:287:1: fpdef : ( NAME | ( LPAREN fpdef COMMA )=> LPAREN fplist RPAREN | LPAREN fplist RPAREN );
     public final void fpdef() throws RecognitionException {
         try {
-            // /Users/nginther/dm/inf/CarnotKE/jython/grammar/PythonPartial.g:288:5: ( NAME | ( LPAREN fpdef COMMA )=> LPAREN fplist RPAREN | LPAREN fplist RPAREN )
+            // /v/filer4b/v38q001/nginth/dm/Carnot-OWL/jython/grammar/PythonPartial.g:288:5: ( NAME | ( LPAREN fpdef COMMA )=> LPAREN fplist RPAREN | LPAREN fplist RPAREN )
             int alt21=3;
             int LA21_0 = input.LA(1);
 
@@ -1109,14 +1109,14 @@ public class PythonPartialParser extends Parser {
             }
             switch (alt21) {
                 case 1 :
-                    // /Users/nginther/dm/inf/CarnotKE/jython/grammar/PythonPartial.g:288:7: NAME
+                    // /v/filer4b/v38q001/nginth/dm/Carnot-OWL/jython/grammar/PythonPartial.g:288:7: NAME
                     {
                     match(input,NAME,FOLLOW_NAME_in_fpdef798); if (state.failed) return ;
 
                     }
                     break;
                 case 2 :
-                    // /Users/nginther/dm/inf/CarnotKE/jython/grammar/PythonPartial.g:289:7: ( LPAREN fpdef COMMA )=> LPAREN fplist RPAREN
+                    // /v/filer4b/v38q001/nginth/dm/Carnot-OWL/jython/grammar/PythonPartial.g:289:7: ( LPAREN fpdef COMMA )=> LPAREN fplist RPAREN
                     {
                     match(input,LPAREN,FOLLOW_LPAREN_in_fpdef816); if (state.failed) return ;
                     pushFollow(FOLLOW_fplist_in_fpdef818);
@@ -1129,7 +1129,7 @@ public class PythonPartialParser extends Parser {
                     }
                     break;
                 case 3 :
-                    // /Users/nginther/dm/inf/CarnotKE/jython/grammar/PythonPartial.g:290:7: LPAREN fplist RPAREN
+                    // /v/filer4b/v38q001/nginth/dm/Carnot-OWL/jython/grammar/PythonPartial.g:290:7: LPAREN fplist RPAREN
                     {
                     match(input,LPAREN,FOLLOW_LPAREN_in_fpdef828); if (state.failed) return ;
                     pushFollow(FOLLOW_fplist_in_fpdef830);
@@ -1156,18 +1156,18 @@ public class PythonPartialParser extends Parser {
 
 
     // $ANTLR start "fplist"
-    // /Users/nginther/dm/inf/CarnotKE/jython/grammar/PythonPartial.g:294:1: fplist : fpdef ( options {greedy=true; } : COMMA fpdef )* ( COMMA )? ;
+    // /v/filer4b/v38q001/nginth/dm/Carnot-OWL/jython/grammar/PythonPartial.g:294:1: fplist : fpdef ( options {greedy=true; } : COMMA fpdef )* ( COMMA )? ;
     public final void fplist() throws RecognitionException {
         try {
-            // /Users/nginther/dm/inf/CarnotKE/jython/grammar/PythonPartial.g:295:5: ( fpdef ( options {greedy=true; } : COMMA fpdef )* ( COMMA )? )
-            // /Users/nginther/dm/inf/CarnotKE/jython/grammar/PythonPartial.g:295:7: fpdef ( options {greedy=true; } : COMMA fpdef )* ( COMMA )?
+            // /v/filer4b/v38q001/nginth/dm/Carnot-OWL/jython/grammar/PythonPartial.g:295:5: ( fpdef ( options {greedy=true; } : COMMA fpdef )* ( COMMA )? )
+            // /v/filer4b/v38q001/nginth/dm/Carnot-OWL/jython/grammar/PythonPartial.g:295:7: fpdef ( options {greedy=true; } : COMMA fpdef )* ( COMMA )?
             {
             pushFollow(FOLLOW_fpdef_in_fplist850);
             fpdef();
 
             state._fsp--;
             if (state.failed) return ;
-            // /Users/nginther/dm/inf/CarnotKE/jython/grammar/PythonPartial.g:296:7: ( options {greedy=true; } : COMMA fpdef )*
+            // /v/filer4b/v38q001/nginth/dm/Carnot-OWL/jython/grammar/PythonPartial.g:296:7: ( options {greedy=true; } : COMMA fpdef )*
             loop22:
             do {
                 int alt22=2;
@@ -1186,7 +1186,7 @@ public class PythonPartialParser extends Parser {
 
                 switch (alt22) {
             	case 1 :
-            	    // /Users/nginther/dm/inf/CarnotKE/jython/grammar/PythonPartial.g:296:31: COMMA fpdef
+            	    // /v/filer4b/v38q001/nginth/dm/Carnot-OWL/jython/grammar/PythonPartial.g:296:31: COMMA fpdef
             	    {
             	    match(input,COMMA,FOLLOW_COMMA_in_fplist866); if (state.failed) return ;
             	    pushFollow(FOLLOW_fpdef_in_fplist868);
@@ -1203,7 +1203,7 @@ public class PythonPartialParser extends Parser {
                 }
             } while (true);
 
-            // /Users/nginther/dm/inf/CarnotKE/jython/grammar/PythonPartial.g:296:45: ( COMMA )?
+            // /v/filer4b/v38q001/nginth/dm/Carnot-OWL/jython/grammar/PythonPartial.g:296:45: ( COMMA )?
             int alt23=2;
             int LA23_0 = input.LA(1);
 
@@ -1212,7 +1212,7 @@ public class PythonPartialParser extends Parser {
             }
             switch (alt23) {
                 case 1 :
-                    // /Users/nginther/dm/inf/CarnotKE/jython/grammar/PythonPartial.g:296:46: COMMA
+                    // /v/filer4b/v38q001/nginth/dm/Carnot-OWL/jython/grammar/PythonPartial.g:296:46: COMMA
                     {
                     match(input,COMMA,FOLLOW_COMMA_in_fplist873); if (state.failed) return ;
 
@@ -1237,10 +1237,10 @@ public class PythonPartialParser extends Parser {
 
 
     // $ANTLR start "stmt"
-    // /Users/nginther/dm/inf/CarnotKE/jython/grammar/PythonPartial.g:300:1: stmt : ( simple_stmt | compound_stmt );
+    // /v/filer4b/v38q001/nginth/dm/Carnot-OWL/jython/grammar/PythonPartial.g:300:1: stmt : ( simple_stmt | compound_stmt );
     public final void stmt() throws RecognitionException {
         try {
-            // /Users/nginther/dm/inf/CarnotKE/jython/grammar/PythonPartial.g:301:5: ( simple_stmt | compound_stmt )
+            // /v/filer4b/v38q001/nginth/dm/Carnot-OWL/jython/grammar/PythonPartial.g:301:5: ( simple_stmt | compound_stmt )
             int alt24=2;
             int LA24_0 = input.LA(1);
 
@@ -1259,7 +1259,7 @@ public class PythonPartialParser extends Parser {
             }
             switch (alt24) {
                 case 1 :
-                    // /Users/nginther/dm/inf/CarnotKE/jython/grammar/PythonPartial.g:301:7: simple_stmt
+                    // /v/filer4b/v38q001/nginth/dm/Carnot-OWL/jython/grammar/PythonPartial.g:301:7: simple_stmt
                     {
                     pushFollow(FOLLOW_simple_stmt_in_stmt893);
                     simple_stmt();
@@ -1270,7 +1270,7 @@ public class PythonPartialParser extends Parser {
                     }
                     break;
                 case 2 :
-                    // /Users/nginther/dm/inf/CarnotKE/jython/grammar/PythonPartial.g:302:7: compound_stmt
+                    // /v/filer4b/v38q001/nginth/dm/Carnot-OWL/jython/grammar/PythonPartial.g:302:7: compound_stmt
                     {
                     pushFollow(FOLLOW_compound_stmt_in_stmt901);
                     compound_stmt();
@@ -1295,18 +1295,18 @@ public class PythonPartialParser extends Parser {
 
 
     // $ANTLR start "simple_stmt"
-    // /Users/nginther/dm/inf/CarnotKE/jython/grammar/PythonPartial.g:306:1: simple_stmt : small_stmt ( options {greedy=true; } : SEMI small_stmt )* ( SEMI )? ( NEWLINE | EOF ) ;
+    // /v/filer4b/v38q001/nginth/dm/Carnot-OWL/jython/grammar/PythonPartial.g:306:1: simple_stmt : small_stmt ( options {greedy=true; } : SEMI small_stmt )* ( SEMI )? ( NEWLINE | EOF ) ;
     public final void simple_stmt() throws RecognitionException {
         try {
-            // /Users/nginther/dm/inf/CarnotKE/jython/grammar/PythonPartial.g:307:5: ( small_stmt ( options {greedy=true; } : SEMI small_stmt )* ( SEMI )? ( NEWLINE | EOF ) )
-            // /Users/nginther/dm/inf/CarnotKE/jython/grammar/PythonPartial.g:307:7: small_stmt ( options {greedy=true; } : SEMI small_stmt )* ( SEMI )? ( NEWLINE | EOF )
+            // /v/filer4b/v38q001/nginth/dm/Carnot-OWL/jython/grammar/PythonPartial.g:307:5: ( small_stmt ( options {greedy=true; } : SEMI small_stmt )* ( SEMI )? ( NEWLINE | EOF ) )
+            // /v/filer4b/v38q001/nginth/dm/Carnot-OWL/jython/grammar/PythonPartial.g:307:7: small_stmt ( options {greedy=true; } : SEMI small_stmt )* ( SEMI )? ( NEWLINE | EOF )
             {
             pushFollow(FOLLOW_small_stmt_in_simple_stmt919);
             small_stmt();
 
             state._fsp--;
             if (state.failed) return ;
-            // /Users/nginther/dm/inf/CarnotKE/jython/grammar/PythonPartial.g:307:18: ( options {greedy=true; } : SEMI small_stmt )*
+            // /v/filer4b/v38q001/nginth/dm/Carnot-OWL/jython/grammar/PythonPartial.g:307:18: ( options {greedy=true; } : SEMI small_stmt )*
             loop25:
             do {
                 int alt25=2;
@@ -1325,7 +1325,7 @@ public class PythonPartialParser extends Parser {
 
                 switch (alt25) {
             	case 1 :
-            	    // /Users/nginther/dm/inf/CarnotKE/jython/grammar/PythonPartial.g:307:42: SEMI small_stmt
+            	    // /v/filer4b/v38q001/nginth/dm/Carnot-OWL/jython/grammar/PythonPartial.g:307:42: SEMI small_stmt
             	    {
             	    match(input,SEMI,FOLLOW_SEMI_in_simple_stmt929); if (state.failed) return ;
             	    pushFollow(FOLLOW_small_stmt_in_simple_stmt931);
@@ -1342,7 +1342,7 @@ public class PythonPartialParser extends Parser {
                 }
             } while (true);
 
-            // /Users/nginther/dm/inf/CarnotKE/jython/grammar/PythonPartial.g:307:60: ( SEMI )?
+            // /v/filer4b/v38q001/nginth/dm/Carnot-OWL/jython/grammar/PythonPartial.g:307:60: ( SEMI )?
             int alt26=2;
             int LA26_0 = input.LA(1);
 
@@ -1351,7 +1351,7 @@ public class PythonPartialParser extends Parser {
             }
             switch (alt26) {
                 case 1 :
-                    // /Users/nginther/dm/inf/CarnotKE/jython/grammar/PythonPartial.g:307:61: SEMI
+                    // /v/filer4b/v38q001/nginth/dm/Carnot-OWL/jython/grammar/PythonPartial.g:307:61: SEMI
                     {
                     match(input,SEMI,FOLLOW_SEMI_in_simple_stmt936); if (state.failed) return ;
 
@@ -1386,15 +1386,15 @@ public class PythonPartialParser extends Parser {
 
 
     // $ANTLR start "small_stmt"
-    // /Users/nginther/dm/inf/CarnotKE/jython/grammar/PythonPartial.g:312:1: small_stmt : ( expr_stmt | print_stmt | del_stmt | pass_stmt | flow_stmt | import_stmt | global_stmt | exec_stmt | assert_stmt );
+    // /v/filer4b/v38q001/nginth/dm/Carnot-OWL/jython/grammar/PythonPartial.g:312:1: small_stmt : ( expr_stmt | print_stmt | del_stmt | pass_stmt | flow_stmt | import_stmt | global_stmt | exec_stmt | assert_stmt );
     public final void small_stmt() throws RecognitionException {
         try {
-            // /Users/nginther/dm/inf/CarnotKE/jython/grammar/PythonPartial.g:312:12: ( expr_stmt | print_stmt | del_stmt | pass_stmt | flow_stmt | import_stmt | global_stmt | exec_stmt | assert_stmt )
+            // /v/filer4b/v38q001/nginth/dm/Carnot-OWL/jython/grammar/PythonPartial.g:312:12: ( expr_stmt | print_stmt | del_stmt | pass_stmt | flow_stmt | import_stmt | global_stmt | exec_stmt | assert_stmt )
             int alt27=9;
             alt27 = dfa27.predict(input);
             switch (alt27) {
                 case 1 :
-                    // /Users/nginther/dm/inf/CarnotKE/jython/grammar/PythonPartial.g:312:14: expr_stmt
+                    // /v/filer4b/v38q001/nginth/dm/Carnot-OWL/jython/grammar/PythonPartial.g:312:14: expr_stmt
                     {
                     pushFollow(FOLLOW_expr_stmt_in_small_stmt959);
                     expr_stmt();
@@ -1405,7 +1405,7 @@ public class PythonPartialParser extends Parser {
                     }
                     break;
                 case 2 :
-                    // /Users/nginther/dm/inf/CarnotKE/jython/grammar/PythonPartial.g:313:14: print_stmt
+                    // /v/filer4b/v38q001/nginth/dm/Carnot-OWL/jython/grammar/PythonPartial.g:313:14: print_stmt
                     {
                     pushFollow(FOLLOW_print_stmt_in_small_stmt974);
                     print_stmt();
@@ -1416,7 +1416,7 @@ public class PythonPartialParser extends Parser {
                     }
                     break;
                 case 3 :
-                    // /Users/nginther/dm/inf/CarnotKE/jython/grammar/PythonPartial.g:314:14: del_stmt
+                    // /v/filer4b/v38q001/nginth/dm/Carnot-OWL/jython/grammar/PythonPartial.g:314:14: del_stmt
                     {
                     pushFollow(FOLLOW_del_stmt_in_small_stmt989);
                     del_stmt();
@@ -1427,7 +1427,7 @@ public class PythonPartialParser extends Parser {
                     }
                     break;
                 case 4 :
-                    // /Users/nginther/dm/inf/CarnotKE/jython/grammar/PythonPartial.g:315:14: pass_stmt
+                    // /v/filer4b/v38q001/nginth/dm/Carnot-OWL/jython/grammar/PythonPartial.g:315:14: pass_stmt
                     {
                     pushFollow(FOLLOW_pass_stmt_in_small_stmt1004);
                     pass_stmt();
@@ -1438,7 +1438,7 @@ public class PythonPartialParser extends Parser {
                     }
                     break;
                 case 5 :
-                    // /Users/nginther/dm/inf/CarnotKE/jython/grammar/PythonPartial.g:316:14: flow_stmt
+                    // /v/filer4b/v38q001/nginth/dm/Carnot-OWL/jython/grammar/PythonPartial.g:316:14: flow_stmt
                     {
                     pushFollow(FOLLOW_flow_stmt_in_small_stmt1019);
                     flow_stmt();
@@ -1449,7 +1449,7 @@ public class PythonPartialParser extends Parser {
                     }
                     break;
                 case 6 :
-                    // /Users/nginther/dm/inf/CarnotKE/jython/grammar/PythonPartial.g:317:14: import_stmt
+                    // /v/filer4b/v38q001/nginth/dm/Carnot-OWL/jython/grammar/PythonPartial.g:317:14: import_stmt
                     {
                     pushFollow(FOLLOW_import_stmt_in_small_stmt1034);
                     import_stmt();
@@ -1460,7 +1460,7 @@ public class PythonPartialParser extends Parser {
                     }
                     break;
                 case 7 :
-                    // /Users/nginther/dm/inf/CarnotKE/jython/grammar/PythonPartial.g:318:14: global_stmt
+                    // /v/filer4b/v38q001/nginth/dm/Carnot-OWL/jython/grammar/PythonPartial.g:318:14: global_stmt
                     {
                     pushFollow(FOLLOW_global_stmt_in_small_stmt1049);
                     global_stmt();
@@ -1471,7 +1471,7 @@ public class PythonPartialParser extends Parser {
                     }
                     break;
                 case 8 :
-                    // /Users/nginther/dm/inf/CarnotKE/jython/grammar/PythonPartial.g:319:14: exec_stmt
+                    // /v/filer4b/v38q001/nginth/dm/Carnot-OWL/jython/grammar/PythonPartial.g:319:14: exec_stmt
                     {
                     pushFollow(FOLLOW_exec_stmt_in_small_stmt1064);
                     exec_stmt();
@@ -1482,7 +1482,7 @@ public class PythonPartialParser extends Parser {
                     }
                     break;
                 case 9 :
-                    // /Users/nginther/dm/inf/CarnotKE/jython/grammar/PythonPartial.g:320:14: assert_stmt
+                    // /v/filer4b/v38q001/nginth/dm/Carnot-OWL/jython/grammar/PythonPartial.g:320:14: assert_stmt
                     {
                     pushFollow(FOLLOW_assert_stmt_in_small_stmt1079);
                     assert_stmt();
@@ -1507,25 +1507,25 @@ public class PythonPartialParser extends Parser {
 
 
     // $ANTLR start "expr_stmt"
-    // /Users/nginther/dm/inf/CarnotKE/jython/grammar/PythonPartial.g:325:1: expr_stmt : ( ( testlist augassign )=> testlist ( ( augassign yield_expr ) | ( augassign testlist ) ) | ( testlist ASSIGN )=> testlist ( | ( ( ASSIGN testlist )+ ) | ( ( ASSIGN yield_expr )+ ) ) | testlist ) ;
+    // /v/filer4b/v38q001/nginth/dm/Carnot-OWL/jython/grammar/PythonPartial.g:325:1: expr_stmt : ( ( testlist augassign )=> testlist ( ( augassign yield_expr ) | ( augassign testlist ) ) | ( testlist ASSIGN )=> testlist ( | ( ( ASSIGN testlist )+ ) | ( ( ASSIGN yield_expr )+ ) ) | testlist ) ;
     public final void expr_stmt() throws RecognitionException {
         try {
-            // /Users/nginther/dm/inf/CarnotKE/jython/grammar/PythonPartial.g:326:5: ( ( ( testlist augassign )=> testlist ( ( augassign yield_expr ) | ( augassign testlist ) ) | ( testlist ASSIGN )=> testlist ( | ( ( ASSIGN testlist )+ ) | ( ( ASSIGN yield_expr )+ ) ) | testlist ) )
-            // /Users/nginther/dm/inf/CarnotKE/jython/grammar/PythonPartial.g:326:7: ( ( testlist augassign )=> testlist ( ( augassign yield_expr ) | ( augassign testlist ) ) | ( testlist ASSIGN )=> testlist ( | ( ( ASSIGN testlist )+ ) | ( ( ASSIGN yield_expr )+ ) ) | testlist )
+            // /v/filer4b/v38q001/nginth/dm/Carnot-OWL/jython/grammar/PythonPartial.g:326:5: ( ( ( testlist augassign )=> testlist ( ( augassign yield_expr ) | ( augassign testlist ) ) | ( testlist ASSIGN )=> testlist ( | ( ( ASSIGN testlist )+ ) | ( ( ASSIGN yield_expr )+ ) ) | testlist ) )
+            // /v/filer4b/v38q001/nginth/dm/Carnot-OWL/jython/grammar/PythonPartial.g:326:7: ( ( testlist augassign )=> testlist ( ( augassign yield_expr ) | ( augassign testlist ) ) | ( testlist ASSIGN )=> testlist ( | ( ( ASSIGN testlist )+ ) | ( ( ASSIGN yield_expr )+ ) ) | testlist )
             {
-            // /Users/nginther/dm/inf/CarnotKE/jython/grammar/PythonPartial.g:326:7: ( ( testlist augassign )=> testlist ( ( augassign yield_expr ) | ( augassign testlist ) ) | ( testlist ASSIGN )=> testlist ( | ( ( ASSIGN testlist )+ ) | ( ( ASSIGN yield_expr )+ ) ) | testlist )
+            // /v/filer4b/v38q001/nginth/dm/Carnot-OWL/jython/grammar/PythonPartial.g:326:7: ( ( testlist augassign )=> testlist ( ( augassign yield_expr ) | ( augassign testlist ) ) | ( testlist ASSIGN )=> testlist ( | ( ( ASSIGN testlist )+ ) | ( ( ASSIGN yield_expr )+ ) ) | testlist )
             int alt32=3;
             alt32 = dfa32.predict(input);
             switch (alt32) {
                 case 1 :
-                    // /Users/nginther/dm/inf/CarnotKE/jython/grammar/PythonPartial.g:326:8: ( testlist augassign )=> testlist ( ( augassign yield_expr ) | ( augassign testlist ) )
+                    // /v/filer4b/v38q001/nginth/dm/Carnot-OWL/jython/grammar/PythonPartial.g:326:8: ( testlist augassign )=> testlist ( ( augassign yield_expr ) | ( augassign testlist ) )
                     {
                     pushFollow(FOLLOW_testlist_in_expr_stmt1114);
                     testlist();
 
                     state._fsp--;
                     if (state.failed) return ;
-                    // /Users/nginther/dm/inf/CarnotKE/jython/grammar/PythonPartial.g:327:9: ( ( augassign yield_expr ) | ( augassign testlist ) )
+                    // /v/filer4b/v38q001/nginth/dm/Carnot-OWL/jython/grammar/PythonPartial.g:327:9: ( ( augassign yield_expr ) | ( augassign testlist ) )
                     int alt28=2;
                     int LA28_0 = input.LA(1);
 
@@ -1555,10 +1555,10 @@ public class PythonPartialParser extends Parser {
                     }
                     switch (alt28) {
                         case 1 :
-                            // /Users/nginther/dm/inf/CarnotKE/jython/grammar/PythonPartial.g:327:11: ( augassign yield_expr )
+                            // /v/filer4b/v38q001/nginth/dm/Carnot-OWL/jython/grammar/PythonPartial.g:327:11: ( augassign yield_expr )
                             {
-                            // /Users/nginther/dm/inf/CarnotKE/jython/grammar/PythonPartial.g:327:11: ( augassign yield_expr )
-                            // /Users/nginther/dm/inf/CarnotKE/jython/grammar/PythonPartial.g:327:12: augassign yield_expr
+                            // /v/filer4b/v38q001/nginth/dm/Carnot-OWL/jython/grammar/PythonPartial.g:327:11: ( augassign yield_expr )
+                            // /v/filer4b/v38q001/nginth/dm/Carnot-OWL/jython/grammar/PythonPartial.g:327:12: augassign yield_expr
                             {
                             pushFollow(FOLLOW_augassign_in_expr_stmt1127);
                             augassign();
@@ -1577,10 +1577,10 @@ public class PythonPartialParser extends Parser {
                             }
                             break;
                         case 2 :
-                            // /Users/nginther/dm/inf/CarnotKE/jython/grammar/PythonPartial.g:329:11: ( augassign testlist )
+                            // /v/filer4b/v38q001/nginth/dm/Carnot-OWL/jython/grammar/PythonPartial.g:329:11: ( augassign testlist )
                             {
-                            // /Users/nginther/dm/inf/CarnotKE/jython/grammar/PythonPartial.g:329:11: ( augassign testlist )
-                            // /Users/nginther/dm/inf/CarnotKE/jython/grammar/PythonPartial.g:329:12: augassign testlist
+                            // /v/filer4b/v38q001/nginth/dm/Carnot-OWL/jython/grammar/PythonPartial.g:329:11: ( augassign testlist )
+                            // /v/filer4b/v38q001/nginth/dm/Carnot-OWL/jython/grammar/PythonPartial.g:329:12: augassign testlist
                             {
                             pushFollow(FOLLOW_augassign_in_expr_stmt1154);
                             augassign();
@@ -1605,14 +1605,14 @@ public class PythonPartialParser extends Parser {
                     }
                     break;
                 case 2 :
-                    // /Users/nginther/dm/inf/CarnotKE/jython/grammar/PythonPartial.g:332:7: ( testlist ASSIGN )=> testlist ( | ( ( ASSIGN testlist )+ ) | ( ( ASSIGN yield_expr )+ ) )
+                    // /v/filer4b/v38q001/nginth/dm/Carnot-OWL/jython/grammar/PythonPartial.g:332:7: ( testlist ASSIGN )=> testlist ( | ( ( ASSIGN testlist )+ ) | ( ( ASSIGN yield_expr )+ ) )
                     {
                     pushFollow(FOLLOW_testlist_in_expr_stmt1194);
                     testlist();
 
                     state._fsp--;
                     if (state.failed) return ;
-                    // /Users/nginther/dm/inf/CarnotKE/jython/grammar/PythonPartial.g:333:9: ( | ( ( ASSIGN testlist )+ ) | ( ( ASSIGN yield_expr )+ ) )
+                    // /v/filer4b/v38q001/nginth/dm/Carnot-OWL/jython/grammar/PythonPartial.g:333:9: ( | ( ( ASSIGN testlist )+ ) | ( ( ASSIGN yield_expr )+ ) )
                     int alt31=3;
                     int LA31_0 = input.LA(1);
 
@@ -1645,17 +1645,17 @@ public class PythonPartialParser extends Parser {
                     }
                     switch (alt31) {
                         case 1 :
-                            // /Users/nginther/dm/inf/CarnotKE/jython/grammar/PythonPartial.g:334:9: 
+                            // /v/filer4b/v38q001/nginth/dm/Carnot-OWL/jython/grammar/PythonPartial.g:334:9: 
                             {
                             }
                             break;
                         case 2 :
-                            // /Users/nginther/dm/inf/CarnotKE/jython/grammar/PythonPartial.g:334:11: ( ( ASSIGN testlist )+ )
+                            // /v/filer4b/v38q001/nginth/dm/Carnot-OWL/jython/grammar/PythonPartial.g:334:11: ( ( ASSIGN testlist )+ )
                             {
-                            // /Users/nginther/dm/inf/CarnotKE/jython/grammar/PythonPartial.g:334:11: ( ( ASSIGN testlist )+ )
-                            // /Users/nginther/dm/inf/CarnotKE/jython/grammar/PythonPartial.g:334:12: ( ASSIGN testlist )+
+                            // /v/filer4b/v38q001/nginth/dm/Carnot-OWL/jython/grammar/PythonPartial.g:334:11: ( ( ASSIGN testlist )+ )
+                            // /v/filer4b/v38q001/nginth/dm/Carnot-OWL/jython/grammar/PythonPartial.g:334:12: ( ASSIGN testlist )+
                             {
-                            // /Users/nginther/dm/inf/CarnotKE/jython/grammar/PythonPartial.g:334:12: ( ASSIGN testlist )+
+                            // /v/filer4b/v38q001/nginth/dm/Carnot-OWL/jython/grammar/PythonPartial.g:334:12: ( ASSIGN testlist )+
                             int cnt29=0;
                             loop29:
                             do {
@@ -1669,7 +1669,7 @@ public class PythonPartialParser extends Parser {
 
                                 switch (alt29) {
                             	case 1 :
-                            	    // /Users/nginther/dm/inf/CarnotKE/jython/grammar/PythonPartial.g:334:13: ASSIGN testlist
+                            	    // /v/filer4b/v38q001/nginth/dm/Carnot-OWL/jython/grammar/PythonPartial.g:334:13: ASSIGN testlist
                             	    {
                             	    match(input,ASSIGN,FOLLOW_ASSIGN_in_expr_stmt1218); if (state.failed) return ;
                             	    pushFollow(FOLLOW_testlist_in_expr_stmt1220);
@@ -1698,12 +1698,12 @@ public class PythonPartialParser extends Parser {
                             }
                             break;
                         case 3 :
-                            // /Users/nginther/dm/inf/CarnotKE/jython/grammar/PythonPartial.g:336:11: ( ( ASSIGN yield_expr )+ )
+                            // /v/filer4b/v38q001/nginth/dm/Carnot-OWL/jython/grammar/PythonPartial.g:336:11: ( ( ASSIGN yield_expr )+ )
                             {
-                            // /Users/nginther/dm/inf/CarnotKE/jython/grammar/PythonPartial.g:336:11: ( ( ASSIGN yield_expr )+ )
-                            // /Users/nginther/dm/inf/CarnotKE/jython/grammar/PythonPartial.g:336:12: ( ASSIGN yield_expr )+
+                            // /v/filer4b/v38q001/nginth/dm/Carnot-OWL/jython/grammar/PythonPartial.g:336:11: ( ( ASSIGN yield_expr )+ )
+                            // /v/filer4b/v38q001/nginth/dm/Carnot-OWL/jython/grammar/PythonPartial.g:336:12: ( ASSIGN yield_expr )+
                             {
-                            // /Users/nginther/dm/inf/CarnotKE/jython/grammar/PythonPartial.g:336:12: ( ASSIGN yield_expr )+
+                            // /v/filer4b/v38q001/nginth/dm/Carnot-OWL/jython/grammar/PythonPartial.g:336:12: ( ASSIGN yield_expr )+
                             int cnt30=0;
                             loop30:
                             do {
@@ -1717,7 +1717,7 @@ public class PythonPartialParser extends Parser {
 
                                 switch (alt30) {
                             	case 1 :
-                            	    // /Users/nginther/dm/inf/CarnotKE/jython/grammar/PythonPartial.g:336:13: ASSIGN yield_expr
+                            	    // /v/filer4b/v38q001/nginth/dm/Carnot-OWL/jython/grammar/PythonPartial.g:336:13: ASSIGN yield_expr
                             	    {
                             	    match(input,ASSIGN,FOLLOW_ASSIGN_in_expr_stmt1248); if (state.failed) return ;
                             	    pushFollow(FOLLOW_yield_expr_in_expr_stmt1250);
@@ -1752,7 +1752,7 @@ public class PythonPartialParser extends Parser {
                     }
                     break;
                 case 3 :
-                    // /Users/nginther/dm/inf/CarnotKE/jython/grammar/PythonPartial.g:339:7: testlist
+                    // /v/filer4b/v38q001/nginth/dm/Carnot-OWL/jython/grammar/PythonPartial.g:339:7: testlist
                     {
                     pushFollow(FOLLOW_testlist_in_expr_stmt1282);
                     testlist();
@@ -1781,11 +1781,11 @@ public class PythonPartialParser extends Parser {
 
 
     // $ANTLR start "augassign"
-    // /Users/nginther/dm/inf/CarnotKE/jython/grammar/PythonPartial.g:345:1: augassign : ( PLUSEQUAL | MINUSEQUAL | STAREQUAL | SLASHEQUAL | PERCENTEQUAL | AMPEREQUAL | VBAREQUAL | CIRCUMFLEXEQUAL | LEFTSHIFTEQUAL | RIGHTSHIFTEQUAL | DOUBLESTAREQUAL | DOUBLESLASHEQUAL );
+    // /v/filer4b/v38q001/nginth/dm/Carnot-OWL/jython/grammar/PythonPartial.g:345:1: augassign : ( PLUSEQUAL | MINUSEQUAL | STAREQUAL | SLASHEQUAL | PERCENTEQUAL | AMPEREQUAL | VBAREQUAL | CIRCUMFLEXEQUAL | LEFTSHIFTEQUAL | RIGHTSHIFTEQUAL | DOUBLESTAREQUAL | DOUBLESLASHEQUAL );
     public final void augassign() throws RecognitionException {
         try {
-            // /Users/nginther/dm/inf/CarnotKE/jython/grammar/PythonPartial.g:346:5: ( PLUSEQUAL | MINUSEQUAL | STAREQUAL | SLASHEQUAL | PERCENTEQUAL | AMPEREQUAL | VBAREQUAL | CIRCUMFLEXEQUAL | LEFTSHIFTEQUAL | RIGHTSHIFTEQUAL | DOUBLESTAREQUAL | DOUBLESLASHEQUAL )
-            // /Users/nginther/dm/inf/CarnotKE/jython/grammar/PythonPartial.g:
+            // /v/filer4b/v38q001/nginth/dm/Carnot-OWL/jython/grammar/PythonPartial.g:346:5: ( PLUSEQUAL | MINUSEQUAL | STAREQUAL | SLASHEQUAL | PERCENTEQUAL | AMPEREQUAL | VBAREQUAL | CIRCUMFLEXEQUAL | LEFTSHIFTEQUAL | RIGHTSHIFTEQUAL | DOUBLESTAREQUAL | DOUBLESLASHEQUAL )
+            // /v/filer4b/v38q001/nginth/dm/Carnot-OWL/jython/grammar/PythonPartial.g:
             {
             if ( (input.LA(1)>=PLUSEQUAL && input.LA(1)<=DOUBLESLASHEQUAL) ) {
                 input.consume();
@@ -1813,14 +1813,14 @@ public class PythonPartialParser extends Parser {
 
 
     // $ANTLR start "print_stmt"
-    // /Users/nginther/dm/inf/CarnotKE/jython/grammar/PythonPartial.g:362:1: print_stmt : PRINT ( printlist | RIGHTSHIFT printlist | ) ;
+    // /v/filer4b/v38q001/nginth/dm/Carnot-OWL/jython/grammar/PythonPartial.g:362:1: print_stmt : PRINT ( printlist | RIGHTSHIFT printlist | ) ;
     public final void print_stmt() throws RecognitionException {
         try {
-            // /Users/nginther/dm/inf/CarnotKE/jython/grammar/PythonPartial.g:363:5: ( PRINT ( printlist | RIGHTSHIFT printlist | ) )
-            // /Users/nginther/dm/inf/CarnotKE/jython/grammar/PythonPartial.g:363:7: PRINT ( printlist | RIGHTSHIFT printlist | )
+            // /v/filer4b/v38q001/nginth/dm/Carnot-OWL/jython/grammar/PythonPartial.g:363:5: ( PRINT ( printlist | RIGHTSHIFT printlist | ) )
+            // /v/filer4b/v38q001/nginth/dm/Carnot-OWL/jython/grammar/PythonPartial.g:363:7: PRINT ( printlist | RIGHTSHIFT printlist | )
             {
             match(input,PRINT,FOLLOW_PRINT_in_print_stmt1414); if (state.failed) return ;
-            // /Users/nginther/dm/inf/CarnotKE/jython/grammar/PythonPartial.g:364:7: ( printlist | RIGHTSHIFT printlist | )
+            // /v/filer4b/v38q001/nginth/dm/Carnot-OWL/jython/grammar/PythonPartial.g:364:7: ( printlist | RIGHTSHIFT printlist | )
             int alt33=3;
             switch ( input.LA(1) ) {
             case TRAILBACKSLASH:
@@ -1867,7 +1867,7 @@ public class PythonPartialParser extends Parser {
 
             switch (alt33) {
                 case 1 :
-                    // /Users/nginther/dm/inf/CarnotKE/jython/grammar/PythonPartial.g:364:8: printlist
+                    // /v/filer4b/v38q001/nginth/dm/Carnot-OWL/jython/grammar/PythonPartial.g:364:8: printlist
                     {
                     pushFollow(FOLLOW_printlist_in_print_stmt1423);
                     printlist();
@@ -1878,7 +1878,7 @@ public class PythonPartialParser extends Parser {
                     }
                     break;
                 case 2 :
-                    // /Users/nginther/dm/inf/CarnotKE/jython/grammar/PythonPartial.g:365:9: RIGHTSHIFT printlist
+                    // /v/filer4b/v38q001/nginth/dm/Carnot-OWL/jython/grammar/PythonPartial.g:365:9: RIGHTSHIFT printlist
                     {
                     match(input,RIGHTSHIFT,FOLLOW_RIGHTSHIFT_in_print_stmt1433); if (state.failed) return ;
                     pushFollow(FOLLOW_printlist_in_print_stmt1435);
@@ -1890,7 +1890,7 @@ public class PythonPartialParser extends Parser {
                     }
                     break;
                 case 3 :
-                    // /Users/nginther/dm/inf/CarnotKE/jython/grammar/PythonPartial.g:367:7: 
+                    // /v/filer4b/v38q001/nginth/dm/Carnot-OWL/jython/grammar/PythonPartial.g:367:7: 
                     {
                     }
                     break;
@@ -1913,29 +1913,29 @@ public class PythonPartialParser extends Parser {
 
 
     // $ANTLR start "printlist"
-    // /Users/nginther/dm/inf/CarnotKE/jython/grammar/PythonPartial.g:371:1: printlist : ( ( test COMMA )=> test ( options {k=2; } : COMMA test )* ( COMMA )? | test );
+    // /v/filer4b/v38q001/nginth/dm/Carnot-OWL/jython/grammar/PythonPartial.g:371:1: printlist : ( ( test COMMA )=> test ( options {k=2; } : COMMA test )* ( COMMA )? | test );
     public final void printlist() throws RecognitionException {
         try {
-            // /Users/nginther/dm/inf/CarnotKE/jython/grammar/PythonPartial.g:372:5: ( ( test COMMA )=> test ( options {k=2; } : COMMA test )* ( COMMA )? | test )
+            // /v/filer4b/v38q001/nginth/dm/Carnot-OWL/jython/grammar/PythonPartial.g:372:5: ( ( test COMMA )=> test ( options {k=2; } : COMMA test )* ( COMMA )? | test )
             int alt36=2;
             alt36 = dfa36.predict(input);
             switch (alt36) {
                 case 1 :
-                    // /Users/nginther/dm/inf/CarnotKE/jython/grammar/PythonPartial.g:372:7: ( test COMMA )=> test ( options {k=2; } : COMMA test )* ( COMMA )?
+                    // /v/filer4b/v38q001/nginth/dm/Carnot-OWL/jython/grammar/PythonPartial.g:372:7: ( test COMMA )=> test ( options {k=2; } : COMMA test )* ( COMMA )?
                     {
                     pushFollow(FOLLOW_test_in_printlist1486);
                     test();
 
                     state._fsp--;
                     if (state.failed) return ;
-                    // /Users/nginther/dm/inf/CarnotKE/jython/grammar/PythonPartial.g:373:13: ( options {k=2; } : COMMA test )*
+                    // /v/filer4b/v38q001/nginth/dm/Carnot-OWL/jython/grammar/PythonPartial.g:373:13: ( options {k=2; } : COMMA test )*
                     loop34:
                     do {
                         int alt34=2;
                         alt34 = dfa34.predict(input);
                         switch (alt34) {
                     	case 1 :
-                    	    // /Users/nginther/dm/inf/CarnotKE/jython/grammar/PythonPartial.g:373:30: COMMA test
+                    	    // /v/filer4b/v38q001/nginth/dm/Carnot-OWL/jython/grammar/PythonPartial.g:373:30: COMMA test
                     	    {
                     	    match(input,COMMA,FOLLOW_COMMA_in_printlist1497); if (state.failed) return ;
                     	    pushFollow(FOLLOW_test_in_printlist1499);
@@ -1952,7 +1952,7 @@ public class PythonPartialParser extends Parser {
                         }
                     } while (true);
 
-                    // /Users/nginther/dm/inf/CarnotKE/jython/grammar/PythonPartial.g:374:10: ( COMMA )?
+                    // /v/filer4b/v38q001/nginth/dm/Carnot-OWL/jython/grammar/PythonPartial.g:374:10: ( COMMA )?
                     int alt35=2;
                     int LA35_0 = input.LA(1);
 
@@ -1961,7 +1961,7 @@ public class PythonPartialParser extends Parser {
                     }
                     switch (alt35) {
                         case 1 :
-                            // /Users/nginther/dm/inf/CarnotKE/jython/grammar/PythonPartial.g:374:11: COMMA
+                            // /v/filer4b/v38q001/nginth/dm/Carnot-OWL/jython/grammar/PythonPartial.g:374:11: COMMA
                             {
                             match(input,COMMA,FOLLOW_COMMA_in_printlist1513); if (state.failed) return ;
 
@@ -1974,7 +1974,7 @@ public class PythonPartialParser extends Parser {
                     }
                     break;
                 case 2 :
-                    // /Users/nginther/dm/inf/CarnotKE/jython/grammar/PythonPartial.g:375:7: test
+                    // /v/filer4b/v38q001/nginth/dm/Carnot-OWL/jython/grammar/PythonPartial.g:375:7: test
                     {
                     pushFollow(FOLLOW_test_in_printlist1523);
                     test();
@@ -1999,11 +1999,11 @@ public class PythonPartialParser extends Parser {
 
 
     // $ANTLR start "del_stmt"
-    // /Users/nginther/dm/inf/CarnotKE/jython/grammar/PythonPartial.g:379:1: del_stmt : DELETE exprlist ;
+    // /v/filer4b/v38q001/nginth/dm/Carnot-OWL/jython/grammar/PythonPartial.g:379:1: del_stmt : DELETE exprlist ;
     public final void del_stmt() throws RecognitionException {
         try {
-            // /Users/nginther/dm/inf/CarnotKE/jython/grammar/PythonPartial.g:380:5: ( DELETE exprlist )
-            // /Users/nginther/dm/inf/CarnotKE/jython/grammar/PythonPartial.g:380:7: DELETE exprlist
+            // /v/filer4b/v38q001/nginth/dm/Carnot-OWL/jython/grammar/PythonPartial.g:380:5: ( DELETE exprlist )
+            // /v/filer4b/v38q001/nginth/dm/Carnot-OWL/jython/grammar/PythonPartial.g:380:7: DELETE exprlist
             {
             match(input,DELETE,FOLLOW_DELETE_in_del_stmt1541); if (state.failed) return ;
             pushFollow(FOLLOW_exprlist_in_del_stmt1543);
@@ -2027,11 +2027,11 @@ public class PythonPartialParser extends Parser {
 
 
     // $ANTLR start "pass_stmt"
-    // /Users/nginther/dm/inf/CarnotKE/jython/grammar/PythonPartial.g:384:1: pass_stmt : PASS ;
+    // /v/filer4b/v38q001/nginth/dm/Carnot-OWL/jython/grammar/PythonPartial.g:384:1: pass_stmt : PASS ;
     public final void pass_stmt() throws RecognitionException {
         try {
-            // /Users/nginther/dm/inf/CarnotKE/jython/grammar/PythonPartial.g:385:5: ( PASS )
-            // /Users/nginther/dm/inf/CarnotKE/jython/grammar/PythonPartial.g:385:7: PASS
+            // /v/filer4b/v38q001/nginth/dm/Carnot-OWL/jython/grammar/PythonPartial.g:385:5: ( PASS )
+            // /v/filer4b/v38q001/nginth/dm/Carnot-OWL/jython/grammar/PythonPartial.g:385:7: PASS
             {
             match(input,PASS,FOLLOW_PASS_in_pass_stmt1561); if (state.failed) return ;
 
@@ -2050,10 +2050,10 @@ public class PythonPartialParser extends Parser {
 
 
     // $ANTLR start "flow_stmt"
-    // /Users/nginther/dm/inf/CarnotKE/jython/grammar/PythonPartial.g:389:1: flow_stmt : ( break_stmt | continue_stmt | return_stmt | raise_stmt | yield_stmt );
+    // /v/filer4b/v38q001/nginth/dm/Carnot-OWL/jython/grammar/PythonPartial.g:389:1: flow_stmt : ( break_stmt | continue_stmt | return_stmt | raise_stmt | yield_stmt );
     public final void flow_stmt() throws RecognitionException {
         try {
-            // /Users/nginther/dm/inf/CarnotKE/jython/grammar/PythonPartial.g:390:5: ( break_stmt | continue_stmt | return_stmt | raise_stmt | yield_stmt )
+            // /v/filer4b/v38q001/nginth/dm/Carnot-OWL/jython/grammar/PythonPartial.g:390:5: ( break_stmt | continue_stmt | return_stmt | raise_stmt | yield_stmt )
             int alt37=5;
             switch ( input.LA(1) ) {
             case BREAK:
@@ -2091,7 +2091,7 @@ public class PythonPartialParser extends Parser {
 
             switch (alt37) {
                 case 1 :
-                    // /Users/nginther/dm/inf/CarnotKE/jython/grammar/PythonPartial.g:390:7: break_stmt
+                    // /v/filer4b/v38q001/nginth/dm/Carnot-OWL/jython/grammar/PythonPartial.g:390:7: break_stmt
                     {
                     pushFollow(FOLLOW_break_stmt_in_flow_stmt1579);
                     break_stmt();
@@ -2102,7 +2102,7 @@ public class PythonPartialParser extends Parser {
                     }
                     break;
                 case 2 :
-                    // /Users/nginther/dm/inf/CarnotKE/jython/grammar/PythonPartial.g:391:7: continue_stmt
+                    // /v/filer4b/v38q001/nginth/dm/Carnot-OWL/jython/grammar/PythonPartial.g:391:7: continue_stmt
                     {
                     pushFollow(FOLLOW_continue_stmt_in_flow_stmt1587);
                     continue_stmt();
@@ -2113,7 +2113,7 @@ public class PythonPartialParser extends Parser {
                     }
                     break;
                 case 3 :
-                    // /Users/nginther/dm/inf/CarnotKE/jython/grammar/PythonPartial.g:392:7: return_stmt
+                    // /v/filer4b/v38q001/nginth/dm/Carnot-OWL/jython/grammar/PythonPartial.g:392:7: return_stmt
                     {
                     pushFollow(FOLLOW_return_stmt_in_flow_stmt1595);
                     return_stmt();
@@ -2124,7 +2124,7 @@ public class PythonPartialParser extends Parser {
                     }
                     break;
                 case 4 :
-                    // /Users/nginther/dm/inf/CarnotKE/jython/grammar/PythonPartial.g:393:7: raise_stmt
+                    // /v/filer4b/v38q001/nginth/dm/Carnot-OWL/jython/grammar/PythonPartial.g:393:7: raise_stmt
                     {
                     pushFollow(FOLLOW_raise_stmt_in_flow_stmt1603);
                     raise_stmt();
@@ -2135,7 +2135,7 @@ public class PythonPartialParser extends Parser {
                     }
                     break;
                 case 5 :
-                    // /Users/nginther/dm/inf/CarnotKE/jython/grammar/PythonPartial.g:394:7: yield_stmt
+                    // /v/filer4b/v38q001/nginth/dm/Carnot-OWL/jython/grammar/PythonPartial.g:394:7: yield_stmt
                     {
                     pushFollow(FOLLOW_yield_stmt_in_flow_stmt1611);
                     yield_stmt();
@@ -2160,11 +2160,11 @@ public class PythonPartialParser extends Parser {
 
 
     // $ANTLR start "break_stmt"
-    // /Users/nginther/dm/inf/CarnotKE/jython/grammar/PythonPartial.g:398:1: break_stmt : BREAK ;
+    // /v/filer4b/v38q001/nginth/dm/Carnot-OWL/jython/grammar/PythonPartial.g:398:1: break_stmt : BREAK ;
     public final void break_stmt() throws RecognitionException {
         try {
-            // /Users/nginther/dm/inf/CarnotKE/jython/grammar/PythonPartial.g:399:5: ( BREAK )
-            // /Users/nginther/dm/inf/CarnotKE/jython/grammar/PythonPartial.g:399:7: BREAK
+            // /v/filer4b/v38q001/nginth/dm/Carnot-OWL/jython/grammar/PythonPartial.g:399:5: ( BREAK )
+            // /v/filer4b/v38q001/nginth/dm/Carnot-OWL/jython/grammar/PythonPartial.g:399:7: BREAK
             {
             match(input,BREAK,FOLLOW_BREAK_in_break_stmt1629); if (state.failed) return ;
 
@@ -2183,11 +2183,11 @@ public class PythonPartialParser extends Parser {
 
 
     // $ANTLR start "continue_stmt"
-    // /Users/nginther/dm/inf/CarnotKE/jython/grammar/PythonPartial.g:403:1: continue_stmt : CONTINUE ;
+    // /v/filer4b/v38q001/nginth/dm/Carnot-OWL/jython/grammar/PythonPartial.g:403:1: continue_stmt : CONTINUE ;
     public final void continue_stmt() throws RecognitionException {
         try {
-            // /Users/nginther/dm/inf/CarnotKE/jython/grammar/PythonPartial.g:404:5: ( CONTINUE )
-            // /Users/nginther/dm/inf/CarnotKE/jython/grammar/PythonPartial.g:404:7: CONTINUE
+            // /v/filer4b/v38q001/nginth/dm/Carnot-OWL/jython/grammar/PythonPartial.g:404:5: ( CONTINUE )
+            // /v/filer4b/v38q001/nginth/dm/Carnot-OWL/jython/grammar/PythonPartial.g:404:7: CONTINUE
             {
             match(input,CONTINUE,FOLLOW_CONTINUE_in_continue_stmt1647); if (state.failed) return ;
 
@@ -2206,14 +2206,14 @@ public class PythonPartialParser extends Parser {
 
 
     // $ANTLR start "return_stmt"
-    // /Users/nginther/dm/inf/CarnotKE/jython/grammar/PythonPartial.g:408:1: return_stmt : RETURN ( testlist | ) ;
+    // /v/filer4b/v38q001/nginth/dm/Carnot-OWL/jython/grammar/PythonPartial.g:408:1: return_stmt : RETURN ( testlist | ) ;
     public final void return_stmt() throws RecognitionException {
         try {
-            // /Users/nginther/dm/inf/CarnotKE/jython/grammar/PythonPartial.g:409:5: ( RETURN ( testlist | ) )
-            // /Users/nginther/dm/inf/CarnotKE/jython/grammar/PythonPartial.g:409:7: RETURN ( testlist | )
+            // /v/filer4b/v38q001/nginth/dm/Carnot-OWL/jython/grammar/PythonPartial.g:409:5: ( RETURN ( testlist | ) )
+            // /v/filer4b/v38q001/nginth/dm/Carnot-OWL/jython/grammar/PythonPartial.g:409:7: RETURN ( testlist | )
             {
             match(input,RETURN,FOLLOW_RETURN_in_return_stmt1665); if (state.failed) return ;
-            // /Users/nginther/dm/inf/CarnotKE/jython/grammar/PythonPartial.g:410:7: ( testlist | )
+            // /v/filer4b/v38q001/nginth/dm/Carnot-OWL/jython/grammar/PythonPartial.g:410:7: ( testlist | )
             int alt38=2;
             int LA38_0 = input.LA(1);
 
@@ -2232,7 +2232,7 @@ public class PythonPartialParser extends Parser {
             }
             switch (alt38) {
                 case 1 :
-                    // /Users/nginther/dm/inf/CarnotKE/jython/grammar/PythonPartial.g:410:8: testlist
+                    // /v/filer4b/v38q001/nginth/dm/Carnot-OWL/jython/grammar/PythonPartial.g:410:8: testlist
                     {
                     pushFollow(FOLLOW_testlist_in_return_stmt1674);
                     testlist();
@@ -2243,7 +2243,7 @@ public class PythonPartialParser extends Parser {
                     }
                     break;
                 case 2 :
-                    // /Users/nginther/dm/inf/CarnotKE/jython/grammar/PythonPartial.g:412:7: 
+                    // /v/filer4b/v38q001/nginth/dm/Carnot-OWL/jython/grammar/PythonPartial.g:412:7: 
                     {
                     }
                     break;
@@ -2266,11 +2266,11 @@ public class PythonPartialParser extends Parser {
 
 
     // $ANTLR start "yield_stmt"
-    // /Users/nginther/dm/inf/CarnotKE/jython/grammar/PythonPartial.g:416:1: yield_stmt : yield_expr ;
+    // /v/filer4b/v38q001/nginth/dm/Carnot-OWL/jython/grammar/PythonPartial.g:416:1: yield_stmt : yield_expr ;
     public final void yield_stmt() throws RecognitionException {
         try {
-            // /Users/nginther/dm/inf/CarnotKE/jython/grammar/PythonPartial.g:417:5: ( yield_expr )
-            // /Users/nginther/dm/inf/CarnotKE/jython/grammar/PythonPartial.g:417:7: yield_expr
+            // /v/filer4b/v38q001/nginth/dm/Carnot-OWL/jython/grammar/PythonPartial.g:417:5: ( yield_expr )
+            // /v/filer4b/v38q001/nginth/dm/Carnot-OWL/jython/grammar/PythonPartial.g:417:7: yield_expr
             {
             pushFollow(FOLLOW_yield_expr_in_yield_stmt1708);
             yield_expr();
@@ -2293,14 +2293,14 @@ public class PythonPartialParser extends Parser {
 
 
     // $ANTLR start "raise_stmt"
-    // /Users/nginther/dm/inf/CarnotKE/jython/grammar/PythonPartial.g:421:1: raise_stmt : RAISE ( test ( COMMA test ( COMMA test )? )? )? ;
+    // /v/filer4b/v38q001/nginth/dm/Carnot-OWL/jython/grammar/PythonPartial.g:421:1: raise_stmt : RAISE ( test ( COMMA test ( COMMA test )? )? )? ;
     public final void raise_stmt() throws RecognitionException {
         try {
-            // /Users/nginther/dm/inf/CarnotKE/jython/grammar/PythonPartial.g:422:5: ( RAISE ( test ( COMMA test ( COMMA test )? )? )? )
-            // /Users/nginther/dm/inf/CarnotKE/jython/grammar/PythonPartial.g:422:7: RAISE ( test ( COMMA test ( COMMA test )? )? )?
+            // /v/filer4b/v38q001/nginth/dm/Carnot-OWL/jython/grammar/PythonPartial.g:422:5: ( RAISE ( test ( COMMA test ( COMMA test )? )? )? )
+            // /v/filer4b/v38q001/nginth/dm/Carnot-OWL/jython/grammar/PythonPartial.g:422:7: RAISE ( test ( COMMA test ( COMMA test )? )? )?
             {
             match(input,RAISE,FOLLOW_RAISE_in_raise_stmt1726); if (state.failed) return ;
-            // /Users/nginther/dm/inf/CarnotKE/jython/grammar/PythonPartial.g:422:13: ( test ( COMMA test ( COMMA test )? )? )?
+            // /v/filer4b/v38q001/nginth/dm/Carnot-OWL/jython/grammar/PythonPartial.g:422:13: ( test ( COMMA test ( COMMA test )? )? )?
             int alt41=2;
             int LA41_0 = input.LA(1);
 
@@ -2309,14 +2309,14 @@ public class PythonPartialParser extends Parser {
             }
             switch (alt41) {
                 case 1 :
-                    // /Users/nginther/dm/inf/CarnotKE/jython/grammar/PythonPartial.g:422:14: test ( COMMA test ( COMMA test )? )?
+                    // /v/filer4b/v38q001/nginth/dm/Carnot-OWL/jython/grammar/PythonPartial.g:422:14: test ( COMMA test ( COMMA test )? )?
                     {
                     pushFollow(FOLLOW_test_in_raise_stmt1729);
                     test();
 
                     state._fsp--;
                     if (state.failed) return ;
-                    // /Users/nginther/dm/inf/CarnotKE/jython/grammar/PythonPartial.g:422:19: ( COMMA test ( COMMA test )? )?
+                    // /v/filer4b/v38q001/nginth/dm/Carnot-OWL/jython/grammar/PythonPartial.g:422:19: ( COMMA test ( COMMA test )? )?
                     int alt40=2;
                     int LA40_0 = input.LA(1);
 
@@ -2325,7 +2325,7 @@ public class PythonPartialParser extends Parser {
                     }
                     switch (alt40) {
                         case 1 :
-                            // /Users/nginther/dm/inf/CarnotKE/jython/grammar/PythonPartial.g:422:20: COMMA test ( COMMA test )?
+                            // /v/filer4b/v38q001/nginth/dm/Carnot-OWL/jython/grammar/PythonPartial.g:422:20: COMMA test ( COMMA test )?
                             {
                             match(input,COMMA,FOLLOW_COMMA_in_raise_stmt1732); if (state.failed) return ;
                             pushFollow(FOLLOW_test_in_raise_stmt1734);
@@ -2333,7 +2333,7 @@ public class PythonPartialParser extends Parser {
 
                             state._fsp--;
                             if (state.failed) return ;
-                            // /Users/nginther/dm/inf/CarnotKE/jython/grammar/PythonPartial.g:423:9: ( COMMA test )?
+                            // /v/filer4b/v38q001/nginth/dm/Carnot-OWL/jython/grammar/PythonPartial.g:423:9: ( COMMA test )?
                             int alt39=2;
                             int LA39_0 = input.LA(1);
 
@@ -2342,7 +2342,7 @@ public class PythonPartialParser extends Parser {
                             }
                             switch (alt39) {
                                 case 1 :
-                                    // /Users/nginther/dm/inf/CarnotKE/jython/grammar/PythonPartial.g:423:10: COMMA test
+                                    // /v/filer4b/v38q001/nginth/dm/Carnot-OWL/jython/grammar/PythonPartial.g:423:10: COMMA test
                                     {
                                     match(input,COMMA,FOLLOW_COMMA_in_raise_stmt1745); if (state.failed) return ;
                                     pushFollow(FOLLOW_test_in_raise_stmt1747);
@@ -2384,10 +2384,10 @@ public class PythonPartialParser extends Parser {
 
 
     // $ANTLR start "import_stmt"
-    // /Users/nginther/dm/inf/CarnotKE/jython/grammar/PythonPartial.g:427:1: import_stmt : ( import_name | import_from );
+    // /v/filer4b/v38q001/nginth/dm/Carnot-OWL/jython/grammar/PythonPartial.g:427:1: import_stmt : ( import_name | import_from );
     public final void import_stmt() throws RecognitionException {
         try {
-            // /Users/nginther/dm/inf/CarnotKE/jython/grammar/PythonPartial.g:428:5: ( import_name | import_from )
+            // /v/filer4b/v38q001/nginth/dm/Carnot-OWL/jython/grammar/PythonPartial.g:428:5: ( import_name | import_from )
             int alt42=2;
             int LA42_0 = input.LA(1);
 
@@ -2406,7 +2406,7 @@ public class PythonPartialParser extends Parser {
             }
             switch (alt42) {
                 case 1 :
-                    // /Users/nginther/dm/inf/CarnotKE/jython/grammar/PythonPartial.g:428:7: import_name
+                    // /v/filer4b/v38q001/nginth/dm/Carnot-OWL/jython/grammar/PythonPartial.g:428:7: import_name
                     {
                     pushFollow(FOLLOW_import_name_in_import_stmt1771);
                     import_name();
@@ -2417,7 +2417,7 @@ public class PythonPartialParser extends Parser {
                     }
                     break;
                 case 2 :
-                    // /Users/nginther/dm/inf/CarnotKE/jython/grammar/PythonPartial.g:429:7: import_from
+                    // /v/filer4b/v38q001/nginth/dm/Carnot-OWL/jython/grammar/PythonPartial.g:429:7: import_from
                     {
                     pushFollow(FOLLOW_import_from_in_import_stmt1779);
                     import_from();
@@ -2442,11 +2442,11 @@ public class PythonPartialParser extends Parser {
 
 
     // $ANTLR start "import_name"
-    // /Users/nginther/dm/inf/CarnotKE/jython/grammar/PythonPartial.g:433:1: import_name : IMPORT dotted_as_names ;
+    // /v/filer4b/v38q001/nginth/dm/Carnot-OWL/jython/grammar/PythonPartial.g:433:1: import_name : IMPORT dotted_as_names ;
     public final void import_name() throws RecognitionException {
         try {
-            // /Users/nginther/dm/inf/CarnotKE/jython/grammar/PythonPartial.g:434:5: ( IMPORT dotted_as_names )
-            // /Users/nginther/dm/inf/CarnotKE/jython/grammar/PythonPartial.g:434:7: IMPORT dotted_as_names
+            // /v/filer4b/v38q001/nginth/dm/Carnot-OWL/jython/grammar/PythonPartial.g:434:5: ( IMPORT dotted_as_names )
+            // /v/filer4b/v38q001/nginth/dm/Carnot-OWL/jython/grammar/PythonPartial.g:434:7: IMPORT dotted_as_names
             {
             match(input,IMPORT,FOLLOW_IMPORT_in_import_name1797); if (state.failed) return ;
             pushFollow(FOLLOW_dotted_as_names_in_import_name1799);
@@ -2470,21 +2470,21 @@ public class PythonPartialParser extends Parser {
 
 
     // $ANTLR start "import_from"
-    // /Users/nginther/dm/inf/CarnotKE/jython/grammar/PythonPartial.g:439:1: import_from : FROM ( ( DOT )* dotted_name | ( DOT )+ ) IMPORT ( STAR | import_as_names | LPAREN import_as_names ( COMMA )? RPAREN ) ;
+    // /v/filer4b/v38q001/nginth/dm/Carnot-OWL/jython/grammar/PythonPartial.g:439:1: import_from : FROM ( ( DOT )* dotted_name | ( DOT )+ ) IMPORT ( STAR | import_as_names | LPAREN import_as_names ( COMMA )? RPAREN ) ;
     public final void import_from() throws RecognitionException {
         try {
-            // /Users/nginther/dm/inf/CarnotKE/jython/grammar/PythonPartial.g:440:5: ( FROM ( ( DOT )* dotted_name | ( DOT )+ ) IMPORT ( STAR | import_as_names | LPAREN import_as_names ( COMMA )? RPAREN ) )
-            // /Users/nginther/dm/inf/CarnotKE/jython/grammar/PythonPartial.g:440:7: FROM ( ( DOT )* dotted_name | ( DOT )+ ) IMPORT ( STAR | import_as_names | LPAREN import_as_names ( COMMA )? RPAREN )
+            // /v/filer4b/v38q001/nginth/dm/Carnot-OWL/jython/grammar/PythonPartial.g:440:5: ( FROM ( ( DOT )* dotted_name | ( DOT )+ ) IMPORT ( STAR | import_as_names | LPAREN import_as_names ( COMMA )? RPAREN ) )
+            // /v/filer4b/v38q001/nginth/dm/Carnot-OWL/jython/grammar/PythonPartial.g:440:7: FROM ( ( DOT )* dotted_name | ( DOT )+ ) IMPORT ( STAR | import_as_names | LPAREN import_as_names ( COMMA )? RPAREN )
             {
             match(input,FROM,FOLLOW_FROM_in_import_from1818); if (state.failed) return ;
-            // /Users/nginther/dm/inf/CarnotKE/jython/grammar/PythonPartial.g:440:12: ( ( DOT )* dotted_name | ( DOT )+ )
+            // /v/filer4b/v38q001/nginth/dm/Carnot-OWL/jython/grammar/PythonPartial.g:440:12: ( ( DOT )* dotted_name | ( DOT )+ )
             int alt45=2;
             alt45 = dfa45.predict(input);
             switch (alt45) {
                 case 1 :
-                    // /Users/nginther/dm/inf/CarnotKE/jython/grammar/PythonPartial.g:440:13: ( DOT )* dotted_name
+                    // /v/filer4b/v38q001/nginth/dm/Carnot-OWL/jython/grammar/PythonPartial.g:440:13: ( DOT )* dotted_name
                     {
-                    // /Users/nginther/dm/inf/CarnotKE/jython/grammar/PythonPartial.g:440:13: ( DOT )*
+                    // /v/filer4b/v38q001/nginth/dm/Carnot-OWL/jython/grammar/PythonPartial.g:440:13: ( DOT )*
                     loop43:
                     do {
                         int alt43=2;
@@ -2497,7 +2497,7 @@ public class PythonPartialParser extends Parser {
 
                         switch (alt43) {
                     	case 1 :
-                    	    // /Users/nginther/dm/inf/CarnotKE/jython/grammar/PythonPartial.g:440:13: DOT
+                    	    // /v/filer4b/v38q001/nginth/dm/Carnot-OWL/jython/grammar/PythonPartial.g:440:13: DOT
                     	    {
                     	    match(input,DOT,FOLLOW_DOT_in_import_from1821); if (state.failed) return ;
 
@@ -2518,9 +2518,9 @@ public class PythonPartialParser extends Parser {
                     }
                     break;
                 case 2 :
-                    // /Users/nginther/dm/inf/CarnotKE/jython/grammar/PythonPartial.g:440:32: ( DOT )+
+                    // /v/filer4b/v38q001/nginth/dm/Carnot-OWL/jython/grammar/PythonPartial.g:440:32: ( DOT )+
                     {
-                    // /Users/nginther/dm/inf/CarnotKE/jython/grammar/PythonPartial.g:440:32: ( DOT )+
+                    // /v/filer4b/v38q001/nginth/dm/Carnot-OWL/jython/grammar/PythonPartial.g:440:32: ( DOT )+
                     int cnt44=0;
                     loop44:
                     do {
@@ -2534,7 +2534,7 @@ public class PythonPartialParser extends Parser {
 
                         switch (alt44) {
                     	case 1 :
-                    	    // /Users/nginther/dm/inf/CarnotKE/jython/grammar/PythonPartial.g:440:32: DOT
+                    	    // /v/filer4b/v38q001/nginth/dm/Carnot-OWL/jython/grammar/PythonPartial.g:440:32: DOT
                     	    {
                     	    match(input,DOT,FOLLOW_DOT_in_import_from1828); if (state.failed) return ;
 
@@ -2558,7 +2558,7 @@ public class PythonPartialParser extends Parser {
             }
 
             match(input,IMPORT,FOLLOW_IMPORT_in_import_from1832); if (state.failed) return ;
-            // /Users/nginther/dm/inf/CarnotKE/jython/grammar/PythonPartial.g:441:9: ( STAR | import_as_names | LPAREN import_as_names ( COMMA )? RPAREN )
+            // /v/filer4b/v38q001/nginth/dm/Carnot-OWL/jython/grammar/PythonPartial.g:441:9: ( STAR | import_as_names | LPAREN import_as_names ( COMMA )? RPAREN )
             int alt47=3;
             switch ( input.LA(1) ) {
             case STAR:
@@ -2586,14 +2586,14 @@ public class PythonPartialParser extends Parser {
 
             switch (alt47) {
                 case 1 :
-                    // /Users/nginther/dm/inf/CarnotKE/jython/grammar/PythonPartial.g:441:10: STAR
+                    // /v/filer4b/v38q001/nginth/dm/Carnot-OWL/jython/grammar/PythonPartial.g:441:10: STAR
                     {
                     match(input,STAR,FOLLOW_STAR_in_import_from1843); if (state.failed) return ;
 
                     }
                     break;
                 case 2 :
-                    // /Users/nginther/dm/inf/CarnotKE/jython/grammar/PythonPartial.g:442:11: import_as_names
+                    // /v/filer4b/v38q001/nginth/dm/Carnot-OWL/jython/grammar/PythonPartial.g:442:11: import_as_names
                     {
                     pushFollow(FOLLOW_import_as_names_in_import_from1855);
                     import_as_names();
@@ -2604,7 +2604,7 @@ public class PythonPartialParser extends Parser {
                     }
                     break;
                 case 3 :
-                    // /Users/nginther/dm/inf/CarnotKE/jython/grammar/PythonPartial.g:443:11: LPAREN import_as_names ( COMMA )? RPAREN
+                    // /v/filer4b/v38q001/nginth/dm/Carnot-OWL/jython/grammar/PythonPartial.g:443:11: LPAREN import_as_names ( COMMA )? RPAREN
                     {
                     match(input,LPAREN,FOLLOW_LPAREN_in_import_from1867); if (state.failed) return ;
                     pushFollow(FOLLOW_import_as_names_in_import_from1869);
@@ -2612,7 +2612,7 @@ public class PythonPartialParser extends Parser {
 
                     state._fsp--;
                     if (state.failed) return ;
-                    // /Users/nginther/dm/inf/CarnotKE/jython/grammar/PythonPartial.g:443:34: ( COMMA )?
+                    // /v/filer4b/v38q001/nginth/dm/Carnot-OWL/jython/grammar/PythonPartial.g:443:34: ( COMMA )?
                     int alt46=2;
                     int LA46_0 = input.LA(1);
 
@@ -2621,7 +2621,7 @@ public class PythonPartialParser extends Parser {
                     }
                     switch (alt46) {
                         case 1 :
-                            // /Users/nginther/dm/inf/CarnotKE/jython/grammar/PythonPartial.g:443:34: COMMA
+                            // /v/filer4b/v38q001/nginth/dm/Carnot-OWL/jython/grammar/PythonPartial.g:443:34: COMMA
                             {
                             match(input,COMMA,FOLLOW_COMMA_in_import_from1871); if (state.failed) return ;
 
@@ -2653,18 +2653,18 @@ public class PythonPartialParser extends Parser {
 
 
     // $ANTLR start "import_as_names"
-    // /Users/nginther/dm/inf/CarnotKE/jython/grammar/PythonPartial.g:448:1: import_as_names : import_as_name ( COMMA import_as_name )* ;
+    // /v/filer4b/v38q001/nginth/dm/Carnot-OWL/jython/grammar/PythonPartial.g:448:1: import_as_names : import_as_name ( COMMA import_as_name )* ;
     public final void import_as_names() throws RecognitionException {
         try {
-            // /Users/nginther/dm/inf/CarnotKE/jython/grammar/PythonPartial.g:449:5: ( import_as_name ( COMMA import_as_name )* )
-            // /Users/nginther/dm/inf/CarnotKE/jython/grammar/PythonPartial.g:449:7: import_as_name ( COMMA import_as_name )*
+            // /v/filer4b/v38q001/nginth/dm/Carnot-OWL/jython/grammar/PythonPartial.g:449:5: ( import_as_name ( COMMA import_as_name )* )
+            // /v/filer4b/v38q001/nginth/dm/Carnot-OWL/jython/grammar/PythonPartial.g:449:7: import_as_name ( COMMA import_as_name )*
             {
             pushFollow(FOLLOW_import_as_name_in_import_as_names1902);
             import_as_name();
 
             state._fsp--;
             if (state.failed) return ;
-            // /Users/nginther/dm/inf/CarnotKE/jython/grammar/PythonPartial.g:449:22: ( COMMA import_as_name )*
+            // /v/filer4b/v38q001/nginth/dm/Carnot-OWL/jython/grammar/PythonPartial.g:449:22: ( COMMA import_as_name )*
             loop48:
             do {
                 int alt48=2;
@@ -2683,7 +2683,7 @@ public class PythonPartialParser extends Parser {
 
                 switch (alt48) {
             	case 1 :
-            	    // /Users/nginther/dm/inf/CarnotKE/jython/grammar/PythonPartial.g:449:23: COMMA import_as_name
+            	    // /v/filer4b/v38q001/nginth/dm/Carnot-OWL/jython/grammar/PythonPartial.g:449:23: COMMA import_as_name
             	    {
             	    match(input,COMMA,FOLLOW_COMMA_in_import_as_names1905); if (state.failed) return ;
             	    pushFollow(FOLLOW_import_as_name_in_import_as_names1907);
@@ -2716,14 +2716,14 @@ public class PythonPartialParser extends Parser {
 
 
     // $ANTLR start "import_as_name"
-    // /Users/nginther/dm/inf/CarnotKE/jython/grammar/PythonPartial.g:453:1: import_as_name : NAME ( AS NAME )? ;
+    // /v/filer4b/v38q001/nginth/dm/Carnot-OWL/jython/grammar/PythonPartial.g:453:1: import_as_name : NAME ( AS NAME )? ;
     public final void import_as_name() throws RecognitionException {
         try {
-            // /Users/nginther/dm/inf/CarnotKE/jython/grammar/PythonPartial.g:454:5: ( NAME ( AS NAME )? )
-            // /Users/nginther/dm/inf/CarnotKE/jython/grammar/PythonPartial.g:454:7: NAME ( AS NAME )?
+            // /v/filer4b/v38q001/nginth/dm/Carnot-OWL/jython/grammar/PythonPartial.g:454:5: ( NAME ( AS NAME )? )
+            // /v/filer4b/v38q001/nginth/dm/Carnot-OWL/jython/grammar/PythonPartial.g:454:7: NAME ( AS NAME )?
             {
             match(input,NAME,FOLLOW_NAME_in_import_as_name1927); if (state.failed) return ;
-            // /Users/nginther/dm/inf/CarnotKE/jython/grammar/PythonPartial.g:454:12: ( AS NAME )?
+            // /v/filer4b/v38q001/nginth/dm/Carnot-OWL/jython/grammar/PythonPartial.g:454:12: ( AS NAME )?
             int alt49=2;
             int LA49_0 = input.LA(1);
 
@@ -2732,7 +2732,7 @@ public class PythonPartialParser extends Parser {
             }
             switch (alt49) {
                 case 1 :
-                    // /Users/nginther/dm/inf/CarnotKE/jython/grammar/PythonPartial.g:454:13: AS NAME
+                    // /v/filer4b/v38q001/nginth/dm/Carnot-OWL/jython/grammar/PythonPartial.g:454:13: AS NAME
                     {
                     match(input,AS,FOLLOW_AS_in_import_as_name1930); if (state.failed) return ;
                     match(input,NAME,FOLLOW_NAME_in_import_as_name1932); if (state.failed) return ;
@@ -2758,18 +2758,18 @@ public class PythonPartialParser extends Parser {
 
 
     // $ANTLR start "dotted_as_name"
-    // /Users/nginther/dm/inf/CarnotKE/jython/grammar/PythonPartial.g:459:1: dotted_as_name : dotted_name ( AS NAME )? ;
+    // /v/filer4b/v38q001/nginth/dm/Carnot-OWL/jython/grammar/PythonPartial.g:459:1: dotted_as_name : dotted_name ( AS NAME )? ;
     public final void dotted_as_name() throws RecognitionException {
         try {
-            // /Users/nginther/dm/inf/CarnotKE/jython/grammar/PythonPartial.g:460:5: ( dotted_name ( AS NAME )? )
-            // /Users/nginther/dm/inf/CarnotKE/jython/grammar/PythonPartial.g:460:7: dotted_name ( AS NAME )?
+            // /v/filer4b/v38q001/nginth/dm/Carnot-OWL/jython/grammar/PythonPartial.g:460:5: ( dotted_name ( AS NAME )? )
+            // /v/filer4b/v38q001/nginth/dm/Carnot-OWL/jython/grammar/PythonPartial.g:460:7: dotted_name ( AS NAME )?
             {
             pushFollow(FOLLOW_dotted_name_in_dotted_as_name1953);
             dotted_name();
 
             state._fsp--;
             if (state.failed) return ;
-            // /Users/nginther/dm/inf/CarnotKE/jython/grammar/PythonPartial.g:460:19: ( AS NAME )?
+            // /v/filer4b/v38q001/nginth/dm/Carnot-OWL/jython/grammar/PythonPartial.g:460:19: ( AS NAME )?
             int alt50=2;
             int LA50_0 = input.LA(1);
 
@@ -2778,7 +2778,7 @@ public class PythonPartialParser extends Parser {
             }
             switch (alt50) {
                 case 1 :
-                    // /Users/nginther/dm/inf/CarnotKE/jython/grammar/PythonPartial.g:460:20: AS NAME
+                    // /v/filer4b/v38q001/nginth/dm/Carnot-OWL/jython/grammar/PythonPartial.g:460:20: AS NAME
                     {
                     match(input,AS,FOLLOW_AS_in_dotted_as_name1956); if (state.failed) return ;
                     match(input,NAME,FOLLOW_NAME_in_dotted_as_name1958); if (state.failed) return ;
@@ -2804,18 +2804,18 @@ public class PythonPartialParser extends Parser {
 
 
     // $ANTLR start "dotted_as_names"
-    // /Users/nginther/dm/inf/CarnotKE/jython/grammar/PythonPartial.g:464:1: dotted_as_names : dotted_as_name ( COMMA dotted_as_name )* ;
+    // /v/filer4b/v38q001/nginth/dm/Carnot-OWL/jython/grammar/PythonPartial.g:464:1: dotted_as_names : dotted_as_name ( COMMA dotted_as_name )* ;
     public final void dotted_as_names() throws RecognitionException {
         try {
-            // /Users/nginther/dm/inf/CarnotKE/jython/grammar/PythonPartial.g:465:5: ( dotted_as_name ( COMMA dotted_as_name )* )
-            // /Users/nginther/dm/inf/CarnotKE/jython/grammar/PythonPartial.g:465:7: dotted_as_name ( COMMA dotted_as_name )*
+            // /v/filer4b/v38q001/nginth/dm/Carnot-OWL/jython/grammar/PythonPartial.g:465:5: ( dotted_as_name ( COMMA dotted_as_name )* )
+            // /v/filer4b/v38q001/nginth/dm/Carnot-OWL/jython/grammar/PythonPartial.g:465:7: dotted_as_name ( COMMA dotted_as_name )*
             {
             pushFollow(FOLLOW_dotted_as_name_in_dotted_as_names1978);
             dotted_as_name();
 
             state._fsp--;
             if (state.failed) return ;
-            // /Users/nginther/dm/inf/CarnotKE/jython/grammar/PythonPartial.g:465:22: ( COMMA dotted_as_name )*
+            // /v/filer4b/v38q001/nginth/dm/Carnot-OWL/jython/grammar/PythonPartial.g:465:22: ( COMMA dotted_as_name )*
             loop51:
             do {
                 int alt51=2;
@@ -2828,7 +2828,7 @@ public class PythonPartialParser extends Parser {
 
                 switch (alt51) {
             	case 1 :
-            	    // /Users/nginther/dm/inf/CarnotKE/jython/grammar/PythonPartial.g:465:23: COMMA dotted_as_name
+            	    // /v/filer4b/v38q001/nginth/dm/Carnot-OWL/jython/grammar/PythonPartial.g:465:23: COMMA dotted_as_name
             	    {
             	    match(input,COMMA,FOLLOW_COMMA_in_dotted_as_names1981); if (state.failed) return ;
             	    pushFollow(FOLLOW_dotted_as_name_in_dotted_as_names1983);
@@ -2861,14 +2861,14 @@ public class PythonPartialParser extends Parser {
 
 
     // $ANTLR start "dotted_name"
-    // /Users/nginther/dm/inf/CarnotKE/jython/grammar/PythonPartial.g:469:1: dotted_name : NAME ( DOT attr )* ;
+    // /v/filer4b/v38q001/nginth/dm/Carnot-OWL/jython/grammar/PythonPartial.g:469:1: dotted_name : NAME ( DOT attr )* ;
     public final void dotted_name() throws RecognitionException {
         try {
-            // /Users/nginther/dm/inf/CarnotKE/jython/grammar/PythonPartial.g:470:5: ( NAME ( DOT attr )* )
-            // /Users/nginther/dm/inf/CarnotKE/jython/grammar/PythonPartial.g:470:7: NAME ( DOT attr )*
+            // /v/filer4b/v38q001/nginth/dm/Carnot-OWL/jython/grammar/PythonPartial.g:470:5: ( NAME ( DOT attr )* )
+            // /v/filer4b/v38q001/nginth/dm/Carnot-OWL/jython/grammar/PythonPartial.g:470:7: NAME ( DOT attr )*
             {
             match(input,NAME,FOLLOW_NAME_in_dotted_name2003); if (state.failed) return ;
-            // /Users/nginther/dm/inf/CarnotKE/jython/grammar/PythonPartial.g:470:12: ( DOT attr )*
+            // /v/filer4b/v38q001/nginth/dm/Carnot-OWL/jython/grammar/PythonPartial.g:470:12: ( DOT attr )*
             loop52:
             do {
                 int alt52=2;
@@ -2881,7 +2881,7 @@ public class PythonPartialParser extends Parser {
 
                 switch (alt52) {
             	case 1 :
-            	    // /Users/nginther/dm/inf/CarnotKE/jython/grammar/PythonPartial.g:470:13: DOT attr
+            	    // /v/filer4b/v38q001/nginth/dm/Carnot-OWL/jython/grammar/PythonPartial.g:470:13: DOT attr
             	    {
             	    match(input,DOT,FOLLOW_DOT_in_dotted_name2006); if (state.failed) return ;
             	    pushFollow(FOLLOW_attr_in_dotted_name2008);
@@ -2914,15 +2914,15 @@ public class PythonPartialParser extends Parser {
 
 
     // $ANTLR start "global_stmt"
-    // /Users/nginther/dm/inf/CarnotKE/jython/grammar/PythonPartial.g:474:1: global_stmt : GLOBAL NAME ( COMMA NAME )* ;
+    // /v/filer4b/v38q001/nginth/dm/Carnot-OWL/jython/grammar/PythonPartial.g:474:1: global_stmt : GLOBAL NAME ( COMMA NAME )* ;
     public final void global_stmt() throws RecognitionException {
         try {
-            // /Users/nginther/dm/inf/CarnotKE/jython/grammar/PythonPartial.g:475:5: ( GLOBAL NAME ( COMMA NAME )* )
-            // /Users/nginther/dm/inf/CarnotKE/jython/grammar/PythonPartial.g:475:7: GLOBAL NAME ( COMMA NAME )*
+            // /v/filer4b/v38q001/nginth/dm/Carnot-OWL/jython/grammar/PythonPartial.g:475:5: ( GLOBAL NAME ( COMMA NAME )* )
+            // /v/filer4b/v38q001/nginth/dm/Carnot-OWL/jython/grammar/PythonPartial.g:475:7: GLOBAL NAME ( COMMA NAME )*
             {
             match(input,GLOBAL,FOLLOW_GLOBAL_in_global_stmt2028); if (state.failed) return ;
             match(input,NAME,FOLLOW_NAME_in_global_stmt2030); if (state.failed) return ;
-            // /Users/nginther/dm/inf/CarnotKE/jython/grammar/PythonPartial.g:475:19: ( COMMA NAME )*
+            // /v/filer4b/v38q001/nginth/dm/Carnot-OWL/jython/grammar/PythonPartial.g:475:19: ( COMMA NAME )*
             loop53:
             do {
                 int alt53=2;
@@ -2935,7 +2935,7 @@ public class PythonPartialParser extends Parser {
 
                 switch (alt53) {
             	case 1 :
-            	    // /Users/nginther/dm/inf/CarnotKE/jython/grammar/PythonPartial.g:475:20: COMMA NAME
+            	    // /v/filer4b/v38q001/nginth/dm/Carnot-OWL/jython/grammar/PythonPartial.g:475:20: COMMA NAME
             	    {
             	    match(input,COMMA,FOLLOW_COMMA_in_global_stmt2033); if (state.failed) return ;
             	    match(input,NAME,FOLLOW_NAME_in_global_stmt2035); if (state.failed) return ;
@@ -2964,11 +2964,11 @@ public class PythonPartialParser extends Parser {
 
 
     // $ANTLR start "exec_stmt"
-    // /Users/nginther/dm/inf/CarnotKE/jython/grammar/PythonPartial.g:479:1: exec_stmt : EXEC expr ( IN test ( COMMA test )? )? ;
+    // /v/filer4b/v38q001/nginth/dm/Carnot-OWL/jython/grammar/PythonPartial.g:479:1: exec_stmt : EXEC expr ( IN test ( COMMA test )? )? ;
     public final void exec_stmt() throws RecognitionException {
         try {
-            // /Users/nginther/dm/inf/CarnotKE/jython/grammar/PythonPartial.g:480:5: ( EXEC expr ( IN test ( COMMA test )? )? )
-            // /Users/nginther/dm/inf/CarnotKE/jython/grammar/PythonPartial.g:480:7: EXEC expr ( IN test ( COMMA test )? )?
+            // /v/filer4b/v38q001/nginth/dm/Carnot-OWL/jython/grammar/PythonPartial.g:480:5: ( EXEC expr ( IN test ( COMMA test )? )? )
+            // /v/filer4b/v38q001/nginth/dm/Carnot-OWL/jython/grammar/PythonPartial.g:480:7: EXEC expr ( IN test ( COMMA test )? )?
             {
             match(input,EXEC,FOLLOW_EXEC_in_exec_stmt2055); if (state.failed) return ;
             pushFollow(FOLLOW_expr_in_exec_stmt2057);
@@ -2976,7 +2976,7 @@ public class PythonPartialParser extends Parser {
 
             state._fsp--;
             if (state.failed) return ;
-            // /Users/nginther/dm/inf/CarnotKE/jython/grammar/PythonPartial.g:480:17: ( IN test ( COMMA test )? )?
+            // /v/filer4b/v38q001/nginth/dm/Carnot-OWL/jython/grammar/PythonPartial.g:480:17: ( IN test ( COMMA test )? )?
             int alt55=2;
             int LA55_0 = input.LA(1);
 
@@ -2985,7 +2985,7 @@ public class PythonPartialParser extends Parser {
             }
             switch (alt55) {
                 case 1 :
-                    // /Users/nginther/dm/inf/CarnotKE/jython/grammar/PythonPartial.g:480:18: IN test ( COMMA test )?
+                    // /v/filer4b/v38q001/nginth/dm/Carnot-OWL/jython/grammar/PythonPartial.g:480:18: IN test ( COMMA test )?
                     {
                     match(input,IN,FOLLOW_IN_in_exec_stmt2060); if (state.failed) return ;
                     pushFollow(FOLLOW_test_in_exec_stmt2062);
@@ -2993,7 +2993,7 @@ public class PythonPartialParser extends Parser {
 
                     state._fsp--;
                     if (state.failed) return ;
-                    // /Users/nginther/dm/inf/CarnotKE/jython/grammar/PythonPartial.g:480:26: ( COMMA test )?
+                    // /v/filer4b/v38q001/nginth/dm/Carnot-OWL/jython/grammar/PythonPartial.g:480:26: ( COMMA test )?
                     int alt54=2;
                     int LA54_0 = input.LA(1);
 
@@ -3002,7 +3002,7 @@ public class PythonPartialParser extends Parser {
                     }
                     switch (alt54) {
                         case 1 :
-                            // /Users/nginther/dm/inf/CarnotKE/jython/grammar/PythonPartial.g:480:27: COMMA test
+                            // /v/filer4b/v38q001/nginth/dm/Carnot-OWL/jython/grammar/PythonPartial.g:480:27: COMMA test
                             {
                             match(input,COMMA,FOLLOW_COMMA_in_exec_stmt2065); if (state.failed) return ;
                             pushFollow(FOLLOW_test_in_exec_stmt2067);
@@ -3038,11 +3038,11 @@ public class PythonPartialParser extends Parser {
 
 
     // $ANTLR start "assert_stmt"
-    // /Users/nginther/dm/inf/CarnotKE/jython/grammar/PythonPartial.g:484:1: assert_stmt : ASSERT test ( COMMA test )? ;
+    // /v/filer4b/v38q001/nginth/dm/Carnot-OWL/jython/grammar/PythonPartial.g:484:1: assert_stmt : ASSERT test ( COMMA test )? ;
     public final void assert_stmt() throws RecognitionException {
         try {
-            // /Users/nginther/dm/inf/CarnotKE/jython/grammar/PythonPartial.g:485:5: ( ASSERT test ( COMMA test )? )
-            // /Users/nginther/dm/inf/CarnotKE/jython/grammar/PythonPartial.g:485:7: ASSERT test ( COMMA test )?
+            // /v/filer4b/v38q001/nginth/dm/Carnot-OWL/jython/grammar/PythonPartial.g:485:5: ( ASSERT test ( COMMA test )? )
+            // /v/filer4b/v38q001/nginth/dm/Carnot-OWL/jython/grammar/PythonPartial.g:485:7: ASSERT test ( COMMA test )?
             {
             match(input,ASSERT,FOLLOW_ASSERT_in_assert_stmt2089); if (state.failed) return ;
             pushFollow(FOLLOW_test_in_assert_stmt2091);
@@ -3050,7 +3050,7 @@ public class PythonPartialParser extends Parser {
 
             state._fsp--;
             if (state.failed) return ;
-            // /Users/nginther/dm/inf/CarnotKE/jython/grammar/PythonPartial.g:485:19: ( COMMA test )?
+            // /v/filer4b/v38q001/nginth/dm/Carnot-OWL/jython/grammar/PythonPartial.g:485:19: ( COMMA test )?
             int alt56=2;
             int LA56_0 = input.LA(1);
 
@@ -3059,7 +3059,7 @@ public class PythonPartialParser extends Parser {
             }
             switch (alt56) {
                 case 1 :
-                    // /Users/nginther/dm/inf/CarnotKE/jython/grammar/PythonPartial.g:485:20: COMMA test
+                    // /v/filer4b/v38q001/nginth/dm/Carnot-OWL/jython/grammar/PythonPartial.g:485:20: COMMA test
                     {
                     match(input,COMMA,FOLLOW_COMMA_in_assert_stmt2094); if (state.failed) return ;
                     pushFollow(FOLLOW_test_in_assert_stmt2096);
@@ -3089,15 +3089,15 @@ public class PythonPartialParser extends Parser {
 
 
     // $ANTLR start "compound_stmt"
-    // /Users/nginther/dm/inf/CarnotKE/jython/grammar/PythonPartial.g:489:1: compound_stmt : ( if_stmt | while_stmt | for_stmt | try_stmt | with_stmt | ( ( decorators )? DEF )=> funcdef | ( ( decorators )? CLASS )=> classdef | decorators );
+    // /v/filer4b/v38q001/nginth/dm/Carnot-OWL/jython/grammar/PythonPartial.g:489:1: compound_stmt : ( if_stmt | while_stmt | for_stmt | try_stmt | with_stmt | ( ( decorators )? DEF )=> funcdef | ( ( decorators )? CLASS )=> classdef | decorators );
     public final void compound_stmt() throws RecognitionException {
         try {
-            // /Users/nginther/dm/inf/CarnotKE/jython/grammar/PythonPartial.g:490:5: ( if_stmt | while_stmt | for_stmt | try_stmt | with_stmt | ( ( decorators )? DEF )=> funcdef | ( ( decorators )? CLASS )=> classdef | decorators )
+            // /v/filer4b/v38q001/nginth/dm/Carnot-OWL/jython/grammar/PythonPartial.g:490:5: ( if_stmt | while_stmt | for_stmt | try_stmt | with_stmt | ( ( decorators )? DEF )=> funcdef | ( ( decorators )? CLASS )=> classdef | decorators )
             int alt57=8;
             alt57 = dfa57.predict(input);
             switch (alt57) {
                 case 1 :
-                    // /Users/nginther/dm/inf/CarnotKE/jython/grammar/PythonPartial.g:490:7: if_stmt
+                    // /v/filer4b/v38q001/nginth/dm/Carnot-OWL/jython/grammar/PythonPartial.g:490:7: if_stmt
                     {
                     pushFollow(FOLLOW_if_stmt_in_compound_stmt2116);
                     if_stmt();
@@ -3108,7 +3108,7 @@ public class PythonPartialParser extends Parser {
                     }
                     break;
                 case 2 :
-                    // /Users/nginther/dm/inf/CarnotKE/jython/grammar/PythonPartial.g:491:7: while_stmt
+                    // /v/filer4b/v38q001/nginth/dm/Carnot-OWL/jython/grammar/PythonPartial.g:491:7: while_stmt
                     {
                     pushFollow(FOLLOW_while_stmt_in_compound_stmt2124);
                     while_stmt();
@@ -3119,7 +3119,7 @@ public class PythonPartialParser extends Parser {
                     }
                     break;
                 case 3 :
-                    // /Users/nginther/dm/inf/CarnotKE/jython/grammar/PythonPartial.g:492:7: for_stmt
+                    // /v/filer4b/v38q001/nginth/dm/Carnot-OWL/jython/grammar/PythonPartial.g:492:7: for_stmt
                     {
                     pushFollow(FOLLOW_for_stmt_in_compound_stmt2132);
                     for_stmt();
@@ -3130,7 +3130,7 @@ public class PythonPartialParser extends Parser {
                     }
                     break;
                 case 4 :
-                    // /Users/nginther/dm/inf/CarnotKE/jython/grammar/PythonPartial.g:493:7: try_stmt
+                    // /v/filer4b/v38q001/nginth/dm/Carnot-OWL/jython/grammar/PythonPartial.g:493:7: try_stmt
                     {
                     pushFollow(FOLLOW_try_stmt_in_compound_stmt2140);
                     try_stmt();
@@ -3141,7 +3141,7 @@ public class PythonPartialParser extends Parser {
                     }
                     break;
                 case 5 :
-                    // /Users/nginther/dm/inf/CarnotKE/jython/grammar/PythonPartial.g:494:7: with_stmt
+                    // /v/filer4b/v38q001/nginth/dm/Carnot-OWL/jython/grammar/PythonPartial.g:494:7: with_stmt
                     {
                     pushFollow(FOLLOW_with_stmt_in_compound_stmt2148);
                     with_stmt();
@@ -3152,7 +3152,7 @@ public class PythonPartialParser extends Parser {
                     }
                     break;
                 case 6 :
-                    // /Users/nginther/dm/inf/CarnotKE/jython/grammar/PythonPartial.g:495:7: ( ( decorators )? DEF )=> funcdef
+                    // /v/filer4b/v38q001/nginth/dm/Carnot-OWL/jython/grammar/PythonPartial.g:495:7: ( ( decorators )? DEF )=> funcdef
                     {
                     pushFollow(FOLLOW_funcdef_in_compound_stmt2165);
                     funcdef();
@@ -3163,7 +3163,7 @@ public class PythonPartialParser extends Parser {
                     }
                     break;
                 case 7 :
-                    // /Users/nginther/dm/inf/CarnotKE/jython/grammar/PythonPartial.g:496:7: ( ( decorators )? CLASS )=> classdef
+                    // /v/filer4b/v38q001/nginth/dm/Carnot-OWL/jython/grammar/PythonPartial.g:496:7: ( ( decorators )? CLASS )=> classdef
                     {
                     pushFollow(FOLLOW_classdef_in_compound_stmt2182);
                     classdef();
@@ -3174,7 +3174,7 @@ public class PythonPartialParser extends Parser {
                     }
                     break;
                 case 8 :
-                    // /Users/nginther/dm/inf/CarnotKE/jython/grammar/PythonPartial.g:497:7: decorators
+                    // /v/filer4b/v38q001/nginth/dm/Carnot-OWL/jython/grammar/PythonPartial.g:497:7: decorators
                     {
                     pushFollow(FOLLOW_decorators_in_compound_stmt2190);
                     decorators();
@@ -3199,11 +3199,11 @@ public class PythonPartialParser extends Parser {
 
 
     // $ANTLR start "if_stmt"
-    // /Users/nginther/dm/inf/CarnotKE/jython/grammar/PythonPartial.g:501:1: if_stmt : IF test COLON suite ( elif_clause )? ;
+    // /v/filer4b/v38q001/nginth/dm/Carnot-OWL/jython/grammar/PythonPartial.g:501:1: if_stmt : IF test COLON suite ( elif_clause )? ;
     public final void if_stmt() throws RecognitionException {
         try {
-            // /Users/nginther/dm/inf/CarnotKE/jython/grammar/PythonPartial.g:502:5: ( IF test COLON suite ( elif_clause )? )
-            // /Users/nginther/dm/inf/CarnotKE/jython/grammar/PythonPartial.g:502:7: IF test COLON suite ( elif_clause )?
+            // /v/filer4b/v38q001/nginth/dm/Carnot-OWL/jython/grammar/PythonPartial.g:502:5: ( IF test COLON suite ( elif_clause )? )
+            // /v/filer4b/v38q001/nginth/dm/Carnot-OWL/jython/grammar/PythonPartial.g:502:7: IF test COLON suite ( elif_clause )?
             {
             match(input,IF,FOLLOW_IF_in_if_stmt2208); if (state.failed) return ;
             pushFollow(FOLLOW_test_in_if_stmt2210);
@@ -3217,7 +3217,7 @@ public class PythonPartialParser extends Parser {
 
             state._fsp--;
             if (state.failed) return ;
-            // /Users/nginther/dm/inf/CarnotKE/jython/grammar/PythonPartial.g:502:27: ( elif_clause )?
+            // /v/filer4b/v38q001/nginth/dm/Carnot-OWL/jython/grammar/PythonPartial.g:502:27: ( elif_clause )?
             int alt58=2;
             int LA58_0 = input.LA(1);
 
@@ -3226,7 +3226,7 @@ public class PythonPartialParser extends Parser {
             }
             switch (alt58) {
                 case 1 :
-                    // /Users/nginther/dm/inf/CarnotKE/jython/grammar/PythonPartial.g:502:27: elif_clause
+                    // /v/filer4b/v38q001/nginth/dm/Carnot-OWL/jython/grammar/PythonPartial.g:502:27: elif_clause
                     {
                     pushFollow(FOLLOW_elif_clause_in_if_stmt2216);
                     elif_clause();
@@ -3255,10 +3255,10 @@ public class PythonPartialParser extends Parser {
 
 
     // $ANTLR start "elif_clause"
-    // /Users/nginther/dm/inf/CarnotKE/jython/grammar/PythonPartial.g:506:1: elif_clause : ( else_clause | ELIF test COLON suite ( elif_clause | ) );
+    // /v/filer4b/v38q001/nginth/dm/Carnot-OWL/jython/grammar/PythonPartial.g:506:1: elif_clause : ( else_clause | ELIF test COLON suite ( elif_clause | ) );
     public final void elif_clause() throws RecognitionException {
         try {
-            // /Users/nginther/dm/inf/CarnotKE/jython/grammar/PythonPartial.g:507:5: ( else_clause | ELIF test COLON suite ( elif_clause | ) )
+            // /v/filer4b/v38q001/nginth/dm/Carnot-OWL/jython/grammar/PythonPartial.g:507:5: ( else_clause | ELIF test COLON suite ( elif_clause | ) )
             int alt60=2;
             int LA60_0 = input.LA(1);
 
@@ -3277,7 +3277,7 @@ public class PythonPartialParser extends Parser {
             }
             switch (alt60) {
                 case 1 :
-                    // /Users/nginther/dm/inf/CarnotKE/jython/grammar/PythonPartial.g:507:7: else_clause
+                    // /v/filer4b/v38q001/nginth/dm/Carnot-OWL/jython/grammar/PythonPartial.g:507:7: else_clause
                     {
                     pushFollow(FOLLOW_else_clause_in_elif_clause2235);
                     else_clause();
@@ -3288,7 +3288,7 @@ public class PythonPartialParser extends Parser {
                     }
                     break;
                 case 2 :
-                    // /Users/nginther/dm/inf/CarnotKE/jython/grammar/PythonPartial.g:508:7: ELIF test COLON suite ( elif_clause | )
+                    // /v/filer4b/v38q001/nginth/dm/Carnot-OWL/jython/grammar/PythonPartial.g:508:7: ELIF test COLON suite ( elif_clause | )
                     {
                     match(input,ELIF,FOLLOW_ELIF_in_elif_clause2243); if (state.failed) return ;
                     pushFollow(FOLLOW_test_in_elif_clause2245);
@@ -3302,7 +3302,7 @@ public class PythonPartialParser extends Parser {
 
                     state._fsp--;
                     if (state.failed) return ;
-                    // /Users/nginther/dm/inf/CarnotKE/jython/grammar/PythonPartial.g:509:9: ( elif_clause | )
+                    // /v/filer4b/v38q001/nginth/dm/Carnot-OWL/jython/grammar/PythonPartial.g:509:9: ( elif_clause | )
                     int alt59=2;
                     int LA59_0 = input.LA(1);
 
@@ -3321,7 +3321,7 @@ public class PythonPartialParser extends Parser {
                     }
                     switch (alt59) {
                         case 1 :
-                            // /Users/nginther/dm/inf/CarnotKE/jython/grammar/PythonPartial.g:509:10: elif_clause
+                            // /v/filer4b/v38q001/nginth/dm/Carnot-OWL/jython/grammar/PythonPartial.g:509:10: elif_clause
                             {
                             pushFollow(FOLLOW_elif_clause_in_elif_clause2260);
                             elif_clause();
@@ -3332,7 +3332,7 @@ public class PythonPartialParser extends Parser {
                             }
                             break;
                         case 2 :
-                            // /Users/nginther/dm/inf/CarnotKE/jython/grammar/PythonPartial.g:511:9: 
+                            // /v/filer4b/v38q001/nginth/dm/Carnot-OWL/jython/grammar/PythonPartial.g:511:9: 
                             {
                             }
                             break;
@@ -3357,11 +3357,11 @@ public class PythonPartialParser extends Parser {
 
 
     // $ANTLR start "else_clause"
-    // /Users/nginther/dm/inf/CarnotKE/jython/grammar/PythonPartial.g:515:1: else_clause : ORELSE COLON suite ;
+    // /v/filer4b/v38q001/nginth/dm/Carnot-OWL/jython/grammar/PythonPartial.g:515:1: else_clause : ORELSE COLON suite ;
     public final void else_clause() throws RecognitionException {
         try {
-            // /Users/nginther/dm/inf/CarnotKE/jython/grammar/PythonPartial.g:516:5: ( ORELSE COLON suite )
-            // /Users/nginther/dm/inf/CarnotKE/jython/grammar/PythonPartial.g:516:7: ORELSE COLON suite
+            // /v/filer4b/v38q001/nginth/dm/Carnot-OWL/jython/grammar/PythonPartial.g:516:5: ( ORELSE COLON suite )
+            // /v/filer4b/v38q001/nginth/dm/Carnot-OWL/jython/grammar/PythonPartial.g:516:7: ORELSE COLON suite
             {
             match(input,ORELSE,FOLLOW_ORELSE_in_else_clause2298); if (state.failed) return ;
             match(input,COLON,FOLLOW_COLON_in_else_clause2300); if (state.failed) return ;
@@ -3386,11 +3386,11 @@ public class PythonPartialParser extends Parser {
 
 
     // $ANTLR start "while_stmt"
-    // /Users/nginther/dm/inf/CarnotKE/jython/grammar/PythonPartial.g:520:1: while_stmt : WHILE test COLON suite ( ORELSE COLON suite )? ;
+    // /v/filer4b/v38q001/nginth/dm/Carnot-OWL/jython/grammar/PythonPartial.g:520:1: while_stmt : WHILE test COLON suite ( ORELSE COLON suite )? ;
     public final void while_stmt() throws RecognitionException {
         try {
-            // /Users/nginther/dm/inf/CarnotKE/jython/grammar/PythonPartial.g:521:5: ( WHILE test COLON suite ( ORELSE COLON suite )? )
-            // /Users/nginther/dm/inf/CarnotKE/jython/grammar/PythonPartial.g:521:7: WHILE test COLON suite ( ORELSE COLON suite )?
+            // /v/filer4b/v38q001/nginth/dm/Carnot-OWL/jython/grammar/PythonPartial.g:521:5: ( WHILE test COLON suite ( ORELSE COLON suite )? )
+            // /v/filer4b/v38q001/nginth/dm/Carnot-OWL/jython/grammar/PythonPartial.g:521:7: WHILE test COLON suite ( ORELSE COLON suite )?
             {
             match(input,WHILE,FOLLOW_WHILE_in_while_stmt2320); if (state.failed) return ;
             pushFollow(FOLLOW_test_in_while_stmt2322);
@@ -3404,7 +3404,7 @@ public class PythonPartialParser extends Parser {
 
             state._fsp--;
             if (state.failed) return ;
-            // /Users/nginther/dm/inf/CarnotKE/jython/grammar/PythonPartial.g:521:30: ( ORELSE COLON suite )?
+            // /v/filer4b/v38q001/nginth/dm/Carnot-OWL/jython/grammar/PythonPartial.g:521:30: ( ORELSE COLON suite )?
             int alt61=2;
             int LA61_0 = input.LA(1);
 
@@ -3413,7 +3413,7 @@ public class PythonPartialParser extends Parser {
             }
             switch (alt61) {
                 case 1 :
-                    // /Users/nginther/dm/inf/CarnotKE/jython/grammar/PythonPartial.g:521:31: ORELSE COLON suite
+                    // /v/filer4b/v38q001/nginth/dm/Carnot-OWL/jython/grammar/PythonPartial.g:521:31: ORELSE COLON suite
                     {
                     match(input,ORELSE,FOLLOW_ORELSE_in_while_stmt2329); if (state.failed) return ;
                     match(input,COLON,FOLLOW_COLON_in_while_stmt2331); if (state.failed) return ;
@@ -3444,11 +3444,11 @@ public class PythonPartialParser extends Parser {
 
 
     // $ANTLR start "for_stmt"
-    // /Users/nginther/dm/inf/CarnotKE/jython/grammar/PythonPartial.g:525:1: for_stmt : FOR exprlist IN testlist COLON suite ( ORELSE COLON suite )? ;
+    // /v/filer4b/v38q001/nginth/dm/Carnot-OWL/jython/grammar/PythonPartial.g:525:1: for_stmt : FOR exprlist IN testlist COLON suite ( ORELSE COLON suite )? ;
     public final void for_stmt() throws RecognitionException {
         try {
-            // /Users/nginther/dm/inf/CarnotKE/jython/grammar/PythonPartial.g:526:5: ( FOR exprlist IN testlist COLON suite ( ORELSE COLON suite )? )
-            // /Users/nginther/dm/inf/CarnotKE/jython/grammar/PythonPartial.g:526:7: FOR exprlist IN testlist COLON suite ( ORELSE COLON suite )?
+            // /v/filer4b/v38q001/nginth/dm/Carnot-OWL/jython/grammar/PythonPartial.g:526:5: ( FOR exprlist IN testlist COLON suite ( ORELSE COLON suite )? )
+            // /v/filer4b/v38q001/nginth/dm/Carnot-OWL/jython/grammar/PythonPartial.g:526:7: FOR exprlist IN testlist COLON suite ( ORELSE COLON suite )?
             {
             match(input,FOR,FOLLOW_FOR_in_for_stmt2353); if (state.failed) return ;
             pushFollow(FOLLOW_exprlist_in_for_stmt2355);
@@ -3468,7 +3468,7 @@ public class PythonPartialParser extends Parser {
 
             state._fsp--;
             if (state.failed) return ;
-            // /Users/nginther/dm/inf/CarnotKE/jython/grammar/PythonPartial.g:527:9: ( ORELSE COLON suite )?
+            // /v/filer4b/v38q001/nginth/dm/Carnot-OWL/jython/grammar/PythonPartial.g:527:9: ( ORELSE COLON suite )?
             int alt62=2;
             int LA62_0 = input.LA(1);
 
@@ -3477,7 +3477,7 @@ public class PythonPartialParser extends Parser {
             }
             switch (alt62) {
                 case 1 :
-                    // /Users/nginther/dm/inf/CarnotKE/jython/grammar/PythonPartial.g:527:10: ORELSE COLON suite
+                    // /v/filer4b/v38q001/nginth/dm/Carnot-OWL/jython/grammar/PythonPartial.g:527:10: ORELSE COLON suite
                     {
                     match(input,ORELSE,FOLLOW_ORELSE_in_for_stmt2374); if (state.failed) return ;
                     match(input,COLON,FOLLOW_COLON_in_for_stmt2376); if (state.failed) return ;
@@ -3508,11 +3508,11 @@ public class PythonPartialParser extends Parser {
 
 
     // $ANTLR start "try_stmt"
-    // /Users/nginther/dm/inf/CarnotKE/jython/grammar/PythonPartial.g:535:1: try_stmt : TRY COLON suite ( ( except_clause )+ ( ORELSE COLON suite )? ( FINALLY COLON suite )? | FINALLY COLON suite )? ;
+    // /v/filer4b/v38q001/nginth/dm/Carnot-OWL/jython/grammar/PythonPartial.g:535:1: try_stmt : TRY COLON suite ( ( except_clause )+ ( ORELSE COLON suite )? ( FINALLY COLON suite )? | FINALLY COLON suite )? ;
     public final void try_stmt() throws RecognitionException {
         try {
-            // /Users/nginther/dm/inf/CarnotKE/jython/grammar/PythonPartial.g:536:5: ( TRY COLON suite ( ( except_clause )+ ( ORELSE COLON suite )? ( FINALLY COLON suite )? | FINALLY COLON suite )? )
-            // /Users/nginther/dm/inf/CarnotKE/jython/grammar/PythonPartial.g:536:7: TRY COLON suite ( ( except_clause )+ ( ORELSE COLON suite )? ( FINALLY COLON suite )? | FINALLY COLON suite )?
+            // /v/filer4b/v38q001/nginth/dm/Carnot-OWL/jython/grammar/PythonPartial.g:536:5: ( TRY COLON suite ( ( except_clause )+ ( ORELSE COLON suite )? ( FINALLY COLON suite )? | FINALLY COLON suite )? )
+            // /v/filer4b/v38q001/nginth/dm/Carnot-OWL/jython/grammar/PythonPartial.g:536:7: TRY COLON suite ( ( except_clause )+ ( ORELSE COLON suite )? ( FINALLY COLON suite )? | FINALLY COLON suite )?
             {
             match(input,TRY,FOLLOW_TRY_in_try_stmt2402); if (state.failed) return ;
             match(input,COLON,FOLLOW_COLON_in_try_stmt2404); if (state.failed) return ;
@@ -3521,7 +3521,7 @@ public class PythonPartialParser extends Parser {
 
             state._fsp--;
             if (state.failed) return ;
-            // /Users/nginther/dm/inf/CarnotKE/jython/grammar/PythonPartial.g:537:7: ( ( except_clause )+ ( ORELSE COLON suite )? ( FINALLY COLON suite )? | FINALLY COLON suite )?
+            // /v/filer4b/v38q001/nginth/dm/Carnot-OWL/jython/grammar/PythonPartial.g:537:7: ( ( except_clause )+ ( ORELSE COLON suite )? ( FINALLY COLON suite )? | FINALLY COLON suite )?
             int alt66=3;
             int LA66_0 = input.LA(1);
 
@@ -3533,9 +3533,9 @@ public class PythonPartialParser extends Parser {
             }
             switch (alt66) {
                 case 1 :
-                    // /Users/nginther/dm/inf/CarnotKE/jython/grammar/PythonPartial.g:537:9: ( except_clause )+ ( ORELSE COLON suite )? ( FINALLY COLON suite )?
+                    // /v/filer4b/v38q001/nginth/dm/Carnot-OWL/jython/grammar/PythonPartial.g:537:9: ( except_clause )+ ( ORELSE COLON suite )? ( FINALLY COLON suite )?
                     {
-                    // /Users/nginther/dm/inf/CarnotKE/jython/grammar/PythonPartial.g:537:9: ( except_clause )+
+                    // /v/filer4b/v38q001/nginth/dm/Carnot-OWL/jython/grammar/PythonPartial.g:537:9: ( except_clause )+
                     int cnt63=0;
                     loop63:
                     do {
@@ -3549,7 +3549,7 @@ public class PythonPartialParser extends Parser {
 
                         switch (alt63) {
                     	case 1 :
-                    	    // /Users/nginther/dm/inf/CarnotKE/jython/grammar/PythonPartial.g:537:9: except_clause
+                    	    // /v/filer4b/v38q001/nginth/dm/Carnot-OWL/jython/grammar/PythonPartial.g:537:9: except_clause
                     	    {
                     	    pushFollow(FOLLOW_except_clause_in_try_stmt2416);
                     	    except_clause();
@@ -3570,7 +3570,7 @@ public class PythonPartialParser extends Parser {
                         cnt63++;
                     } while (true);
 
-                    // /Users/nginther/dm/inf/CarnotKE/jython/grammar/PythonPartial.g:537:24: ( ORELSE COLON suite )?
+                    // /v/filer4b/v38q001/nginth/dm/Carnot-OWL/jython/grammar/PythonPartial.g:537:24: ( ORELSE COLON suite )?
                     int alt64=2;
                     int LA64_0 = input.LA(1);
 
@@ -3579,7 +3579,7 @@ public class PythonPartialParser extends Parser {
                     }
                     switch (alt64) {
                         case 1 :
-                            // /Users/nginther/dm/inf/CarnotKE/jython/grammar/PythonPartial.g:537:25: ORELSE COLON suite
+                            // /v/filer4b/v38q001/nginth/dm/Carnot-OWL/jython/grammar/PythonPartial.g:537:25: ORELSE COLON suite
                             {
                             match(input,ORELSE,FOLLOW_ORELSE_in_try_stmt2420); if (state.failed) return ;
                             match(input,COLON,FOLLOW_COLON_in_try_stmt2422); if (state.failed) return ;
@@ -3594,7 +3594,7 @@ public class PythonPartialParser extends Parser {
 
                     }
 
-                    // /Users/nginther/dm/inf/CarnotKE/jython/grammar/PythonPartial.g:537:46: ( FINALLY COLON suite )?
+                    // /v/filer4b/v38q001/nginth/dm/Carnot-OWL/jython/grammar/PythonPartial.g:537:46: ( FINALLY COLON suite )?
                     int alt65=2;
                     int LA65_0 = input.LA(1);
 
@@ -3603,7 +3603,7 @@ public class PythonPartialParser extends Parser {
                     }
                     switch (alt65) {
                         case 1 :
-                            // /Users/nginther/dm/inf/CarnotKE/jython/grammar/PythonPartial.g:537:47: FINALLY COLON suite
+                            // /v/filer4b/v38q001/nginth/dm/Carnot-OWL/jython/grammar/PythonPartial.g:537:47: FINALLY COLON suite
                             {
                             match(input,FINALLY,FOLLOW_FINALLY_in_try_stmt2429); if (state.failed) return ;
                             match(input,COLON,FOLLOW_COLON_in_try_stmt2431); if (state.failed) return ;
@@ -3622,7 +3622,7 @@ public class PythonPartialParser extends Parser {
                     }
                     break;
                 case 2 :
-                    // /Users/nginther/dm/inf/CarnotKE/jython/grammar/PythonPartial.g:538:9: FINALLY COLON suite
+                    // /v/filer4b/v38q001/nginth/dm/Carnot-OWL/jython/grammar/PythonPartial.g:538:9: FINALLY COLON suite
                     {
                     match(input,FINALLY,FOLLOW_FINALLY_in_try_stmt2445); if (state.failed) return ;
                     match(input,COLON,FOLLOW_COLON_in_try_stmt2447); if (state.failed) return ;
@@ -3653,11 +3653,11 @@ public class PythonPartialParser extends Parser {
 
 
     // $ANTLR start "with_stmt"
-    // /Users/nginther/dm/inf/CarnotKE/jython/grammar/PythonPartial.g:543:1: with_stmt : WITH with_item ( options {greedy=true; } : COMMA with_item )* COLON suite ;
+    // /v/filer4b/v38q001/nginth/dm/Carnot-OWL/jython/grammar/PythonPartial.g:543:1: with_stmt : WITH with_item ( options {greedy=true; } : COMMA with_item )* COLON suite ;
     public final void with_stmt() throws RecognitionException {
         try {
-            // /Users/nginther/dm/inf/CarnotKE/jython/grammar/PythonPartial.g:544:5: ( WITH with_item ( options {greedy=true; } : COMMA with_item )* COLON suite )
-            // /Users/nginther/dm/inf/CarnotKE/jython/grammar/PythonPartial.g:544:7: WITH with_item ( options {greedy=true; } : COMMA with_item )* COLON suite
+            // /v/filer4b/v38q001/nginth/dm/Carnot-OWL/jython/grammar/PythonPartial.g:544:5: ( WITH with_item ( options {greedy=true; } : COMMA with_item )* COLON suite )
+            // /v/filer4b/v38q001/nginth/dm/Carnot-OWL/jython/grammar/PythonPartial.g:544:7: WITH with_item ( options {greedy=true; } : COMMA with_item )* COLON suite
             {
             match(input,WITH,FOLLOW_WITH_in_with_stmt2478); if (state.failed) return ;
             pushFollow(FOLLOW_with_item_in_with_stmt2480);
@@ -3665,7 +3665,7 @@ public class PythonPartialParser extends Parser {
 
             state._fsp--;
             if (state.failed) return ;
-            // /Users/nginther/dm/inf/CarnotKE/jython/grammar/PythonPartial.g:544:22: ( options {greedy=true; } : COMMA with_item )*
+            // /v/filer4b/v38q001/nginth/dm/Carnot-OWL/jython/grammar/PythonPartial.g:544:22: ( options {greedy=true; } : COMMA with_item )*
             loop67:
             do {
                 int alt67=2;
@@ -3678,7 +3678,7 @@ public class PythonPartialParser extends Parser {
 
                 switch (alt67) {
             	case 1 :
-            	    // /Users/nginther/dm/inf/CarnotKE/jython/grammar/PythonPartial.g:544:46: COMMA with_item
+            	    // /v/filer4b/v38q001/nginth/dm/Carnot-OWL/jython/grammar/PythonPartial.g:544:46: COMMA with_item
             	    {
             	    match(input,COMMA,FOLLOW_COMMA_in_with_stmt2490); if (state.failed) return ;
             	    pushFollow(FOLLOW_with_item_in_with_stmt2492);
@@ -3717,18 +3717,18 @@ public class PythonPartialParser extends Parser {
 
 
     // $ANTLR start "with_item"
-    // /Users/nginther/dm/inf/CarnotKE/jython/grammar/PythonPartial.g:548:1: with_item : test ( AS expr )? ;
+    // /v/filer4b/v38q001/nginth/dm/Carnot-OWL/jython/grammar/PythonPartial.g:548:1: with_item : test ( AS expr )? ;
     public final void with_item() throws RecognitionException {
         try {
-            // /Users/nginther/dm/inf/CarnotKE/jython/grammar/PythonPartial.g:549:5: ( test ( AS expr )? )
-            // /Users/nginther/dm/inf/CarnotKE/jython/grammar/PythonPartial.g:549:7: test ( AS expr )?
+            // /v/filer4b/v38q001/nginth/dm/Carnot-OWL/jython/grammar/PythonPartial.g:549:5: ( test ( AS expr )? )
+            // /v/filer4b/v38q001/nginth/dm/Carnot-OWL/jython/grammar/PythonPartial.g:549:7: test ( AS expr )?
             {
             pushFollow(FOLLOW_test_in_with_item2516);
             test();
 
             state._fsp--;
             if (state.failed) return ;
-            // /Users/nginther/dm/inf/CarnotKE/jython/grammar/PythonPartial.g:549:12: ( AS expr )?
+            // /v/filer4b/v38q001/nginth/dm/Carnot-OWL/jython/grammar/PythonPartial.g:549:12: ( AS expr )?
             int alt68=2;
             int LA68_0 = input.LA(1);
 
@@ -3737,7 +3737,7 @@ public class PythonPartialParser extends Parser {
             }
             switch (alt68) {
                 case 1 :
-                    // /Users/nginther/dm/inf/CarnotKE/jython/grammar/PythonPartial.g:549:13: AS expr
+                    // /v/filer4b/v38q001/nginth/dm/Carnot-OWL/jython/grammar/PythonPartial.g:549:13: AS expr
                     {
                     match(input,AS,FOLLOW_AS_in_with_item2519); if (state.failed) return ;
                     pushFollow(FOLLOW_expr_in_with_item2521);
@@ -3767,14 +3767,14 @@ public class PythonPartialParser extends Parser {
 
 
     // $ANTLR start "except_clause"
-    // /Users/nginther/dm/inf/CarnotKE/jython/grammar/PythonPartial.g:553:1: except_clause : EXCEPT ( test ( ( COMMA | AS ) test )? )? COLON suite ;
+    // /v/filer4b/v38q001/nginth/dm/Carnot-OWL/jython/grammar/PythonPartial.g:553:1: except_clause : EXCEPT ( test ( ( COMMA | AS ) test )? )? COLON suite ;
     public final void except_clause() throws RecognitionException {
         try {
-            // /Users/nginther/dm/inf/CarnotKE/jython/grammar/PythonPartial.g:554:5: ( EXCEPT ( test ( ( COMMA | AS ) test )? )? COLON suite )
-            // /Users/nginther/dm/inf/CarnotKE/jython/grammar/PythonPartial.g:554:7: EXCEPT ( test ( ( COMMA | AS ) test )? )? COLON suite
+            // /v/filer4b/v38q001/nginth/dm/Carnot-OWL/jython/grammar/PythonPartial.g:554:5: ( EXCEPT ( test ( ( COMMA | AS ) test )? )? COLON suite )
+            // /v/filer4b/v38q001/nginth/dm/Carnot-OWL/jython/grammar/PythonPartial.g:554:7: EXCEPT ( test ( ( COMMA | AS ) test )? )? COLON suite
             {
             match(input,EXCEPT,FOLLOW_EXCEPT_in_except_clause2541); if (state.failed) return ;
-            // /Users/nginther/dm/inf/CarnotKE/jython/grammar/PythonPartial.g:554:14: ( test ( ( COMMA | AS ) test )? )?
+            // /v/filer4b/v38q001/nginth/dm/Carnot-OWL/jython/grammar/PythonPartial.g:554:14: ( test ( ( COMMA | AS ) test )? )?
             int alt70=2;
             int LA70_0 = input.LA(1);
 
@@ -3783,14 +3783,14 @@ public class PythonPartialParser extends Parser {
             }
             switch (alt70) {
                 case 1 :
-                    // /Users/nginther/dm/inf/CarnotKE/jython/grammar/PythonPartial.g:554:15: test ( ( COMMA | AS ) test )?
+                    // /v/filer4b/v38q001/nginth/dm/Carnot-OWL/jython/grammar/PythonPartial.g:554:15: test ( ( COMMA | AS ) test )?
                     {
                     pushFollow(FOLLOW_test_in_except_clause2544);
                     test();
 
                     state._fsp--;
                     if (state.failed) return ;
-                    // /Users/nginther/dm/inf/CarnotKE/jython/grammar/PythonPartial.g:554:20: ( ( COMMA | AS ) test )?
+                    // /v/filer4b/v38q001/nginth/dm/Carnot-OWL/jython/grammar/PythonPartial.g:554:20: ( ( COMMA | AS ) test )?
                     int alt69=2;
                     int LA69_0 = input.LA(1);
 
@@ -3799,7 +3799,7 @@ public class PythonPartialParser extends Parser {
                     }
                     switch (alt69) {
                         case 1 :
-                            // /Users/nginther/dm/inf/CarnotKE/jython/grammar/PythonPartial.g:554:21: ( COMMA | AS ) test
+                            // /v/filer4b/v38q001/nginth/dm/Carnot-OWL/jython/grammar/PythonPartial.g:554:21: ( COMMA | AS ) test
                             {
                             if ( input.LA(1)==AS||input.LA(1)==COMMA ) {
                                 input.consume();
@@ -3850,10 +3850,10 @@ public class PythonPartialParser extends Parser {
 
 
     // $ANTLR start "suite"
-    // /Users/nginther/dm/inf/CarnotKE/jython/grammar/PythonPartial.g:558:1: suite : ( simple_stmt | NEWLINE ( EOF | ( DEDENT )+ EOF | INDENT ( stmt )+ ( DEDENT | EOF ) ) );
+    // /v/filer4b/v38q001/nginth/dm/Carnot-OWL/jython/grammar/PythonPartial.g:558:1: suite : ( simple_stmt | NEWLINE ( EOF | ( DEDENT )+ EOF | INDENT ( stmt )+ ( DEDENT | EOF ) ) );
     public final void suite() throws RecognitionException {
         try {
-            // /Users/nginther/dm/inf/CarnotKE/jython/grammar/PythonPartial.g:559:5: ( simple_stmt | NEWLINE ( EOF | ( DEDENT )+ EOF | INDENT ( stmt )+ ( DEDENT | EOF ) ) )
+            // /v/filer4b/v38q001/nginth/dm/Carnot-OWL/jython/grammar/PythonPartial.g:559:5: ( simple_stmt | NEWLINE ( EOF | ( DEDENT )+ EOF | INDENT ( stmt )+ ( DEDENT | EOF ) ) )
             int alt74=2;
             int LA74_0 = input.LA(1);
 
@@ -3872,7 +3872,7 @@ public class PythonPartialParser extends Parser {
             }
             switch (alt74) {
                 case 1 :
-                    // /Users/nginther/dm/inf/CarnotKE/jython/grammar/PythonPartial.g:559:7: simple_stmt
+                    // /v/filer4b/v38q001/nginth/dm/Carnot-OWL/jython/grammar/PythonPartial.g:559:7: simple_stmt
                     {
                     pushFollow(FOLLOW_simple_stmt_in_suite2581);
                     simple_stmt();
@@ -3883,10 +3883,10 @@ public class PythonPartialParser extends Parser {
                     }
                     break;
                 case 2 :
-                    // /Users/nginther/dm/inf/CarnotKE/jython/grammar/PythonPartial.g:560:7: NEWLINE ( EOF | ( DEDENT )+ EOF | INDENT ( stmt )+ ( DEDENT | EOF ) )
+                    // /v/filer4b/v38q001/nginth/dm/Carnot-OWL/jython/grammar/PythonPartial.g:560:7: NEWLINE ( EOF | ( DEDENT )+ EOF | INDENT ( stmt )+ ( DEDENT | EOF ) )
                     {
                     match(input,NEWLINE,FOLLOW_NEWLINE_in_suite2589); if (state.failed) return ;
-                    // /Users/nginther/dm/inf/CarnotKE/jython/grammar/PythonPartial.g:560:15: ( EOF | ( DEDENT )+ EOF | INDENT ( stmt )+ ( DEDENT | EOF ) )
+                    // /v/filer4b/v38q001/nginth/dm/Carnot-OWL/jython/grammar/PythonPartial.g:560:15: ( EOF | ( DEDENT )+ EOF | INDENT ( stmt )+ ( DEDENT | EOF ) )
                     int alt73=3;
                     switch ( input.LA(1) ) {
                     case EOF:
@@ -3914,16 +3914,16 @@ public class PythonPartialParser extends Parser {
 
                     switch (alt73) {
                         case 1 :
-                            // /Users/nginther/dm/inf/CarnotKE/jython/grammar/PythonPartial.g:560:16: EOF
+                            // /v/filer4b/v38q001/nginth/dm/Carnot-OWL/jython/grammar/PythonPartial.g:560:16: EOF
                             {
                             match(input,EOF,FOLLOW_EOF_in_suite2592); if (state.failed) return ;
 
                             }
                             break;
                         case 2 :
-                            // /Users/nginther/dm/inf/CarnotKE/jython/grammar/PythonPartial.g:561:17: ( DEDENT )+ EOF
+                            // /v/filer4b/v38q001/nginth/dm/Carnot-OWL/jython/grammar/PythonPartial.g:561:17: ( DEDENT )+ EOF
                             {
-                            // /Users/nginther/dm/inf/CarnotKE/jython/grammar/PythonPartial.g:561:17: ( DEDENT )+
+                            // /v/filer4b/v38q001/nginth/dm/Carnot-OWL/jython/grammar/PythonPartial.g:561:17: ( DEDENT )+
                             int cnt71=0;
                             loop71:
                             do {
@@ -3937,7 +3937,7 @@ public class PythonPartialParser extends Parser {
 
                                 switch (alt71) {
                             	case 1 :
-                            	    // /Users/nginther/dm/inf/CarnotKE/jython/grammar/PythonPartial.g:561:18: DEDENT
+                            	    // /v/filer4b/v38q001/nginth/dm/Carnot-OWL/jython/grammar/PythonPartial.g:561:18: DEDENT
                             	    {
                             	    match(input,DEDENT,FOLLOW_DEDENT_in_suite2611); if (state.failed) return ;
 
@@ -3959,10 +3959,10 @@ public class PythonPartialParser extends Parser {
                             }
                             break;
                         case 3 :
-                            // /Users/nginther/dm/inf/CarnotKE/jython/grammar/PythonPartial.g:562:17: INDENT ( stmt )+ ( DEDENT | EOF )
+                            // /v/filer4b/v38q001/nginth/dm/Carnot-OWL/jython/grammar/PythonPartial.g:562:17: INDENT ( stmt )+ ( DEDENT | EOF )
                             {
                             match(input,INDENT,FOLLOW_INDENT_in_suite2633); if (state.failed) return ;
-                            // /Users/nginther/dm/inf/CarnotKE/jython/grammar/PythonPartial.g:562:24: ( stmt )+
+                            // /v/filer4b/v38q001/nginth/dm/Carnot-OWL/jython/grammar/PythonPartial.g:562:24: ( stmt )+
                             int cnt72=0;
                             loop72:
                             do {
@@ -3976,7 +3976,7 @@ public class PythonPartialParser extends Parser {
 
                                 switch (alt72) {
                             	case 1 :
-                            	    // /Users/nginther/dm/inf/CarnotKE/jython/grammar/PythonPartial.g:562:25: stmt
+                            	    // /v/filer4b/v38q001/nginth/dm/Carnot-OWL/jython/grammar/PythonPartial.g:562:25: stmt
                             	    {
                             	    pushFollow(FOLLOW_stmt_in_suite2636);
                             	    stmt();
@@ -4031,10 +4031,10 @@ public class PythonPartialParser extends Parser {
 
 
     // $ANTLR start "test"
-    // /Users/nginther/dm/inf/CarnotKE/jython/grammar/PythonPartial.g:569:1: test : ( or_test ( ( IF or_test ORELSE )=> IF or_test ORELSE test | ) | lambdef );
+    // /v/filer4b/v38q001/nginth/dm/Carnot-OWL/jython/grammar/PythonPartial.g:569:1: test : ( or_test ( ( IF or_test ORELSE )=> IF or_test ORELSE test | ) | lambdef );
     public final void test() throws RecognitionException {
         try {
-            // /Users/nginther/dm/inf/CarnotKE/jython/grammar/PythonPartial.g:570:5: ( or_test ( ( IF or_test ORELSE )=> IF or_test ORELSE test | ) | lambdef )
+            // /v/filer4b/v38q001/nginth/dm/Carnot-OWL/jython/grammar/PythonPartial.g:570:5: ( or_test ( ( IF or_test ORELSE )=> IF or_test ORELSE test | ) | lambdef )
             int alt76=2;
             int LA76_0 = input.LA(1);
 
@@ -4053,19 +4053,19 @@ public class PythonPartialParser extends Parser {
             }
             switch (alt76) {
                 case 1 :
-                    // /Users/nginther/dm/inf/CarnotKE/jython/grammar/PythonPartial.g:570:6: or_test ( ( IF or_test ORELSE )=> IF or_test ORELSE test | )
+                    // /v/filer4b/v38q001/nginth/dm/Carnot-OWL/jython/grammar/PythonPartial.g:570:6: or_test ( ( IF or_test ORELSE )=> IF or_test ORELSE test | )
                     {
                     pushFollow(FOLLOW_or_test_in_test2741);
                     or_test();
 
                     state._fsp--;
                     if (state.failed) return ;
-                    // /Users/nginther/dm/inf/CarnotKE/jython/grammar/PythonPartial.g:571:7: ( ( IF or_test ORELSE )=> IF or_test ORELSE test | )
+                    // /v/filer4b/v38q001/nginth/dm/Carnot-OWL/jython/grammar/PythonPartial.g:571:7: ( ( IF or_test ORELSE )=> IF or_test ORELSE test | )
                     int alt75=2;
                     alt75 = dfa75.predict(input);
                     switch (alt75) {
                         case 1 :
-                            // /Users/nginther/dm/inf/CarnotKE/jython/grammar/PythonPartial.g:571:9: ( IF or_test ORELSE )=> IF or_test ORELSE test
+                            // /v/filer4b/v38q001/nginth/dm/Carnot-OWL/jython/grammar/PythonPartial.g:571:9: ( IF or_test ORELSE )=> IF or_test ORELSE test
                             {
                             match(input,IF,FOLLOW_IF_in_test2761); if (state.failed) return ;
                             pushFollow(FOLLOW_or_test_in_test2763);
@@ -4083,7 +4083,7 @@ public class PythonPartialParser extends Parser {
                             }
                             break;
                         case 2 :
-                            // /Users/nginther/dm/inf/CarnotKE/jython/grammar/PythonPartial.g:573:7: 
+                            // /v/filer4b/v38q001/nginth/dm/Carnot-OWL/jython/grammar/PythonPartial.g:573:7: 
                             {
                             }
                             break;
@@ -4094,7 +4094,7 @@ public class PythonPartialParser extends Parser {
                     }
                     break;
                 case 2 :
-                    // /Users/nginther/dm/inf/CarnotKE/jython/grammar/PythonPartial.g:574:7: lambdef
+                    // /v/filer4b/v38q001/nginth/dm/Carnot-OWL/jython/grammar/PythonPartial.g:574:7: lambdef
                     {
                     pushFollow(FOLLOW_lambdef_in_test2791);
                     lambdef();
@@ -4119,18 +4119,18 @@ public class PythonPartialParser extends Parser {
 
 
     // $ANTLR start "or_test"
-    // /Users/nginther/dm/inf/CarnotKE/jython/grammar/PythonPartial.g:578:1: or_test : and_test ( ( OR and_test )+ | ) ;
+    // /v/filer4b/v38q001/nginth/dm/Carnot-OWL/jython/grammar/PythonPartial.g:578:1: or_test : and_test ( ( OR and_test )+ | ) ;
     public final void or_test() throws RecognitionException {
         try {
-            // /Users/nginther/dm/inf/CarnotKE/jython/grammar/PythonPartial.g:579:5: ( and_test ( ( OR and_test )+ | ) )
-            // /Users/nginther/dm/inf/CarnotKE/jython/grammar/PythonPartial.g:579:7: and_test ( ( OR and_test )+ | )
+            // /v/filer4b/v38q001/nginth/dm/Carnot-OWL/jython/grammar/PythonPartial.g:579:5: ( and_test ( ( OR and_test )+ | ) )
+            // /v/filer4b/v38q001/nginth/dm/Carnot-OWL/jython/grammar/PythonPartial.g:579:7: and_test ( ( OR and_test )+ | )
             {
             pushFollow(FOLLOW_and_test_in_or_test2809);
             and_test();
 
             state._fsp--;
             if (state.failed) return ;
-            // /Users/nginther/dm/inf/CarnotKE/jython/grammar/PythonPartial.g:580:9: ( ( OR and_test )+ | )
+            // /v/filer4b/v38q001/nginth/dm/Carnot-OWL/jython/grammar/PythonPartial.g:580:9: ( ( OR and_test )+ | )
             int alt78=2;
             int LA78_0 = input.LA(1);
 
@@ -4149,9 +4149,9 @@ public class PythonPartialParser extends Parser {
             }
             switch (alt78) {
                 case 1 :
-                    // /Users/nginther/dm/inf/CarnotKE/jython/grammar/PythonPartial.g:580:11: ( OR and_test )+
+                    // /v/filer4b/v38q001/nginth/dm/Carnot-OWL/jython/grammar/PythonPartial.g:580:11: ( OR and_test )+
                     {
-                    // /Users/nginther/dm/inf/CarnotKE/jython/grammar/PythonPartial.g:580:11: ( OR and_test )+
+                    // /v/filer4b/v38q001/nginth/dm/Carnot-OWL/jython/grammar/PythonPartial.g:580:11: ( OR and_test )+
                     int cnt77=0;
                     loop77:
                     do {
@@ -4165,7 +4165,7 @@ public class PythonPartialParser extends Parser {
 
                         switch (alt77) {
                     	case 1 :
-                    	    // /Users/nginther/dm/inf/CarnotKE/jython/grammar/PythonPartial.g:580:12: OR and_test
+                    	    // /v/filer4b/v38q001/nginth/dm/Carnot-OWL/jython/grammar/PythonPartial.g:580:12: OR and_test
                     	    {
                     	    match(input,OR,FOLLOW_OR_in_or_test2822); if (state.failed) return ;
                     	    pushFollow(FOLLOW_and_test_in_or_test2824);
@@ -4191,7 +4191,7 @@ public class PythonPartialParser extends Parser {
                     }
                     break;
                 case 2 :
-                    // /Users/nginther/dm/inf/CarnotKE/jython/grammar/PythonPartial.g:583:9: 
+                    // /v/filer4b/v38q001/nginth/dm/Carnot-OWL/jython/grammar/PythonPartial.g:583:9: 
                     {
                     }
                     break;
@@ -4214,18 +4214,18 @@ public class PythonPartialParser extends Parser {
 
 
     // $ANTLR start "and_test"
-    // /Users/nginther/dm/inf/CarnotKE/jython/grammar/PythonPartial.g:587:1: and_test : not_test ( ( AND not_test )+ | ) ;
+    // /v/filer4b/v38q001/nginth/dm/Carnot-OWL/jython/grammar/PythonPartial.g:587:1: and_test : not_test ( ( AND not_test )+ | ) ;
     public final void and_test() throws RecognitionException {
         try {
-            // /Users/nginther/dm/inf/CarnotKE/jython/grammar/PythonPartial.g:588:5: ( not_test ( ( AND not_test )+ | ) )
-            // /Users/nginther/dm/inf/CarnotKE/jython/grammar/PythonPartial.g:588:7: not_test ( ( AND not_test )+ | )
+            // /v/filer4b/v38q001/nginth/dm/Carnot-OWL/jython/grammar/PythonPartial.g:588:5: ( not_test ( ( AND not_test )+ | ) )
+            // /v/filer4b/v38q001/nginth/dm/Carnot-OWL/jython/grammar/PythonPartial.g:588:7: not_test ( ( AND not_test )+ | )
             {
             pushFollow(FOLLOW_not_test_in_and_test2875);
             not_test();
 
             state._fsp--;
             if (state.failed) return ;
-            // /Users/nginther/dm/inf/CarnotKE/jython/grammar/PythonPartial.g:589:9: ( ( AND not_test )+ | )
+            // /v/filer4b/v38q001/nginth/dm/Carnot-OWL/jython/grammar/PythonPartial.g:589:9: ( ( AND not_test )+ | )
             int alt80=2;
             int LA80_0 = input.LA(1);
 
@@ -4244,9 +4244,9 @@ public class PythonPartialParser extends Parser {
             }
             switch (alt80) {
                 case 1 :
-                    // /Users/nginther/dm/inf/CarnotKE/jython/grammar/PythonPartial.g:589:11: ( AND not_test )+
+                    // /v/filer4b/v38q001/nginth/dm/Carnot-OWL/jython/grammar/PythonPartial.g:589:11: ( AND not_test )+
                     {
-                    // /Users/nginther/dm/inf/CarnotKE/jython/grammar/PythonPartial.g:589:11: ( AND not_test )+
+                    // /v/filer4b/v38q001/nginth/dm/Carnot-OWL/jython/grammar/PythonPartial.g:589:11: ( AND not_test )+
                     int cnt79=0;
                     loop79:
                     do {
@@ -4260,7 +4260,7 @@ public class PythonPartialParser extends Parser {
 
                         switch (alt79) {
                     	case 1 :
-                    	    // /Users/nginther/dm/inf/CarnotKE/jython/grammar/PythonPartial.g:589:12: AND not_test
+                    	    // /v/filer4b/v38q001/nginth/dm/Carnot-OWL/jython/grammar/PythonPartial.g:589:12: AND not_test
                     	    {
                     	    match(input,AND,FOLLOW_AND_in_and_test2888); if (state.failed) return ;
                     	    pushFollow(FOLLOW_not_test_in_and_test2890);
@@ -4286,7 +4286,7 @@ public class PythonPartialParser extends Parser {
                     }
                     break;
                 case 2 :
-                    // /Users/nginther/dm/inf/CarnotKE/jython/grammar/PythonPartial.g:592:9: 
+                    // /v/filer4b/v38q001/nginth/dm/Carnot-OWL/jython/grammar/PythonPartial.g:592:9: 
                     {
                     }
                     break;
@@ -4309,10 +4309,10 @@ public class PythonPartialParser extends Parser {
 
 
     // $ANTLR start "not_test"
-    // /Users/nginther/dm/inf/CarnotKE/jython/grammar/PythonPartial.g:596:1: not_test : ( NOT not_test | comparison );
+    // /v/filer4b/v38q001/nginth/dm/Carnot-OWL/jython/grammar/PythonPartial.g:596:1: not_test : ( NOT not_test | comparison );
     public final void not_test() throws RecognitionException {
         try {
-            // /Users/nginther/dm/inf/CarnotKE/jython/grammar/PythonPartial.g:597:5: ( NOT not_test | comparison )
+            // /v/filer4b/v38q001/nginth/dm/Carnot-OWL/jython/grammar/PythonPartial.g:597:5: ( NOT not_test | comparison )
             int alt81=2;
             int LA81_0 = input.LA(1);
 
@@ -4331,7 +4331,7 @@ public class PythonPartialParser extends Parser {
             }
             switch (alt81) {
                 case 1 :
-                    // /Users/nginther/dm/inf/CarnotKE/jython/grammar/PythonPartial.g:597:7: NOT not_test
+                    // /v/filer4b/v38q001/nginth/dm/Carnot-OWL/jython/grammar/PythonPartial.g:597:7: NOT not_test
                     {
                     match(input,NOT,FOLLOW_NOT_in_not_test2941); if (state.failed) return ;
                     pushFollow(FOLLOW_not_test_in_not_test2943);
@@ -4343,7 +4343,7 @@ public class PythonPartialParser extends Parser {
                     }
                     break;
                 case 2 :
-                    // /Users/nginther/dm/inf/CarnotKE/jython/grammar/PythonPartial.g:598:7: comparison
+                    // /v/filer4b/v38q001/nginth/dm/Carnot-OWL/jython/grammar/PythonPartial.g:598:7: comparison
                     {
                     pushFollow(FOLLOW_comparison_in_not_test2951);
                     comparison();
@@ -4368,18 +4368,18 @@ public class PythonPartialParser extends Parser {
 
 
     // $ANTLR start "comparison"
-    // /Users/nginther/dm/inf/CarnotKE/jython/grammar/PythonPartial.g:602:1: comparison : expr ( ( comp_op expr )+ | ) ;
+    // /v/filer4b/v38q001/nginth/dm/Carnot-OWL/jython/grammar/PythonPartial.g:602:1: comparison : expr ( ( comp_op expr )+ | ) ;
     public final void comparison() throws RecognitionException {
         try {
-            // /Users/nginther/dm/inf/CarnotKE/jython/grammar/PythonPartial.g:603:5: ( expr ( ( comp_op expr )+ | ) )
-            // /Users/nginther/dm/inf/CarnotKE/jython/grammar/PythonPartial.g:603:7: expr ( ( comp_op expr )+ | )
+            // /v/filer4b/v38q001/nginth/dm/Carnot-OWL/jython/grammar/PythonPartial.g:603:5: ( expr ( ( comp_op expr )+ | ) )
+            // /v/filer4b/v38q001/nginth/dm/Carnot-OWL/jython/grammar/PythonPartial.g:603:7: expr ( ( comp_op expr )+ | )
             {
             pushFollow(FOLLOW_expr_in_comparison2969);
             expr();
 
             state._fsp--;
             if (state.failed) return ;
-            // /Users/nginther/dm/inf/CarnotKE/jython/grammar/PythonPartial.g:604:8: ( ( comp_op expr )+ | )
+            // /v/filer4b/v38q001/nginth/dm/Carnot-OWL/jython/grammar/PythonPartial.g:604:8: ( ( comp_op expr )+ | )
             int alt83=2;
             int LA83_0 = input.LA(1);
 
@@ -4398,9 +4398,9 @@ public class PythonPartialParser extends Parser {
             }
             switch (alt83) {
                 case 1 :
-                    // /Users/nginther/dm/inf/CarnotKE/jython/grammar/PythonPartial.g:604:10: ( comp_op expr )+
+                    // /v/filer4b/v38q001/nginth/dm/Carnot-OWL/jython/grammar/PythonPartial.g:604:10: ( comp_op expr )+
                     {
-                    // /Users/nginther/dm/inf/CarnotKE/jython/grammar/PythonPartial.g:604:10: ( comp_op expr )+
+                    // /v/filer4b/v38q001/nginth/dm/Carnot-OWL/jython/grammar/PythonPartial.g:604:10: ( comp_op expr )+
                     int cnt82=0;
                     loop82:
                     do {
@@ -4414,7 +4414,7 @@ public class PythonPartialParser extends Parser {
 
                         switch (alt82) {
                     	case 1 :
-                    	    // /Users/nginther/dm/inf/CarnotKE/jython/grammar/PythonPartial.g:604:12: comp_op expr
+                    	    // /v/filer4b/v38q001/nginth/dm/Carnot-OWL/jython/grammar/PythonPartial.g:604:12: comp_op expr
                     	    {
                     	    pushFollow(FOLLOW_comp_op_in_comparison2982);
                     	    comp_op();
@@ -4444,7 +4444,7 @@ public class PythonPartialParser extends Parser {
                     }
                     break;
                 case 2 :
-                    // /Users/nginther/dm/inf/CarnotKE/jython/grammar/PythonPartial.g:607:8: 
+                    // /v/filer4b/v38q001/nginth/dm/Carnot-OWL/jython/grammar/PythonPartial.g:607:8: 
                     {
                     }
                     break;
@@ -4467,71 +4467,71 @@ public class PythonPartialParser extends Parser {
 
 
     // $ANTLR start "comp_op"
-    // /Users/nginther/dm/inf/CarnotKE/jython/grammar/PythonPartial.g:611:1: comp_op : ( LESS | GREATER | EQUAL | GREATEREQUAL | LESSEQUAL | ALT_NOTEQUAL | NOTEQUAL | IN | NOT IN | IS | IS NOT );
+    // /v/filer4b/v38q001/nginth/dm/Carnot-OWL/jython/grammar/PythonPartial.g:611:1: comp_op : ( LESS | GREATER | EQUAL | GREATEREQUAL | LESSEQUAL | ALT_NOTEQUAL | NOTEQUAL | IN | NOT IN | IS | IS NOT );
     public final void comp_op() throws RecognitionException {
         try {
-            // /Users/nginther/dm/inf/CarnotKE/jython/grammar/PythonPartial.g:612:5: ( LESS | GREATER | EQUAL | GREATEREQUAL | LESSEQUAL | ALT_NOTEQUAL | NOTEQUAL | IN | NOT IN | IS | IS NOT )
+            // /v/filer4b/v38q001/nginth/dm/Carnot-OWL/jython/grammar/PythonPartial.g:612:5: ( LESS | GREATER | EQUAL | GREATEREQUAL | LESSEQUAL | ALT_NOTEQUAL | NOTEQUAL | IN | NOT IN | IS | IS NOT )
             int alt84=11;
             alt84 = dfa84.predict(input);
             switch (alt84) {
                 case 1 :
-                    // /Users/nginther/dm/inf/CarnotKE/jython/grammar/PythonPartial.g:612:7: LESS
+                    // /v/filer4b/v38q001/nginth/dm/Carnot-OWL/jython/grammar/PythonPartial.g:612:7: LESS
                     {
                     match(input,LESS,FOLLOW_LESS_in_comp_op3032); if (state.failed) return ;
 
                     }
                     break;
                 case 2 :
-                    // /Users/nginther/dm/inf/CarnotKE/jython/grammar/PythonPartial.g:613:7: GREATER
+                    // /v/filer4b/v38q001/nginth/dm/Carnot-OWL/jython/grammar/PythonPartial.g:613:7: GREATER
                     {
                     match(input,GREATER,FOLLOW_GREATER_in_comp_op3040); if (state.failed) return ;
 
                     }
                     break;
                 case 3 :
-                    // /Users/nginther/dm/inf/CarnotKE/jython/grammar/PythonPartial.g:614:7: EQUAL
+                    // /v/filer4b/v38q001/nginth/dm/Carnot-OWL/jython/grammar/PythonPartial.g:614:7: EQUAL
                     {
                     match(input,EQUAL,FOLLOW_EQUAL_in_comp_op3048); if (state.failed) return ;
 
                     }
                     break;
                 case 4 :
-                    // /Users/nginther/dm/inf/CarnotKE/jython/grammar/PythonPartial.g:615:7: GREATEREQUAL
+                    // /v/filer4b/v38q001/nginth/dm/Carnot-OWL/jython/grammar/PythonPartial.g:615:7: GREATEREQUAL
                     {
                     match(input,GREATEREQUAL,FOLLOW_GREATEREQUAL_in_comp_op3056); if (state.failed) return ;
 
                     }
                     break;
                 case 5 :
-                    // /Users/nginther/dm/inf/CarnotKE/jython/grammar/PythonPartial.g:616:7: LESSEQUAL
+                    // /v/filer4b/v38q001/nginth/dm/Carnot-OWL/jython/grammar/PythonPartial.g:616:7: LESSEQUAL
                     {
                     match(input,LESSEQUAL,FOLLOW_LESSEQUAL_in_comp_op3064); if (state.failed) return ;
 
                     }
                     break;
                 case 6 :
-                    // /Users/nginther/dm/inf/CarnotKE/jython/grammar/PythonPartial.g:617:7: ALT_NOTEQUAL
+                    // /v/filer4b/v38q001/nginth/dm/Carnot-OWL/jython/grammar/PythonPartial.g:617:7: ALT_NOTEQUAL
                     {
                     match(input,ALT_NOTEQUAL,FOLLOW_ALT_NOTEQUAL_in_comp_op3072); if (state.failed) return ;
 
                     }
                     break;
                 case 7 :
-                    // /Users/nginther/dm/inf/CarnotKE/jython/grammar/PythonPartial.g:618:7: NOTEQUAL
+                    // /v/filer4b/v38q001/nginth/dm/Carnot-OWL/jython/grammar/PythonPartial.g:618:7: NOTEQUAL
                     {
                     match(input,NOTEQUAL,FOLLOW_NOTEQUAL_in_comp_op3080); if (state.failed) return ;
 
                     }
                     break;
                 case 8 :
-                    // /Users/nginther/dm/inf/CarnotKE/jython/grammar/PythonPartial.g:619:7: IN
+                    // /v/filer4b/v38q001/nginth/dm/Carnot-OWL/jython/grammar/PythonPartial.g:619:7: IN
                     {
                     match(input,IN,FOLLOW_IN_in_comp_op3088); if (state.failed) return ;
 
                     }
                     break;
                 case 9 :
-                    // /Users/nginther/dm/inf/CarnotKE/jython/grammar/PythonPartial.g:620:7: NOT IN
+                    // /v/filer4b/v38q001/nginth/dm/Carnot-OWL/jython/grammar/PythonPartial.g:620:7: NOT IN
                     {
                     match(input,NOT,FOLLOW_NOT_in_comp_op3096); if (state.failed) return ;
                     match(input,IN,FOLLOW_IN_in_comp_op3098); if (state.failed) return ;
@@ -4539,14 +4539,14 @@ public class PythonPartialParser extends Parser {
                     }
                     break;
                 case 10 :
-                    // /Users/nginther/dm/inf/CarnotKE/jython/grammar/PythonPartial.g:621:7: IS
+                    // /v/filer4b/v38q001/nginth/dm/Carnot-OWL/jython/grammar/PythonPartial.g:621:7: IS
                     {
                     match(input,IS,FOLLOW_IS_in_comp_op3106); if (state.failed) return ;
 
                     }
                     break;
                 case 11 :
-                    // /Users/nginther/dm/inf/CarnotKE/jython/grammar/PythonPartial.g:622:7: IS NOT
+                    // /v/filer4b/v38q001/nginth/dm/Carnot-OWL/jython/grammar/PythonPartial.g:622:7: IS NOT
                     {
                     match(input,IS,FOLLOW_IS_in_comp_op3114); if (state.failed) return ;
                     match(input,NOT,FOLLOW_NOT_in_comp_op3116); if (state.failed) return ;
@@ -4568,18 +4568,18 @@ public class PythonPartialParser extends Parser {
 
 
     // $ANTLR start "expr"
-    // /Users/nginther/dm/inf/CarnotKE/jython/grammar/PythonPartial.g:626:1: expr : xor_expr ( ( VBAR xor_expr )+ | ) ;
+    // /v/filer4b/v38q001/nginth/dm/Carnot-OWL/jython/grammar/PythonPartial.g:626:1: expr : xor_expr ( ( VBAR xor_expr )+ | ) ;
     public final void expr() throws RecognitionException {
         try {
-            // /Users/nginther/dm/inf/CarnotKE/jython/grammar/PythonPartial.g:627:5: ( xor_expr ( ( VBAR xor_expr )+ | ) )
-            // /Users/nginther/dm/inf/CarnotKE/jython/grammar/PythonPartial.g:627:7: xor_expr ( ( VBAR xor_expr )+ | )
+            // /v/filer4b/v38q001/nginth/dm/Carnot-OWL/jython/grammar/PythonPartial.g:627:5: ( xor_expr ( ( VBAR xor_expr )+ | ) )
+            // /v/filer4b/v38q001/nginth/dm/Carnot-OWL/jython/grammar/PythonPartial.g:627:7: xor_expr ( ( VBAR xor_expr )+ | )
             {
             pushFollow(FOLLOW_xor_expr_in_expr3134);
             xor_expr();
 
             state._fsp--;
             if (state.failed) return ;
-            // /Users/nginther/dm/inf/CarnotKE/jython/grammar/PythonPartial.g:628:9: ( ( VBAR xor_expr )+ | )
+            // /v/filer4b/v38q001/nginth/dm/Carnot-OWL/jython/grammar/PythonPartial.g:628:9: ( ( VBAR xor_expr )+ | )
             int alt86=2;
             int LA86_0 = input.LA(1);
 
@@ -4598,9 +4598,9 @@ public class PythonPartialParser extends Parser {
             }
             switch (alt86) {
                 case 1 :
-                    // /Users/nginther/dm/inf/CarnotKE/jython/grammar/PythonPartial.g:628:11: ( VBAR xor_expr )+
+                    // /v/filer4b/v38q001/nginth/dm/Carnot-OWL/jython/grammar/PythonPartial.g:628:11: ( VBAR xor_expr )+
                     {
-                    // /Users/nginther/dm/inf/CarnotKE/jython/grammar/PythonPartial.g:628:11: ( VBAR xor_expr )+
+                    // /v/filer4b/v38q001/nginth/dm/Carnot-OWL/jython/grammar/PythonPartial.g:628:11: ( VBAR xor_expr )+
                     int cnt85=0;
                     loop85:
                     do {
@@ -4614,7 +4614,7 @@ public class PythonPartialParser extends Parser {
 
                         switch (alt85) {
                     	case 1 :
-                    	    // /Users/nginther/dm/inf/CarnotKE/jython/grammar/PythonPartial.g:628:12: VBAR xor_expr
+                    	    // /v/filer4b/v38q001/nginth/dm/Carnot-OWL/jython/grammar/PythonPartial.g:628:12: VBAR xor_expr
                     	    {
                     	    match(input,VBAR,FOLLOW_VBAR_in_expr3147); if (state.failed) return ;
                     	    pushFollow(FOLLOW_xor_expr_in_expr3149);
@@ -4640,7 +4640,7 @@ public class PythonPartialParser extends Parser {
                     }
                     break;
                 case 2 :
-                    // /Users/nginther/dm/inf/CarnotKE/jython/grammar/PythonPartial.g:631:9: 
+                    // /v/filer4b/v38q001/nginth/dm/Carnot-OWL/jython/grammar/PythonPartial.g:631:9: 
                     {
                     }
                     break;
@@ -4663,18 +4663,18 @@ public class PythonPartialParser extends Parser {
 
 
     // $ANTLR start "xor_expr"
-    // /Users/nginther/dm/inf/CarnotKE/jython/grammar/PythonPartial.g:635:1: xor_expr : and_expr ( ( CIRCUMFLEX and_expr )+ | ) ;
+    // /v/filer4b/v38q001/nginth/dm/Carnot-OWL/jython/grammar/PythonPartial.g:635:1: xor_expr : and_expr ( ( CIRCUMFLEX and_expr )+ | ) ;
     public final void xor_expr() throws RecognitionException {
         try {
-            // /Users/nginther/dm/inf/CarnotKE/jython/grammar/PythonPartial.g:636:5: ( and_expr ( ( CIRCUMFLEX and_expr )+ | ) )
-            // /Users/nginther/dm/inf/CarnotKE/jython/grammar/PythonPartial.g:636:7: and_expr ( ( CIRCUMFLEX and_expr )+ | )
+            // /v/filer4b/v38q001/nginth/dm/Carnot-OWL/jython/grammar/PythonPartial.g:636:5: ( and_expr ( ( CIRCUMFLEX and_expr )+ | ) )
+            // /v/filer4b/v38q001/nginth/dm/Carnot-OWL/jython/grammar/PythonPartial.g:636:7: and_expr ( ( CIRCUMFLEX and_expr )+ | )
             {
             pushFollow(FOLLOW_and_expr_in_xor_expr3200);
             and_expr();
 
             state._fsp--;
             if (state.failed) return ;
-            // /Users/nginther/dm/inf/CarnotKE/jython/grammar/PythonPartial.g:637:9: ( ( CIRCUMFLEX and_expr )+ | )
+            // /v/filer4b/v38q001/nginth/dm/Carnot-OWL/jython/grammar/PythonPartial.g:637:9: ( ( CIRCUMFLEX and_expr )+ | )
             int alt88=2;
             int LA88_0 = input.LA(1);
 
@@ -4693,9 +4693,9 @@ public class PythonPartialParser extends Parser {
             }
             switch (alt88) {
                 case 1 :
-                    // /Users/nginther/dm/inf/CarnotKE/jython/grammar/PythonPartial.g:637:11: ( CIRCUMFLEX and_expr )+
+                    // /v/filer4b/v38q001/nginth/dm/Carnot-OWL/jython/grammar/PythonPartial.g:637:11: ( CIRCUMFLEX and_expr )+
                     {
-                    // /Users/nginther/dm/inf/CarnotKE/jython/grammar/PythonPartial.g:637:11: ( CIRCUMFLEX and_expr )+
+                    // /v/filer4b/v38q001/nginth/dm/Carnot-OWL/jython/grammar/PythonPartial.g:637:11: ( CIRCUMFLEX and_expr )+
                     int cnt87=0;
                     loop87:
                     do {
@@ -4709,7 +4709,7 @@ public class PythonPartialParser extends Parser {
 
                         switch (alt87) {
                     	case 1 :
-                    	    // /Users/nginther/dm/inf/CarnotKE/jython/grammar/PythonPartial.g:637:12: CIRCUMFLEX and_expr
+                    	    // /v/filer4b/v38q001/nginth/dm/Carnot-OWL/jython/grammar/PythonPartial.g:637:12: CIRCUMFLEX and_expr
                     	    {
                     	    match(input,CIRCUMFLEX,FOLLOW_CIRCUMFLEX_in_xor_expr3213); if (state.failed) return ;
                     	    pushFollow(FOLLOW_and_expr_in_xor_expr3215);
@@ -4735,7 +4735,7 @@ public class PythonPartialParser extends Parser {
                     }
                     break;
                 case 2 :
-                    // /Users/nginther/dm/inf/CarnotKE/jython/grammar/PythonPartial.g:640:9: 
+                    // /v/filer4b/v38q001/nginth/dm/Carnot-OWL/jython/grammar/PythonPartial.g:640:9: 
                     {
                     }
                     break;
@@ -4758,18 +4758,18 @@ public class PythonPartialParser extends Parser {
 
 
     // $ANTLR start "and_expr"
-    // /Users/nginther/dm/inf/CarnotKE/jython/grammar/PythonPartial.g:644:1: and_expr : shift_expr ( ( AMPER shift_expr )+ | ) ;
+    // /v/filer4b/v38q001/nginth/dm/Carnot-OWL/jython/grammar/PythonPartial.g:644:1: and_expr : shift_expr ( ( AMPER shift_expr )+ | ) ;
     public final void and_expr() throws RecognitionException {
         try {
-            // /Users/nginther/dm/inf/CarnotKE/jython/grammar/PythonPartial.g:645:5: ( shift_expr ( ( AMPER shift_expr )+ | ) )
-            // /Users/nginther/dm/inf/CarnotKE/jython/grammar/PythonPartial.g:645:7: shift_expr ( ( AMPER shift_expr )+ | )
+            // /v/filer4b/v38q001/nginth/dm/Carnot-OWL/jython/grammar/PythonPartial.g:645:5: ( shift_expr ( ( AMPER shift_expr )+ | ) )
+            // /v/filer4b/v38q001/nginth/dm/Carnot-OWL/jython/grammar/PythonPartial.g:645:7: shift_expr ( ( AMPER shift_expr )+ | )
             {
             pushFollow(FOLLOW_shift_expr_in_and_expr3266);
             shift_expr();
 
             state._fsp--;
             if (state.failed) return ;
-            // /Users/nginther/dm/inf/CarnotKE/jython/grammar/PythonPartial.g:646:9: ( ( AMPER shift_expr )+ | )
+            // /v/filer4b/v38q001/nginth/dm/Carnot-OWL/jython/grammar/PythonPartial.g:646:9: ( ( AMPER shift_expr )+ | )
             int alt90=2;
             int LA90_0 = input.LA(1);
 
@@ -4788,9 +4788,9 @@ public class PythonPartialParser extends Parser {
             }
             switch (alt90) {
                 case 1 :
-                    // /Users/nginther/dm/inf/CarnotKE/jython/grammar/PythonPartial.g:646:11: ( AMPER shift_expr )+
+                    // /v/filer4b/v38q001/nginth/dm/Carnot-OWL/jython/grammar/PythonPartial.g:646:11: ( AMPER shift_expr )+
                     {
-                    // /Users/nginther/dm/inf/CarnotKE/jython/grammar/PythonPartial.g:646:11: ( AMPER shift_expr )+
+                    // /v/filer4b/v38q001/nginth/dm/Carnot-OWL/jython/grammar/PythonPartial.g:646:11: ( AMPER shift_expr )+
                     int cnt89=0;
                     loop89:
                     do {
@@ -4804,7 +4804,7 @@ public class PythonPartialParser extends Parser {
 
                         switch (alt89) {
                     	case 1 :
-                    	    // /Users/nginther/dm/inf/CarnotKE/jython/grammar/PythonPartial.g:646:12: AMPER shift_expr
+                    	    // /v/filer4b/v38q001/nginth/dm/Carnot-OWL/jython/grammar/PythonPartial.g:646:12: AMPER shift_expr
                     	    {
                     	    match(input,AMPER,FOLLOW_AMPER_in_and_expr3279); if (state.failed) return ;
                     	    pushFollow(FOLLOW_shift_expr_in_and_expr3281);
@@ -4830,7 +4830,7 @@ public class PythonPartialParser extends Parser {
                     }
                     break;
                 case 2 :
-                    // /Users/nginther/dm/inf/CarnotKE/jython/grammar/PythonPartial.g:649:9: 
+                    // /v/filer4b/v38q001/nginth/dm/Carnot-OWL/jython/grammar/PythonPartial.g:649:9: 
                     {
                     }
                     break;
@@ -4853,18 +4853,18 @@ public class PythonPartialParser extends Parser {
 
 
     // $ANTLR start "shift_expr"
-    // /Users/nginther/dm/inf/CarnotKE/jython/grammar/PythonPartial.g:653:1: shift_expr : arith_expr ( ( shift_op arith_expr )+ | ) ;
+    // /v/filer4b/v38q001/nginth/dm/Carnot-OWL/jython/grammar/PythonPartial.g:653:1: shift_expr : arith_expr ( ( shift_op arith_expr )+ | ) ;
     public final void shift_expr() throws RecognitionException {
         try {
-            // /Users/nginther/dm/inf/CarnotKE/jython/grammar/PythonPartial.g:654:5: ( arith_expr ( ( shift_op arith_expr )+ | ) )
-            // /Users/nginther/dm/inf/CarnotKE/jython/grammar/PythonPartial.g:654:7: arith_expr ( ( shift_op arith_expr )+ | )
+            // /v/filer4b/v38q001/nginth/dm/Carnot-OWL/jython/grammar/PythonPartial.g:654:5: ( arith_expr ( ( shift_op arith_expr )+ | ) )
+            // /v/filer4b/v38q001/nginth/dm/Carnot-OWL/jython/grammar/PythonPartial.g:654:7: arith_expr ( ( shift_op arith_expr )+ | )
             {
             pushFollow(FOLLOW_arith_expr_in_shift_expr3332);
             arith_expr();
 
             state._fsp--;
             if (state.failed) return ;
-            // /Users/nginther/dm/inf/CarnotKE/jython/grammar/PythonPartial.g:655:9: ( ( shift_op arith_expr )+ | )
+            // /v/filer4b/v38q001/nginth/dm/Carnot-OWL/jython/grammar/PythonPartial.g:655:9: ( ( shift_op arith_expr )+ | )
             int alt92=2;
             int LA92_0 = input.LA(1);
 
@@ -4883,9 +4883,9 @@ public class PythonPartialParser extends Parser {
             }
             switch (alt92) {
                 case 1 :
-                    // /Users/nginther/dm/inf/CarnotKE/jython/grammar/PythonPartial.g:655:11: ( shift_op arith_expr )+
+                    // /v/filer4b/v38q001/nginth/dm/Carnot-OWL/jython/grammar/PythonPartial.g:655:11: ( shift_op arith_expr )+
                     {
-                    // /Users/nginther/dm/inf/CarnotKE/jython/grammar/PythonPartial.g:655:11: ( shift_op arith_expr )+
+                    // /v/filer4b/v38q001/nginth/dm/Carnot-OWL/jython/grammar/PythonPartial.g:655:11: ( shift_op arith_expr )+
                     int cnt91=0;
                     loop91:
                     do {
@@ -4899,7 +4899,7 @@ public class PythonPartialParser extends Parser {
 
                         switch (alt91) {
                     	case 1 :
-                    	    // /Users/nginther/dm/inf/CarnotKE/jython/grammar/PythonPartial.g:655:13: shift_op arith_expr
+                    	    // /v/filer4b/v38q001/nginth/dm/Carnot-OWL/jython/grammar/PythonPartial.g:655:13: shift_op arith_expr
                     	    {
                     	    pushFollow(FOLLOW_shift_op_in_shift_expr3346);
                     	    shift_op();
@@ -4929,7 +4929,7 @@ public class PythonPartialParser extends Parser {
                     }
                     break;
                 case 2 :
-                    // /Users/nginther/dm/inf/CarnotKE/jython/grammar/PythonPartial.g:658:9: 
+                    // /v/filer4b/v38q001/nginth/dm/Carnot-OWL/jython/grammar/PythonPartial.g:658:9: 
                     {
                     }
                     break;
@@ -4952,11 +4952,11 @@ public class PythonPartialParser extends Parser {
 
 
     // $ANTLR start "shift_op"
-    // /Users/nginther/dm/inf/CarnotKE/jython/grammar/PythonPartial.g:661:1: shift_op : ( LEFTSHIFT | RIGHTSHIFT );
+    // /v/filer4b/v38q001/nginth/dm/Carnot-OWL/jython/grammar/PythonPartial.g:661:1: shift_op : ( LEFTSHIFT | RIGHTSHIFT );
     public final void shift_op() throws RecognitionException {
         try {
-            // /Users/nginther/dm/inf/CarnotKE/jython/grammar/PythonPartial.g:662:5: ( LEFTSHIFT | RIGHTSHIFT )
-            // /Users/nginther/dm/inf/CarnotKE/jython/grammar/PythonPartial.g:
+            // /v/filer4b/v38q001/nginth/dm/Carnot-OWL/jython/grammar/PythonPartial.g:662:5: ( LEFTSHIFT | RIGHTSHIFT )
+            // /v/filer4b/v38q001/nginth/dm/Carnot-OWL/jython/grammar/PythonPartial.g:
             {
             if ( input.LA(1)==RIGHTSHIFT||input.LA(1)==LEFTSHIFT ) {
                 input.consume();
@@ -4984,18 +4984,18 @@ public class PythonPartialParser extends Parser {
 
 
     // $ANTLR start "arith_expr"
-    // /Users/nginther/dm/inf/CarnotKE/jython/grammar/PythonPartial.g:667:1: arith_expr : term ( ( arith_op term )+ | ) ;
+    // /v/filer4b/v38q001/nginth/dm/Carnot-OWL/jython/grammar/PythonPartial.g:667:1: arith_expr : term ( ( arith_op term )+ | ) ;
     public final void arith_expr() throws RecognitionException {
         try {
-            // /Users/nginther/dm/inf/CarnotKE/jython/grammar/PythonPartial.g:668:5: ( term ( ( arith_op term )+ | ) )
-            // /Users/nginther/dm/inf/CarnotKE/jython/grammar/PythonPartial.g:668:7: term ( ( arith_op term )+ | )
+            // /v/filer4b/v38q001/nginth/dm/Carnot-OWL/jython/grammar/PythonPartial.g:668:5: ( term ( ( arith_op term )+ | ) )
+            // /v/filer4b/v38q001/nginth/dm/Carnot-OWL/jython/grammar/PythonPartial.g:668:7: term ( ( arith_op term )+ | )
             {
             pushFollow(FOLLOW_term_in_arith_expr3424);
             term();
 
             state._fsp--;
             if (state.failed) return ;
-            // /Users/nginther/dm/inf/CarnotKE/jython/grammar/PythonPartial.g:669:9: ( ( arith_op term )+ | )
+            // /v/filer4b/v38q001/nginth/dm/Carnot-OWL/jython/grammar/PythonPartial.g:669:9: ( ( arith_op term )+ | )
             int alt94=2;
             int LA94_0 = input.LA(1);
 
@@ -5014,9 +5014,9 @@ public class PythonPartialParser extends Parser {
             }
             switch (alt94) {
                 case 1 :
-                    // /Users/nginther/dm/inf/CarnotKE/jython/grammar/PythonPartial.g:669:11: ( arith_op term )+
+                    // /v/filer4b/v38q001/nginth/dm/Carnot-OWL/jython/grammar/PythonPartial.g:669:11: ( arith_op term )+
                     {
-                    // /Users/nginther/dm/inf/CarnotKE/jython/grammar/PythonPartial.g:669:11: ( arith_op term )+
+                    // /v/filer4b/v38q001/nginth/dm/Carnot-OWL/jython/grammar/PythonPartial.g:669:11: ( arith_op term )+
                     int cnt93=0;
                     loop93:
                     do {
@@ -5030,7 +5030,7 @@ public class PythonPartialParser extends Parser {
 
                         switch (alt93) {
                     	case 1 :
-                    	    // /Users/nginther/dm/inf/CarnotKE/jython/grammar/PythonPartial.g:669:12: arith_op term
+                    	    // /v/filer4b/v38q001/nginth/dm/Carnot-OWL/jython/grammar/PythonPartial.g:669:12: arith_op term
                     	    {
                     	    pushFollow(FOLLOW_arith_op_in_arith_expr3437);
                     	    arith_op();
@@ -5060,7 +5060,7 @@ public class PythonPartialParser extends Parser {
                     }
                     break;
                 case 2 :
-                    // /Users/nginther/dm/inf/CarnotKE/jython/grammar/PythonPartial.g:672:9: 
+                    // /v/filer4b/v38q001/nginth/dm/Carnot-OWL/jython/grammar/PythonPartial.g:672:9: 
                     {
                     }
                     break;
@@ -5083,11 +5083,11 @@ public class PythonPartialParser extends Parser {
 
 
     // $ANTLR start "arith_op"
-    // /Users/nginther/dm/inf/CarnotKE/jython/grammar/PythonPartial.g:675:1: arith_op : ( PLUS | MINUS );
+    // /v/filer4b/v38q001/nginth/dm/Carnot-OWL/jython/grammar/PythonPartial.g:675:1: arith_op : ( PLUS | MINUS );
     public final void arith_op() throws RecognitionException {
         try {
-            // /Users/nginther/dm/inf/CarnotKE/jython/grammar/PythonPartial.g:676:5: ( PLUS | MINUS )
-            // /Users/nginther/dm/inf/CarnotKE/jython/grammar/PythonPartial.g:
+            // /v/filer4b/v38q001/nginth/dm/Carnot-OWL/jython/grammar/PythonPartial.g:676:5: ( PLUS | MINUS )
+            // /v/filer4b/v38q001/nginth/dm/Carnot-OWL/jython/grammar/PythonPartial.g:
             {
             if ( (input.LA(1)>=PLUS && input.LA(1)<=MINUS) ) {
                 input.consume();
@@ -5115,18 +5115,18 @@ public class PythonPartialParser extends Parser {
 
 
     // $ANTLR start "term"
-    // /Users/nginther/dm/inf/CarnotKE/jython/grammar/PythonPartial.g:681:1: term : factor ( ( term_op factor )+ | ) ;
+    // /v/filer4b/v38q001/nginth/dm/Carnot-OWL/jython/grammar/PythonPartial.g:681:1: term : factor ( ( term_op factor )+ | ) ;
     public final void term() throws RecognitionException {
         try {
-            // /Users/nginther/dm/inf/CarnotKE/jython/grammar/PythonPartial.g:682:5: ( factor ( ( term_op factor )+ | ) )
-            // /Users/nginther/dm/inf/CarnotKE/jython/grammar/PythonPartial.g:682:7: factor ( ( term_op factor )+ | )
+            // /v/filer4b/v38q001/nginth/dm/Carnot-OWL/jython/grammar/PythonPartial.g:682:5: ( factor ( ( term_op factor )+ | ) )
+            // /v/filer4b/v38q001/nginth/dm/Carnot-OWL/jython/grammar/PythonPartial.g:682:7: factor ( ( term_op factor )+ | )
             {
             pushFollow(FOLLOW_factor_in_term3515);
             factor();
 
             state._fsp--;
             if (state.failed) return ;
-            // /Users/nginther/dm/inf/CarnotKE/jython/grammar/PythonPartial.g:683:9: ( ( term_op factor )+ | )
+            // /v/filer4b/v38q001/nginth/dm/Carnot-OWL/jython/grammar/PythonPartial.g:683:9: ( ( term_op factor )+ | )
             int alt96=2;
             int LA96_0 = input.LA(1);
 
@@ -5145,9 +5145,9 @@ public class PythonPartialParser extends Parser {
             }
             switch (alt96) {
                 case 1 :
-                    // /Users/nginther/dm/inf/CarnotKE/jython/grammar/PythonPartial.g:683:11: ( term_op factor )+
+                    // /v/filer4b/v38q001/nginth/dm/Carnot-OWL/jython/grammar/PythonPartial.g:683:11: ( term_op factor )+
                     {
-                    // /Users/nginther/dm/inf/CarnotKE/jython/grammar/PythonPartial.g:683:11: ( term_op factor )+
+                    // /v/filer4b/v38q001/nginth/dm/Carnot-OWL/jython/grammar/PythonPartial.g:683:11: ( term_op factor )+
                     int cnt95=0;
                     loop95:
                     do {
@@ -5161,7 +5161,7 @@ public class PythonPartialParser extends Parser {
 
                         switch (alt95) {
                     	case 1 :
-                    	    // /Users/nginther/dm/inf/CarnotKE/jython/grammar/PythonPartial.g:683:12: term_op factor
+                    	    // /v/filer4b/v38q001/nginth/dm/Carnot-OWL/jython/grammar/PythonPartial.g:683:12: term_op factor
                     	    {
                     	    pushFollow(FOLLOW_term_op_in_term3528);
                     	    term_op();
@@ -5191,7 +5191,7 @@ public class PythonPartialParser extends Parser {
                     }
                     break;
                 case 2 :
-                    // /Users/nginther/dm/inf/CarnotKE/jython/grammar/PythonPartial.g:686:9: 
+                    // /v/filer4b/v38q001/nginth/dm/Carnot-OWL/jython/grammar/PythonPartial.g:686:9: 
                     {
                     }
                     break;
@@ -5214,11 +5214,11 @@ public class PythonPartialParser extends Parser {
 
 
     // $ANTLR start "term_op"
-    // /Users/nginther/dm/inf/CarnotKE/jython/grammar/PythonPartial.g:689:1: term_op : ( STAR | SLASH | PERCENT | DOUBLESLASH );
+    // /v/filer4b/v38q001/nginth/dm/Carnot-OWL/jython/grammar/PythonPartial.g:689:1: term_op : ( STAR | SLASH | PERCENT | DOUBLESLASH );
     public final void term_op() throws RecognitionException {
         try {
-            // /Users/nginther/dm/inf/CarnotKE/jython/grammar/PythonPartial.g:690:5: ( STAR | SLASH | PERCENT | DOUBLESLASH )
-            // /Users/nginther/dm/inf/CarnotKE/jython/grammar/PythonPartial.g:
+            // /v/filer4b/v38q001/nginth/dm/Carnot-OWL/jython/grammar/PythonPartial.g:690:5: ( STAR | SLASH | PERCENT | DOUBLESLASH )
+            // /v/filer4b/v38q001/nginth/dm/Carnot-OWL/jython/grammar/PythonPartial.g:
             {
             if ( input.LA(1)==STAR||(input.LA(1)>=SLASH && input.LA(1)<=DOUBLESLASH) ) {
                 input.consume();
@@ -5246,10 +5246,10 @@ public class PythonPartialParser extends Parser {
 
 
     // $ANTLR start "factor"
-    // /Users/nginther/dm/inf/CarnotKE/jython/grammar/PythonPartial.g:697:1: factor : ( PLUS factor | MINUS factor | TILDE factor | power | TRAILBACKSLASH );
+    // /v/filer4b/v38q001/nginth/dm/Carnot-OWL/jython/grammar/PythonPartial.g:697:1: factor : ( PLUS factor | MINUS factor | TILDE factor | power | TRAILBACKSLASH );
     public final void factor() throws RecognitionException {
         try {
-            // /Users/nginther/dm/inf/CarnotKE/jython/grammar/PythonPartial.g:698:5: ( PLUS factor | MINUS factor | TILDE factor | power | TRAILBACKSLASH )
+            // /v/filer4b/v38q001/nginth/dm/Carnot-OWL/jython/grammar/PythonPartial.g:698:5: ( PLUS factor | MINUS factor | TILDE factor | power | TRAILBACKSLASH )
             int alt97=5;
             switch ( input.LA(1) ) {
             case PLUS:
@@ -5298,7 +5298,7 @@ public class PythonPartialParser extends Parser {
 
             switch (alt97) {
                 case 1 :
-                    // /Users/nginther/dm/inf/CarnotKE/jython/grammar/PythonPartial.g:698:7: PLUS factor
+                    // /v/filer4b/v38q001/nginth/dm/Carnot-OWL/jython/grammar/PythonPartial.g:698:7: PLUS factor
                     {
                     match(input,PLUS,FOLLOW_PLUS_in_factor3618); if (state.failed) return ;
                     pushFollow(FOLLOW_factor_in_factor3620);
@@ -5310,7 +5310,7 @@ public class PythonPartialParser extends Parser {
                     }
                     break;
                 case 2 :
-                    // /Users/nginther/dm/inf/CarnotKE/jython/grammar/PythonPartial.g:699:7: MINUS factor
+                    // /v/filer4b/v38q001/nginth/dm/Carnot-OWL/jython/grammar/PythonPartial.g:699:7: MINUS factor
                     {
                     match(input,MINUS,FOLLOW_MINUS_in_factor3628); if (state.failed) return ;
                     pushFollow(FOLLOW_factor_in_factor3630);
@@ -5322,7 +5322,7 @@ public class PythonPartialParser extends Parser {
                     }
                     break;
                 case 3 :
-                    // /Users/nginther/dm/inf/CarnotKE/jython/grammar/PythonPartial.g:700:7: TILDE factor
+                    // /v/filer4b/v38q001/nginth/dm/Carnot-OWL/jython/grammar/PythonPartial.g:700:7: TILDE factor
                     {
                     match(input,TILDE,FOLLOW_TILDE_in_factor3638); if (state.failed) return ;
                     pushFollow(FOLLOW_factor_in_factor3640);
@@ -5334,7 +5334,7 @@ public class PythonPartialParser extends Parser {
                     }
                     break;
                 case 4 :
-                    // /Users/nginther/dm/inf/CarnotKE/jython/grammar/PythonPartial.g:701:7: power
+                    // /v/filer4b/v38q001/nginth/dm/Carnot-OWL/jython/grammar/PythonPartial.g:701:7: power
                     {
                     pushFollow(FOLLOW_power_in_factor3648);
                     power();
@@ -5345,7 +5345,7 @@ public class PythonPartialParser extends Parser {
                     }
                     break;
                 case 5 :
-                    // /Users/nginther/dm/inf/CarnotKE/jython/grammar/PythonPartial.g:702:7: TRAILBACKSLASH
+                    // /v/filer4b/v38q001/nginth/dm/Carnot-OWL/jython/grammar/PythonPartial.g:702:7: TRAILBACKSLASH
                     {
                     match(input,TRAILBACKSLASH,FOLLOW_TRAILBACKSLASH_in_factor3656); if (state.failed) return ;
 
@@ -5366,18 +5366,18 @@ public class PythonPartialParser extends Parser {
 
 
     // $ANTLR start "power"
-    // /Users/nginther/dm/inf/CarnotKE/jython/grammar/PythonPartial.g:706:1: power : atom ( trailer )* ( options {greedy=true; } : DOUBLESTAR factor )? ;
+    // /v/filer4b/v38q001/nginth/dm/Carnot-OWL/jython/grammar/PythonPartial.g:706:1: power : atom ( trailer )* ( options {greedy=true; } : DOUBLESTAR factor )? ;
     public final void power() throws RecognitionException {
         try {
-            // /Users/nginther/dm/inf/CarnotKE/jython/grammar/PythonPartial.g:707:5: ( atom ( trailer )* ( options {greedy=true; } : DOUBLESTAR factor )? )
-            // /Users/nginther/dm/inf/CarnotKE/jython/grammar/PythonPartial.g:707:7: atom ( trailer )* ( options {greedy=true; } : DOUBLESTAR factor )?
+            // /v/filer4b/v38q001/nginth/dm/Carnot-OWL/jython/grammar/PythonPartial.g:707:5: ( atom ( trailer )* ( options {greedy=true; } : DOUBLESTAR factor )? )
+            // /v/filer4b/v38q001/nginth/dm/Carnot-OWL/jython/grammar/PythonPartial.g:707:7: atom ( trailer )* ( options {greedy=true; } : DOUBLESTAR factor )?
             {
             pushFollow(FOLLOW_atom_in_power3674);
             atom();
 
             state._fsp--;
             if (state.failed) return ;
-            // /Users/nginther/dm/inf/CarnotKE/jython/grammar/PythonPartial.g:707:12: ( trailer )*
+            // /v/filer4b/v38q001/nginth/dm/Carnot-OWL/jython/grammar/PythonPartial.g:707:12: ( trailer )*
             loop98:
             do {
                 int alt98=2;
@@ -5390,7 +5390,7 @@ public class PythonPartialParser extends Parser {
 
                 switch (alt98) {
             	case 1 :
-            	    // /Users/nginther/dm/inf/CarnotKE/jython/grammar/PythonPartial.g:707:13: trailer
+            	    // /v/filer4b/v38q001/nginth/dm/Carnot-OWL/jython/grammar/PythonPartial.g:707:13: trailer
             	    {
             	    pushFollow(FOLLOW_trailer_in_power3677);
             	    trailer();
@@ -5406,7 +5406,7 @@ public class PythonPartialParser extends Parser {
                 }
             } while (true);
 
-            // /Users/nginther/dm/inf/CarnotKE/jython/grammar/PythonPartial.g:707:23: ( options {greedy=true; } : DOUBLESTAR factor )?
+            // /v/filer4b/v38q001/nginth/dm/Carnot-OWL/jython/grammar/PythonPartial.g:707:23: ( options {greedy=true; } : DOUBLESTAR factor )?
             int alt99=2;
             int LA99_0 = input.LA(1);
 
@@ -5415,7 +5415,7 @@ public class PythonPartialParser extends Parser {
             }
             switch (alt99) {
                 case 1 :
-                    // /Users/nginther/dm/inf/CarnotKE/jython/grammar/PythonPartial.g:707:47: DOUBLESTAR factor
+                    // /v/filer4b/v38q001/nginth/dm/Carnot-OWL/jython/grammar/PythonPartial.g:707:47: DOUBLESTAR factor
                     {
                     match(input,DOUBLESTAR,FOLLOW_DOUBLESTAR_in_power3689); if (state.failed) return ;
                     pushFollow(FOLLOW_factor_in_power3691);
@@ -5445,10 +5445,10 @@ public class PythonPartialParser extends Parser {
 
 
     // $ANTLR start "atom"
-    // /Users/nginther/dm/inf/CarnotKE/jython/grammar/PythonPartial.g:715:1: atom : ( LPAREN ( yield_expr | testlist_gexp | ) RPAREN | LBRACK ( listmaker | ) RBRACK | LCURLY ( dictorsetmaker | ) RCURLY | BACKQUOTE testlist BACKQUOTE | NAME | INT | LONGINT | FLOAT | COMPLEX | ( STRING )+ | TRISTRINGPART | STRINGPART TRAILBACKSLASH );
+    // /v/filer4b/v38q001/nginth/dm/Carnot-OWL/jython/grammar/PythonPartial.g:715:1: atom : ( LPAREN ( yield_expr | testlist_gexp | ) RPAREN | LBRACK ( listmaker | ) RBRACK | LCURLY ( dictorsetmaker | ) RCURLY | BACKQUOTE testlist BACKQUOTE | NAME | INT | LONGINT | FLOAT | COMPLEX | ( STRING )+ | TRISTRINGPART | STRINGPART TRAILBACKSLASH );
     public final void atom() throws RecognitionException {
         try {
-            // /Users/nginther/dm/inf/CarnotKE/jython/grammar/PythonPartial.g:716:5: ( LPAREN ( yield_expr | testlist_gexp | ) RPAREN | LBRACK ( listmaker | ) RBRACK | LCURLY ( dictorsetmaker | ) RCURLY | BACKQUOTE testlist BACKQUOTE | NAME | INT | LONGINT | FLOAT | COMPLEX | ( STRING )+ | TRISTRINGPART | STRINGPART TRAILBACKSLASH )
+            // /v/filer4b/v38q001/nginth/dm/Carnot-OWL/jython/grammar/PythonPartial.g:716:5: ( LPAREN ( yield_expr | testlist_gexp | ) RPAREN | LBRACK ( listmaker | ) RBRACK | LCURLY ( dictorsetmaker | ) RCURLY | BACKQUOTE testlist BACKQUOTE | NAME | INT | LONGINT | FLOAT | COMPLEX | ( STRING )+ | TRISTRINGPART | STRINGPART TRAILBACKSLASH )
             int alt104=12;
             switch ( input.LA(1) ) {
             case LPAREN:
@@ -5521,10 +5521,10 @@ public class PythonPartialParser extends Parser {
 
             switch (alt104) {
                 case 1 :
-                    // /Users/nginther/dm/inf/CarnotKE/jython/grammar/PythonPartial.g:716:7: LPAREN ( yield_expr | testlist_gexp | ) RPAREN
+                    // /v/filer4b/v38q001/nginth/dm/Carnot-OWL/jython/grammar/PythonPartial.g:716:7: LPAREN ( yield_expr | testlist_gexp | ) RPAREN
                     {
                     match(input,LPAREN,FOLLOW_LPAREN_in_atom3715); if (state.failed) return ;
-                    // /Users/nginther/dm/inf/CarnotKE/jython/grammar/PythonPartial.g:717:7: ( yield_expr | testlist_gexp | )
+                    // /v/filer4b/v38q001/nginth/dm/Carnot-OWL/jython/grammar/PythonPartial.g:717:7: ( yield_expr | testlist_gexp | )
                     int alt100=3;
                     switch ( input.LA(1) ) {
                     case YIELD:
@@ -5569,7 +5569,7 @@ public class PythonPartialParser extends Parser {
 
                     switch (alt100) {
                         case 1 :
-                            // /Users/nginther/dm/inf/CarnotKE/jython/grammar/PythonPartial.g:717:9: yield_expr
+                            // /v/filer4b/v38q001/nginth/dm/Carnot-OWL/jython/grammar/PythonPartial.g:717:9: yield_expr
                             {
                             pushFollow(FOLLOW_yield_expr_in_atom3725);
                             yield_expr();
@@ -5580,7 +5580,7 @@ public class PythonPartialParser extends Parser {
                             }
                             break;
                         case 2 :
-                            // /Users/nginther/dm/inf/CarnotKE/jython/grammar/PythonPartial.g:718:9: testlist_gexp
+                            // /v/filer4b/v38q001/nginth/dm/Carnot-OWL/jython/grammar/PythonPartial.g:718:9: testlist_gexp
                             {
                             pushFollow(FOLLOW_testlist_gexp_in_atom3735);
                             testlist_gexp();
@@ -5591,7 +5591,7 @@ public class PythonPartialParser extends Parser {
                             }
                             break;
                         case 3 :
-                            // /Users/nginther/dm/inf/CarnotKE/jython/grammar/PythonPartial.g:720:7: 
+                            // /v/filer4b/v38q001/nginth/dm/Carnot-OWL/jython/grammar/PythonPartial.g:720:7: 
                             {
                             }
                             break;
@@ -5603,10 +5603,10 @@ public class PythonPartialParser extends Parser {
                     }
                     break;
                 case 2 :
-                    // /Users/nginther/dm/inf/CarnotKE/jython/grammar/PythonPartial.g:722:7: LBRACK ( listmaker | ) RBRACK
+                    // /v/filer4b/v38q001/nginth/dm/Carnot-OWL/jython/grammar/PythonPartial.g:722:7: LBRACK ( listmaker | ) RBRACK
                     {
                     match(input,LBRACK,FOLLOW_LBRACK_in_atom3767); if (state.failed) return ;
-                    // /Users/nginther/dm/inf/CarnotKE/jython/grammar/PythonPartial.g:723:7: ( listmaker | )
+                    // /v/filer4b/v38q001/nginth/dm/Carnot-OWL/jython/grammar/PythonPartial.g:723:7: ( listmaker | )
                     int alt101=2;
                     int LA101_0 = input.LA(1);
 
@@ -5625,7 +5625,7 @@ public class PythonPartialParser extends Parser {
                     }
                     switch (alt101) {
                         case 1 :
-                            // /Users/nginther/dm/inf/CarnotKE/jython/grammar/PythonPartial.g:723:8: listmaker
+                            // /v/filer4b/v38q001/nginth/dm/Carnot-OWL/jython/grammar/PythonPartial.g:723:8: listmaker
                             {
                             pushFollow(FOLLOW_listmaker_in_atom3776);
                             listmaker();
@@ -5636,7 +5636,7 @@ public class PythonPartialParser extends Parser {
                             }
                             break;
                         case 2 :
-                            // /Users/nginther/dm/inf/CarnotKE/jython/grammar/PythonPartial.g:725:7: 
+                            // /v/filer4b/v38q001/nginth/dm/Carnot-OWL/jython/grammar/PythonPartial.g:725:7: 
                             {
                             }
                             break;
@@ -5648,10 +5648,10 @@ public class PythonPartialParser extends Parser {
                     }
                     break;
                 case 3 :
-                    // /Users/nginther/dm/inf/CarnotKE/jython/grammar/PythonPartial.g:727:7: LCURLY ( dictorsetmaker | ) RCURLY
+                    // /v/filer4b/v38q001/nginth/dm/Carnot-OWL/jython/grammar/PythonPartial.g:727:7: LCURLY ( dictorsetmaker | ) RCURLY
                     {
                     match(input,LCURLY,FOLLOW_LCURLY_in_atom3808); if (state.failed) return ;
-                    // /Users/nginther/dm/inf/CarnotKE/jython/grammar/PythonPartial.g:728:8: ( dictorsetmaker | )
+                    // /v/filer4b/v38q001/nginth/dm/Carnot-OWL/jython/grammar/PythonPartial.g:728:8: ( dictorsetmaker | )
                     int alt102=2;
                     int LA102_0 = input.LA(1);
 
@@ -5670,7 +5670,7 @@ public class PythonPartialParser extends Parser {
                     }
                     switch (alt102) {
                         case 1 :
-                            // /Users/nginther/dm/inf/CarnotKE/jython/grammar/PythonPartial.g:728:9: dictorsetmaker
+                            // /v/filer4b/v38q001/nginth/dm/Carnot-OWL/jython/grammar/PythonPartial.g:728:9: dictorsetmaker
                             {
                             pushFollow(FOLLOW_dictorsetmaker_in_atom3818);
                             dictorsetmaker();
@@ -5681,7 +5681,7 @@ public class PythonPartialParser extends Parser {
                             }
                             break;
                         case 2 :
-                            // /Users/nginther/dm/inf/CarnotKE/jython/grammar/PythonPartial.g:730:8: 
+                            // /v/filer4b/v38q001/nginth/dm/Carnot-OWL/jython/grammar/PythonPartial.g:730:8: 
                             {
                             }
                             break;
@@ -5693,7 +5693,7 @@ public class PythonPartialParser extends Parser {
                     }
                     break;
                 case 4 :
-                    // /Users/nginther/dm/inf/CarnotKE/jython/grammar/PythonPartial.g:732:8: BACKQUOTE testlist BACKQUOTE
+                    // /v/filer4b/v38q001/nginth/dm/Carnot-OWL/jython/grammar/PythonPartial.g:732:8: BACKQUOTE testlist BACKQUOTE
                     {
                     match(input,BACKQUOTE,FOLLOW_BACKQUOTE_in_atom3854); if (state.failed) return ;
                     pushFollow(FOLLOW_testlist_in_atom3856);
@@ -5706,44 +5706,44 @@ public class PythonPartialParser extends Parser {
                     }
                     break;
                 case 5 :
-                    // /Users/nginther/dm/inf/CarnotKE/jython/grammar/PythonPartial.g:733:8: NAME
+                    // /v/filer4b/v38q001/nginth/dm/Carnot-OWL/jython/grammar/PythonPartial.g:733:8: NAME
                     {
                     match(input,NAME,FOLLOW_NAME_in_atom3867); if (state.failed) return ;
 
                     }
                     break;
                 case 6 :
-                    // /Users/nginther/dm/inf/CarnotKE/jython/grammar/PythonPartial.g:734:8: INT
+                    // /v/filer4b/v38q001/nginth/dm/Carnot-OWL/jython/grammar/PythonPartial.g:734:8: INT
                     {
                     match(input,INT,FOLLOW_INT_in_atom3876); if (state.failed) return ;
 
                     }
                     break;
                 case 7 :
-                    // /Users/nginther/dm/inf/CarnotKE/jython/grammar/PythonPartial.g:735:8: LONGINT
+                    // /v/filer4b/v38q001/nginth/dm/Carnot-OWL/jython/grammar/PythonPartial.g:735:8: LONGINT
                     {
                     match(input,LONGINT,FOLLOW_LONGINT_in_atom3885); if (state.failed) return ;
 
                     }
                     break;
                 case 8 :
-                    // /Users/nginther/dm/inf/CarnotKE/jython/grammar/PythonPartial.g:736:8: FLOAT
+                    // /v/filer4b/v38q001/nginth/dm/Carnot-OWL/jython/grammar/PythonPartial.g:736:8: FLOAT
                     {
                     match(input,FLOAT,FOLLOW_FLOAT_in_atom3894); if (state.failed) return ;
 
                     }
                     break;
                 case 9 :
-                    // /Users/nginther/dm/inf/CarnotKE/jython/grammar/PythonPartial.g:737:8: COMPLEX
+                    // /v/filer4b/v38q001/nginth/dm/Carnot-OWL/jython/grammar/PythonPartial.g:737:8: COMPLEX
                     {
                     match(input,COMPLEX,FOLLOW_COMPLEX_in_atom3903); if (state.failed) return ;
 
                     }
                     break;
                 case 10 :
-                    // /Users/nginther/dm/inf/CarnotKE/jython/grammar/PythonPartial.g:738:8: ( STRING )+
+                    // /v/filer4b/v38q001/nginth/dm/Carnot-OWL/jython/grammar/PythonPartial.g:738:8: ( STRING )+
                     {
-                    // /Users/nginther/dm/inf/CarnotKE/jython/grammar/PythonPartial.g:738:8: ( STRING )+
+                    // /v/filer4b/v38q001/nginth/dm/Carnot-OWL/jython/grammar/PythonPartial.g:738:8: ( STRING )+
                     int cnt103=0;
                     loop103:
                     do {
@@ -5757,7 +5757,7 @@ public class PythonPartialParser extends Parser {
 
                         switch (alt103) {
                     	case 1 :
-                    	    // /Users/nginther/dm/inf/CarnotKE/jython/grammar/PythonPartial.g:738:9: STRING
+                    	    // /v/filer4b/v38q001/nginth/dm/Carnot-OWL/jython/grammar/PythonPartial.g:738:9: STRING
                     	    {
                     	    match(input,STRING,FOLLOW_STRING_in_atom3913); if (state.failed) return ;
 
@@ -5778,14 +5778,14 @@ public class PythonPartialParser extends Parser {
                     }
                     break;
                 case 11 :
-                    // /Users/nginther/dm/inf/CarnotKE/jython/grammar/PythonPartial.g:739:8: TRISTRINGPART
+                    // /v/filer4b/v38q001/nginth/dm/Carnot-OWL/jython/grammar/PythonPartial.g:739:8: TRISTRINGPART
                     {
                     match(input,TRISTRINGPART,FOLLOW_TRISTRINGPART_in_atom3924); if (state.failed) return ;
 
                     }
                     break;
                 case 12 :
-                    // /Users/nginther/dm/inf/CarnotKE/jython/grammar/PythonPartial.g:740:8: STRINGPART TRAILBACKSLASH
+                    // /v/filer4b/v38q001/nginth/dm/Carnot-OWL/jython/grammar/PythonPartial.g:740:8: STRINGPART TRAILBACKSLASH
                     {
                     match(input,STRINGPART,FOLLOW_STRINGPART_in_atom3933); if (state.failed) return ;
                     match(input,TRAILBACKSLASH,FOLLOW_TRAILBACKSLASH_in_atom3935); if (state.failed) return ;
@@ -5807,18 +5807,18 @@ public class PythonPartialParser extends Parser {
 
 
     // $ANTLR start "listmaker"
-    // /Users/nginther/dm/inf/CarnotKE/jython/grammar/PythonPartial.g:744:1: listmaker : test ( list_for | ( options {greedy=true; } : COMMA test )* ) ( COMMA )? ;
+    // /v/filer4b/v38q001/nginth/dm/Carnot-OWL/jython/grammar/PythonPartial.g:744:1: listmaker : test ( list_for | ( options {greedy=true; } : COMMA test )* ) ( COMMA )? ;
     public final void listmaker() throws RecognitionException {
         try {
-            // /Users/nginther/dm/inf/CarnotKE/jython/grammar/PythonPartial.g:745:5: ( test ( list_for | ( options {greedy=true; } : COMMA test )* ) ( COMMA )? )
-            // /Users/nginther/dm/inf/CarnotKE/jython/grammar/PythonPartial.g:745:7: test ( list_for | ( options {greedy=true; } : COMMA test )* ) ( COMMA )?
+            // /v/filer4b/v38q001/nginth/dm/Carnot-OWL/jython/grammar/PythonPartial.g:745:5: ( test ( list_for | ( options {greedy=true; } : COMMA test )* ) ( COMMA )? )
+            // /v/filer4b/v38q001/nginth/dm/Carnot-OWL/jython/grammar/PythonPartial.g:745:7: test ( list_for | ( options {greedy=true; } : COMMA test )* ) ( COMMA )?
             {
             pushFollow(FOLLOW_test_in_listmaker3954);
             test();
 
             state._fsp--;
             if (state.failed) return ;
-            // /Users/nginther/dm/inf/CarnotKE/jython/grammar/PythonPartial.g:746:9: ( list_for | ( options {greedy=true; } : COMMA test )* )
+            // /v/filer4b/v38q001/nginth/dm/Carnot-OWL/jython/grammar/PythonPartial.g:746:9: ( list_for | ( options {greedy=true; } : COMMA test )* )
             int alt106=2;
             int LA106_0 = input.LA(1);
 
@@ -5837,7 +5837,7 @@ public class PythonPartialParser extends Parser {
             }
             switch (alt106) {
                 case 1 :
-                    // /Users/nginther/dm/inf/CarnotKE/jython/grammar/PythonPartial.g:746:10: list_for
+                    // /v/filer4b/v38q001/nginth/dm/Carnot-OWL/jython/grammar/PythonPartial.g:746:10: list_for
                     {
                     pushFollow(FOLLOW_list_for_in_listmaker3965);
                     list_for();
@@ -5848,9 +5848,9 @@ public class PythonPartialParser extends Parser {
                     }
                     break;
                 case 2 :
-                    // /Users/nginther/dm/inf/CarnotKE/jython/grammar/PythonPartial.g:747:11: ( options {greedy=true; } : COMMA test )*
+                    // /v/filer4b/v38q001/nginth/dm/Carnot-OWL/jython/grammar/PythonPartial.g:747:11: ( options {greedy=true; } : COMMA test )*
                     {
-                    // /Users/nginther/dm/inf/CarnotKE/jython/grammar/PythonPartial.g:747:11: ( options {greedy=true; } : COMMA test )*
+                    // /v/filer4b/v38q001/nginth/dm/Carnot-OWL/jython/grammar/PythonPartial.g:747:11: ( options {greedy=true; } : COMMA test )*
                     loop105:
                     do {
                         int alt105=2;
@@ -5869,7 +5869,7 @@ public class PythonPartialParser extends Parser {
 
                         switch (alt105) {
                     	case 1 :
-                    	    // /Users/nginther/dm/inf/CarnotKE/jython/grammar/PythonPartial.g:747:35: COMMA test
+                    	    // /v/filer4b/v38q001/nginth/dm/Carnot-OWL/jython/grammar/PythonPartial.g:747:35: COMMA test
                     	    {
                     	    match(input,COMMA,FOLLOW_COMMA_in_listmaker3985); if (state.failed) return ;
                     	    pushFollow(FOLLOW_test_in_listmaker3987);
@@ -5892,7 +5892,7 @@ public class PythonPartialParser extends Parser {
 
             }
 
-            // /Users/nginther/dm/inf/CarnotKE/jython/grammar/PythonPartial.g:748:11: ( COMMA )?
+            // /v/filer4b/v38q001/nginth/dm/Carnot-OWL/jython/grammar/PythonPartial.g:748:11: ( COMMA )?
             int alt107=2;
             int LA107_0 = input.LA(1);
 
@@ -5901,7 +5901,7 @@ public class PythonPartialParser extends Parser {
             }
             switch (alt107) {
                 case 1 :
-                    // /Users/nginther/dm/inf/CarnotKE/jython/grammar/PythonPartial.g:748:12: COMMA
+                    // /v/filer4b/v38q001/nginth/dm/Carnot-OWL/jython/grammar/PythonPartial.g:748:12: COMMA
                     {
                     match(input,COMMA,FOLLOW_COMMA_in_listmaker4002); if (state.failed) return ;
 
@@ -5926,18 +5926,18 @@ public class PythonPartialParser extends Parser {
 
 
     // $ANTLR start "testlist_gexp"
-    // /Users/nginther/dm/inf/CarnotKE/jython/grammar/PythonPartial.g:752:1: testlist_gexp : test ( ( ( options {k=2; } : COMMA test )* ( COMMA )? ) | ( comp_for ) ) ;
+    // /v/filer4b/v38q001/nginth/dm/Carnot-OWL/jython/grammar/PythonPartial.g:752:1: testlist_gexp : test ( ( ( options {k=2; } : COMMA test )* ( COMMA )? ) | ( comp_for ) ) ;
     public final void testlist_gexp() throws RecognitionException {
         try {
-            // /Users/nginther/dm/inf/CarnotKE/jython/grammar/PythonPartial.g:753:5: ( test ( ( ( options {k=2; } : COMMA test )* ( COMMA )? ) | ( comp_for ) ) )
-            // /Users/nginther/dm/inf/CarnotKE/jython/grammar/PythonPartial.g:753:7: test ( ( ( options {k=2; } : COMMA test )* ( COMMA )? ) | ( comp_for ) )
+            // /v/filer4b/v38q001/nginth/dm/Carnot-OWL/jython/grammar/PythonPartial.g:753:5: ( test ( ( ( options {k=2; } : COMMA test )* ( COMMA )? ) | ( comp_for ) ) )
+            // /v/filer4b/v38q001/nginth/dm/Carnot-OWL/jython/grammar/PythonPartial.g:753:7: test ( ( ( options {k=2; } : COMMA test )* ( COMMA )? ) | ( comp_for ) )
             {
             pushFollow(FOLLOW_test_in_testlist_gexp4022);
             test();
 
             state._fsp--;
             if (state.failed) return ;
-            // /Users/nginther/dm/inf/CarnotKE/jython/grammar/PythonPartial.g:754:9: ( ( ( options {k=2; } : COMMA test )* ( COMMA )? ) | ( comp_for ) )
+            // /v/filer4b/v38q001/nginth/dm/Carnot-OWL/jython/grammar/PythonPartial.g:754:9: ( ( ( options {k=2; } : COMMA test )* ( COMMA )? ) | ( comp_for ) )
             int alt110=2;
             int LA110_0 = input.LA(1);
 
@@ -5956,19 +5956,19 @@ public class PythonPartialParser extends Parser {
             }
             switch (alt110) {
                 case 1 :
-                    // /Users/nginther/dm/inf/CarnotKE/jython/grammar/PythonPartial.g:754:11: ( ( options {k=2; } : COMMA test )* ( COMMA )? )
+                    // /v/filer4b/v38q001/nginth/dm/Carnot-OWL/jython/grammar/PythonPartial.g:754:11: ( ( options {k=2; } : COMMA test )* ( COMMA )? )
                     {
-                    // /Users/nginther/dm/inf/CarnotKE/jython/grammar/PythonPartial.g:754:11: ( ( options {k=2; } : COMMA test )* ( COMMA )? )
-                    // /Users/nginther/dm/inf/CarnotKE/jython/grammar/PythonPartial.g:754:12: ( options {k=2; } : COMMA test )* ( COMMA )?
+                    // /v/filer4b/v38q001/nginth/dm/Carnot-OWL/jython/grammar/PythonPartial.g:754:11: ( ( options {k=2; } : COMMA test )* ( COMMA )? )
+                    // /v/filer4b/v38q001/nginth/dm/Carnot-OWL/jython/grammar/PythonPartial.g:754:12: ( options {k=2; } : COMMA test )* ( COMMA )?
                     {
-                    // /Users/nginther/dm/inf/CarnotKE/jython/grammar/PythonPartial.g:754:12: ( options {k=2; } : COMMA test )*
+                    // /v/filer4b/v38q001/nginth/dm/Carnot-OWL/jython/grammar/PythonPartial.g:754:12: ( options {k=2; } : COMMA test )*
                     loop108:
                     do {
                         int alt108=2;
                         alt108 = dfa108.predict(input);
                         switch (alt108) {
                     	case 1 :
-                    	    // /Users/nginther/dm/inf/CarnotKE/jython/grammar/PythonPartial.g:754:29: COMMA test
+                    	    // /v/filer4b/v38q001/nginth/dm/Carnot-OWL/jython/grammar/PythonPartial.g:754:29: COMMA test
                     	    {
                     	    match(input,COMMA,FOLLOW_COMMA_in_testlist_gexp4044); if (state.failed) return ;
                     	    pushFollow(FOLLOW_test_in_testlist_gexp4046);
@@ -5985,7 +5985,7 @@ public class PythonPartialParser extends Parser {
                         }
                     } while (true);
 
-                    // /Users/nginther/dm/inf/CarnotKE/jython/grammar/PythonPartial.g:754:42: ( COMMA )?
+                    // /v/filer4b/v38q001/nginth/dm/Carnot-OWL/jython/grammar/PythonPartial.g:754:42: ( COMMA )?
                     int alt109=2;
                     int LA109_0 = input.LA(1);
 
@@ -5994,7 +5994,7 @@ public class PythonPartialParser extends Parser {
                     }
                     switch (alt109) {
                         case 1 :
-                            // /Users/nginther/dm/inf/CarnotKE/jython/grammar/PythonPartial.g:754:43: COMMA
+                            // /v/filer4b/v38q001/nginth/dm/Carnot-OWL/jython/grammar/PythonPartial.g:754:43: COMMA
                             {
                             match(input,COMMA,FOLLOW_COMMA_in_testlist_gexp4051); if (state.failed) return ;
 
@@ -6010,10 +6010,10 @@ public class PythonPartialParser extends Parser {
                     }
                     break;
                 case 2 :
-                    // /Users/nginther/dm/inf/CarnotKE/jython/grammar/PythonPartial.g:756:11: ( comp_for )
+                    // /v/filer4b/v38q001/nginth/dm/Carnot-OWL/jython/grammar/PythonPartial.g:756:11: ( comp_for )
                     {
-                    // /Users/nginther/dm/inf/CarnotKE/jython/grammar/PythonPartial.g:756:11: ( comp_for )
-                    // /Users/nginther/dm/inf/CarnotKE/jython/grammar/PythonPartial.g:756:12: comp_for
+                    // /v/filer4b/v38q001/nginth/dm/Carnot-OWL/jython/grammar/PythonPartial.g:756:11: ( comp_for )
+                    // /v/filer4b/v38q001/nginth/dm/Carnot-OWL/jython/grammar/PythonPartial.g:756:12: comp_for
                     {
                     pushFollow(FOLLOW_comp_for_in_testlist_gexp4078);
                     comp_for();
@@ -6045,14 +6045,14 @@ public class PythonPartialParser extends Parser {
 
 
     // $ANTLR start "lambdef"
-    // /Users/nginther/dm/inf/CarnotKE/jython/grammar/PythonPartial.g:762:1: lambdef : LAMBDA ( varargslist )? COLON test ;
+    // /v/filer4b/v38q001/nginth/dm/Carnot-OWL/jython/grammar/PythonPartial.g:762:1: lambdef : LAMBDA ( varargslist )? COLON test ;
     public final void lambdef() throws RecognitionException {
         try {
-            // /Users/nginther/dm/inf/CarnotKE/jython/grammar/PythonPartial.g:763:5: ( LAMBDA ( varargslist )? COLON test )
-            // /Users/nginther/dm/inf/CarnotKE/jython/grammar/PythonPartial.g:763:7: LAMBDA ( varargslist )? COLON test
+            // /v/filer4b/v38q001/nginth/dm/Carnot-OWL/jython/grammar/PythonPartial.g:763:5: ( LAMBDA ( varargslist )? COLON test )
+            // /v/filer4b/v38q001/nginth/dm/Carnot-OWL/jython/grammar/PythonPartial.g:763:7: LAMBDA ( varargslist )? COLON test
             {
             match(input,LAMBDA,FOLLOW_LAMBDA_in_lambdef4118); if (state.failed) return ;
-            // /Users/nginther/dm/inf/CarnotKE/jython/grammar/PythonPartial.g:763:14: ( varargslist )?
+            // /v/filer4b/v38q001/nginth/dm/Carnot-OWL/jython/grammar/PythonPartial.g:763:14: ( varargslist )?
             int alt111=2;
             int LA111_0 = input.LA(1);
 
@@ -6061,7 +6061,7 @@ public class PythonPartialParser extends Parser {
             }
             switch (alt111) {
                 case 1 :
-                    // /Users/nginther/dm/inf/CarnotKE/jython/grammar/PythonPartial.g:763:15: varargslist
+                    // /v/filer4b/v38q001/nginth/dm/Carnot-OWL/jython/grammar/PythonPartial.g:763:15: varargslist
                     {
                     pushFollow(FOLLOW_varargslist_in_lambdef4121);
                     varargslist();
@@ -6096,10 +6096,10 @@ public class PythonPartialParser extends Parser {
 
 
     // $ANTLR start "trailer"
-    // /Users/nginther/dm/inf/CarnotKE/jython/grammar/PythonPartial.g:767:1: trailer : ( LPAREN ( arglist | ) RPAREN | LBRACK subscriptlist RBRACK | DOT attr );
+    // /v/filer4b/v38q001/nginth/dm/Carnot-OWL/jython/grammar/PythonPartial.g:767:1: trailer : ( LPAREN ( arglist | ) RPAREN | LBRACK subscriptlist RBRACK | DOT attr );
     public final void trailer() throws RecognitionException {
         try {
-            // /Users/nginther/dm/inf/CarnotKE/jython/grammar/PythonPartial.g:768:5: ( LPAREN ( arglist | ) RPAREN | LBRACK subscriptlist RBRACK | DOT attr )
+            // /v/filer4b/v38q001/nginth/dm/Carnot-OWL/jython/grammar/PythonPartial.g:768:5: ( LPAREN ( arglist | ) RPAREN | LBRACK subscriptlist RBRACK | DOT attr )
             int alt113=3;
             switch ( input.LA(1) ) {
             case LPAREN:
@@ -6127,10 +6127,10 @@ public class PythonPartialParser extends Parser {
 
             switch (alt113) {
                 case 1 :
-                    // /Users/nginther/dm/inf/CarnotKE/jython/grammar/PythonPartial.g:768:7: LPAREN ( arglist | ) RPAREN
+                    // /v/filer4b/v38q001/nginth/dm/Carnot-OWL/jython/grammar/PythonPartial.g:768:7: LPAREN ( arglist | ) RPAREN
                     {
                     match(input,LPAREN,FOLLOW_LPAREN_in_trailer4145); if (state.failed) return ;
-                    // /Users/nginther/dm/inf/CarnotKE/jython/grammar/PythonPartial.g:769:9: ( arglist | )
+                    // /v/filer4b/v38q001/nginth/dm/Carnot-OWL/jython/grammar/PythonPartial.g:769:9: ( arglist | )
                     int alt112=2;
                     int LA112_0 = input.LA(1);
 
@@ -6149,7 +6149,7 @@ public class PythonPartialParser extends Parser {
                     }
                     switch (alt112) {
                         case 1 :
-                            // /Users/nginther/dm/inf/CarnotKE/jython/grammar/PythonPartial.g:769:10: arglist
+                            // /v/filer4b/v38q001/nginth/dm/Carnot-OWL/jython/grammar/PythonPartial.g:769:10: arglist
                             {
                             pushFollow(FOLLOW_arglist_in_trailer4156);
                             arglist();
@@ -6160,7 +6160,7 @@ public class PythonPartialParser extends Parser {
                             }
                             break;
                         case 2 :
-                            // /Users/nginther/dm/inf/CarnotKE/jython/grammar/PythonPartial.g:771:9: 
+                            // /v/filer4b/v38q001/nginth/dm/Carnot-OWL/jython/grammar/PythonPartial.g:771:9: 
                             {
                             }
                             break;
@@ -6172,7 +6172,7 @@ public class PythonPartialParser extends Parser {
                     }
                     break;
                 case 2 :
-                    // /Users/nginther/dm/inf/CarnotKE/jython/grammar/PythonPartial.g:773:7: LBRACK subscriptlist RBRACK
+                    // /v/filer4b/v38q001/nginth/dm/Carnot-OWL/jython/grammar/PythonPartial.g:773:7: LBRACK subscriptlist RBRACK
                     {
                     match(input,LBRACK,FOLLOW_LBRACK_in_trailer4192); if (state.failed) return ;
                     pushFollow(FOLLOW_subscriptlist_in_trailer4194);
@@ -6185,7 +6185,7 @@ public class PythonPartialParser extends Parser {
                     }
                     break;
                 case 3 :
-                    // /Users/nginther/dm/inf/CarnotKE/jython/grammar/PythonPartial.g:774:7: DOT attr
+                    // /v/filer4b/v38q001/nginth/dm/Carnot-OWL/jython/grammar/PythonPartial.g:774:7: DOT attr
                     {
                     match(input,DOT,FOLLOW_DOT_in_trailer4204); if (state.failed) return ;
                     pushFollow(FOLLOW_attr_in_trailer4206);
@@ -6211,18 +6211,18 @@ public class PythonPartialParser extends Parser {
 
 
     // $ANTLR start "subscriptlist"
-    // /Users/nginther/dm/inf/CarnotKE/jython/grammar/PythonPartial.g:778:1: subscriptlist : subscript ( options {greedy=true; } : COMMA subscript )* ( COMMA )? ;
+    // /v/filer4b/v38q001/nginth/dm/Carnot-OWL/jython/grammar/PythonPartial.g:778:1: subscriptlist : subscript ( options {greedy=true; } : COMMA subscript )* ( COMMA )? ;
     public final void subscriptlist() throws RecognitionException {
         try {
-            // /Users/nginther/dm/inf/CarnotKE/jython/grammar/PythonPartial.g:779:5: ( subscript ( options {greedy=true; } : COMMA subscript )* ( COMMA )? )
-            // /Users/nginther/dm/inf/CarnotKE/jython/grammar/PythonPartial.g:779:7: subscript ( options {greedy=true; } : COMMA subscript )* ( COMMA )?
+            // /v/filer4b/v38q001/nginth/dm/Carnot-OWL/jython/grammar/PythonPartial.g:779:5: ( subscript ( options {greedy=true; } : COMMA subscript )* ( COMMA )? )
+            // /v/filer4b/v38q001/nginth/dm/Carnot-OWL/jython/grammar/PythonPartial.g:779:7: subscript ( options {greedy=true; } : COMMA subscript )* ( COMMA )?
             {
             pushFollow(FOLLOW_subscript_in_subscriptlist4224);
             subscript();
 
             state._fsp--;
             if (state.failed) return ;
-            // /Users/nginther/dm/inf/CarnotKE/jython/grammar/PythonPartial.g:779:17: ( options {greedy=true; } : COMMA subscript )*
+            // /v/filer4b/v38q001/nginth/dm/Carnot-OWL/jython/grammar/PythonPartial.g:779:17: ( options {greedy=true; } : COMMA subscript )*
             loop114:
             do {
                 int alt114=2;
@@ -6241,7 +6241,7 @@ public class PythonPartialParser extends Parser {
 
                 switch (alt114) {
             	case 1 :
-            	    // /Users/nginther/dm/inf/CarnotKE/jython/grammar/PythonPartial.g:779:41: COMMA subscript
+            	    // /v/filer4b/v38q001/nginth/dm/Carnot-OWL/jython/grammar/PythonPartial.g:779:41: COMMA subscript
             	    {
             	    match(input,COMMA,FOLLOW_COMMA_in_subscriptlist4234); if (state.failed) return ;
             	    pushFollow(FOLLOW_subscript_in_subscriptlist4236);
@@ -6258,7 +6258,7 @@ public class PythonPartialParser extends Parser {
                 }
             } while (true);
 
-            // /Users/nginther/dm/inf/CarnotKE/jython/grammar/PythonPartial.g:779:59: ( COMMA )?
+            // /v/filer4b/v38q001/nginth/dm/Carnot-OWL/jython/grammar/PythonPartial.g:779:59: ( COMMA )?
             int alt115=2;
             int LA115_0 = input.LA(1);
 
@@ -6267,7 +6267,7 @@ public class PythonPartialParser extends Parser {
             }
             switch (alt115) {
                 case 1 :
-                    // /Users/nginther/dm/inf/CarnotKE/jython/grammar/PythonPartial.g:779:60: COMMA
+                    // /v/filer4b/v38q001/nginth/dm/Carnot-OWL/jython/grammar/PythonPartial.g:779:60: COMMA
                     {
                     match(input,COMMA,FOLLOW_COMMA_in_subscriptlist4241); if (state.failed) return ;
 
@@ -6292,15 +6292,15 @@ public class PythonPartialParser extends Parser {
 
 
     // $ANTLR start "subscript"
-    // /Users/nginther/dm/inf/CarnotKE/jython/grammar/PythonPartial.g:783:1: subscript : ( DOT DOT DOT | ( test COLON )=> test ( COLON ( test )? ( sliceop )? )? | ( COLON )=> COLON ( test )? ( sliceop )? | test );
+    // /v/filer4b/v38q001/nginth/dm/Carnot-OWL/jython/grammar/PythonPartial.g:783:1: subscript : ( DOT DOT DOT | ( test COLON )=> test ( COLON ( test )? ( sliceop )? )? | ( COLON )=> COLON ( test )? ( sliceop )? | test );
     public final void subscript() throws RecognitionException {
         try {
-            // /Users/nginther/dm/inf/CarnotKE/jython/grammar/PythonPartial.g:784:5: ( DOT DOT DOT | ( test COLON )=> test ( COLON ( test )? ( sliceop )? )? | ( COLON )=> COLON ( test )? ( sliceop )? | test )
+            // /v/filer4b/v38q001/nginth/dm/Carnot-OWL/jython/grammar/PythonPartial.g:784:5: ( DOT DOT DOT | ( test COLON )=> test ( COLON ( test )? ( sliceop )? )? | ( COLON )=> COLON ( test )? ( sliceop )? | test )
             int alt121=4;
             alt121 = dfa121.predict(input);
             switch (alt121) {
                 case 1 :
-                    // /Users/nginther/dm/inf/CarnotKE/jython/grammar/PythonPartial.g:784:7: DOT DOT DOT
+                    // /v/filer4b/v38q001/nginth/dm/Carnot-OWL/jython/grammar/PythonPartial.g:784:7: DOT DOT DOT
                     {
                     match(input,DOT,FOLLOW_DOT_in_subscript4261); if (state.failed) return ;
                     match(input,DOT,FOLLOW_DOT_in_subscript4263); if (state.failed) return ;
@@ -6309,14 +6309,14 @@ public class PythonPartialParser extends Parser {
                     }
                     break;
                 case 2 :
-                    // /Users/nginther/dm/inf/CarnotKE/jython/grammar/PythonPartial.g:785:7: ( test COLON )=> test ( COLON ( test )? ( sliceop )? )?
+                    // /v/filer4b/v38q001/nginth/dm/Carnot-OWL/jython/grammar/PythonPartial.g:785:7: ( test COLON )=> test ( COLON ( test )? ( sliceop )? )?
                     {
                     pushFollow(FOLLOW_test_in_subscript4284);
                     test();
 
                     state._fsp--;
                     if (state.failed) return ;
-                    // /Users/nginther/dm/inf/CarnotKE/jython/grammar/PythonPartial.g:786:12: ( COLON ( test )? ( sliceop )? )?
+                    // /v/filer4b/v38q001/nginth/dm/Carnot-OWL/jython/grammar/PythonPartial.g:786:12: ( COLON ( test )? ( sliceop )? )?
                     int alt118=2;
                     int LA118_0 = input.LA(1);
 
@@ -6325,10 +6325,10 @@ public class PythonPartialParser extends Parser {
                     }
                     switch (alt118) {
                         case 1 :
-                            // /Users/nginther/dm/inf/CarnotKE/jython/grammar/PythonPartial.g:786:13: COLON ( test )? ( sliceop )?
+                            // /v/filer4b/v38q001/nginth/dm/Carnot-OWL/jython/grammar/PythonPartial.g:786:13: COLON ( test )? ( sliceop )?
                             {
                             match(input,COLON,FOLLOW_COLON_in_subscript4287); if (state.failed) return ;
-                            // /Users/nginther/dm/inf/CarnotKE/jython/grammar/PythonPartial.g:786:19: ( test )?
+                            // /v/filer4b/v38q001/nginth/dm/Carnot-OWL/jython/grammar/PythonPartial.g:786:19: ( test )?
                             int alt116=2;
                             int LA116_0 = input.LA(1);
 
@@ -6337,7 +6337,7 @@ public class PythonPartialParser extends Parser {
                             }
                             switch (alt116) {
                                 case 1 :
-                                    // /Users/nginther/dm/inf/CarnotKE/jython/grammar/PythonPartial.g:786:20: test
+                                    // /v/filer4b/v38q001/nginth/dm/Carnot-OWL/jython/grammar/PythonPartial.g:786:20: test
                                     {
                                     pushFollow(FOLLOW_test_in_subscript4290);
                                     test();
@@ -6350,7 +6350,7 @@ public class PythonPartialParser extends Parser {
 
                             }
 
-                            // /Users/nginther/dm/inf/CarnotKE/jython/grammar/PythonPartial.g:786:27: ( sliceop )?
+                            // /v/filer4b/v38q001/nginth/dm/Carnot-OWL/jython/grammar/PythonPartial.g:786:27: ( sliceop )?
                             int alt117=2;
                             int LA117_0 = input.LA(1);
 
@@ -6359,7 +6359,7 @@ public class PythonPartialParser extends Parser {
                             }
                             switch (alt117) {
                                 case 1 :
-                                    // /Users/nginther/dm/inf/CarnotKE/jython/grammar/PythonPartial.g:786:28: sliceop
+                                    // /v/filer4b/v38q001/nginth/dm/Carnot-OWL/jython/grammar/PythonPartial.g:786:28: sliceop
                                     {
                                     pushFollow(FOLLOW_sliceop_in_subscript4295);
                                     sliceop();
@@ -6382,10 +6382,10 @@ public class PythonPartialParser extends Parser {
                     }
                     break;
                 case 3 :
-                    // /Users/nginther/dm/inf/CarnotKE/jython/grammar/PythonPartial.g:787:7: ( COLON )=> COLON ( test )? ( sliceop )?
+                    // /v/filer4b/v38q001/nginth/dm/Carnot-OWL/jython/grammar/PythonPartial.g:787:7: ( COLON )=> COLON ( test )? ( sliceop )?
                     {
                     match(input,COLON,FOLLOW_COLON_in_subscript4316); if (state.failed) return ;
-                    // /Users/nginther/dm/inf/CarnotKE/jython/grammar/PythonPartial.g:788:13: ( test )?
+                    // /v/filer4b/v38q001/nginth/dm/Carnot-OWL/jython/grammar/PythonPartial.g:788:13: ( test )?
                     int alt119=2;
                     int LA119_0 = input.LA(1);
 
@@ -6394,7 +6394,7 @@ public class PythonPartialParser extends Parser {
                     }
                     switch (alt119) {
                         case 1 :
-                            // /Users/nginther/dm/inf/CarnotKE/jython/grammar/PythonPartial.g:788:14: test
+                            // /v/filer4b/v38q001/nginth/dm/Carnot-OWL/jython/grammar/PythonPartial.g:788:14: test
                             {
                             pushFollow(FOLLOW_test_in_subscript4319);
                             test();
@@ -6407,7 +6407,7 @@ public class PythonPartialParser extends Parser {
 
                     }
 
-                    // /Users/nginther/dm/inf/CarnotKE/jython/grammar/PythonPartial.g:788:21: ( sliceop )?
+                    // /v/filer4b/v38q001/nginth/dm/Carnot-OWL/jython/grammar/PythonPartial.g:788:21: ( sliceop )?
                     int alt120=2;
                     int LA120_0 = input.LA(1);
 
@@ -6416,7 +6416,7 @@ public class PythonPartialParser extends Parser {
                     }
                     switch (alt120) {
                         case 1 :
-                            // /Users/nginther/dm/inf/CarnotKE/jython/grammar/PythonPartial.g:788:22: sliceop
+                            // /v/filer4b/v38q001/nginth/dm/Carnot-OWL/jython/grammar/PythonPartial.g:788:22: sliceop
                             {
                             pushFollow(FOLLOW_sliceop_in_subscript4324);
                             sliceop();
@@ -6433,7 +6433,7 @@ public class PythonPartialParser extends Parser {
                     }
                     break;
                 case 4 :
-                    // /Users/nginther/dm/inf/CarnotKE/jython/grammar/PythonPartial.g:789:7: test
+                    // /v/filer4b/v38q001/nginth/dm/Carnot-OWL/jython/grammar/PythonPartial.g:789:7: test
                     {
                     pushFollow(FOLLOW_test_in_subscript4334);
                     test();
@@ -6458,14 +6458,14 @@ public class PythonPartialParser extends Parser {
 
 
     // $ANTLR start "sliceop"
-    // /Users/nginther/dm/inf/CarnotKE/jython/grammar/PythonPartial.g:793:1: sliceop : COLON ( test | ) ;
+    // /v/filer4b/v38q001/nginth/dm/Carnot-OWL/jython/grammar/PythonPartial.g:793:1: sliceop : COLON ( test | ) ;
     public final void sliceop() throws RecognitionException {
         try {
-            // /Users/nginther/dm/inf/CarnotKE/jython/grammar/PythonPartial.g:794:5: ( COLON ( test | ) )
-            // /Users/nginther/dm/inf/CarnotKE/jython/grammar/PythonPartial.g:794:7: COLON ( test | )
+            // /v/filer4b/v38q001/nginth/dm/Carnot-OWL/jython/grammar/PythonPartial.g:794:5: ( COLON ( test | ) )
+            // /v/filer4b/v38q001/nginth/dm/Carnot-OWL/jython/grammar/PythonPartial.g:794:7: COLON ( test | )
             {
             match(input,COLON,FOLLOW_COLON_in_sliceop4352); if (state.failed) return ;
-            // /Users/nginther/dm/inf/CarnotKE/jython/grammar/PythonPartial.g:795:6: ( test | )
+            // /v/filer4b/v38q001/nginth/dm/Carnot-OWL/jython/grammar/PythonPartial.g:795:6: ( test | )
             int alt122=2;
             int LA122_0 = input.LA(1);
 
@@ -6484,7 +6484,7 @@ public class PythonPartialParser extends Parser {
             }
             switch (alt122) {
                 case 1 :
-                    // /Users/nginther/dm/inf/CarnotKE/jython/grammar/PythonPartial.g:795:7: test
+                    // /v/filer4b/v38q001/nginth/dm/Carnot-OWL/jython/grammar/PythonPartial.g:795:7: test
                     {
                     pushFollow(FOLLOW_test_in_sliceop4360);
                     test();
@@ -6495,7 +6495,7 @@ public class PythonPartialParser extends Parser {
                     }
                     break;
                 case 2 :
-                    // /Users/nginther/dm/inf/CarnotKE/jython/grammar/PythonPartial.g:797:6: 
+                    // /v/filer4b/v38q001/nginth/dm/Carnot-OWL/jython/grammar/PythonPartial.g:797:6: 
                     {
                     }
                     break;
@@ -6518,29 +6518,29 @@ public class PythonPartialParser extends Parser {
 
 
     // $ANTLR start "exprlist"
-    // /Users/nginther/dm/inf/CarnotKE/jython/grammar/PythonPartial.g:801:1: exprlist : ( ( expr COMMA )=> expr ( options {k=2; } : COMMA expr )* ( COMMA )? | expr );
+    // /v/filer4b/v38q001/nginth/dm/Carnot-OWL/jython/grammar/PythonPartial.g:801:1: exprlist : ( ( expr COMMA )=> expr ( options {k=2; } : COMMA expr )* ( COMMA )? | expr );
     public final void exprlist() throws RecognitionException {
         try {
-            // /Users/nginther/dm/inf/CarnotKE/jython/grammar/PythonPartial.g:802:5: ( ( expr COMMA )=> expr ( options {k=2; } : COMMA expr )* ( COMMA )? | expr )
+            // /v/filer4b/v38q001/nginth/dm/Carnot-OWL/jython/grammar/PythonPartial.g:802:5: ( ( expr COMMA )=> expr ( options {k=2; } : COMMA expr )* ( COMMA )? | expr )
             int alt125=2;
             alt125 = dfa125.predict(input);
             switch (alt125) {
                 case 1 :
-                    // /Users/nginther/dm/inf/CarnotKE/jython/grammar/PythonPartial.g:802:7: ( expr COMMA )=> expr ( options {k=2; } : COMMA expr )* ( COMMA )?
+                    // /v/filer4b/v38q001/nginth/dm/Carnot-OWL/jython/grammar/PythonPartial.g:802:7: ( expr COMMA )=> expr ( options {k=2; } : COMMA expr )* ( COMMA )?
                     {
                     pushFollow(FOLLOW_expr_in_exprlist4400);
                     expr();
 
                     state._fsp--;
                     if (state.failed) return ;
-                    // /Users/nginther/dm/inf/CarnotKE/jython/grammar/PythonPartial.g:802:28: ( options {k=2; } : COMMA expr )*
+                    // /v/filer4b/v38q001/nginth/dm/Carnot-OWL/jython/grammar/PythonPartial.g:802:28: ( options {k=2; } : COMMA expr )*
                     loop123:
                     do {
                         int alt123=2;
                         alt123 = dfa123.predict(input);
                         switch (alt123) {
                     	case 1 :
-                    	    // /Users/nginther/dm/inf/CarnotKE/jython/grammar/PythonPartial.g:802:45: COMMA expr
+                    	    // /v/filer4b/v38q001/nginth/dm/Carnot-OWL/jython/grammar/PythonPartial.g:802:45: COMMA expr
                     	    {
                     	    match(input,COMMA,FOLLOW_COMMA_in_exprlist4411); if (state.failed) return ;
                     	    pushFollow(FOLLOW_expr_in_exprlist4413);
@@ -6557,7 +6557,7 @@ public class PythonPartialParser extends Parser {
                         }
                     } while (true);
 
-                    // /Users/nginther/dm/inf/CarnotKE/jython/grammar/PythonPartial.g:802:58: ( COMMA )?
+                    // /v/filer4b/v38q001/nginth/dm/Carnot-OWL/jython/grammar/PythonPartial.g:802:58: ( COMMA )?
                     int alt124=2;
                     int LA124_0 = input.LA(1);
 
@@ -6566,7 +6566,7 @@ public class PythonPartialParser extends Parser {
                     }
                     switch (alt124) {
                         case 1 :
-                            // /Users/nginther/dm/inf/CarnotKE/jython/grammar/PythonPartial.g:802:59: COMMA
+                            // /v/filer4b/v38q001/nginth/dm/Carnot-OWL/jython/grammar/PythonPartial.g:802:59: COMMA
                             {
                             match(input,COMMA,FOLLOW_COMMA_in_exprlist4418); if (state.failed) return ;
 
@@ -6579,7 +6579,7 @@ public class PythonPartialParser extends Parser {
                     }
                     break;
                 case 2 :
-                    // /Users/nginther/dm/inf/CarnotKE/jython/grammar/PythonPartial.g:803:7: expr
+                    // /v/filer4b/v38q001/nginth/dm/Carnot-OWL/jython/grammar/PythonPartial.g:803:7: expr
                     {
                     pushFollow(FOLLOW_expr_in_exprlist4428);
                     expr();
@@ -6604,25 +6604,25 @@ public class PythonPartialParser extends Parser {
 
 
     // $ANTLR start "del_list"
-    // /Users/nginther/dm/inf/CarnotKE/jython/grammar/PythonPartial.g:808:1: del_list : expr ( options {k=2; } : COMMA expr )* ( COMMA )? ;
+    // /v/filer4b/v38q001/nginth/dm/Carnot-OWL/jython/grammar/PythonPartial.g:808:1: del_list : expr ( options {k=2; } : COMMA expr )* ( COMMA )? ;
     public final void del_list() throws RecognitionException {
         try {
-            // /Users/nginther/dm/inf/CarnotKE/jython/grammar/PythonPartial.g:809:5: ( expr ( options {k=2; } : COMMA expr )* ( COMMA )? )
-            // /Users/nginther/dm/inf/CarnotKE/jython/grammar/PythonPartial.g:809:7: expr ( options {k=2; } : COMMA expr )* ( COMMA )?
+            // /v/filer4b/v38q001/nginth/dm/Carnot-OWL/jython/grammar/PythonPartial.g:809:5: ( expr ( options {k=2; } : COMMA expr )* ( COMMA )? )
+            // /v/filer4b/v38q001/nginth/dm/Carnot-OWL/jython/grammar/PythonPartial.g:809:7: expr ( options {k=2; } : COMMA expr )* ( COMMA )?
             {
             pushFollow(FOLLOW_expr_in_del_list4447);
             expr();
 
             state._fsp--;
             if (state.failed) return ;
-            // /Users/nginther/dm/inf/CarnotKE/jython/grammar/PythonPartial.g:809:12: ( options {k=2; } : COMMA expr )*
+            // /v/filer4b/v38q001/nginth/dm/Carnot-OWL/jython/grammar/PythonPartial.g:809:12: ( options {k=2; } : COMMA expr )*
             loop126:
             do {
                 int alt126=2;
                 alt126 = dfa126.predict(input);
                 switch (alt126) {
             	case 1 :
-            	    // /Users/nginther/dm/inf/CarnotKE/jython/grammar/PythonPartial.g:809:29: COMMA expr
+            	    // /v/filer4b/v38q001/nginth/dm/Carnot-OWL/jython/grammar/PythonPartial.g:809:29: COMMA expr
             	    {
             	    match(input,COMMA,FOLLOW_COMMA_in_del_list4458); if (state.failed) return ;
             	    pushFollow(FOLLOW_expr_in_del_list4460);
@@ -6639,7 +6639,7 @@ public class PythonPartialParser extends Parser {
                 }
             } while (true);
 
-            // /Users/nginther/dm/inf/CarnotKE/jython/grammar/PythonPartial.g:809:42: ( COMMA )?
+            // /v/filer4b/v38q001/nginth/dm/Carnot-OWL/jython/grammar/PythonPartial.g:809:42: ( COMMA )?
             int alt127=2;
             int LA127_0 = input.LA(1);
 
@@ -6648,7 +6648,7 @@ public class PythonPartialParser extends Parser {
             }
             switch (alt127) {
                 case 1 :
-                    // /Users/nginther/dm/inf/CarnotKE/jython/grammar/PythonPartial.g:809:43: COMMA
+                    // /v/filer4b/v38q001/nginth/dm/Carnot-OWL/jython/grammar/PythonPartial.g:809:43: COMMA
                     {
                     match(input,COMMA,FOLLOW_COMMA_in_del_list4465); if (state.failed) return ;
 
@@ -6673,29 +6673,29 @@ public class PythonPartialParser extends Parser {
 
 
     // $ANTLR start "testlist"
-    // /Users/nginther/dm/inf/CarnotKE/jython/grammar/PythonPartial.g:813:1: testlist : ( ( test COMMA )=> test ( options {k=2; } : COMMA test )* ( COMMA )? | test );
+    // /v/filer4b/v38q001/nginth/dm/Carnot-OWL/jython/grammar/PythonPartial.g:813:1: testlist : ( ( test COMMA )=> test ( options {k=2; } : COMMA test )* ( COMMA )? | test );
     public final void testlist() throws RecognitionException {
         try {
-            // /Users/nginther/dm/inf/CarnotKE/jython/grammar/PythonPartial.g:814:5: ( ( test COMMA )=> test ( options {k=2; } : COMMA test )* ( COMMA )? | test )
+            // /v/filer4b/v38q001/nginth/dm/Carnot-OWL/jython/grammar/PythonPartial.g:814:5: ( ( test COMMA )=> test ( options {k=2; } : COMMA test )* ( COMMA )? | test )
             int alt130=2;
             alt130 = dfa130.predict(input);
             switch (alt130) {
                 case 1 :
-                    // /Users/nginther/dm/inf/CarnotKE/jython/grammar/PythonPartial.g:814:7: ( test COMMA )=> test ( options {k=2; } : COMMA test )* ( COMMA )?
+                    // /v/filer4b/v38q001/nginth/dm/Carnot-OWL/jython/grammar/PythonPartial.g:814:7: ( test COMMA )=> test ( options {k=2; } : COMMA test )* ( COMMA )?
                     {
                     pushFollow(FOLLOW_test_in_testlist4496);
                     test();
 
                     state._fsp--;
                     if (state.failed) return ;
-                    // /Users/nginther/dm/inf/CarnotKE/jython/grammar/PythonPartial.g:815:12: ( options {k=2; } : COMMA test )*
+                    // /v/filer4b/v38q001/nginth/dm/Carnot-OWL/jython/grammar/PythonPartial.g:815:12: ( options {k=2; } : COMMA test )*
                     loop128:
                     do {
                         int alt128=2;
                         alt128 = dfa128.predict(input);
                         switch (alt128) {
                     	case 1 :
-                    	    // /Users/nginther/dm/inf/CarnotKE/jython/grammar/PythonPartial.g:815:29: COMMA test
+                    	    // /v/filer4b/v38q001/nginth/dm/Carnot-OWL/jython/grammar/PythonPartial.g:815:29: COMMA test
                     	    {
                     	    match(input,COMMA,FOLLOW_COMMA_in_testlist4507); if (state.failed) return ;
                     	    pushFollow(FOLLOW_test_in_testlist4509);
@@ -6712,7 +6712,7 @@ public class PythonPartialParser extends Parser {
                         }
                     } while (true);
 
-                    // /Users/nginther/dm/inf/CarnotKE/jython/grammar/PythonPartial.g:815:42: ( COMMA )?
+                    // /v/filer4b/v38q001/nginth/dm/Carnot-OWL/jython/grammar/PythonPartial.g:815:42: ( COMMA )?
                     int alt129=2;
                     int LA129_0 = input.LA(1);
 
@@ -6721,7 +6721,7 @@ public class PythonPartialParser extends Parser {
                     }
                     switch (alt129) {
                         case 1 :
-                            // /Users/nginther/dm/inf/CarnotKE/jython/grammar/PythonPartial.g:815:43: COMMA
+                            // /v/filer4b/v38q001/nginth/dm/Carnot-OWL/jython/grammar/PythonPartial.g:815:43: COMMA
                             {
                             match(input,COMMA,FOLLOW_COMMA_in_testlist4514); if (state.failed) return ;
 
@@ -6734,7 +6734,7 @@ public class PythonPartialParser extends Parser {
                     }
                     break;
                 case 2 :
-                    // /Users/nginther/dm/inf/CarnotKE/jython/grammar/PythonPartial.g:816:7: test
+                    // /v/filer4b/v38q001/nginth/dm/Carnot-OWL/jython/grammar/PythonPartial.g:816:7: test
                     {
                     pushFollow(FOLLOW_test_in_testlist4524);
                     test();
@@ -6759,18 +6759,18 @@ public class PythonPartialParser extends Parser {
 
 
     // $ANTLR start "dictorsetmaker"
-    // /Users/nginther/dm/inf/CarnotKE/jython/grammar/PythonPartial.g:821:1: dictorsetmaker : test ( ( COLON test ( comp_for | ( options {k=2; } : COMMA test COLON test )* ) | ( COMMA test )* ) ( COMMA )? | comp_for ) ;
+    // /v/filer4b/v38q001/nginth/dm/Carnot-OWL/jython/grammar/PythonPartial.g:821:1: dictorsetmaker : test ( ( COLON test ( comp_for | ( options {k=2; } : COMMA test COLON test )* ) | ( COMMA test )* ) ( COMMA )? | comp_for ) ;
     public final void dictorsetmaker() throws RecognitionException {
         try {
-            // /Users/nginther/dm/inf/CarnotKE/jython/grammar/PythonPartial.g:822:5: ( test ( ( COLON test ( comp_for | ( options {k=2; } : COMMA test COLON test )* ) | ( COMMA test )* ) ( COMMA )? | comp_for ) )
-            // /Users/nginther/dm/inf/CarnotKE/jython/grammar/PythonPartial.g:822:7: test ( ( COLON test ( comp_for | ( options {k=2; } : COMMA test COLON test )* ) | ( COMMA test )* ) ( COMMA )? | comp_for )
+            // /v/filer4b/v38q001/nginth/dm/Carnot-OWL/jython/grammar/PythonPartial.g:822:5: ( test ( ( COLON test ( comp_for | ( options {k=2; } : COMMA test COLON test )* ) | ( COMMA test )* ) ( COMMA )? | comp_for ) )
+            // /v/filer4b/v38q001/nginth/dm/Carnot-OWL/jython/grammar/PythonPartial.g:822:7: test ( ( COLON test ( comp_for | ( options {k=2; } : COMMA test COLON test )* ) | ( COMMA test )* ) ( COMMA )? | comp_for )
             {
             pushFollow(FOLLOW_test_in_dictorsetmaker4543);
             test();
 
             state._fsp--;
             if (state.failed) return ;
-            // /Users/nginther/dm/inf/CarnotKE/jython/grammar/PythonPartial.g:823:10: ( ( COLON test ( comp_for | ( options {k=2; } : COMMA test COLON test )* ) | ( COMMA test )* ) ( COMMA )? | comp_for )
+            // /v/filer4b/v38q001/nginth/dm/Carnot-OWL/jython/grammar/PythonPartial.g:823:10: ( ( COLON test ( comp_for | ( options {k=2; } : COMMA test COLON test )* ) | ( COMMA test )* ) ( COMMA )? | comp_for )
             int alt136=2;
             int LA136_0 = input.LA(1);
 
@@ -6789,9 +6789,9 @@ public class PythonPartialParser extends Parser {
             }
             switch (alt136) {
                 case 1 :
-                    // /Users/nginther/dm/inf/CarnotKE/jython/grammar/PythonPartial.g:824:14: ( COLON test ( comp_for | ( options {k=2; } : COMMA test COLON test )* ) | ( COMMA test )* ) ( COMMA )?
+                    // /v/filer4b/v38q001/nginth/dm/Carnot-OWL/jython/grammar/PythonPartial.g:824:14: ( COLON test ( comp_for | ( options {k=2; } : COMMA test COLON test )* ) | ( COMMA test )* ) ( COMMA )?
                     {
-                    // /Users/nginther/dm/inf/CarnotKE/jython/grammar/PythonPartial.g:824:14: ( COLON test ( comp_for | ( options {k=2; } : COMMA test COLON test )* ) | ( COMMA test )* )
+                    // /v/filer4b/v38q001/nginth/dm/Carnot-OWL/jython/grammar/PythonPartial.g:824:14: ( COLON test ( comp_for | ( options {k=2; } : COMMA test COLON test )* ) | ( COMMA test )* )
                     int alt134=2;
                     int LA134_0 = input.LA(1);
 
@@ -6810,7 +6810,7 @@ public class PythonPartialParser extends Parser {
                     }
                     switch (alt134) {
                         case 1 :
-                            // /Users/nginther/dm/inf/CarnotKE/jython/grammar/PythonPartial.g:824:15: COLON test ( comp_for | ( options {k=2; } : COMMA test COLON test )* )
+                            // /v/filer4b/v38q001/nginth/dm/Carnot-OWL/jython/grammar/PythonPartial.g:824:15: COLON test ( comp_for | ( options {k=2; } : COMMA test COLON test )* )
                             {
                             match(input,COLON,FOLLOW_COLON_in_dictorsetmaker4570); if (state.failed) return ;
                             pushFollow(FOLLOW_test_in_dictorsetmaker4572);
@@ -6818,7 +6818,7 @@ public class PythonPartialParser extends Parser {
 
                             state._fsp--;
                             if (state.failed) return ;
-                            // /Users/nginther/dm/inf/CarnotKE/jython/grammar/PythonPartial.g:825:16: ( comp_for | ( options {k=2; } : COMMA test COLON test )* )
+                            // /v/filer4b/v38q001/nginth/dm/Carnot-OWL/jython/grammar/PythonPartial.g:825:16: ( comp_for | ( options {k=2; } : COMMA test COLON test )* )
                             int alt132=2;
                             int LA132_0 = input.LA(1);
 
@@ -6837,7 +6837,7 @@ public class PythonPartialParser extends Parser {
                             }
                             switch (alt132) {
                                 case 1 :
-                                    // /Users/nginther/dm/inf/CarnotKE/jython/grammar/PythonPartial.g:825:18: comp_for
+                                    // /v/filer4b/v38q001/nginth/dm/Carnot-OWL/jython/grammar/PythonPartial.g:825:18: comp_for
                                     {
                                     pushFollow(FOLLOW_comp_for_in_dictorsetmaker4591);
                                     comp_for();
@@ -6848,16 +6848,16 @@ public class PythonPartialParser extends Parser {
                                     }
                                     break;
                                 case 2 :
-                                    // /Users/nginther/dm/inf/CarnotKE/jython/grammar/PythonPartial.g:826:18: ( options {k=2; } : COMMA test COLON test )*
+                                    // /v/filer4b/v38q001/nginth/dm/Carnot-OWL/jython/grammar/PythonPartial.g:826:18: ( options {k=2; } : COMMA test COLON test )*
                                     {
-                                    // /Users/nginther/dm/inf/CarnotKE/jython/grammar/PythonPartial.g:826:18: ( options {k=2; } : COMMA test COLON test )*
+                                    // /v/filer4b/v38q001/nginth/dm/Carnot-OWL/jython/grammar/PythonPartial.g:826:18: ( options {k=2; } : COMMA test COLON test )*
                                     loop131:
                                     do {
                                         int alt131=2;
                                         alt131 = dfa131.predict(input);
                                         switch (alt131) {
                                     	case 1 :
-                                    	    // /Users/nginther/dm/inf/CarnotKE/jython/grammar/PythonPartial.g:826:34: COMMA test COLON test
+                                    	    // /v/filer4b/v38q001/nginth/dm/Carnot-OWL/jython/grammar/PythonPartial.g:826:34: COMMA test COLON test
                                     	    {
                                     	    match(input,COMMA,FOLLOW_COMMA_in_dictorsetmaker4618); if (state.failed) return ;
                                     	    pushFollow(FOLLOW_test_in_dictorsetmaker4620);
@@ -6890,9 +6890,9 @@ public class PythonPartialParser extends Parser {
                             }
                             break;
                         case 2 :
-                            // /Users/nginther/dm/inf/CarnotKE/jython/grammar/PythonPartial.g:828:15: ( COMMA test )*
+                            // /v/filer4b/v38q001/nginth/dm/Carnot-OWL/jython/grammar/PythonPartial.g:828:15: ( COMMA test )*
                             {
-                            // /Users/nginther/dm/inf/CarnotKE/jython/grammar/PythonPartial.g:828:15: ( COMMA test )*
+                            // /v/filer4b/v38q001/nginth/dm/Carnot-OWL/jython/grammar/PythonPartial.g:828:15: ( COMMA test )*
                             loop133:
                             do {
                                 int alt133=2;
@@ -6911,7 +6911,7 @@ public class PythonPartialParser extends Parser {
 
                                 switch (alt133) {
                             	case 1 :
-                            	    // /Users/nginther/dm/inf/CarnotKE/jython/grammar/PythonPartial.g:828:16: COMMA test
+                            	    // /v/filer4b/v38q001/nginth/dm/Carnot-OWL/jython/grammar/PythonPartial.g:828:16: COMMA test
                             	    {
                             	    match(input,COMMA,FOLLOW_COMMA_in_dictorsetmaker4660); if (state.failed) return ;
                             	    pushFollow(FOLLOW_test_in_dictorsetmaker4662);
@@ -6934,7 +6934,7 @@ public class PythonPartialParser extends Parser {
 
                     }
 
-                    // /Users/nginther/dm/inf/CarnotKE/jython/grammar/PythonPartial.g:830:14: ( COMMA )?
+                    // /v/filer4b/v38q001/nginth/dm/Carnot-OWL/jython/grammar/PythonPartial.g:830:14: ( COMMA )?
                     int alt135=2;
                     int LA135_0 = input.LA(1);
 
@@ -6943,7 +6943,7 @@ public class PythonPartialParser extends Parser {
                     }
                     switch (alt135) {
                         case 1 :
-                            // /Users/nginther/dm/inf/CarnotKE/jython/grammar/PythonPartial.g:830:15: COMMA
+                            // /v/filer4b/v38q001/nginth/dm/Carnot-OWL/jython/grammar/PythonPartial.g:830:15: COMMA
                             {
                             match(input,COMMA,FOLLOW_COMMA_in_dictorsetmaker4695); if (state.failed) return ;
 
@@ -6956,7 +6956,7 @@ public class PythonPartialParser extends Parser {
                     }
                     break;
                 case 2 :
-                    // /Users/nginther/dm/inf/CarnotKE/jython/grammar/PythonPartial.g:831:12: comp_for
+                    // /v/filer4b/v38q001/nginth/dm/Carnot-OWL/jython/grammar/PythonPartial.g:831:12: comp_for
                     {
                     pushFollow(FOLLOW_comp_for_in_dictorsetmaker4710);
                     comp_for();
@@ -6985,13 +6985,13 @@ public class PythonPartialParser extends Parser {
 
 
     // $ANTLR start "classdef"
-    // /Users/nginther/dm/inf/CarnotKE/jython/grammar/PythonPartial.g:836:1: classdef : ( decorators )? CLASS NAME ( LPAREN ( testlist )? RPAREN )? COLON suite ;
+    // /v/filer4b/v38q001/nginth/dm/Carnot-OWL/jython/grammar/PythonPartial.g:836:1: classdef : ( decorators )? CLASS NAME ( LPAREN ( testlist )? RPAREN )? COLON suite ;
     public final void classdef() throws RecognitionException {
         try {
-            // /Users/nginther/dm/inf/CarnotKE/jython/grammar/PythonPartial.g:837:5: ( ( decorators )? CLASS NAME ( LPAREN ( testlist )? RPAREN )? COLON suite )
-            // /Users/nginther/dm/inf/CarnotKE/jython/grammar/PythonPartial.g:837:7: ( decorators )? CLASS NAME ( LPAREN ( testlist )? RPAREN )? COLON suite
+            // /v/filer4b/v38q001/nginth/dm/Carnot-OWL/jython/grammar/PythonPartial.g:837:5: ( ( decorators )? CLASS NAME ( LPAREN ( testlist )? RPAREN )? COLON suite )
+            // /v/filer4b/v38q001/nginth/dm/Carnot-OWL/jython/grammar/PythonPartial.g:837:7: ( decorators )? CLASS NAME ( LPAREN ( testlist )? RPAREN )? COLON suite
             {
-            // /Users/nginther/dm/inf/CarnotKE/jython/grammar/PythonPartial.g:837:7: ( decorators )?
+            // /v/filer4b/v38q001/nginth/dm/Carnot-OWL/jython/grammar/PythonPartial.g:837:7: ( decorators )?
             int alt137=2;
             int LA137_0 = input.LA(1);
 
@@ -7000,7 +7000,7 @@ public class PythonPartialParser extends Parser {
             }
             switch (alt137) {
                 case 1 :
-                    // /Users/nginther/dm/inf/CarnotKE/jython/grammar/PythonPartial.g:837:7: decorators
+                    // /v/filer4b/v38q001/nginth/dm/Carnot-OWL/jython/grammar/PythonPartial.g:837:7: decorators
                     {
                     pushFollow(FOLLOW_decorators_in_classdef4739);
                     decorators();
@@ -7015,7 +7015,7 @@ public class PythonPartialParser extends Parser {
 
             match(input,CLASS,FOLLOW_CLASS_in_classdef4742); if (state.failed) return ;
             match(input,NAME,FOLLOW_NAME_in_classdef4744); if (state.failed) return ;
-            // /Users/nginther/dm/inf/CarnotKE/jython/grammar/PythonPartial.g:837:30: ( LPAREN ( testlist )? RPAREN )?
+            // /v/filer4b/v38q001/nginth/dm/Carnot-OWL/jython/grammar/PythonPartial.g:837:30: ( LPAREN ( testlist )? RPAREN )?
             int alt139=2;
             int LA139_0 = input.LA(1);
 
@@ -7024,10 +7024,10 @@ public class PythonPartialParser extends Parser {
             }
             switch (alt139) {
                 case 1 :
-                    // /Users/nginther/dm/inf/CarnotKE/jython/grammar/PythonPartial.g:837:31: LPAREN ( testlist )? RPAREN
+                    // /v/filer4b/v38q001/nginth/dm/Carnot-OWL/jython/grammar/PythonPartial.g:837:31: LPAREN ( testlist )? RPAREN
                     {
                     match(input,LPAREN,FOLLOW_LPAREN_in_classdef4747); if (state.failed) return ;
-                    // /Users/nginther/dm/inf/CarnotKE/jython/grammar/PythonPartial.g:837:38: ( testlist )?
+                    // /v/filer4b/v38q001/nginth/dm/Carnot-OWL/jython/grammar/PythonPartial.g:837:38: ( testlist )?
                     int alt138=2;
                     int LA138_0 = input.LA(1);
 
@@ -7036,7 +7036,7 @@ public class PythonPartialParser extends Parser {
                     }
                     switch (alt138) {
                         case 1 :
-                            // /Users/nginther/dm/inf/CarnotKE/jython/grammar/PythonPartial.g:837:38: testlist
+                            // /v/filer4b/v38q001/nginth/dm/Carnot-OWL/jython/grammar/PythonPartial.g:837:38: testlist
                             {
                             pushFollow(FOLLOW_testlist_in_classdef4749);
                             testlist();
@@ -7078,10 +7078,10 @@ public class PythonPartialParser extends Parser {
 
 
     // $ANTLR start "arglist"
-    // /Users/nginther/dm/inf/CarnotKE/jython/grammar/PythonPartial.g:843:1: arglist : ( argument ( COMMA argument )* ( COMMA ( STAR test ( COMMA argument )* ( COMMA DOUBLESTAR test )? | DOUBLESTAR test )? )? | STAR test ( COMMA argument )* ( COMMA DOUBLESTAR test )? | DOUBLESTAR test );
+    // /v/filer4b/v38q001/nginth/dm/Carnot-OWL/jython/grammar/PythonPartial.g:843:1: arglist : ( argument ( COMMA argument )* ( COMMA ( STAR test ( COMMA argument )* ( COMMA DOUBLESTAR test )? | DOUBLESTAR test )? )? | STAR test ( COMMA argument )* ( COMMA DOUBLESTAR test )? | DOUBLESTAR test );
     public final void arglist() throws RecognitionException {
         try {
-            // /Users/nginther/dm/inf/CarnotKE/jython/grammar/PythonPartial.g:844:5: ( argument ( COMMA argument )* ( COMMA ( STAR test ( COMMA argument )* ( COMMA DOUBLESTAR test )? | DOUBLESTAR test )? )? | STAR test ( COMMA argument )* ( COMMA DOUBLESTAR test )? | DOUBLESTAR test )
+            // /v/filer4b/v38q001/nginth/dm/Carnot-OWL/jython/grammar/PythonPartial.g:844:5: ( argument ( COMMA argument )* ( COMMA ( STAR test ( COMMA argument )* ( COMMA DOUBLESTAR test )? | DOUBLESTAR test )? )? | STAR test ( COMMA argument )* ( COMMA DOUBLESTAR test )? | DOUBLESTAR test )
             int alt147=3;
             switch ( input.LA(1) ) {
             case TRAILBACKSLASH:
@@ -7126,14 +7126,14 @@ public class PythonPartialParser extends Parser {
 
             switch (alt147) {
                 case 1 :
-                    // /Users/nginther/dm/inf/CarnotKE/jython/grammar/PythonPartial.g:844:7: argument ( COMMA argument )* ( COMMA ( STAR test ( COMMA argument )* ( COMMA DOUBLESTAR test )? | DOUBLESTAR test )? )?
+                    // /v/filer4b/v38q001/nginth/dm/Carnot-OWL/jython/grammar/PythonPartial.g:844:7: argument ( COMMA argument )* ( COMMA ( STAR test ( COMMA argument )* ( COMMA DOUBLESTAR test )? | DOUBLESTAR test )? )?
                     {
                     pushFollow(FOLLOW_argument_in_arglist4778);
                     argument();
 
                     state._fsp--;
                     if (state.failed) return ;
-                    // /Users/nginther/dm/inf/CarnotKE/jython/grammar/PythonPartial.g:844:16: ( COMMA argument )*
+                    // /v/filer4b/v38q001/nginth/dm/Carnot-OWL/jython/grammar/PythonPartial.g:844:16: ( COMMA argument )*
                     loop140:
                     do {
                         int alt140=2;
@@ -7152,7 +7152,7 @@ public class PythonPartialParser extends Parser {
 
                         switch (alt140) {
                     	case 1 :
-                    	    // /Users/nginther/dm/inf/CarnotKE/jython/grammar/PythonPartial.g:844:17: COMMA argument
+                    	    // /v/filer4b/v38q001/nginth/dm/Carnot-OWL/jython/grammar/PythonPartial.g:844:17: COMMA argument
                     	    {
                     	    match(input,COMMA,FOLLOW_COMMA_in_arglist4781); if (state.failed) return ;
                     	    pushFollow(FOLLOW_argument_in_arglist4783);
@@ -7169,7 +7169,7 @@ public class PythonPartialParser extends Parser {
                         }
                     } while (true);
 
-                    // /Users/nginther/dm/inf/CarnotKE/jython/grammar/PythonPartial.g:845:11: ( COMMA ( STAR test ( COMMA argument )* ( COMMA DOUBLESTAR test )? | DOUBLESTAR test )? )?
+                    // /v/filer4b/v38q001/nginth/dm/Carnot-OWL/jython/grammar/PythonPartial.g:845:11: ( COMMA ( STAR test ( COMMA argument )* ( COMMA DOUBLESTAR test )? | DOUBLESTAR test )? )?
                     int alt144=2;
                     int LA144_0 = input.LA(1);
 
@@ -7178,10 +7178,10 @@ public class PythonPartialParser extends Parser {
                     }
                     switch (alt144) {
                         case 1 :
-                            // /Users/nginther/dm/inf/CarnotKE/jython/grammar/PythonPartial.g:845:12: COMMA ( STAR test ( COMMA argument )* ( COMMA DOUBLESTAR test )? | DOUBLESTAR test )?
+                            // /v/filer4b/v38q001/nginth/dm/Carnot-OWL/jython/grammar/PythonPartial.g:845:12: COMMA ( STAR test ( COMMA argument )* ( COMMA DOUBLESTAR test )? | DOUBLESTAR test )?
                             {
                             match(input,COMMA,FOLLOW_COMMA_in_arglist4798); if (state.failed) return ;
-                            // /Users/nginther/dm/inf/CarnotKE/jython/grammar/PythonPartial.g:846:15: ( STAR test ( COMMA argument )* ( COMMA DOUBLESTAR test )? | DOUBLESTAR test )?
+                            // /v/filer4b/v38q001/nginth/dm/Carnot-OWL/jython/grammar/PythonPartial.g:846:15: ( STAR test ( COMMA argument )* ( COMMA DOUBLESTAR test )? | DOUBLESTAR test )?
                             int alt143=3;
                             int LA143_0 = input.LA(1);
 
@@ -7193,7 +7193,7 @@ public class PythonPartialParser extends Parser {
                             }
                             switch (alt143) {
                                 case 1 :
-                                    // /Users/nginther/dm/inf/CarnotKE/jython/grammar/PythonPartial.g:846:17: STAR test ( COMMA argument )* ( COMMA DOUBLESTAR test )?
+                                    // /v/filer4b/v38q001/nginth/dm/Carnot-OWL/jython/grammar/PythonPartial.g:846:17: STAR test ( COMMA argument )* ( COMMA DOUBLESTAR test )?
                                     {
                                     match(input,STAR,FOLLOW_STAR_in_arglist4816); if (state.failed) return ;
                                     pushFollow(FOLLOW_test_in_arglist4818);
@@ -7201,7 +7201,7 @@ public class PythonPartialParser extends Parser {
 
                                     state._fsp--;
                                     if (state.failed) return ;
-                                    // /Users/nginther/dm/inf/CarnotKE/jython/grammar/PythonPartial.g:846:27: ( COMMA argument )*
+                                    // /v/filer4b/v38q001/nginth/dm/Carnot-OWL/jython/grammar/PythonPartial.g:846:27: ( COMMA argument )*
                                     loop141:
                                     do {
                                         int alt141=2;
@@ -7220,7 +7220,7 @@ public class PythonPartialParser extends Parser {
 
                                         switch (alt141) {
                                     	case 1 :
-                                    	    // /Users/nginther/dm/inf/CarnotKE/jython/grammar/PythonPartial.g:846:28: COMMA argument
+                                    	    // /v/filer4b/v38q001/nginth/dm/Carnot-OWL/jython/grammar/PythonPartial.g:846:28: COMMA argument
                                     	    {
                                     	    match(input,COMMA,FOLLOW_COMMA_in_arglist4821); if (state.failed) return ;
                                     	    pushFollow(FOLLOW_argument_in_arglist4823);
@@ -7237,7 +7237,7 @@ public class PythonPartialParser extends Parser {
                                         }
                                     } while (true);
 
-                                    // /Users/nginther/dm/inf/CarnotKE/jython/grammar/PythonPartial.g:846:45: ( COMMA DOUBLESTAR test )?
+                                    // /v/filer4b/v38q001/nginth/dm/Carnot-OWL/jython/grammar/PythonPartial.g:846:45: ( COMMA DOUBLESTAR test )?
                                     int alt142=2;
                                     int LA142_0 = input.LA(1);
 
@@ -7246,7 +7246,7 @@ public class PythonPartialParser extends Parser {
                                     }
                                     switch (alt142) {
                                         case 1 :
-                                            // /Users/nginther/dm/inf/CarnotKE/jython/grammar/PythonPartial.g:846:46: COMMA DOUBLESTAR test
+                                            // /v/filer4b/v38q001/nginth/dm/Carnot-OWL/jython/grammar/PythonPartial.g:846:46: COMMA DOUBLESTAR test
                                             {
                                             match(input,COMMA,FOLLOW_COMMA_in_arglist4828); if (state.failed) return ;
                                             match(input,DOUBLESTAR,FOLLOW_DOUBLESTAR_in_arglist4830); if (state.failed) return ;
@@ -7265,7 +7265,7 @@ public class PythonPartialParser extends Parser {
                                     }
                                     break;
                                 case 2 :
-                                    // /Users/nginther/dm/inf/CarnotKE/jython/grammar/PythonPartial.g:847:17: DOUBLESTAR test
+                                    // /v/filer4b/v38q001/nginth/dm/Carnot-OWL/jython/grammar/PythonPartial.g:847:17: DOUBLESTAR test
                                     {
                                     match(input,DOUBLESTAR,FOLLOW_DOUBLESTAR_in_arglist4852); if (state.failed) return ;
                                     pushFollow(FOLLOW_test_in_arglist4854);
@@ -7289,7 +7289,7 @@ public class PythonPartialParser extends Parser {
                     }
                     break;
                 case 2 :
-                    // /Users/nginther/dm/inf/CarnotKE/jython/grammar/PythonPartial.g:850:7: STAR test ( COMMA argument )* ( COMMA DOUBLESTAR test )?
+                    // /v/filer4b/v38q001/nginth/dm/Carnot-OWL/jython/grammar/PythonPartial.g:850:7: STAR test ( COMMA argument )* ( COMMA DOUBLESTAR test )?
                     {
                     match(input,STAR,FOLLOW_STAR_in_arglist4892); if (state.failed) return ;
                     pushFollow(FOLLOW_test_in_arglist4894);
@@ -7297,7 +7297,7 @@ public class PythonPartialParser extends Parser {
 
                     state._fsp--;
                     if (state.failed) return ;
-                    // /Users/nginther/dm/inf/CarnotKE/jython/grammar/PythonPartial.g:850:17: ( COMMA argument )*
+                    // /v/filer4b/v38q001/nginth/dm/Carnot-OWL/jython/grammar/PythonPartial.g:850:17: ( COMMA argument )*
                     loop145:
                     do {
                         int alt145=2;
@@ -7316,7 +7316,7 @@ public class PythonPartialParser extends Parser {
 
                         switch (alt145) {
                     	case 1 :
-                    	    // /Users/nginther/dm/inf/CarnotKE/jython/grammar/PythonPartial.g:850:18: COMMA argument
+                    	    // /v/filer4b/v38q001/nginth/dm/Carnot-OWL/jython/grammar/PythonPartial.g:850:18: COMMA argument
                     	    {
                     	    match(input,COMMA,FOLLOW_COMMA_in_arglist4897); if (state.failed) return ;
                     	    pushFollow(FOLLOW_argument_in_arglist4899);
@@ -7333,7 +7333,7 @@ public class PythonPartialParser extends Parser {
                         }
                     } while (true);
 
-                    // /Users/nginther/dm/inf/CarnotKE/jython/grammar/PythonPartial.g:850:35: ( COMMA DOUBLESTAR test )?
+                    // /v/filer4b/v38q001/nginth/dm/Carnot-OWL/jython/grammar/PythonPartial.g:850:35: ( COMMA DOUBLESTAR test )?
                     int alt146=2;
                     int LA146_0 = input.LA(1);
 
@@ -7342,7 +7342,7 @@ public class PythonPartialParser extends Parser {
                     }
                     switch (alt146) {
                         case 1 :
-                            // /Users/nginther/dm/inf/CarnotKE/jython/grammar/PythonPartial.g:850:36: COMMA DOUBLESTAR test
+                            // /v/filer4b/v38q001/nginth/dm/Carnot-OWL/jython/grammar/PythonPartial.g:850:36: COMMA DOUBLESTAR test
                             {
                             match(input,COMMA,FOLLOW_COMMA_in_arglist4904); if (state.failed) return ;
                             match(input,DOUBLESTAR,FOLLOW_DOUBLESTAR_in_arglist4906); if (state.failed) return ;
@@ -7361,7 +7361,7 @@ public class PythonPartialParser extends Parser {
                     }
                     break;
                 case 3 :
-                    // /Users/nginther/dm/inf/CarnotKE/jython/grammar/PythonPartial.g:851:7: DOUBLESTAR test
+                    // /v/filer4b/v38q001/nginth/dm/Carnot-OWL/jython/grammar/PythonPartial.g:851:7: DOUBLESTAR test
                     {
                     match(input,DOUBLESTAR,FOLLOW_DOUBLESTAR_in_arglist4918); if (state.failed) return ;
                     pushFollow(FOLLOW_test_in_arglist4920);
@@ -7387,18 +7387,18 @@ public class PythonPartialParser extends Parser {
 
 
     // $ANTLR start "argument"
-    // /Users/nginther/dm/inf/CarnotKE/jython/grammar/PythonPartial.g:855:1: argument : test ( ( ASSIGN test ) | comp_for | ) ;
+    // /v/filer4b/v38q001/nginth/dm/Carnot-OWL/jython/grammar/PythonPartial.g:855:1: argument : test ( ( ASSIGN test ) | comp_for | ) ;
     public final void argument() throws RecognitionException {
         try {
-            // /Users/nginther/dm/inf/CarnotKE/jython/grammar/PythonPartial.g:856:5: ( test ( ( ASSIGN test ) | comp_for | ) )
-            // /Users/nginther/dm/inf/CarnotKE/jython/grammar/PythonPartial.g:856:7: test ( ( ASSIGN test ) | comp_for | )
+            // /v/filer4b/v38q001/nginth/dm/Carnot-OWL/jython/grammar/PythonPartial.g:856:5: ( test ( ( ASSIGN test ) | comp_for | ) )
+            // /v/filer4b/v38q001/nginth/dm/Carnot-OWL/jython/grammar/PythonPartial.g:856:7: test ( ( ASSIGN test ) | comp_for | )
             {
             pushFollow(FOLLOW_test_in_argument4938);
             test();
 
             state._fsp--;
             if (state.failed) return ;
-            // /Users/nginther/dm/inf/CarnotKE/jython/grammar/PythonPartial.g:857:9: ( ( ASSIGN test ) | comp_for | )
+            // /v/filer4b/v38q001/nginth/dm/Carnot-OWL/jython/grammar/PythonPartial.g:857:9: ( ( ASSIGN test ) | comp_for | )
             int alt148=3;
             switch ( input.LA(1) ) {
             case ASSIGN:
@@ -7427,10 +7427,10 @@ public class PythonPartialParser extends Parser {
 
             switch (alt148) {
                 case 1 :
-                    // /Users/nginther/dm/inf/CarnotKE/jython/grammar/PythonPartial.g:857:10: ( ASSIGN test )
+                    // /v/filer4b/v38q001/nginth/dm/Carnot-OWL/jython/grammar/PythonPartial.g:857:10: ( ASSIGN test )
                     {
-                    // /Users/nginther/dm/inf/CarnotKE/jython/grammar/PythonPartial.g:857:10: ( ASSIGN test )
-                    // /Users/nginther/dm/inf/CarnotKE/jython/grammar/PythonPartial.g:857:11: ASSIGN test
+                    // /v/filer4b/v38q001/nginth/dm/Carnot-OWL/jython/grammar/PythonPartial.g:857:10: ( ASSIGN test )
+                    // /v/filer4b/v38q001/nginth/dm/Carnot-OWL/jython/grammar/PythonPartial.g:857:11: ASSIGN test
                     {
                     match(input,ASSIGN,FOLLOW_ASSIGN_in_argument4950); if (state.failed) return ;
                     pushFollow(FOLLOW_test_in_argument4952);
@@ -7445,7 +7445,7 @@ public class PythonPartialParser extends Parser {
                     }
                     break;
                 case 2 :
-                    // /Users/nginther/dm/inf/CarnotKE/jython/grammar/PythonPartial.g:858:11: comp_for
+                    // /v/filer4b/v38q001/nginth/dm/Carnot-OWL/jython/grammar/PythonPartial.g:858:11: comp_for
                     {
                     pushFollow(FOLLOW_comp_for_in_argument4965);
                     comp_for();
@@ -7456,7 +7456,7 @@ public class PythonPartialParser extends Parser {
                     }
                     break;
                 case 3 :
-                    // /Users/nginther/dm/inf/CarnotKE/jython/grammar/PythonPartial.g:860:9: 
+                    // /v/filer4b/v38q001/nginth/dm/Carnot-OWL/jython/grammar/PythonPartial.g:860:9: 
                     {
                     }
                     break;
@@ -7479,10 +7479,10 @@ public class PythonPartialParser extends Parser {
 
 
     // $ANTLR start "list_iter"
-    // /Users/nginther/dm/inf/CarnotKE/jython/grammar/PythonPartial.g:864:1: list_iter : ( list_for | list_if );
+    // /v/filer4b/v38q001/nginth/dm/Carnot-OWL/jython/grammar/PythonPartial.g:864:1: list_iter : ( list_for | list_if );
     public final void list_iter() throws RecognitionException {
         try {
-            // /Users/nginther/dm/inf/CarnotKE/jython/grammar/PythonPartial.g:865:5: ( list_for | list_if )
+            // /v/filer4b/v38q001/nginth/dm/Carnot-OWL/jython/grammar/PythonPartial.g:865:5: ( list_for | list_if )
             int alt149=2;
             int LA149_0 = input.LA(1);
 
@@ -7501,7 +7501,7 @@ public class PythonPartialParser extends Parser {
             }
             switch (alt149) {
                 case 1 :
-                    // /Users/nginther/dm/inf/CarnotKE/jython/grammar/PythonPartial.g:865:7: list_for
+                    // /v/filer4b/v38q001/nginth/dm/Carnot-OWL/jython/grammar/PythonPartial.g:865:7: list_for
                     {
                     pushFollow(FOLLOW_list_for_in_list_iter5003);
                     list_for();
@@ -7512,7 +7512,7 @@ public class PythonPartialParser extends Parser {
                     }
                     break;
                 case 2 :
-                    // /Users/nginther/dm/inf/CarnotKE/jython/grammar/PythonPartial.g:866:7: list_if
+                    // /v/filer4b/v38q001/nginth/dm/Carnot-OWL/jython/grammar/PythonPartial.g:866:7: list_if
                     {
                     pushFollow(FOLLOW_list_if_in_list_iter5011);
                     list_if();
@@ -7537,11 +7537,11 @@ public class PythonPartialParser extends Parser {
 
 
     // $ANTLR start "list_for"
-    // /Users/nginther/dm/inf/CarnotKE/jython/grammar/PythonPartial.g:870:1: list_for : FOR exprlist IN testlist ( list_iter )? ;
+    // /v/filer4b/v38q001/nginth/dm/Carnot-OWL/jython/grammar/PythonPartial.g:870:1: list_for : FOR exprlist IN testlist ( list_iter )? ;
     public final void list_for() throws RecognitionException {
         try {
-            // /Users/nginther/dm/inf/CarnotKE/jython/grammar/PythonPartial.g:871:5: ( FOR exprlist IN testlist ( list_iter )? )
-            // /Users/nginther/dm/inf/CarnotKE/jython/grammar/PythonPartial.g:871:7: FOR exprlist IN testlist ( list_iter )?
+            // /v/filer4b/v38q001/nginth/dm/Carnot-OWL/jython/grammar/PythonPartial.g:871:5: ( FOR exprlist IN testlist ( list_iter )? )
+            // /v/filer4b/v38q001/nginth/dm/Carnot-OWL/jython/grammar/PythonPartial.g:871:7: FOR exprlist IN testlist ( list_iter )?
             {
             match(input,FOR,FOLLOW_FOR_in_list_for5029); if (state.failed) return ;
             pushFollow(FOLLOW_exprlist_in_list_for5031);
@@ -7555,7 +7555,7 @@ public class PythonPartialParser extends Parser {
 
             state._fsp--;
             if (state.failed) return ;
-            // /Users/nginther/dm/inf/CarnotKE/jython/grammar/PythonPartial.g:871:32: ( list_iter )?
+            // /v/filer4b/v38q001/nginth/dm/Carnot-OWL/jython/grammar/PythonPartial.g:871:32: ( list_iter )?
             int alt150=2;
             int LA150_0 = input.LA(1);
 
@@ -7564,7 +7564,7 @@ public class PythonPartialParser extends Parser {
             }
             switch (alt150) {
                 case 1 :
-                    // /Users/nginther/dm/inf/CarnotKE/jython/grammar/PythonPartial.g:871:33: list_iter
+                    // /v/filer4b/v38q001/nginth/dm/Carnot-OWL/jython/grammar/PythonPartial.g:871:33: list_iter
                     {
                     pushFollow(FOLLOW_list_iter_in_list_for5038);
                     list_iter();
@@ -7593,11 +7593,11 @@ public class PythonPartialParser extends Parser {
 
 
     // $ANTLR start "list_if"
-    // /Users/nginther/dm/inf/CarnotKE/jython/grammar/PythonPartial.g:875:1: list_if : IF test ( list_iter )? ;
+    // /v/filer4b/v38q001/nginth/dm/Carnot-OWL/jython/grammar/PythonPartial.g:875:1: list_if : IF test ( list_iter )? ;
     public final void list_if() throws RecognitionException {
         try {
-            // /Users/nginther/dm/inf/CarnotKE/jython/grammar/PythonPartial.g:876:5: ( IF test ( list_iter )? )
-            // /Users/nginther/dm/inf/CarnotKE/jython/grammar/PythonPartial.g:876:7: IF test ( list_iter )?
+            // /v/filer4b/v38q001/nginth/dm/Carnot-OWL/jython/grammar/PythonPartial.g:876:5: ( IF test ( list_iter )? )
+            // /v/filer4b/v38q001/nginth/dm/Carnot-OWL/jython/grammar/PythonPartial.g:876:7: IF test ( list_iter )?
             {
             match(input,IF,FOLLOW_IF_in_list_if5058); if (state.failed) return ;
             pushFollow(FOLLOW_test_in_list_if5060);
@@ -7605,7 +7605,7 @@ public class PythonPartialParser extends Parser {
 
             state._fsp--;
             if (state.failed) return ;
-            // /Users/nginther/dm/inf/CarnotKE/jython/grammar/PythonPartial.g:876:15: ( list_iter )?
+            // /v/filer4b/v38q001/nginth/dm/Carnot-OWL/jython/grammar/PythonPartial.g:876:15: ( list_iter )?
             int alt151=2;
             int LA151_0 = input.LA(1);
 
@@ -7614,7 +7614,7 @@ public class PythonPartialParser extends Parser {
             }
             switch (alt151) {
                 case 1 :
-                    // /Users/nginther/dm/inf/CarnotKE/jython/grammar/PythonPartial.g:876:16: list_iter
+                    // /v/filer4b/v38q001/nginth/dm/Carnot-OWL/jython/grammar/PythonPartial.g:876:16: list_iter
                     {
                     pushFollow(FOLLOW_list_iter_in_list_if5063);
                     list_iter();
@@ -7643,10 +7643,10 @@ public class PythonPartialParser extends Parser {
 
 
     // $ANTLR start "comp_iter"
-    // /Users/nginther/dm/inf/CarnotKE/jython/grammar/PythonPartial.g:880:1: comp_iter : ( comp_for | comp_if );
+    // /v/filer4b/v38q001/nginth/dm/Carnot-OWL/jython/grammar/PythonPartial.g:880:1: comp_iter : ( comp_for | comp_if );
     public final void comp_iter() throws RecognitionException {
         try {
-            // /Users/nginther/dm/inf/CarnotKE/jython/grammar/PythonPartial.g:881:5: ( comp_for | comp_if )
+            // /v/filer4b/v38q001/nginth/dm/Carnot-OWL/jython/grammar/PythonPartial.g:881:5: ( comp_for | comp_if )
             int alt152=2;
             int LA152_0 = input.LA(1);
 
@@ -7665,7 +7665,7 @@ public class PythonPartialParser extends Parser {
             }
             switch (alt152) {
                 case 1 :
-                    // /Users/nginther/dm/inf/CarnotKE/jython/grammar/PythonPartial.g:881:7: comp_for
+                    // /v/filer4b/v38q001/nginth/dm/Carnot-OWL/jython/grammar/PythonPartial.g:881:7: comp_for
                     {
                     pushFollow(FOLLOW_comp_for_in_comp_iter5083);
                     comp_for();
@@ -7676,7 +7676,7 @@ public class PythonPartialParser extends Parser {
                     }
                     break;
                 case 2 :
-                    // /Users/nginther/dm/inf/CarnotKE/jython/grammar/PythonPartial.g:882:7: comp_if
+                    // /v/filer4b/v38q001/nginth/dm/Carnot-OWL/jython/grammar/PythonPartial.g:882:7: comp_if
                     {
                     pushFollow(FOLLOW_comp_if_in_comp_iter5091);
                     comp_if();
@@ -7701,11 +7701,11 @@ public class PythonPartialParser extends Parser {
 
 
     // $ANTLR start "comp_for"
-    // /Users/nginther/dm/inf/CarnotKE/jython/grammar/PythonPartial.g:886:1: comp_for : FOR exprlist IN or_test ( comp_iter )? ;
+    // /v/filer4b/v38q001/nginth/dm/Carnot-OWL/jython/grammar/PythonPartial.g:886:1: comp_for : FOR exprlist IN or_test ( comp_iter )? ;
     public final void comp_for() throws RecognitionException {
         try {
-            // /Users/nginther/dm/inf/CarnotKE/jython/grammar/PythonPartial.g:887:5: ( FOR exprlist IN or_test ( comp_iter )? )
-            // /Users/nginther/dm/inf/CarnotKE/jython/grammar/PythonPartial.g:887:7: FOR exprlist IN or_test ( comp_iter )?
+            // /v/filer4b/v38q001/nginth/dm/Carnot-OWL/jython/grammar/PythonPartial.g:887:5: ( FOR exprlist IN or_test ( comp_iter )? )
+            // /v/filer4b/v38q001/nginth/dm/Carnot-OWL/jython/grammar/PythonPartial.g:887:7: FOR exprlist IN or_test ( comp_iter )?
             {
             match(input,FOR,FOLLOW_FOR_in_comp_for5109); if (state.failed) return ;
             pushFollow(FOLLOW_exprlist_in_comp_for5111);
@@ -7719,7 +7719,7 @@ public class PythonPartialParser extends Parser {
 
             state._fsp--;
             if (state.failed) return ;
-            // /Users/nginther/dm/inf/CarnotKE/jython/grammar/PythonPartial.g:887:31: ( comp_iter )?
+            // /v/filer4b/v38q001/nginth/dm/Carnot-OWL/jython/grammar/PythonPartial.g:887:31: ( comp_iter )?
             int alt153=2;
             int LA153_0 = input.LA(1);
 
@@ -7728,7 +7728,7 @@ public class PythonPartialParser extends Parser {
             }
             switch (alt153) {
                 case 1 :
-                    // /Users/nginther/dm/inf/CarnotKE/jython/grammar/PythonPartial.g:887:31: comp_iter
+                    // /v/filer4b/v38q001/nginth/dm/Carnot-OWL/jython/grammar/PythonPartial.g:887:31: comp_iter
                     {
                     pushFollow(FOLLOW_comp_iter_in_comp_for5117);
                     comp_iter();
@@ -7757,11 +7757,11 @@ public class PythonPartialParser extends Parser {
 
 
     // $ANTLR start "comp_if"
-    // /Users/nginther/dm/inf/CarnotKE/jython/grammar/PythonPartial.g:891:1: comp_if : IF test ( comp_iter )? ;
+    // /v/filer4b/v38q001/nginth/dm/Carnot-OWL/jython/grammar/PythonPartial.g:891:1: comp_if : IF test ( comp_iter )? ;
     public final void comp_if() throws RecognitionException {
         try {
-            // /Users/nginther/dm/inf/CarnotKE/jython/grammar/PythonPartial.g:892:5: ( IF test ( comp_iter )? )
-            // /Users/nginther/dm/inf/CarnotKE/jython/grammar/PythonPartial.g:892:7: IF test ( comp_iter )?
+            // /v/filer4b/v38q001/nginth/dm/Carnot-OWL/jython/grammar/PythonPartial.g:892:5: ( IF test ( comp_iter )? )
+            // /v/filer4b/v38q001/nginth/dm/Carnot-OWL/jython/grammar/PythonPartial.g:892:7: IF test ( comp_iter )?
             {
             match(input,IF,FOLLOW_IF_in_comp_if5136); if (state.failed) return ;
             pushFollow(FOLLOW_test_in_comp_if5138);
@@ -7769,7 +7769,7 @@ public class PythonPartialParser extends Parser {
 
             state._fsp--;
             if (state.failed) return ;
-            // /Users/nginther/dm/inf/CarnotKE/jython/grammar/PythonPartial.g:892:15: ( comp_iter )?
+            // /v/filer4b/v38q001/nginth/dm/Carnot-OWL/jython/grammar/PythonPartial.g:892:15: ( comp_iter )?
             int alt154=2;
             int LA154_0 = input.LA(1);
 
@@ -7778,7 +7778,7 @@ public class PythonPartialParser extends Parser {
             }
             switch (alt154) {
                 case 1 :
-                    // /Users/nginther/dm/inf/CarnotKE/jython/grammar/PythonPartial.g:892:15: comp_iter
+                    // /v/filer4b/v38q001/nginth/dm/Carnot-OWL/jython/grammar/PythonPartial.g:892:15: comp_iter
                     {
                     pushFollow(FOLLOW_comp_iter_in_comp_if5140);
                     comp_iter();
@@ -7807,14 +7807,14 @@ public class PythonPartialParser extends Parser {
 
 
     // $ANTLR start "yield_expr"
-    // /Users/nginther/dm/inf/CarnotKE/jython/grammar/PythonPartial.g:896:1: yield_expr : YIELD ( testlist )? ;
+    // /v/filer4b/v38q001/nginth/dm/Carnot-OWL/jython/grammar/PythonPartial.g:896:1: yield_expr : YIELD ( testlist )? ;
     public final void yield_expr() throws RecognitionException {
         try {
-            // /Users/nginther/dm/inf/CarnotKE/jython/grammar/PythonPartial.g:897:5: ( YIELD ( testlist )? )
-            // /Users/nginther/dm/inf/CarnotKE/jython/grammar/PythonPartial.g:897:7: YIELD ( testlist )?
+            // /v/filer4b/v38q001/nginth/dm/Carnot-OWL/jython/grammar/PythonPartial.g:897:5: ( YIELD ( testlist )? )
+            // /v/filer4b/v38q001/nginth/dm/Carnot-OWL/jython/grammar/PythonPartial.g:897:7: YIELD ( testlist )?
             {
             match(input,YIELD,FOLLOW_YIELD_in_yield_expr5159); if (state.failed) return ;
-            // /Users/nginther/dm/inf/CarnotKE/jython/grammar/PythonPartial.g:897:13: ( testlist )?
+            // /v/filer4b/v38q001/nginth/dm/Carnot-OWL/jython/grammar/PythonPartial.g:897:13: ( testlist )?
             int alt155=2;
             int LA155_0 = input.LA(1);
 
@@ -7823,7 +7823,7 @@ public class PythonPartialParser extends Parser {
             }
             switch (alt155) {
                 case 1 :
-                    // /Users/nginther/dm/inf/CarnotKE/jython/grammar/PythonPartial.g:897:13: testlist
+                    // /v/filer4b/v38q001/nginth/dm/Carnot-OWL/jython/grammar/PythonPartial.g:897:13: testlist
                     {
                     pushFollow(FOLLOW_testlist_in_yield_expr5161);
                     testlist();
@@ -7852,8 +7852,8 @@ public class PythonPartialParser extends Parser {
 
     // $ANTLR start synpred1_PythonPartial
     public final void synpred1_PythonPartial_fragment() throws RecognitionException {   
-        // /Users/nginther/dm/inf/CarnotKE/jython/grammar/PythonPartial.g:289:7: ( LPAREN fpdef COMMA )
-        // /Users/nginther/dm/inf/CarnotKE/jython/grammar/PythonPartial.g:289:8: LPAREN fpdef COMMA
+        // /v/filer4b/v38q001/nginth/dm/Carnot-OWL/jython/grammar/PythonPartial.g:289:7: ( LPAREN fpdef COMMA )
+        // /v/filer4b/v38q001/nginth/dm/Carnot-OWL/jython/grammar/PythonPartial.g:289:8: LPAREN fpdef COMMA
         {
         match(input,LPAREN,FOLLOW_LPAREN_in_synpred1_PythonPartial807); if (state.failed) return ;
         pushFollow(FOLLOW_fpdef_in_synpred1_PythonPartial809);
@@ -7869,8 +7869,8 @@ public class PythonPartialParser extends Parser {
 
     // $ANTLR start synpred2_PythonPartial
     public final void synpred2_PythonPartial_fragment() throws RecognitionException {   
-        // /Users/nginther/dm/inf/CarnotKE/jython/grammar/PythonPartial.g:326:8: ( testlist augassign )
-        // /Users/nginther/dm/inf/CarnotKE/jython/grammar/PythonPartial.g:326:9: testlist augassign
+        // /v/filer4b/v38q001/nginth/dm/Carnot-OWL/jython/grammar/PythonPartial.g:326:8: ( testlist augassign )
+        // /v/filer4b/v38q001/nginth/dm/Carnot-OWL/jython/grammar/PythonPartial.g:326:9: testlist augassign
         {
         pushFollow(FOLLOW_testlist_in_synpred2_PythonPartial1107);
         testlist();
@@ -7889,8 +7889,8 @@ public class PythonPartialParser extends Parser {
 
     // $ANTLR start synpred3_PythonPartial
     public final void synpred3_PythonPartial_fragment() throws RecognitionException {   
-        // /Users/nginther/dm/inf/CarnotKE/jython/grammar/PythonPartial.g:332:7: ( testlist ASSIGN )
-        // /Users/nginther/dm/inf/CarnotKE/jython/grammar/PythonPartial.g:332:8: testlist ASSIGN
+        // /v/filer4b/v38q001/nginth/dm/Carnot-OWL/jython/grammar/PythonPartial.g:332:7: ( testlist ASSIGN )
+        // /v/filer4b/v38q001/nginth/dm/Carnot-OWL/jython/grammar/PythonPartial.g:332:8: testlist ASSIGN
         {
         pushFollow(FOLLOW_testlist_in_synpred3_PythonPartial1187);
         testlist();
@@ -7905,8 +7905,8 @@ public class PythonPartialParser extends Parser {
 
     // $ANTLR start synpred4_PythonPartial
     public final void synpred4_PythonPartial_fragment() throws RecognitionException {   
-        // /Users/nginther/dm/inf/CarnotKE/jython/grammar/PythonPartial.g:372:7: ( test COMMA )
-        // /Users/nginther/dm/inf/CarnotKE/jython/grammar/PythonPartial.g:372:8: test COMMA
+        // /v/filer4b/v38q001/nginth/dm/Carnot-OWL/jython/grammar/PythonPartial.g:372:7: ( test COMMA )
+        // /v/filer4b/v38q001/nginth/dm/Carnot-OWL/jython/grammar/PythonPartial.g:372:8: test COMMA
         {
         pushFollow(FOLLOW_test_in_synpred4_PythonPartial1472);
         test();
@@ -7921,10 +7921,10 @@ public class PythonPartialParser extends Parser {
 
     // $ANTLR start synpred5_PythonPartial
     public final void synpred5_PythonPartial_fragment() throws RecognitionException {   
-        // /Users/nginther/dm/inf/CarnotKE/jython/grammar/PythonPartial.g:495:7: ( ( decorators )? DEF )
-        // /Users/nginther/dm/inf/CarnotKE/jython/grammar/PythonPartial.g:495:8: ( decorators )? DEF
+        // /v/filer4b/v38q001/nginth/dm/Carnot-OWL/jython/grammar/PythonPartial.g:495:7: ( ( decorators )? DEF )
+        // /v/filer4b/v38q001/nginth/dm/Carnot-OWL/jython/grammar/PythonPartial.g:495:8: ( decorators )? DEF
         {
-        // /Users/nginther/dm/inf/CarnotKE/jython/grammar/PythonPartial.g:495:8: ( decorators )?
+        // /v/filer4b/v38q001/nginth/dm/Carnot-OWL/jython/grammar/PythonPartial.g:495:8: ( decorators )?
         int alt156=2;
         int LA156_0 = input.LA(1);
 
@@ -7933,7 +7933,7 @@ public class PythonPartialParser extends Parser {
         }
         switch (alt156) {
             case 1 :
-                // /Users/nginther/dm/inf/CarnotKE/jython/grammar/PythonPartial.g:495:8: decorators
+                // /v/filer4b/v38q001/nginth/dm/Carnot-OWL/jython/grammar/PythonPartial.g:495:8: decorators
                 {
                 pushFollow(FOLLOW_decorators_in_synpred5_PythonPartial2157);
                 decorators();
@@ -7954,10 +7954,10 @@ public class PythonPartialParser extends Parser {
 
     // $ANTLR start synpred6_PythonPartial
     public final void synpred6_PythonPartial_fragment() throws RecognitionException {   
-        // /Users/nginther/dm/inf/CarnotKE/jython/grammar/PythonPartial.g:496:7: ( ( decorators )? CLASS )
-        // /Users/nginther/dm/inf/CarnotKE/jython/grammar/PythonPartial.g:496:8: ( decorators )? CLASS
+        // /v/filer4b/v38q001/nginth/dm/Carnot-OWL/jython/grammar/PythonPartial.g:496:7: ( ( decorators )? CLASS )
+        // /v/filer4b/v38q001/nginth/dm/Carnot-OWL/jython/grammar/PythonPartial.g:496:8: ( decorators )? CLASS
         {
-        // /Users/nginther/dm/inf/CarnotKE/jython/grammar/PythonPartial.g:496:8: ( decorators )?
+        // /v/filer4b/v38q001/nginth/dm/Carnot-OWL/jython/grammar/PythonPartial.g:496:8: ( decorators )?
         int alt157=2;
         int LA157_0 = input.LA(1);
 
@@ -7966,7 +7966,7 @@ public class PythonPartialParser extends Parser {
         }
         switch (alt157) {
             case 1 :
-                // /Users/nginther/dm/inf/CarnotKE/jython/grammar/PythonPartial.g:496:8: decorators
+                // /v/filer4b/v38q001/nginth/dm/Carnot-OWL/jython/grammar/PythonPartial.g:496:8: decorators
                 {
                 pushFollow(FOLLOW_decorators_in_synpred6_PythonPartial2174);
                 decorators();
@@ -7987,8 +7987,8 @@ public class PythonPartialParser extends Parser {
 
     // $ANTLR start synpred7_PythonPartial
     public final void synpred7_PythonPartial_fragment() throws RecognitionException {   
-        // /Users/nginther/dm/inf/CarnotKE/jython/grammar/PythonPartial.g:571:9: ( IF or_test ORELSE )
-        // /Users/nginther/dm/inf/CarnotKE/jython/grammar/PythonPartial.g:571:10: IF or_test ORELSE
+        // /v/filer4b/v38q001/nginth/dm/Carnot-OWL/jython/grammar/PythonPartial.g:571:9: ( IF or_test ORELSE )
+        // /v/filer4b/v38q001/nginth/dm/Carnot-OWL/jython/grammar/PythonPartial.g:571:10: IF or_test ORELSE
         {
         match(input,IF,FOLLOW_IF_in_synpred7_PythonPartial2752); if (state.failed) return ;
         pushFollow(FOLLOW_or_test_in_synpred7_PythonPartial2754);
@@ -8004,8 +8004,8 @@ public class PythonPartialParser extends Parser {
 
     // $ANTLR start synpred8_PythonPartial
     public final void synpred8_PythonPartial_fragment() throws RecognitionException {   
-        // /Users/nginther/dm/inf/CarnotKE/jython/grammar/PythonPartial.g:785:7: ( test COLON )
-        // /Users/nginther/dm/inf/CarnotKE/jython/grammar/PythonPartial.g:785:8: test COLON
+        // /v/filer4b/v38q001/nginth/dm/Carnot-OWL/jython/grammar/PythonPartial.g:785:7: ( test COLON )
+        // /v/filer4b/v38q001/nginth/dm/Carnot-OWL/jython/grammar/PythonPartial.g:785:8: test COLON
         {
         pushFollow(FOLLOW_test_in_synpred8_PythonPartial4274);
         test();
@@ -8020,8 +8020,8 @@ public class PythonPartialParser extends Parser {
 
     // $ANTLR start synpred9_PythonPartial
     public final void synpred9_PythonPartial_fragment() throws RecognitionException {   
-        // /Users/nginther/dm/inf/CarnotKE/jython/grammar/PythonPartial.g:787:7: ( COLON )
-        // /Users/nginther/dm/inf/CarnotKE/jython/grammar/PythonPartial.g:787:8: COLON
+        // /v/filer4b/v38q001/nginth/dm/Carnot-OWL/jython/grammar/PythonPartial.g:787:7: ( COLON )
+        // /v/filer4b/v38q001/nginth/dm/Carnot-OWL/jython/grammar/PythonPartial.g:787:8: COLON
         {
         match(input,COLON,FOLLOW_COLON_in_synpred9_PythonPartial4308); if (state.failed) return ;
 
@@ -8031,8 +8031,8 @@ public class PythonPartialParser extends Parser {
 
     // $ANTLR start synpred10_PythonPartial
     public final void synpred10_PythonPartial_fragment() throws RecognitionException {   
-        // /Users/nginther/dm/inf/CarnotKE/jython/grammar/PythonPartial.g:802:7: ( expr COMMA )
-        // /Users/nginther/dm/inf/CarnotKE/jython/grammar/PythonPartial.g:802:8: expr COMMA
+        // /v/filer4b/v38q001/nginth/dm/Carnot-OWL/jython/grammar/PythonPartial.g:802:7: ( expr COMMA )
+        // /v/filer4b/v38q001/nginth/dm/Carnot-OWL/jython/grammar/PythonPartial.g:802:8: expr COMMA
         {
         pushFollow(FOLLOW_expr_in_synpred10_PythonPartial4393);
         expr();
@@ -8047,8 +8047,8 @@ public class PythonPartialParser extends Parser {
 
     // $ANTLR start synpred11_PythonPartial
     public final void synpred11_PythonPartial_fragment() throws RecognitionException {   
-        // /Users/nginther/dm/inf/CarnotKE/jython/grammar/PythonPartial.g:814:7: ( test COMMA )
-        // /Users/nginther/dm/inf/CarnotKE/jython/grammar/PythonPartial.g:814:8: test COMMA
+        // /v/filer4b/v38q001/nginth/dm/Carnot-OWL/jython/grammar/PythonPartial.g:814:7: ( test COMMA )
+        // /v/filer4b/v38q001/nginth/dm/Carnot-OWL/jython/grammar/PythonPartial.g:814:8: test COMMA
         {
         pushFollow(FOLLOW_test_in_synpred11_PythonPartial4486);
         test();
